@@ -1,0 +1,55 @@
+Network Security Applications: Protecting Your Network:
+
+===
+Defense in Depth: Layered approach to network security by adding multiple layers of protection.
+
+
+===
+Devices and Tools:
+
+1 - Firewalls: Regulate traffic based on rules, including stateless, stateful, and next-generation firewalls (NGFWs). Each system should have its own firewall, regardless of the network firewall.
+
+2- Intrusion Detection System (IDS): Monitors system activity, alerts administrators based on known attack signatures or anomalies. The limitations to IDS systems are that they can only scan for known attacks or obvious anomalies, it only reports the anomaly to a network administrator.
+
+3- Intrusion Prevention System (IPS): Monitors and actively stops intrusive activity, including known attacks and anomalies.  It offers even more protection than an IDS because it actively stops anomalies when they are detected. Blocks a specific sender or drops network packets that seem suspect. 
+
+Limitations:
+
+-The possibility of false positives, which can result in legitimate traffic getting dropped.
+
+- It is inline: If it breaks, the connection between the private network and the internet breaks.
+
+4- Full Packet Capture Devices: Record and analyze all network data, aiding in investigations and threat detection.
+
+5- Security Information and Event Management (SIEM): Collects and analyzes log data, offering real-time monitoring and reporting of suspicious activities.
+
+
+===
+Advantages and Disadvantages:
+
+Firewall:
+
+- Filters traffic based on rules.
+
+- Limited to filtering packets based on header information.
+
+===
+Intrusion Detection System: 
+
+- Alerts on intrusions and attacks.
+
+- Can only scan for known attacks or obvious anomalies. Doesn't stop incoming traffic.
+
+===
+Intrusion Prevention System:
+
+- Actively stops intrusive activity. 
+
+- Inline appliance; failure can disrupt network connection. May generate false positives.
+
+===
+SIEM: 
+
+- Collects and analyzes log data from multiple sources.	
+
+- Reports on security issues but doesn't take direct action. Requires monitoring by security personnel.

@@ -1,0 +1,23 @@
+if you put a variable inside a function:
+
+
+var calcInches = function(startAge, endAge,
+inchesPerYear){
+
+var totalInches = inchesPerYear * (endAge
+ - startAge);
+
+return totalInches;
+};
+
+
+
+ 
+it will be a local variable
+and if u use it out of function it won't 
+work
+
+a global variable is out of  the function
+and u can use it anywhere
+
+serch more for that concept

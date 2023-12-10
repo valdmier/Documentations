@@ -1,0 +1,78 @@
+Linux architecture:
+
+===
+ Components that together make up Linux:
+
+- User: The person interacting with a computer.
+
+- Applications: A program that performs a specific task. 
+
+- Shell: The command-line interpreter.
+
+- Filesystem hierarchy standard (FHS): The component that organizes data.
+   
+- Kernel: The componet tof the linux OS that manages proccesses and memory.
+
+- Hardware: The phsical components of the computer.
+
+===
+Linux Architecture Explained
+
+- Components in Linux architecture include:
+  
+  1. User:
+  - Interacts with the computer.
+  - Initiates and manages tasks.
+  - Linux is multi-user, allowing simultaneous resource use.
+
+  2. Applications:
+  - Programs performing specific tasks (e.g., word processors).
+  - Distributed via package managers.
+  - Example: Nano (text editor).
+
+  3. Shell:
+  - Command-line interpreter.
+  - Processes commands and provides results.
+  - Similar to Command Line Interface (CLI).
+
+  4. Filesystem Hierarchy Standard (FHS):
+  - Organizes data in Linux OS.
+  - Analogous to a filing cabinet for data storage.
+  - Ensures data organization and accessibility.
+
+  5. Kernel:
+  - Manages processes and memory.
+  - Communicates with hardware to execute shell commands.
+  - Utilizes drivers for application task execution.
+  - Enhances resource allocation and system speed.
+
+---
+  6. Hardware:
+ Physical computer components.
+
+---
+ - Peripheral Devices:
+
+Attached and controlled by the computer.
+Not core components for basic operation.
+Easily added or removed.
+Examples: Monitors, Printers, Keyboard, Mouse.
+
+---
+- Internal Hardware:
+Essential components to run the computer.
+
+Includes the main circuit board (Motherboard).
+Components:
+- Central Processing Unit (CPU).
+- Random Access Memory (RAM).
+- Hard Drive
+
+===
+- Summary:
+  - User initiates tasks in Linux.
+  - Applications perform specific functions.
+  - Shell interprets commands.
+  - FHS organizes data.
+  - Kernel manages processes and memory.
+  - Hardware comprises physical components, internal and perioheral.

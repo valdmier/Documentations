@@ -1,0 +1,76 @@
+
+the offsetTop, offsetLeft property returns the position (in pixles) from up to down of element u selected.
+
+
+
+<p id = "p">Click the buttons to give focus and/or remove focus from the text field.</p>
+
+
+#p {
+  height: 250px;
+  width: 400px;
+  padding: 5px;
+  margin: 20px;
+  border: 5px solid red;
+    position: fixed;
+  background-color: lightblue;
+}
+
+
+
+var myD = document.getElementById("mainDiv"),
+    alert,
+    myP =  document.getElementById("childP");
+
+console.log(myD.offsetTop + " px ");
+
+
+result: 8 px 
+
+
+
+n the same thing if you tried it with scrollLeft but like that it will be Horizontal not vertical
+--
+
+
+
+another example on scrolling by a button:
+
+<button id = "BUTTON">scroll</button>
+
+
+#BUTTON {
+    
+    position: fixed;
+    
+}
+
+
+var myB = document.getElementById("BUTTON");
+    
+
+console.log(myD.offsetTop + " px " + myD.offsetWidth + " px");
+
+myB.onclick = function () {
+  
+    "use strict";
+    
+    document.documentElement.scrollTop+= 100;
+    
+};
+
+
+
+n the same thing if you tried it with scrollLeft but like that it will be Horizontal not vertical
+
+
+
+
+
+
+
+
+
+
+
+

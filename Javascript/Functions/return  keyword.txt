@@ -1,0 +1,47 @@
+when to use return:
+
+
+function drawwinston() {
+    "use strict";
+    
+    var name = "lucifer",
+        age = 16;
+}
+
+document.getElementById("example").innerHTML =
+ drawwinston();
+
+
+
+
+.. the result will be undefined..why is that?:
+
+cuz the function dont know what to show
+
+just gave it some variable and its values 
+
+so what will should i show he asks?
+
+to tell him what to show we use return 
+
+
+example:
+
+
+
+function drawwinston() {
+    "use strict";
+    
+    var name = "lucifer",
+        age = 16;
+   
+    return name + " " + age;
+}
+
+document.getElementById("example").innerHTML =
+ drawwinston();
+
+
+
+and he will show the age and name cuz you said hey
+ when i call u return the age and name value

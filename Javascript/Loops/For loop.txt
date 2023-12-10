@@ -1,0 +1,75 @@
+for loop:
+
+syntax:
+
+
+starting value: the first value for the variable
+
+ending value: the limit the value will reach
+
+final expression: like i = i + 1 
+
+
+
+for(starting value; ending value; final expression ) {
+
+
+code that will be excuted
+
+
+}
+
+
+example:
+
+
+var i;
+
+//or u can use var i = "";
+
+
+for (i = 1; i <= 10; i++) {
+    
+    console.log(i);
+    
+}
+
+
+
+result:
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+---
+
+i++..is a bad practise it makes proplems
+
+it means i = i + 1...which means add one for me on 
+the value of i
+
+===
+
+another way to code the for loop
+
+var i = 0;
+
+for(;;) {
+    
+    if (i > 10) {break;}
+    //so if reaches 10 it stops
+    console.log(i)
+    
+    
+    i = i + 1;
+    
+}
+

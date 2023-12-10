@@ -1,0 +1,29 @@
+preventDefault:
+
+preventDefault() method tells the user agent that the 
+default action of the form should not be taken as it
+ normally would be.
+==
+Syntax:
+
+event.preventDefault();
+or 
+e.preventDefault();
+
+===
+ example:
+
+<form id="myForm" action="/action_page.php">
+    <input type="text" name="" id="" placeholder="Username">
+    <input type="text" name="" id="" placeholder="Password">
+  <button type="submit">submit</button>
+  </form>
+
+document.getElementById("myForm").addEventListener("submit", 
+function(e) {
+    alert("submited!");
+     e.preventDefault();
+});
+
+
+

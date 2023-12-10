@@ -1,0 +1,62 @@
+    <input type="text" id="dollar"> 
+    <button onclick = "exchangeUSDtoRS()"> exchange </button>
+    <p id="massage"></p>
+
+
+
+
+function exchangeUSDtoRS() {
+   
+    "use strict";
+    
+ 
+ 
+    
+    
+    var amount = document.getElementById("dollar").value,
+        
+    
+        result = amount * 3.75,
+    
+     
+        massage =  document.getElementById("massage");
+   
+    window.console.log(result);
+    
+    if (amount === "0") {
+        
+    
+        massage.innerHTML = "you cant exchange zero (:";
+        
+    } else if (amount === "" || amount === " " ||  amount === "  " || amount === "   ") {
+        
+        
+      
+ 
+        massage.innerHTML = "does a space have an exchange?";
+    } else if (amount < 0) {
+        
+        
+      
+    
+        massage.innerHTML = "having some debts or what";
+    } else if (isNaN(amount)) {
+        
+        
+   
+        massage.innerHTML = "well thats not a transleter im afraid";
+    } else {
+
+      
+        massage.innerHTML = amount + " Dollars is worth almost " + result + "Ryials";
+
+
+    }
+    
+}
+
+
+
+
+
+

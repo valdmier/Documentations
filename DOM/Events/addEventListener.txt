@@ -1,0 +1,53 @@
+The addEventListener() :
+
+ method make an event to a specified element.
+
+note:write the event with out on..like onclick= click
+===
+example with (click):
+
+<button id="btn">click me</button>
+
+let btn = document.querySelector("#btn");
+
+btn.addEventListener('click', function(){
+    return alert("u really click mee!!!");
+    
+    })
+
+===
+example with (dblclick):
+
+<button id="btn">click me</button>
+
+let btn = document.querySelector("#btn");
+btn.addEventListener('dblclick', function(){
+    return alert("u really double click mee!!!");
+    
+    })
+   
+
+===
+example with (mouseenter):
+
+<button id="btn">click me</button>
+
+let btn = document.querySelector("#btn");
+btn.addEventListener('mouseenter', function(){
+    return alert("u really came!!!");
+    
+    })
+   
+
+===
+example with (mouseout):
+<button id="btn">click me</button>
+
+let btn = document.querySelector("#btn");
+btn.addEventListener('mouseout', function(){
+    return alert("dont go out!!!");
+    
+    })
+
+===
+   

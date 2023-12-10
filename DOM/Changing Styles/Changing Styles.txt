@@ -1,0 +1,46 @@
+
+
+change the style from js:
+
+--
+
+Remember to use camelCased property names
+ in JavaScript! (backgroundColor, not background-color, etc.) 
+
+n lets jump into the examples 
+
+===
+example:
+
+<p id = "ps">bla bla.</p>
+
+#ps {
+  height: 250px;
+  width: 400px;
+  padding: 5px;
+  margin: 20px;
+  border: 20px dashed red;
+    position: ;
+  background-color: lightblue;
+}
+
+var myP =  document.getElementById("ps");
+
+myP.style.height = "250px";
+
+myP.style.width = "400px";
+
+myP.style.padding = "5px";
+
+myP.style.margin = "5px";
+
+myP.style.border = "20px dashed red";
+
+myP.style.fontFamily = "monospace";
+
+myP.style.backgroundColor = "lightblue";
+
+---
+
+n thats it
+

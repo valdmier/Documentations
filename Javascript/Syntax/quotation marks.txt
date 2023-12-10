@@ -1,0 +1,25 @@
+the differences between:
+ single quotations marks (' ')
+and double quotations marks (" ")  :
+
+they are the same but if u wanted to use one inside 
+another u cant use them like that
+
+var name = "mohammed "yemeni" " no thas wrong
+
+u can use it like 
+ 
+var name = "mohammed 'yemeni' " now thas right
+
+or u can escape that is by adding a slash
+
+var name = "mohammed /"yemeni/" " 
+
+
+the slash tells the browswer hey dont take that as 
+programing shit just dont mind it >>leave it alone
+
+
+
+
+

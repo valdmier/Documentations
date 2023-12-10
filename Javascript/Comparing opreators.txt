@@ -1,0 +1,202 @@
+Comparing Operators:
+
+they are operators that compares between values.
+
+---
+
+bigger/lesser than(><):
+
+example:
+
+console.log(3 < 4);
+-
+output: true
+
+
+===
+bigger/lesser than or equal(<= =>):
+
+example:
+
+console.log(3 => 4);
+-
+output: false
+
+
+
+===
+
+
+
+
+===
+
+
+equaling oprerators:
+we have three equaling oprerators signs
+
+
+(=)this called assignment Operator wich means
+يعني زي الللي يوقع على قيم المتغيرات او الفيريلز ..
+
+it mostly use with variables and giving them vaules
+
+we dont use for comparison we just give values 
+with it
+ 
+
+====
+
+(==)this called the comparison operator
+
+this one u could use for comparing numbers or 
+strings it doesnt matter whats the data type
+if there is number it will compare no matter what
+
+
+example:
+
+
+lucifer = "30";
+
+if (lucifer == 30){
+    
+    alert("good");
+    
+    
+}
+    else {
+alert("bad");
+
+
+}
+
+
+the result will be good
+
+ even though we did
+equaled a string to a number so the comparison 
+operator doesnt care for the data type
+
+
+===
+
+
+(===) this code called identical operator
+
+the defrence between identical operator(===) and 
+comparison operator(==) is that the first(===) care 
+for data types but the second(==) nahh
+
+
+example:
+
+var lucifer = "30";
+
+if (lucifer === 30) {
+    
+    alert("good");
+    
+    
+}
+    else {
+alert("bad");
+
+
+}
+
+
+the result will be bad cuz (===) is sensitve for 
+the type of thee data you enter n string n number
+arent the same
+
+
+
+another example:
+
+
+var lucifer = "30";
+
+if (lucifer === 30) {
+    
+    alert("good");
+    
+    
+}
+    else {
+alert("bad");
+
+
+}
+
+
+the result will be good cuz (===) is sensitve for 
+the type of thee data you enter n number n number
+they r the sameript.
+
+ 
+===
+
+
+= is used for
+ assigning values to a variable in JavaScript. 
+
+== is used for
+ comparison between two variables irrespective of
+ the datatype of variable.
+
+=== is used for 
+comparision between two variables but this will 
+check strict type, which means it will check 
+datatype and compare two values.
+
+
+===
+
+(!=)this called the Inequality operator
+
+this one u could use for comparing numbers or 
+strings it doesnt matter whats the data type
+if there is number it will compare no matter what
+
+
+example:
+
+var lucifer = "29";
+
+if (lucifer != 30) {
+
+    alert("good");
+
+
+}
+else {
+    alert("bad");
+
+
+}
+===
+
+(!==)this called the Strict inequality operator
+
+the defrence between Strict inequality operator(!==) and 
+inequality operator(!=) is that the first(!==) care 
+for data types but the second(!=) nahh
+
+example:
+
+var lucifer = "30";
+
+if (lucifer !== 30) {
+
+    alert("good");
+
+
+}
+else {
+    alert("bad");
+
+
+}
+
+

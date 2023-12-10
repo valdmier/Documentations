@@ -1,0 +1,183 @@
+
+
+this doc is about positioning the items of the grid system 
+and it has to parts:
+
+1-vertical alignment 
+
+2-horizontal alignment 
+---
+
+lets satrt with vertical alignment 
+
+نبدا بالافقي اول شي  والتعديل ع التموضع الافقي 
+----
+
+1-vertical alignment:
+
+
+to put the colums in the top of the row use  
+  .align-items-start
+
+example:
+
+ <div class="container">
+    <div class="row"></div>
+
+    <div class="row border align-items-start">
+      <div class="col border">
+        <h3 class="display-4 ">Parsgraph 1</h3>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut unde quia similique cum, placeat quibusdam nostrum excepturi, quam et temporibus corrupti tenetur eius, modi nam dolorem vero voluptatum voluptates tempora.</p>
+      </div>
+    
+      <div class="col border">
+        <h3 class="display-4 ">Parsgraph 3</h3>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aperiam dolor blanditiis ad quo accusamus libero distinctio obcaecati odit hic.</p>
+      </div>
+
+      <div class="col border">
+        <h3 class="display-4 ">Parsgraph 3</h3>
+        <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam ut pariatur dignissimos expedita in distinctio!</p>
+      </div>
+    </div>
+
+ 
+  </div>
+
+
+
+====
+
+to put the colums in the bottom of the row use  
+  .align-items-end
+
+example:
+
+
+<div class="container">
+    <div class="row"></div>
+
+    <div class="row border align-items-end">
+      <div class="col border">
+        <h3 class="display-4 ">Parsgraph 1</h3>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut unde quia similique cum, placeat quibusdam nostrum excepturi, quam et temporibus corrupti tenetur eius, modi nam dolorem vero voluptatum voluptates tempora.</p>
+      </div>
+    
+      <div class="col border">
+        <h3 class="display-4 ">Parsgraph 3</h3>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aperiam dolor blanditiis ad quo accusamus libero distinctio obcaecati odit hic.</p>
+      </div>
+
+      <div class="col border">
+        <h3 class="display-4 ">Parsgraph 3</h3>
+        <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam ut pariatur dignissimos expedita in distinctio!</p>
+      </div>
+    </div>
+
+ 
+  </div>
+
+
+====
+
+to put the colums centered of the row use  
+  .align-items-center
+
+example:
+
+
+  <div class="container">
+    <div class="row"></div>
+
+    <div class="row border align-items-center">
+      <div class="col border">
+        <h3 class="display-4 ">Parsgraph 1</h3>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut unde quia similique cum, placeat quibusdam nostrum excepturi, quam et temporibus corrupti tenetur eius, modi nam dolorem vero voluptatum voluptates tempora.</p>
+      </div>
+    
+      <div class="col border">
+        <h3 class="display-4 ">Parsgraph 3</h3>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aperiam dolor blanditiis ad quo accusamus libero distinctio obcaecati odit hic.</p>
+      </div>
+
+      <div class="col border">
+        <h3 class="display-4 ">Parsgraph 3</h3>
+        <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam ut pariatur dignissimos expedita in distinctio!</p>
+      </div>
+    </div>
+
+ 
+  </div>
+
+
+===
+
+to choose a specefic place for each item:
+
+we put that class inside the column div witch is 
+
+.align-self-start or 
+.align-self-center or
+.align-self-end
+
+ debending on what do u want
+
+
+example:
+
+
+ <div class="container">
+   
+
+    <div class="row border" style="height: 400px;">
+      <div class="col border align-self-start">
+        <h3 class="display-4 ">Parsgraph 1</h3>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut unde quia similique cum, placeat quibusdam nostrum excepturi, quam et temporibus corrupti tenetur eius, modi nam dolorem vero voluptatum voluptates tempora.</p>
+      </div>
+    
+      <div class="col border align-self-center">
+        <h3 class="display-4 ">Parsgraph 3</h3>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aperiam dolor blanditiis ad quo accusamus libero distinctio obcaecati odit hic.</p>
+      </div>
+
+      <div class="col border align-self-end">
+        <h3 class="display-4 ">Parsgraph 3</h3>
+        <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam ut pariatur dignissimos expedita in distinctio!</p>
+      </div>
+    </div>
+ 
+  </div>
+
+
+===
+
+2-horizontal alignment:
+---
+
+to put the items in the start of the row use  
+  
+.justify-content-start or 
+.justify-content-center or
+.justify-content-end
+.justify-content-between
+.justify-content-around
+
+example :
+
+
+  <div class="container">
+   
+
+  <div class="container">
+    <div class="row border justify-content-around" style="">
+      <div class="col-4 border ">
+        <h3 class="display-4 ">Parsgraph 1</h3>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut unde quia similique cum, placeat quibusdam nostrum excepturi, quam et temporibus corrupti tenetur eius, modi nam dolorem vero voluptatum voluptates tempora.</p>
+      </div>
+    
+      <div class="col-4 border ">
+        <h3 class="display-4 ">Parsgraph 2</h3>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aperiam dolor blanditiis ad quo accusamus libero distinctio obcaecati odit hic.</p>
+      </div>
+    </div>
+  </div>

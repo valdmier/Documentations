@@ -1,0 +1,16 @@
+its just like wile loop the syntax is difrent just
+
+example:
+
+var console;
+
+var i = 0;
+
+do {
+    
+    console.log(i);
+    
+    i = i + 1;
+} while (i <= 10);
+
+

@@ -1,0 +1,121 @@
+Network protocols:
+
+A set of rules used by two or more devices on a network to describe 
+- the order delivery and 
+- structure of the data.
+
+Network protocols serve as instructions that come with the information in the data packet.
+
+Protocols are like a common language that allows devices all across the world to communicate with and understand each other.
+
+Some protocols have vulnerabilities that malicious actors exploit. 
+
+--
+For example, a nefarious actor could use the Domain Name System (DNS) protocol, which resolves web addresses to IP addresses, to divert traffic from a legitimate website to a malicious website containing malware. 
+
+===
+An example of protocols is
+
+Before you gain access to the website, your device will establish communications with a web server. 
+
+That communication uses a protocol called the Transmission Control Protocol or TCP.
+
+---
+- The transmission Control Protocol (TCP):
+
+An internet communication protocol that allows two devices to form a connection and stream data.
+
+TCP also verifies both devices before allowing any further communication to take place.
+
+===
+- Adress Resolution Protocol (ARP): 
+(Swithces Jop)
+
+A network protocol used to determine the MAC adress of the next router or device on the path.
+
+device on a network has both an IP address that identifies it on the network and a MAC address that is unique to that network.
+
+Each device on the network performs ARP and keeps track of matching IP and MAC addresses in an ARP cache. ARP does not have a specific port number.
+
+===
+- HyperText Transfer Protocol Secure (HTTPS or SSL/TLS):
+
+A network protocol that provides a secure method of communication between clinets and website servers.
+
+HTTPS encrypts data using the Secure Sockets Layer and Transport Layer Security, otherwise known as SSL/TLS. This helps keep the information secure from malicious actors who want to steal valuable information.
+
+===
+- Domain Name System (DNS):
+
+A network protocol that translates internet domain name into IP addresses.
+
+The DNS protocol sends the domain name and the web address to a DNS server that retrieves the IP address of the website you were trying to access.
+
+===
+Three Categories of protocols:
+
+===
+1 - Communication Protocols:
+
++ Transmission Control Protocol (TCP)
+
++ User Datagram Protocol (UDP): a connectionless protocol that does not establish a connection between devices before a transmission. This makes it less reliable than TCP. But it also means that it works well for transmissions that need to get to their destination quickly. 
+
++ Hypertext Transfer Protocol (HTTP)
++ Domain Name System (DNS)
+
++ TALENT: 
+
+Telnet is an application layer protocol enabling device-to-device or device-to-server communication. However, it lacks security as it sends data in clear text. Using command line prompts, it controls remote devices, akin to SSH. Telnet operates over TCP port 23 and is less secure compared to SSH.
+
++ Internet Message Access Protocol (IMAP):
+
+IMAP is used for incoming email. It downloads the headers of emails, but not the content. The content remains on the email server, which allows users to access their email from multiple devices. IMAP uses TCP port 143 for unencrypted email and TCP port 993 over the TLS protocol. Using IMAP allows users to partially read email before it is finished downloading and to sync emails. However, IMAP is slower than POP3.
+
+===
+2 - Managment Protocols:
+
+--
++ Simple Network Management Protocol (SNMP): a network protocol used for monitoring and managing devices on a network. SNMP can reset a password on a network device or change its baseline configuration.
+
+Simple Mail Transfer Protocol (SMTP) is like a postal service for emails. It sends emails from the sender to the recipient's address. It works with special software called Message Transfer Agents (MTA) that find the right address using DNS servers. SMTP uses ports 25 for regular emails and 587 with extra security. However, port 25 is sometimes misused for spam, so SMTP has rules to prevent spam by limiting how many emails can be sent at once.
+
+--
++ Internet Control Message Protocol (ICMP): an internet protocol used by devices to tell each other about data transmission errors across the network. 
+
+--
++ Dynamic Host Configuration Protocol (DHCP):
+Dynamic Host Configuration Protocol (DHCP) is in the management family of network protocols. 
+
+ It assigns a unique IP address and provides the addresses of the appropriate DNS server and default gateway for each device. 
+
+--
++ Post office protocol (POP): 
+
+ is an application layer (layer 4 of the TCP/IP model) protocol used to manage and retrieve email from a mail server. Many organizations have a dedicated mail server on the network that handles incoming and outgoing mail for users on the network. User devices will send requests to the remote mail server and download email messages locally. If you have ever refreshed your email application and had new emails populate in your inbox, you are experiencing POP and internet message access protocol (IMAP) in action. 
+
+Unencrypted, plaintext authentication uses TCP/UDP port 110 and encrypted emails use Secure Sockets Layer/Transport Layer Security (SSL/TLS) over TCP/UDP port 995.  When using POP, mail has to finish downloading on a local device before it can be read and it does not allow a user to sync emails.
+
+===
+3 - Security Protocols:
+--
++ Hypertext Transfer Protocol Secure (HTTPS)
+
+
+--
++ Secure File Transfer Protocol (SFTP) 
+
+
+--
++ Secure shell protocol (SSH):
+
+The establishes a secure connection with a remote system. As an application layer protocol, it offers secure authentication and encrypted communication. SSH functions on TCP port 22 and serves as a more secure replacement for vulnerable protocols like Telnet.
+
+
+
+===
+Protocols and port numbers:
+
+are like addresses and labels for data packets in computer networks. They help devices know what to do with the information they receive. Think of them as postcodes on letters. Firewalls act like gatekeepers and can block or allow data based on these codes. For example, a company might only let data with a specific code (like TCP port 995 for POP3) from their own addresses get through.
+
+As a security analyst, it's important to remember these codes because they can be used to test your knowledge in interviews. Plus, you'll keep learning about new codes on the job to keep networks secure.

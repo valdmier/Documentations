@@ -1,0 +1,61 @@
+
+will see how to add minse os subtract here and more:
+
+--
+1-Adding (+) 
+
+we could add and plus stuff that way
+
+example:
+
+console.log(3+3);
+
+---
+subtracting or minus:
+
+example:
+
+console.log(3-8);
+
+---
+Multyplying:
+
+example:
+
+console.log(3*8);
+
+---
+Dividing:
+
+example:
+
+console.log(3/6);
+
+---
+            it could be named the modulo opreator
+               ^
+The remainder operator (%):
+
+ returns the remainder left over when one operand is divided by a second operand. It always takes the sign of the dividend.
+
+بختصار مثلا اثنين وسبعه كم في اثنين ف سبعه؟ثلاثه اثنينات والباقي واحد وانتهى
+
+
+
+example:
+
+console.log(9 % 4);
+
+note: the bigger number gotta be in the left always
+
+===
+الأس :
+
+
+example:
+
+ to say 3 to the 6th power:
+
+console.log(3**6);
+
+===

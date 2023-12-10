@@ -1,0 +1,43 @@
+Security Architecture and Engineering:
+
+Focused on optimizing data security by ensuring effective tools, systems and processes are in place to protect and organization's asset and data. 
+
+it includes:
+
+ Ensuring the effectiveness of:
+
+- Tools 
+- Systems
+- Processes
+
+
+ne of the core concepts of secure design architecture is shared responsibility.
+
+===
+
+Shared responsibility:
+
+means that all individuals within an organization take an active role in lowering risk and maintaining both physical and virtual security.
+
+By having policies that encourage users to recognize and report security concerns, many issues can be handled quickly and effectively.
+
+
+Shared responsibility means all individuals involved take an active role in lowering risk during the design of a security system. Additional design principles related to this domain, which are discussed later in the program, include:
+
+- Threat modeling
+
+- Least privilege
+
+- Defense in depth
+
+- Fail securely
+
+- Separation of duties
+
+- Keep it simple
+
+- ero trust
+
+- Trust but verify
+
+An example of managing data is the use of a security information and event management (SIEM) tool to monitor for flags related to unusual login or user activity that could indicate a threat actor is attempting to access private data.

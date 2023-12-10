@@ -1,0 +1,38 @@
+Functions as an object elements:
+
+we will see how to call functions that adr a part of an object and howto use them n what is the syntax in this document!
+
+===
+example that explains everthing:
+
+const mathmatics = {
+    square: function (squaredNum) {
+        return squaredNum * squaredNum;
+    },
+    cube: function (cubedNum) {
+        return cubedNum ** 3; //اس ثلاثه يعني
+    }
+
+}
+
+console.log(mathmatics.square(10));
+console.log(mathmatics.cube(10));
+
+
+===
+n there is a shortcut for functions with objects:
+---
+same example upove but using the short cut:
+
+const mathmatics = {
+    square(squaredNum) {
+        return squaredNum * squaredNum;
+    },
+    cube(cubedNum) {
+        return cubedNum ** 3; //اس ثلاثه يعني
+    }
+
+}
+
+console.log(mathmatics["square"](10));
+console.log(mathmatics["cube"](10));

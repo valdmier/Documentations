@@ -1,0 +1,19 @@
+to make a server localy on our computer:
+
+let express = require("express");
+const app = express();
+
+app.listen(3000, () => {
+    console.log("listening on port");
+})
+//we r saying listen for new reqests on http://localhost:3000/
+app.use(() => {
+    console.log("we got a new reqest");
+})
+
+//we r saying if any reqest came in send us this message
+
+===
+run the folder in the terminal then 
+
+go to http://localhost:3000/

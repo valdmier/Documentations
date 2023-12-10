@@ -1,0 +1,218 @@
+what is window: it the page you see
+
+- window object is the browser window.
+- window object is in all browsers.
+- winndow has proprtise & methods not sprted in all
+ browsers.
+- all javascribt global are students in window 
+school; 
+document.body.getElementById(bla) or 
+window.document.body.getElementById are the same
+لان انت كذا ولا كذا دائم بتعدل ع الاشياء اللي داخل الويندو فاا مابتفرق كتبتها ولا لا 
+
+وش فايدتها طيب؟لها خصائص بوريك ياها تحت:
+
+===
+
+window proprtise:
+
+to show the page or the window url:
+we use:
+
+wiindow.location.href
+example:
+<div id = "infoDiv"></div>
+
+document.body.getElementById(infoDiv)
+
+infoDiv.textContent += "The URL of this page is " 
++ window.location.href;
+
+//why href?cuz with out it we will point to page 
+itself n we dont want that we want to pint 2 the url
+
+result:
+
+The URL of this page is https://www.kasandbox.org/computer-programming/exec/webpage?lang=en&v=200310-1408-537a6a918417.425168304230267786&host=www.khanacademy.org
+===
+to show the user browser:
+
+we use:
+
+"window.navigator.userAgent"
+
+example:
+<div id = "infoDiv"></div>
+
+infoDiv.textContent += "The user agent is " 
++ window.navigator.userAgent;
+
+
+
+result:
+
+The user agent is Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36
+
+===
+to show the browser page width and height:
+
+we use:
+
+"window.outerHeight" & "window.outerWidth"
+
+example:
+<div id = "infoDiv"></div>
+infoDiv.textContent += " This webpage is " 
++ window.outerWidth + " by " + window.outerHeight;
+
+
+result:
+
+this webpage is 1536 by 824
+
+
+
+nnnnootteee !!!!!!! :
+تقدر تحذف الويندو وما تكتبها عادي والنتيجه بتكون نفسها
+
+example:
+
+example:
+<div id = "infoDiv"></div>
+infoDiv.textContent += " This webpage is " 
++ outerWidth + " by " + outerHeight;
+
+result:
+
+this webpage is 1536 by 824
+
+the result stays the same cuz evetything u use 
+is inside the window so write it or not the browser 
+will look for any proptise inside the window
+
+
+
+===
+
+
+how to animate:
+
+  // Step 1. What element do we want to animate?
+ 
+  // Step 2. What function will change it each time?
+  
+  // Step 3: Call that on an interval
+ 
+example:we want to make a countdown
+
+<span id="countdown">500</span>seconds
+
+ // Step 1. What element do we want to animate?
+
+var countdown = document.getElementById("countdown")
+
+
+  
+// Step 2. What function will change it each time?
+
+var countItDown = function() {
+parseFloat(countdown.textContent);
+    if (currentTime > 0) {
+       countdown.textContent = currentTime - 1;   
+    }
+   else {
+        window.clearInterval(timer); 
+       // عشان اول مايوصل العدد لصفر يوقف ينفذ الخطوه الثالثه ولو ما حطيته 
+         بيسحب نت المستخدم ويبطئ الموقع لأن الخطوه الثالثه بتقعد تتكرر
+    }
+  };
+//
+so what does parseFolat means?
+ 
+ now the 500 you selected the browser consider it 
+ as a word a name not a number so if like have 
+let x = "5"
+let y = "4"
+and y + x
+he will make it equal = to 45 cuz he consider it
+as word or a name..a string..but if you have  
+but to deal with it like numbers
+
+var num4 = parsefolat(y) 
+var num5 = parsefolat(x) 
+num4 + num5 and dat will equal = 9 
+ 
+just an example n lets contunie the steps */
+
+
+
+  // Step 3: Call that on an interval
+var timer = window.setInterval(countItDown, 1000);
+   ال 1000 تعني ثانيه فا لو حطيت 1000 بينقص رقم كل ثانيه 
+ولو 500 بنقص رقم كل نص ثانيه وهكذا 
+
+or i can use  window.setTimeout(countItDown, 1000);
+if i want it to repeat once..but here we need to it
+to be repeated
+
+
+مراجعه:
+فالخطوه الاولى اخترنا اللي نبي نسوي له انميشن وهو رقم 500
+الخطوه الثانيه مسكنا رقم الخمس ميه حولناه ل رقم بدل سترينج وخلينا ينقص منه 1 كل مره
+الخطوه الثالثه مسكنا الفنكشن اللي خزننا فيه حركت التنقيص ودخلناه مع سيت انتيرفال 
+وخلينا كل ثانيه تنقص ينقص معه عدد وخليناه يستمر بشكل متكرر 
+
+ركز فالخطوه الثانيه هي حلقه الوصل (:
+
+
+
+===
+
+how to animate a slide show
+
+ i didnt really understand it but i hope u do 
+n there's shortcut down below
+ <div id="slideshow">
+        <img src="https://www.kasandbox.org/programming-images/animals/birds_rainbow-lorakeets.png" alt="Rainbow lorakeets" />
+        <img src="https://www.kasandbox.org/programming-images/animals/butterfly.png"alt="Butterfly" />
+        <img src="https://www.kasandbox.org/programming-images/animals/cat.png" alt="Cat" />
+        <img src="https://www.kasandbox.org/programming-images/animals/crocodiles.png" alt="Crocodiles" />
+        <img src="https://www.kasandbox.org/programming-images/animals/fox.png" alt="Fox" />
+        
+    </div>
+
+    <script>
+var slideShow = function(container) {
+    this.images = [];
+    this.curImage = 0;
+    for (i = 0; i < container.childElementCount; i++) {
+        this.images.push(container.children[i]);
+        this.images[i].style.display = "none";
+    }
+    
+    // Handle going to to the next slide
+    var nextSlide = function() {
+        for (var i = 0; i < this.images.length; i++) {
+            this.images[i].style.display = "none";
+        }
+        this.images[this.curImage].style.display = "block";
+        this.curImage++;
+        if (this.curImage >= this.images.length) {
+            this.curImage = 0;
+        }
+        window.setTimeout(nextSlide.bind(this), 1000);
+    };
+    
+    nextSlide.call(this);
+};
+slideShow(document.getElementById("slideshow"));
+    </script>
+
+
+shortcut:
+
+ <script src="https://cdn.jsdelivr.net/gh/pamelafox
+/ka-slideshow-example@master/slideshow.js"></script>
+
+n that url contains the code up n you can copy paste
+it n it will work

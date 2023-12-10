@@ -1,0 +1,22 @@
+
+The Object.entries() method:
+
+ returns an array of a given object's own keys and values.
+
+--
+Syntax:
+
+Object.entries(obj)
+
+===
+example:
+
+var myCar = {
+    color: "gray",
+    model: "2022",
+    price: "50k USD",
+    type: "sydan"
+};
+
+console.log(Object.entries(myCar))
+

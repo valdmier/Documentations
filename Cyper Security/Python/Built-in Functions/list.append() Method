@@ -1,0 +1,54 @@
+## **Python `list.append()` Method Documentation**
+
+### **Overview**
+
+The `list.append()` method in Python is a built-in method used to add an element to the end of a list. It is a straightforward and efficient way to expand a list by appending a new element.
+
+### **Usage**
+
+The `list.append()` method is used in the following format:
+
+```python
+list.append(element)
+```
+
+- `list`: The list to which you want to add the element.
+- `element`: The element you want to append to the list.
+
+---
+
+### **Return Value**
+
+The `list.append()` method does not return a new list but instead modifies the original list by adding the specified element to its end. It returns `None`.
+
+---
+
+### **Examples**
+
+#### **Example 1: Appending an Element**
+
+You can use the `list.append()` method to add an element to the end of the list:
+
+```python
+fruits = ["apple", "banana", "cherry"]
+fruits.append("orange")
+
+# 'fruits' list is now ['apple', 'banana', 'cherry', 'orange']
+```
+
+#### **Example 2: Appending Multiple Elements**
+
+You can also append multiple elements to a list, and they will be added as a single item (a list):
+
+```python
+numbers = [1, 2, 3]
+numbers.append([4, 5])
+
+# 'numbers' list is now [1, 2, 3, [4, 5]]
+```
+
+----
+
+### **Notes**
+
+- The `list.append()` method is efficient for adding elements to the end of a list. It is especially useful when building lists incrementally.

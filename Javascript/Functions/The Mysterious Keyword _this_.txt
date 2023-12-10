@@ -1,0 +1,17 @@
+this:
+
+this is used to access other properties in the same object.
+
+---
+example:
+
+const mathmatics = {
+    pi: 3.14,
+    square(squaredNum) {
+        return this.pi * squaredNum;
+    },
+
+
+}
+
+console.log(mathmatics["square"](10));

@@ -1,0 +1,75 @@
+
+to make buttons stick next to each other:
+
+
+<div class="container mt-5">
+   
+  <div class="btn-group" role="group" aria-label="Basic example">
+    <button class="btn btn-secondary">Left</button>
+    <button class="btn">Middle</button>
+    <button class="btn ">Right</button>
+  </div>
+
+  </div>
+
+===
+
+to make them grouped verticaly:
+
+<div class="container mt-5">
+   
+  <div class="btn-group-vertical" role="group" aria-label="Basic example">
+    <button class="btn btn-secondary">1</button>
+    <button class="btn">2</button>
+    <button class="btn ">3</button>
+  </div>
+
+  </div>
+
+===
+to change the size:
+
+lg:
+<div class="container mt-5">
+   
+  <div class="btn-group btn-group-lg">
+    <button class="btn btn-secondary">1</button>
+    <button class="btn">2</button>
+    <button class="btn ">3</button>
+  </div>
+
+  </div>
+
+sm:
+<div class="container mt-5">
+   
+  <div class="btn-group btn-group-sm">
+    <button class="btn btn-secondary">1</button>
+    <button class="btn">2</button>
+    <button class="btn ">3</button>
+  </div>
+
+  </div>
+
+
+
+===
+
+to make it like a the number of pages avialbe :
+<div class="container mt-5">
+
+  <div class="btn-group">
+    <button class="btn btn-secondary">1</button>
+    <button class="btn">2</button>
+    <button class="btn ">3</button>
+    <button class="btn ml-2">4</button>
+    <button class="btn">5</button>
+    <button class="btn ">6</button>
+    <button class="btn ml-2">7</button>
+    <button class="btn">8</button>
+    <button class="btn ">9</button>
+  </div>
+
+  </div>
+
+and there's more to see about that in Pagination doc

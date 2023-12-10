@@ -1,0 +1,37 @@
+Types of phishing
+
+===
+Phishing continued to evolve as e-commerce and online payment systems gained popularity in the early 2000s.
+
+===
+Various techniques emerged, leading to five common types of phishing:
+
+- Email Phishing
+
+- Smishing (SMS phishing)
+
+- Vishing (voice call phishing)
+
+- Spear Phishing (targeted phishing)
+
+- Whaling (targeted phishing against high-ranking executives)
+
+===
+Email phishing remains the most common form and evolved into infecting computer systems and networks with malicious software.
+
+===
+In the late 2000s, attackers created fraudulent websites resembling businesses like eBay and PayPal™ and launched mass phishing campaigns targeting e-commerce and banking sites.
+
+
+===
+Defense Against Phishing:
+
+Organizations implement several security measures to prevent phishing attacks:
+
+- Anti-phishing policies to raise awareness and encourage data security procedures
+
+- Employee training resources to educate staff about identifying suspicious emails
+
+- Securing email inboxes using filters, blocklists, and allowlists
+
+- Intrusion prevention systems to detect unusual email traffic patterns, allowing security analysts to identify and quarantine suspicious emails.

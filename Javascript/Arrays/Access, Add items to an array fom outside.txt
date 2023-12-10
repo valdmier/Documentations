@@ -1,0 +1,130 @@
+length:
+
+its easy there is to way to put add items with length
+
+example:
+1-
+var myArray = ["idk", "bonn bon", "zyad", "idk"];
+
+myArray[4] = "me";
+
+console.log(myArray);
+
+
+the result will be
+
+["idk", "bonn bon", "zyad", "idk", "me"]
+
+---
+2-
+var myArray = ["idk", "bonn bon", "zyad", "idk"];
+
+myArray[myArray.length] = "me";
+
+console.log(myArray);
+
+
+the result will be
+
+["idk", "bonn bon", "zyad", "idk", "me"]
+
+
+
+but why did we puted length ?cuz the index number that the array use it will be always be more by one  
+
+ 
+
+note: you might see a result saying Array(5)
+
+...just refresh the page
+
+
+
+
+===
+push()
+
+its the obese of pop
+
+always puting item in the end of the array..even if
+u added another name it will always stay the last one
+
+var myArray = ["idk", "bonn bon", "zyad", "idk"];
+
+myArray.push("myWife");
+
+console.log(myArray);
+
+
+
+the result will be:
+
+["idk", "bonn bon", "zyad", "idk", "myWife"]
+
+
+
+
+note: you might see a result saying Array(5)
+
+...just refresh the page
+
+
+
+
+===
+
+unshift()
+
+
+the obese of shift cuz it deletes n that adds
+
+always puting item in the beginning of the array..
+even if u added another name it will always stay at
+beginning of the array
+
+
+var myArray = ["idk", "bonn bon", "zyad", "idk", 
+"nobody"];
+
+myArray.unshift("myWife");
+
+console.log(myArray);
+
+
+
+note: you might see a result saying Array(5)
+
+...just refresh the page
+
+
+
+
+
+
+
+===
+
+splice()
+
+here you can delete things add things select the 
+number u wanna -for deleting see the deleting document- 
+
+
+syntax: arraName.
+
+splice(from what num u want to satar deleting, how many items to delete after the num u choose, nem item,"add new item " )
+
+
+
+var myArray = ["idk", "bonn bon", "zyad", "idk"];  
+  
+myArray.splice(2, 1, "app");
+
+window.console.log(myArray);
+
+
+the result will be:
+["idk", "bonn bon", "app", "idk"]
+
+so we told him delete on item after 2
+

@@ -1,0 +1,99 @@
+Threat Modeling
+
+===
+Step 1: Define Scope
+
+Create an inventory of assets and classify them.
+Determine the scope of the threat model.
+
+===
+Step 2: Identify Threats
+
+Define potential threat actors, either internal or external.
+Examples: Malicious employees or hackers.
+
+===
+Step 3: Create Attack Tree
+
+Develop a detailed diagram mapping threats to assets.
+Ensures comprehensive understanding before proceeding.
+
+===
+Step 4: Characterize Environment
+
+Apply an attacker's perspective to the business environment.
+Consider customer, employee, external partner, and vendor interactions.
+
+===
+Step 5: Analyze Threats
+
+Examine existing security measures and identify gaps.
+Assign risk scores to rank threats.
+
+===
+Step 6: Mitigate Risk
+
+Develop a plan to defend against threats.
+Choose to avoid, transfer, reduce, or accept risk.
+
+===
+Step 7: Evaluate Findings
+
+Document all actions taken during the exercise.
+Apply fixes as needed and document successes and lessons learned for future threat models.
+
+===
+Importance of Threat Modeling
+
+Ideally, threat modeling should be performed before, during, and after software development.
+
+It evaluates various aspects, including architecture and business purposes.
+
+Integral throughout the software development lifecycle (SDLC).
+
+===
+Common Threat Modeling Frameworks
+
+===
+STRIDE (Microsoft):
+
+Identifies vulnerabilities in six attack vectors: Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege.
+
+===
+PASTA (Process of Attack Simulation and Threat Analysis):
+
+Risk-centric threat modeling process.
+Focuses on discovering viable threats and modeling them.
+Incorporates security artifacts like vulnerability assessment reports.
+
+===
+Trike (Open Source):
+
+Security-centric approach to threat modeling.
+Emphasizes security permissions, application use cases, privilege models, and more.
+
+===
+VAST (Visual, Agile, and Simple Threat Modeling):
+
+Part of an automated threat-modeling platform called ThreatModeler®.
+Streamlines threat modeling assessments.
+
+===
+Participating in Threat Modeling
+
+Often led by experienced security professionals.
+Collaboration is crucial, especially for complex applications.
+
+Key Questions:
+
+What are we working on?
+
+What could go wrong?
+
+What mitigation strategies are in place?
+
+Have all aspects been addressed?
+
+Is the threat model effective?
+
+Note: Threat modeling is a skill that can be learned and improved over time, and it involves various techniques such as data flow diagrams and attack trees.

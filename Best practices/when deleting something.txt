@@ -1,0 +1,28 @@
+ //we could delete elements but its a best parctice to 
+just make another version
+==
+example:
+
+const comments = [
+    {
+        id: 4,
+        username: 'Todd',
+        comment: 'funny'
+    }, {
+        id: 3,
+        username: 'luc',
+        comment: 'yooo wtfff'
+    }, {
+        id: 2,
+        username: 'skyler',
+        comment: "I'M THE DANGER"
+    }, {
+        id: 1,
+        username: 'MESII',
+        comment: "hELLO WORLD "
+    },
+]
+
+comments = comments.filter(comments.find((c) => c.id !== 2));
+
+console.log(comments );

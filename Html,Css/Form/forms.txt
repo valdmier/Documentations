@@ -1,0 +1,26 @@
+form is an HTML tag used to collect user input. The user input is most often sent to a server for processing
+
+
+form atterbuties:
+
+<form name="registering" action="post.node.js">
+
+ name atterbute:
+
+ is for naming the form if u want to call it later
+
+
+ action atterbute:
+ 
+ to tell the form where to go ..like in the server side
+ u could make go to blaBla.php or blaBla.node.js
+
+
+ <form method="get">
+
+ or
+
+ <form method="post">
+
+
+to tell what method he should go to(server side thing)

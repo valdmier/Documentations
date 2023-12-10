@@ -1,0 +1,37 @@
+floor :
+
+Floor is the opposite of ceil n he round it to the lowest number it can be
+
+floor = ارضيه
+
+
+example:
+
+var Math;
+var console;
+
+var x = Math.floor(4.7 + 1.5); //which is 6.2
+
+console.log(x);
+
+
+the result: 6
+
+
+another example:
+
+
+
+var me = "59.75 dollar",
+
+
+ meExp = parseInt(me),
+
+floored = Math.floor(meExp);
+
+
+console.log(floored);
+
+
+result :59
+

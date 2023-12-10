@@ -1,0 +1,18 @@
+chain = سلسه
+
+واللي تعني فالبرمجه سلسه اوامر
+
+example:
+
+
+var myString = "iam 10 in 10 love 10 with 10 javascript",
+
+    String = myString.toString().replace("javascript", "programoing").split("10");
+
+console.log(String);
+
+
+
+result:
+
+["iam ", " in ", " love ", " with ", " programoing"]

@@ -1,0 +1,32 @@
+
+The GET Method:
+
+GET is used to request data from a specified resource.
+
+GET is one of the most common HTTP methods.
+
+GET effects the url 
+
+Note that the query string (name/value pairs) is sent in the
+ URL of a GET request:
+
+/test/demo_form.php?name1=value1&name2=value2 
+
+===
+
+The POST Method:
+
+POST is used to send data to a server to create/update a resource.
+
+POST dont effects the url 
+The data sent to the server with POST is stored in the request body of the HTTP request:
+
+
+The POST method is used to request that the origin server
+ accept the entity enclosed in the request as a new
+ subordinate of the resource identified by the
+ Request-URI in the Request-Line
+--
+
+In other words, POST is used to create.
+--

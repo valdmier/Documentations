@@ -1,0 +1,32 @@
+The difference between continue and the break statement, is instead of "stoping the whole loop" of a loop(, the continue statement "jumps over" one in the loop.
+
+يعني بدل ما يوقفون اللوب كامل لا يوقفون الخطوه اللي حددتها فا ال if فقط
+
+example:
+
+var i = 1;
+
+for (i = 1; i < 10; i = i + 1) {
+       
+    if (i === 4) {
+        
+        continue;
+                 
+    }
+    
+    console.log(i);
+    
+}  
+
+
+
+the result:
+
+1
+2
+3 //notice 4 is gone 
+5
+6
+7
+8
+9

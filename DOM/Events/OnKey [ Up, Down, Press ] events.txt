@@ -1,0 +1,33 @@
+The onkeypress event: occurs when the user presses a key
+ (on the keyboard).
+
+---
+The onkeyup event: occurs when the user releases a key
+ (on the keyboard).
+
+---
+The onkeydown event: occurs when the user is pressing a key
+ (on the keyboard).
+
+====
+note:
+
+i will do one example n u can change it n see the difrent
+ between the events
+
+
+===
+example:
+
+
+
+Enter your name: 
+---
+<p>A function is triggered when the user releases a key in the input field. The function transforms the character to upper case.</p>
+<input type="text" id="fname" onkeyup="myFunction()">
+
+
+function myFunction() {
+  var x = document.getElementById("fname");
+  x.value = x.value.toUpperCase();
+}

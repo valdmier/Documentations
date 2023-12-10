@@ -1,0 +1,52 @@
+**Computer Process Overview:**
+
+**1. User**
+- Initiates the computer process with a specific task in mind.
+- Example: You, as a user, accessing this reading.
+
+
+===
+2. Application
+- The software program users interact with to complete tasks.
+- Examples: Calculator application for calculations, word processing application for writing reports.
+- Second part of the process.
+
+===
+3. Operating System (OS)
+- Receives the user's request from the application.
+- Interprets and directs the request's flow.
+- Sends the request to applicable hardware components.
+- Critical in completing tasks but often works behind the scenes.
+- Analogous to a restaurant kitchen in terms of processing requests.
+
+===
+4. Hardware
+- Performs processing tasks to fulfill user requests.
+- Examples: CPU for calculations, hard drive for saving files.
+- Sends output back to the OS for display to the user.
+
+
+===
+Example: Downloading a File from an Internet Browser
+
+- **User Decision:** User wants to download an online file, clicks on the download button in the internet browser.
+
+- **Internet Browser:** Communicates the download action to the OS.
+
+- **Operating System (OS):**
+  - Receives the download request.
+  - Directs the request to the appropriate hardware for processing.
+
+- **Hardware:**
+  - Initiates the download process.
+  - Communicates download progress to the OS.
+
+- **Internet Browser:**
+  - Informs the user when the file download is complete.
+
+**Overall Analogy:**
+- The computer process is similar to ordering food at a restaurant.
+- User's specific requests are like food orders.
+- Hardware processing is analogous to kitchen work.
+- The OS functions behind the scenes, similar to the kitchen, to interpret and fulfill requests.
+- Users receive the results of their requests, just like receiving ordered food.

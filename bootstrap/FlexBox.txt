@@ -1,0 +1,400 @@
+
+b4 u start here u should navs if u forgot then check the navs document i made 
+
+note:if u use any element other than navs then u have to add a class of d-flex to the div that holds it
+
+but also it doesnt matter the flexBox works with almost evey element if u want to see how it works with buttons fpr example then go to the end of this document n u will see some examples on buttons there
+
+--
+
+for more options of positioning:
+
+https://getbootstrap.com/docs/4.1/utilities/flex/
+
+
+--
+
+
+sssoooo leettss gggeett started::::
+
+
+making a row of flex boxes:
+
+    <div class="container">
+
+<h1 class="display-4 text-center ">Navs</h1>
+
+<div class="mt-3 nav nav-pills flex-row bg-light">
+  
+    <a href="#" class="nav-link activet">First</a>
+   <a href="#" class="nav-link disabled">Second</a>
+   <a href="#" class="nav-link">Third</a>
+    <a href="#" class="nav-link">fourith</a>
+    
+    
+</div>
+
+
+
+
+<--!n u can reverse it too by the the .flex-row-reverse class :-->
+
+<div class="mt-3 nav nav-pills flex-row-reverse">
+  
+    <a href="#" class=" nav-link active">First</a>
+   <a href="#" class="nav-link disabled">Second</a>
+   <a href="#" class="nav-link">Third</a>
+    <a href="#" class="nav-link">fourith</a>
+    
+    
+</div>
+
+    </div>
+        
+
+
+===
+
+making a column instead of a row with .flex-column class:
+
+
+
+    <div class="container">
+<h1 class="display-4 text-center ">Navs</h1>
+
+<div class="mt-3 nav nav-pills flex-column bg-light">
+  
+    <a href="#" class="nav-link nav-items active">First</a>
+   <a href="#" class="nav-link disabled">Second</a>
+   <a href="#" class="nav-link">Third</a>
+    <a href="#" class="nav-link">fourith</a>
+    
+    
+</div>
+
+
+
+===
+
+
+to make it column in sm only and a row in xs n md n bigger:
+
+
+
+<div class="container">
+    <h1 class="display-4 text-center ">Navs</h1>
+    
+    <div class="mt-3 nav nav-pills flex-row flex-sm-column flex-md-row bg-light">
+      
+        <a href="#" class="nav-link active">First</a>
+       <a href="#" class="nav-link disabled">Second</a>
+       <a href="#" class="nav-link">Third</a>
+        <a href="#" class="nav-link">fourith</a>
+        
+        
+    </div>
+    
+    
+        
+        
+    </div>
+
+
+
+===
+
+n u can reverse it too as colunm:
+
+
+<div class="container">
+    <h1 class="display-4 text-center ">Navs</h1>
+    
+    <div class="mt-3 nav nav-pills  flex-column-reverse bg-light">
+      
+        <a href="#" class="nav-link active">First</a>
+       <a href="#" class="nav-link disabled">Second</a>
+       <a href="#" class="nav-link">Third</a>
+        <a href="#" class="nav-link">fourith</a>
+        
+        
+    </div>
+    
+    
+        
+        
+    </div>
+
+
+===
+
+to make in the in end of the container u puted in:
+
+
+<div class="container">
+    <h1 class="display-4 text-center ">Navs</h1>
+    
+    <div class="mt-3 nav nav-pills justify-content-end flex-row bg-light">
+      
+        <a href="#" class="nav-link active">First</a>
+       <a href="#" class="nav-link disabled">Second</a>
+       <a href="#" class="nav-link">Third</a>
+        <a href="#" class="nav-link">fourith</a>
+        
+        
+    </div>
+    
+    
+        
+        
+    </div>
+
+===
+
+to make it in the start of the container u put in:
+
+
+
+<div class="container">
+    <h1 class="display-4 text-center ">Navs</h1>
+    
+    <div class="mt-3 flex-row nav  nav-pills justify-content-start bg-light">
+      
+        <a href="#" class="nav-link active">First</a>
+       <a href="#" class="nav-link disabled">Second</a>
+       <a href="#" class="nav-link">Third</a>
+        <a href="#" class="nav-link">fourith</a>
+        
+        
+    </div>
+    
+    
+        
+        
+    </div>
+
+
+===
+
+
+to make it in the center of the container u put in:
+
+
+<div class="container">
+    <h1 class="display-4 text-center ">Navs</h1>
+    
+    <div class="mt-3 flex-row nav  nav-pills justify-content-center bg-light">
+      
+        <a href="#" class="nav-link active">First</a>
+       <a href="#" class="nav-link disabled">Second</a>
+       <a href="#" class="nav-link">Third</a>
+        <a href="#" class="nav-link">fourith</a>
+        
+        
+    </div>
+    
+    
+        
+        
+    </div>
+
+
+===
+
+to make it devide the space of the container between the elemnts:
+
+
+
+<div class="container">
+    <h1 class="display-4 text-center ">Navs</h1>
+    
+    <div class="mt-3 flex-row nav  nav-pills justify-content-between bg-light">
+      
+        <a href="#" class="nav-link active">First</a>
+       <a href="#" class="nav-link disabled">Second</a>
+       <a href="#" class="nav-link">Third</a>
+        <a href="#" class="nav-link">fourith</a>
+        
+        
+    </div>
+    
+    
+        
+        
+    </div>
+
+
+
+===
+
+to make it devide the space of the container around the elemnts:
+
+
+<div class="container">
+    <h1 class="display-4 text-center ">Navs</h1>
+    
+    <div class="mt-3 flex-row nav  nav-pills justify-content-around bg-light">
+      
+        <a href="#" class="nav-link active">First</a>
+       <a href="#" class="nav-link disabled">Second</a>
+       <a href="#" class="nav-link">Third</a>
+        <a href="#" class="nav-link">fourith</a>
+        
+        
+    </div>
+    
+    
+        
+        
+    </div>
+
+
+===
+
+to make the elements fill the container:
+
+
+<div class="container">
+    <h1 class="display-4 text-center ">Navs</h1>
+    
+    <div class="mt-3  flex-row nav  nav-pills bg-light">
+      
+        <a href="#" class="nav-link active flex-fill">First</a>
+       <a href="#" class="nav-link disabled flex-fill">Second</a>
+       <a href="#" class="nav-link flex-fill">Third</a>
+        <a href="#" class="nav-link flex-fill">fourith</a>
+        
+        
+    </div>
+    
+    
+        
+        
+    </div>
+
+
+
+
+
+===
+
+
+
+to make an element muc bigger than the others:
+
+
+
+<div class="container">
+    <h1 class="display-4 text-center ">Navs</h1>
+    
+    <div class="mt-3  flex-row nav  nav-pills bg-light">
+      
+        <a href="#" class="nav-link active flex-grow-1">First</a>
+       <a href="#" class="nav-link disabled">Second</a>
+       <a href="#" class="nav-link">Third</a>
+        <a href="#" class="nav-link">fourith</a>
+        
+        
+    </div>
+    
+    
+        
+        
+    </div>
+
+
+===
+note:if u use any element other than navs then u have to add a class of d-flex to the div that holds it
+
+---
+to use the flex box with buttons:
+
+--
+around:
+
+<div class="container">
+    <h1 class="display-4 text-center ">Navs</h1>
+    
+    <div class="mt-3 d-flex bg-light justify-content-around">
+      
+     <button class="btn btn-lg btn-danger">Button 1</button>
+     <button class="btn btn-lg btn-warning">Button 2</button>
+     <button class="btn btn-lg btn-success">Button 3</button>
+     <button class="btn btn-lg btn-info">Button 4</button>
+        
+    </div>
+    
+    
+        
+        
+    </div>
+
+---
+to make it a column:
+
+<div class="container">
+    <h1 class="display-4 text-center ">Navs</h1>
+    
+    <div class="mt-3 d-flex bg-light flex-column">
+      
+     <button class="btn btn-lg btn-danger">Button 1</button>
+     <button class="btn btn-lg btn-warning">Button 2</button>
+     <button class="btn btn-lg btn-success">Button 3</button>
+     <button class="btn btn-lg btn-info">Button 4</button>
+        
+    </div>
+    
+    
+        
+        
+    </div>
+
+---
+
+centered:
+
+
+<div class="container">
+    <h1 class="display-4 text-center ">Navs</h1>
+    
+    <div class="mt-3 d-flex bg-light justify-content-center">
+      
+     <button class="btn btn-lg btn-danger">Button 1</button>
+     <button class="btn btn-lg btn-warning">Button 2</button>
+     <button class="btn btn-lg btn-success">Button 3</button>
+     <button class="btn btn-lg btn-info">Button 4</button>
+        
+    </div>
+    
+    
+        
+        
+    </div>
+
+
+---
+pput it in the end:
+
+<div class="container">
+    <h1 class="display-4 text-center ">Navs</h1>
+    
+    <div class="mt-3 d-flex bg-light justify-content-end">
+      
+     <button class="btn btn-lg btn-danger">Button 1</button>
+     <button class="btn btn-lg btn-warning">Button 2</button>
+     <button class="btn btn-lg btn-success">Button 3</button>
+     <button class="btn btn-lg btn-info">Button 4</button>
+        
+    </div>
+    
+    
+        
+        
+    </div>
+
+
+
+
+
+
+
+

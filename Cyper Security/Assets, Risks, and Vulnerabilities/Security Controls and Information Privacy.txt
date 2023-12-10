@@ -1,0 +1,86 @@
+Security controls are:
+
+ safeguards or countermeasures to avoid, detect, counteract, or minimize security risks to physical property, information, computer systems, or other assets.
+
+===
+Types of Security Controls 
+
+===
+1- Technical Controls:
+
+Definition: Technologies used to protect assets.
+Examples: Encryption, authentication systems, etc.
+
+===
+2- Operational Controls:
+
+Definition: Day-to-day security maintenance, often carried out by people.
+Examples: Awareness training, incident response, etc.
+
+===
+3- Managerial Controls:
+
+Definition: Controls that oversee how technical and operational controls reduce risk.
+Examples: Policies, standards, procedures, etc.
+
+===
+Principle of Least Privilege:
+
+Access to data should be limited based on the user and situation.
+
+Not everyone in a company should have access to all user information.
+
+Security controls enforce the principle of least privilege.
+
+===
+Data Owners vs. Data Custodians:
+
+Data Owner: Decides who can access, edit, use, or destroy their information.
+
+Data Custodian: Responsible for safe handling, transport, and storage of information.
+
+Organizations and their systems can also be custodians of people's information.
+
+===
+Examplees of Security Controls:
+
+1- Encryption:
+The procces of converting data from a readable format to an encoded format. Typically, encryption involves converting data from plaintext to ciphertext.
+
+2- Authentication:
+The process of verifying who someone or something is
+
+3- Authorization:
+authorization is used to verify that a person has permission to access a resource
+
+===
+
+- Examples of physical controls:
+
+Gates, fences, and locks
+
+Security guards
+
+Closed-circuit television (CCTV), surveillance cameras, and motion detectors
+
+Access cards or badges to enter office spaces
+
+---
+- Examples of technical controls:
+
+Firewalls
+
+MFA
+
+Antivirus software
+
+
+--
+- Examples of administrative controls:
+
+Separation of duties
+
+Authorization
+
+Asset classification
+

@@ -1,0 +1,16 @@
+
+Function Expressions :
+
+it a another way of definding a function:
+
+very simple:
+
+example:
+
+
+const hiFunc = function () {
+    let dvd = "ima not here";
+    console.log(dvd);
+}
+
+hiFunc();

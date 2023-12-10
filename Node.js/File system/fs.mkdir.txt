@@ -1,0 +1,23 @@
+fs.mkdir :
+
+is for making folders.
+
+===
+
+let fs = require("fs");
+
+fs.mkdir('hiImNewFile', { recursive: true }, (err) => {
+    if (err) throw err;
+});
+
+or simply 
+
+let fs = require("fs");
+
+fs.mkdirSync('hiImNewFile');
+
+
+
+
+
+

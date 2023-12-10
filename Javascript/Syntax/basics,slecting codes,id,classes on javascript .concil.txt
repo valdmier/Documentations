@@ -1,0 +1,283 @@
+basics 
+if something went wrong 
+note:in every code make sure to the capital capital
+n the small small n make sure to put 
+semicolon
+
+mentioning:
+
+to select the whole body innerhtml:
+
+document.body.innerHTML="hacked by lucifer";
+
+--
+
+
+and in the innerHTML you can add some html
+tags like:
+
+documen.body.innerHTML="<strong>hacked</strong> by lucifer"
+
+
+
+but the innerHTML property 
+cleaer the the old things you added to the orginal 
+html 
+
+
+==
+
+ if you wanted something that just put a new 
+text:
+
+
+headingEl.textContent = "hacked by lucifer";
+
+
+
+note: you cant add tags like <strong> to it
+
+
+===
+
+
+to mention an id called heading:
+//1-
+
+
+var headingEL = document.getElementById
+("headingEL"); 
+
+
+or
+
+
+var headingEL = docment.querySelector
+("#headingEL");
+
+
+//2-
+
+
+headingEl.innerHTML = "write here what ever 
+you want instead what was wrotten";
+
+//Why did we store the id in variablein the
+1st step n named it with EL in the end?:
+
+because we cant change the id directly
+later so we have to use variable to mention
+it lin the next step and EL means its an 
+element in the heeding or in the body..etc
+
+
+to select classes:
+
+we use here "getElementsByClassName"
+or
+"querySelector"
+
+1
+
+var bla = document.getElementsByClass
+Name("nameEls")
+
+or
+
+var bla  = docment.querySelector
+(".nameEls");
+
+2
+var i = 0
+
+  while(i < bla.length)
+ {
+       bla[i].innerHTML = "cat";
+               
+        i++
+   } 
+//like that we will change every thing in
+the class to "cat"
+
+//why i wrote bla[i]?:
+
+cuz there like 5 codes in the class
+ so he will run
+ bla[0],bla[1],bla[2],bla[3]
+bla[4]...n stops cuz the the 
+bla.length is 5 n he cant eqaul it
+
+
+
+//Why did we store the id in variable in the
+1st step?:
+
+because we cant change the id directly
+later so we have to use variable to mention
+it lin the next step and EL means its an 
+element in the heeding or in the body..etc
+
+
+
+to select codes(h1,p...etc):
+
+we use something called:
+"getElementsByTagName"
+or
+"querySelector"
+
+so lets suposse we want to select all the 
+"span" tags in the page:
+1
+
+var nameEls = document.getElementsByTagName
+("span");
+
+or 
+
+var nameE1s = docment.querySelector("span");
+
+2 if u want to call them one by one: 
+
+  nameEls[0].innerHTML = "cat";
+  nameEls[1].innerHTML = "cat";
+  nameEls[2].innerHTML = "cat";
+  nameEls[3].innerHTML = "cat";
+  nameEls[4].innerHTML = "cat";
+//etc...as much as you have..here we have 5
+
+n cant use the same way like before in
+the id cuz id length before was one part
+..in this webpage there are so many spans
+ so we will use another way using loop :
+
+var i = 0
+
+  while(i < nameEls.length)
+ {
+       nameEls[i].innerHTML = "cat";
+               
+        i++
+   } 
+//like that we will change every thing in
+the span to "cat"
+
+//why i wrote nameEls[i]?:
+
+cuz there like 5 spans so he will run
+ nameEls[0],nameEls[1],nameEls[2],nameEls[3]
+nameEls[4]...n stops cuz the the 
+nameEls.length is 5 n he cant eqaul it
+
+
+
+//Why did we store the id in variable in the
+1st step?:
+
+because we cant change the id directly
+later so we have to use variable to mention
+it lin the next step and EL means its an 
+element in the heeding or in the body..etc
+
+
+
+
+console: is something in the browsers that
+shows you if something is working or not 
+
+you can make it show up by pressing  F12
+
+then wait a while then press the console 
+word
+
+imprtant:to make sure that something is 
+working using console:
+
+1 make a variable of that you want to 
+test out
+         the variable name you made
+2  console.log(nameEls);
+
+and put in variable the thing you want 
+to test
+
+
+advanced selecting:
+
+to continue u have to know css selectors!!
+
+<p class="animal"> dog </p>
+ 
+how to select this css selectors in java:
+
+ p .animal {color: red;
+}
+
+by the querySelectorAll
+1
+var nameEls = document.querySelector
+All("p .animal");
+
+2
+2 if u want to call them one by one: 
+
+  nameEls[0].innerHTML = "cat";
+  nameEls[1].innerHTML = "cat";
+  nameEls[2].innerHTML = "cat";
+  nameEls[3].innerHTML = "cat";
+  nameEls[4].innerHTML = "cat";
+//etc...as much as you have..here we have 5
+
+
+ or using loop(better) :
+
+var i = 0
+
+  while(i < nameEls.length)
+ {
+       nameEls[i].innerHTML = "cat";
+               
+        i++
+   } 
+
+      
+
+you also can replace "getElementsByClass
+Name"and "getElementsByid" 
+
+by  "querySelectorAll" :
+
+for class:
+1
+<h1 class="heading">All about dogs</h1>
+2
+var headingEl = document.querySelector
+(".heading");
+ 
+
+headingEl.innerHTML = "All about cats";
+
+
+for id:
+1
+<h1 id="heading">All about dogs</h1>
+2
+var headingEl = document.querySelectorA
+ll("#heading");
+ 
+
+headingEl.innerHTML = "All about cats";
+
+n u can try other stuff
+
+The difference between
+ querySelector():
+يشتغل فيه عامل واحد بس للتحديد مثلا كلاس من نوع واحد
+ او اي دي من نوع واحد فقط ولازم تحط #لو اي دي ونقطه لو كلاس
+ and
+ querySelectorAll() : تقدر تسلكت فيه عده عوامل للتحديد 
+   مثلا كل اللي برغراف و كلاس معين
+ وهكذا ومو لازم تحط العلامه حق الايدي اوالكلاس
+يشتغل
+
+

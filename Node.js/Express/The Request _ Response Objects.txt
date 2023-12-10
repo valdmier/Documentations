@@ -1,0 +1,69 @@
+
+
+you can name them whatever u want reqest and response 
+or req n res...whatever
+--
+
+Request
+
+The req object represents the HTTP request and has properties 
+for the request query string, parameters, body, HTTP headers, 
+and so on. In this documentation and by convention, the object 
+is always referred to as req (and the HTTP response is res)
+
+
+but its actual name is determined by the parameters to the 
+callback function in which you’re working for example:
+
+app.get('/user/:id', function (req, res) {
+  res.send('user ' + req.params.id)
+})
+
+But you could just as well have:
+
+app.get('/user/:id', function (request, response) {
+  response.send('user ' + request.params.id)
+})
+
+==
+Response
+
+The res object represents the HTTP response that an Express app sends when it gets an HTTP request.
+
+In this documentation and by convention, the object is always referred to as res (and the HTTP request is req) but its actual name is determined by the parameters to the callback function in which you’re working.
+
+For example:
+
+app.get('/user/:id', function (req, res) {
+  res.send('user ' + req.params.id)
+})
+
+But you could just as well have:
+
+app.get('/user/:id', function (request, response) {
+  response.send('user ' + request.params.id)
+})
+
+
+===
+final example:
+
+app.listen(8080, () => {
+    console.log('RUNNING ON PORT 8080!');
+});
+//we r saying listen for new reqests
+app.use((req, res) => {
+    res.send("Hello, we got your request!");
+})
+
+or 
+app.listen(8080, () => {
+    console.log('RUNNING ON PORT 8080!');
+});
+//we r saying listen for new reqests
+app.use((req, res) => {
+    res.send("<h1>this h1</h1>");
+})
+
+
+

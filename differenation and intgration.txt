@@ -1,0 +1,8 @@
+integration:
+cos = sin
+sin = -cos
+
+
+diffeerentation:
+sin = cos
+cos = -sin

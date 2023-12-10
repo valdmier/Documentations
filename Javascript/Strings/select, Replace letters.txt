@@ -1,0 +1,51 @@
+
+
+how to find, select a letter:
+
+charAt:
+
+var myString = "iam in love with javascript",
+  
+
+//to tell him hey find the 10th letter
+
+          
+    String = myString.charAt(10); 
+
+
+console.log(String);
+
+
+
+n the result :
+
+e
+
+
+cuz its the 10th letter
+===
+
+replace:
+
+to replace a word or letters instead of another
+
+var myString = "iam in love with javascript",
+  
+          
+    replacedWord = myString.replace("javascript",
+ "programoing"); 
+
+  //to tell him what to replace n what to replace
+
+console.log(replacedWord);
+
+
+
+n the result :
+
+
+iam in love with programoing
+
+
+
+

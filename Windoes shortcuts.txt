@@ -1,0 +1,19 @@
+End task, SHUTDOWN: Alt + f4
+
+switch tabs: Alt + tab
+
+Maximize Window: F11 
+
+Open Task View: Windows logo + Tab
+
+Display and hide the desktop: Windows logo key  + D
+
+Lock your PC: Windows logo key  + L
+
+Delete selected item permanently (skip the Recycle Bin): Shift + Delete
+
+Rename a selected item: F2
+
+Refresh: F5
+
+play arouund with the window: windows + arrows

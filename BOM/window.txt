@@ -1,0 +1,20 @@
+The window is the defult object to the browser 
+ supported by all browsers.
+ It represents the browser's window.
+
+all the global elements r members if the window..even the document itself n also global functions methods..etc
+
+
+to prove that all global elements r members of the window try puting lets try this out:
+
+window.document.title
+
+n 
+
+document.title 
+
+it will give the same result cuz the browser by defult search in the window
+
+example:
+
+console.log(window.document.title + " + " + document.title)

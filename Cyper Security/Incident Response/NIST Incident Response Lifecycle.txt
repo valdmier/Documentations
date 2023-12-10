@@ -1,0 +1,14 @@
+The NIST incident response lifecycle
+
+===
+1- PREPARATION 
+
+2- DETECTION
+
+3- CONTAINMENT ERADICATION & RECOVERY
+
+4- POST-INCIDENT ACTIVITY
+
+---
+
+<img title="" src="https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/Y3_XY9FnQI-tOxD814iE9A_ab92e32224d44581bbebda615a6928e1_5HQqmTCRyAsk3k7zw33nhwXLDESzbaiKfn6HhDSA8y0CvF_e0HU48EHIbo69MLoLw_xYYPG3L3k0T1aUyMywh34HZzrSJIFvkkcQaezIL1vDK2RLZtT-9UHrCm-QuzQptYyyurePnWXXW-a-LFmo4ytVWGHGZQChMHTFaH_6CKmrYwY7a1YkbtTkEsf6xg?expiry=1697500800000&hmac=qNmOgp-JuHamTQd_8EaUIG0eIt6piPT3bgfaFtJz24g" alt="Les quatre phases du cycle de réponse aux incidents du NIST, représentées sous forme d'icônes avec des flèches présentant l'o" data-align="center" width="806">

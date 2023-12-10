@@ -1,0 +1,64 @@
+BETWEEN & Other Numeric Data Operators
+
+
+===
+Operators for Filtering Dates and Numbers
+
+- Security analysts deal with various data types, including numeric and date/time data.
+
+- Numeric data examples:
+  - Number of login attempts
+  - Count of specific log entries
+  - Data volume sent from a source
+  - Data volume sent to a destination
+
+- Date and time data examples:
+  - Timestamps in logs
+  - Login dates and times
+  - Patch dates
+  - Connection durations
+
+===
+Comparison Operators
+
+- SQL uses comparison operators for numeric and date/time filtering.
+
+| Operator | Use                  |
+|----------|----------------------|
+| <        | Less than            |
+| >        | Greater than         |
+| =        | Equal to             |
+| <=       | Less than or equal   |
+| >=       | Greater than or equal|
+| <>       | Not equal to         |
+
+- You can use `!=` as an alternative for "not equal to."
+
+
+===
+Using Operators in Filters
+
+- Operators are applied in the `WHERE` clause at the end of a query.
+
+- Example using the `>` operator:
+  ```sql
+  SELECT firstname, lastname, birthdate
+  FROM employees
+  WHERE birthdate > '1970-01-01';
+  ```
+  - Returns employees born after '1970-01-01' (exclusive).
+  - Using `>=` would include results on '1970-01-01' (inclusive).
+
+
+===
+BETWEEN Operator
+
+- The `BETWEEN` operator filters for numbers or dates within a range.
+
+- Example: Finding employees hired between January 1, 2002, and January 1, 2003.
+  
+  SELECT firstname, lastname, hiredate
+  FROM employees
+  WHERE hiredate BETWEEN '2002-01-01' AND '2003-01-01';
+ 
+  - The `BETWEEN` operator is inclusive, including the start and end dates in the results.

@@ -1,0 +1,27 @@
+Proxy server: A server that fulfills the request of the clinet by forwarding them on to other severs.
+
+A proxy server is a security system for networks. It acts like a middleman between your network and the internet. When someone wants to connect to your network, the proxy server checks if it's safe. It has a different public address, hiding your network's address, which keeps it safe from bad actors online.
+
+Here's how it works:
+
+1. IP Address Protection: It hides your real IP address, so when people connect to your network, they see a different address. This adds a layer of security.
+
+2. Website Blocking: It can also block access to unsafe websites that shouldn't be visited on your network.
+
+3. Data Storage: It stores frequently requested data, so it doesn't have to keep contacting your network's servers. This makes things faster and more secure.
+
+===
+Tpes of proxies:
+
+- Forward proxy server: (network > internet)
+Regulates and restricts person's access to the internet.
+
+a forward proxy server receives outgoing traffic from an employee, approves it, and then forwards it on to the destination on the internet.
+==
+- Rerverse proxy server: (internet > internal servrs)
+Regulates and restricts the internet's access to an internal server.
+
+This setup is useful for protecting internal web servers containing confidential data from exposing their IP address to external parties.
+
+===
+- An email proxy server is another valuable security tool. It filters spam email by verifying whether a sender's address was forged. This reduces the risk of phishing attacks that impersonate people known to the

@@ -1,0 +1,40 @@
+link();
+
+
+it just like if you want to hyper link a string
+
+
+example:
+
+
+var myString = "google",
+
+    String = myString.link("www.google.com");
+
+console.log(String);
+
+
+
+
+
+result:
+
+<a href="www.google.com">google</a>
+
+
+
+===
+
+
+
+var myLink = "w3school",
+    
+    myLinked = myLink.link("https://www.w3schools.com");
+
+console.log(myLinked);
+
+
+
+result:
+
+a href="https://www.w3schools.com">w3school</a>

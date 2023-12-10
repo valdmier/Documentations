@@ -1,0 +1,25 @@
+
+Tooltips:
+note:tooltips could be used with almost any html item
+
+Tooltips is like a notifiction that ppers when you hover
+
+but to make this thing really work..make sure that you put this in the script file:
+
+
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
+
+
+---
+lets get started with an example:
+
+<button class="btn btn-primary" data-toggle="tooltip"  data-placement="right" title="So you have put the js code to be able to see me(::!!">Hover on me</button>
+
+
+the data-toggle: is to tell bootstrap that this is a Tooltip.
+
+data placment: to tell bootstrap in witch side the tooltip should be palced in(left,top..etx).
+
+the tittle: is to tell bootstrap what should be written in the tooltip.

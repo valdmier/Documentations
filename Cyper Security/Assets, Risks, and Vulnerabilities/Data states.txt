@@ -1,0 +1,17 @@
+Data states
+
+===
+Data:
+
+to information translated, processed, or stored by computers. In today's connected world, data is exchanged among billions of devices linked to the internet.
+
+===
+States of Data:
+
+- Data in Use: Data being accessed by one or more users, such as checking emails.
+
+- Data in Transit: Data traveling from one point to another, for instance, sending a message or email while connected to the internet.
+
+- Data at Rest: Data not currently being accessed and typically stored on a physical device, like when a laptop is closed and idle.
+
+===

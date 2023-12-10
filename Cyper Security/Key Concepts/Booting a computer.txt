@@ -1,0 +1,13 @@
+booting a computer
+
+steps 1:
+
+The user powers on the computer.
+
+step 2:
+
+BIOS or UEFI loads the bootloader.
+
+step 3: 
+
+The bootloader program loads the OS.

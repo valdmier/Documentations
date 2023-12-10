@@ -1,0 +1,16 @@
+function chooseYears(start, end) {
+    "use strict";
+    var years;
+    
+    document.write("<select>");
+    
+    for (years = start; years <= end; years = years + 1) {
+        
+        document.write("<option>" + years + "</option>");
+        
+    }
+    
+    document.write("</select>");
+}
+
+chooseYears(1900, 2020);

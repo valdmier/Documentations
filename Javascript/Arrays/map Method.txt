@@ -1,0 +1,64 @@
+
+
+the map method:
+
+the map() method creates a new array calling for every array element.
+
+Note: this method does not change the original array it  just creates a new one.
+
+===
+example:
+
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+const doubles = numbers.map(function (Num) {
+    return Num * 2;
+
+
+});
+
+console.log(doubles);
+-
+output:
+
+ [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+
+===
+to tell it to create a new array with the even numbers omly:
+
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+const enenNums = numbers.map(function (Num) {
+    if (Num % 2 === 0) {
+        return Num;
+
+    }
+
+
+});
+
+console.log(enenNums);
+
+ [undefined, 2, undefined, 4, undefined, 6, undefined, 8, undefined, 10]
+
+===
+
+map with arrow functions:
+
+const movies = [
+    {
+        title: "alone",
+        score: 81
+    },
+
+    {
+        title: "Aloen",
+        score: 90
+    }];
+
+let myMovies = movies.map((movie) => (
+    ` ${movie.title}  ${movie.score / 10}`
+))
+
+console.log(myMovies);
+

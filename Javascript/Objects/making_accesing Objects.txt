@@ -1,0 +1,42 @@
+
+How to create an object:
+
+const myObject = {
+    firstName: "Mohammed",
+    lastName: "Alsolaimani",
+    friendsNum: 3,
+    friendsNames: ["Saud", "Bon bonn", "Mohanad"],
+
+ //yeah thats an array indide an object
+   
+ familyJobs: { dad: "acontant", mom: "House wife" },
+
+ //yeh object nested in object
+
+    taken: true,
+    happy: true
+
+};
+---
+
+to Access the object maim:
+
+console.log(myObject.familyJobs);
+
+---
+to access certen element:
+
+console.log(myObject.happy);
+
+
+---
+to access the object nested in the object :
+
+console.log(myObject.familyJobs.dad);
+
+
+---
+
+to access an Array element nested in the object
+
+console.log(myObject.friendsNames[2]);

@@ -1,0 +1,71 @@
+
+offset:
+
+count: content, padding, border.
+
+doesnt count: nargin.
+
+
+The offsetHeight property returns the viewable height 
+of an element in pixels, including padding, border and
+scrollbar, but not the margin.
+
+
+
+The reason why the "viewable" word is specified, is 
+
+because if the element's content is taller than the 
+
+actual height of the element, this property will only
+ 
+return the height that is visible 
+
+
+
+
+defference between client, scroll, offset:
+
+the client propertie :
+
+return the viewable height and width of an element, 
+only including the padding.
+
+the scroll propertie :
+
+return the invisible height and width of an element, 
+only including the padding.
+
+the offset propertie :
+
+return the invisible height and width of an element, 
+only including the padding.
+
+
+example:
+
+<p id = "p">Click the buttons to give focus and/or remove focus from the text field.</p>
+
+
+#p {
+  height: 250px;
+  width: 400px;
+  padding: 5px;
+  margin: 20px;
+  border: 5px solid red;
+  background-color: lightblue;
+}
+
+var myD = document.getElementById("mainDiv"),
+    alert,
+    myP =  document.getElementById("childP");
+
+console.log(myD.offsetHeight + " px " + myD.offsetWidth + " px");
+
+
+result: 354 px 462 px
+
+
+
+
+
+

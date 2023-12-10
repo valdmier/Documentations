@@ -1,0 +1,24 @@
+ NIST's Risk Management Framework or RMF:
+
+===
+There are seven steps in the RMF: 
+1- prepare:
+ Prepare refers to activities that are necessary to manage security and privacy risks before a breach occurs. you'll likely use this step to monitor for risks and identify controls that can be used to reduce those risks.
+
+2- categorize:
+ Step two is categorize, which is used to develop risk management processes and tasks.
+
+3- select
+choose, customize, and capture documentation of the controls that protect an organization. An example of the select step would be keeping a playbook up-to-date.
+
+4- implement:
+ implement security and privacy plans for the organization. Having good plans in place is essential for minimizing the impact of ongoing security risks. 
+
+5- assess
+ Step five is assess. Assess means to determine if established controls are implemented correctly.
+
+6- Authorize:
+ Authorize means being accountable for the security and privacy risks that may exist in an organization. 
+
+7- monitor:
+Monitor means to be aware of how systems are operating. Assessing and maintaining technical operations are tasks that analysts complete daily.

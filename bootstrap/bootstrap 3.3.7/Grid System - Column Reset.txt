@@ -1,0 +1,18 @@
+if an element came on an element and the bigger element covered the small element ..then you should use:
+
+clearfix to separate them 
+
+
+example:
+
+<div>i am covering it</div>
+
+
+<div class="clearfix"> </div>//haha i will separate them
+
+
+<div> noo im under him ..u cant see me</div>
+
+
+
+note :i couldnt do a real example bit if it ever happend to ypu do it like that^^

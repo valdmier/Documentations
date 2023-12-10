@@ -1,0 +1,36 @@
+
+var list = ["my jobs :"];
+let answer = prompt("new,list,delete,quit?");
+
+while (answer !== "quit") {
+    answer = prompt("new,list,delete,quit?");
+
+    if (answer === "new") {
+        console.log("----")
+        const newItem = prompt("what do you want to do");
+        list.push(newItem);
+        console.log(`${newItem} added`)
+    }
+
+
+    else if (answer === "list") {
+        console.log("----")
+        for (let i = 0; i < list.length; i++) {
+            console.log(`${i} : ${list[i]}`)
+        }
+    }
+
+
+    else if (answer === "delete") {
+        var deletedItem = prompt("put the index number of the item you want to delete");
+        if (deletedItem != null) {
+            list.splice(deletedItem);
+            console.log("----");
+            console.log("deleted");
+        }
+    }
+
+    else if (answer === "quit") {
+        break;
+    }
+}

@@ -1,0 +1,42 @@
+IP Spoofing:
+
+A network attack performed when an attcker changes the source IP of a data packet to impersonate an authorized system and gain access to a network.
+
+===
+In this kind of attack, the hacker is pretending to be someone they are not so they can communicate over the network with the target computer and get past firewall rules that may prevent outside traffic.
+
+===
+Common IP spoofing attacks:
+
+- On-path attack:
+
+A makicious actor places themselves in the middle of authorized connection and inercepts or alters the data in transit.
+
+Then they sniff the packet information to learn the IP and MAC addresses to devices that are communicating with each other. After they have this information, they can pretend to be either of these devices.
+
+- Replay attack:
+is a network attack performed when a malicious actor intercepts a data packet in transit and delays it or repeats it at another time.
+
+A network attack 
+
+- Smurf attack: 
+
+A combination of a DDoS attack and an IP spoofing attack. The attacker sniffs an authorized user's IP address and floods it with packets. This overwhelms the target computer and can bring down a server or the entire network.
+
+
+===
+Protecting Against IP Spoofing:
+
+- Encryption
+
+Always implement encryption for secure data transfer, preventing data from being readable by malicious actors.
+
+- Firewall Configuration
+
++ Configure firewalls to guard against IP spoofing.
+
++ IP spoofing changes sender's address to match the target network's address.
+
++ Create a firewall rule to reject incoming traffic with the same IP as the local network.
+
++ This ensures that only authorized devices are allowed on the local network.

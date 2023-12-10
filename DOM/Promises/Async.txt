@@ -1,0 +1,28 @@
+ async keyword: 
+
+The keyword async before a function makes the function return
+ a promise.
+
+===
+
+
+const Request = (url) => {
+   return myFunction(); }
+
+   async function myFunction(resolve, reject) {
+    let rand = Math.random();
+    if(rand < 0.7) {
+        setTimeout(() => {
+            resolve();
+        }, 500)
+    }else{
+        reject("Request Error");
+    }};
+    
+Request("www.ss.c")
+.then(() => {
+    console.log('DONE, HERE IS YOUR DATA');
+})
+.catch((err) => {
+    console.log("OH NO", err);
+});

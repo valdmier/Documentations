@@ -1,0 +1,22 @@
+it simple just see it for yourself
+
+
+===
+index:app.get('/cats', (req, res) => {
+    const cats = [
+        "blue", "nigro", "monty", "winston"
+    ]
+    res.render("cats", { cats })
+})
+
+app.listen(3000, () => {
+    console.log('RUNNING ON PORT 3000!');
+});
+
+cats file:   <h1>Welcome to cats house</h1>
+    <ul>here's the cats
+        <% for(let cat of cats) {%>
+            <li>
+                <%= cat %>
+            </li>
+            <% } %>

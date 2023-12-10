@@ -1,0 +1,47 @@
+
+split():
+
+it the obesete of join().
+
+split is a way to put something instead of something 
+ 
+n it convert it from string to array
+
+like to tell him hey put a space instead every 10:
+
+var myString = "iam 10 in 11 love 11 with 11 javascript",
+
+    String = myString.split("11");
+
+console.log(String);
+
+
+
+n the result will be:
+
+["iam ", " in ", " love ", " with ", " javascript"]
+
+
+--
+
+another example:
+
+var myString = "my name is mohamed. n im 16. i live in saudi arabia.";
+
+
+console.log(myString.split("."));
+
+result:
+
+"my name is mohamed", " n im 16", " i live in saudi arabia", ""]
+
+
+
+
+and another:
+
+
+
+console.log(wordLooking4);
+
+===

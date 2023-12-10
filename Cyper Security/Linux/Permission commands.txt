@@ -1,0 +1,107 @@
+ Linux File and Directory Permissions:
+
+===
+Permissions and Authorization
+
+Permissions: Control the type of access granted for a file or directory.
+
+Authorization: Grant access to specific resources, limiting access on a need-to-know basis.
+
+
+===
+Three Types of Permissions
+
+- Read: Allows reading file contents or listing directory files.
+
+- Write: Permits modifying file contents or creating files in a directory.
+
+- Execute: Enables running executable files or accessing files within a directory.
+
+
+===
+Three Types of Owners
+
+- User: The owner of the file or directory.
+
+- Group: A set of users with shared access.
+
+- Other: All other users on the system.
+
+
+===
+Representing Permissions
+
+Permissions are represented by a 10-character string in Linux.
+
+" drwxrwxrwx "
+(Full permissions for the user, group, and other in a directory).
+
+===
+Breaking Down the Permission String
+
+- 1st Character: File type (e.g., d for directory, - for a regular file).
+
+- 2nd to 4th Characters: User permissions (read, write, execute).
+
+- 5th to 7th Characters: Group permissions (read, write, execute).
+
+- 8th to 10th Characters: Other permissions (read, write, execute). characters signify other permissions.
+
+===
+Checking Permissions with ls\
+
+ls command options:]
+
+ls -a: Displays hidden files (those starting with .).
+
+ls -l: Shows permissions for files and directories, along with additional details.
+
+ls -la: Displays permissions for all files, including hidden ones.
+
+
+===
+Changing Permissions with chmod
+
+chmod command changes permissions on files and directories.
+
+Requires two arguments:
+
+- First argument specifies permission changes.
+
+- Second argument indicates the file or directory to change.
+
+Example:
+ chmod u+rwx,g+rwx,o+rwx login_sessions.txt
+
+===
+Adds all permissions for user, group, and other.
+
+Example: 
+
+chmod u-rwx,g-rwx,o-rwx login_sessions.txt
+
+Removes all permissions for user, group, and other.
+
+Example: chmod u=r,g=r,o=r login_sessions.txt
+
+Sets read permissions for user, group, and other.
+
+
+===
+Permission Change Options
++: Adds permissions.
+-: Removes permissions.
+=: Assigns permissions exactly as specified.
+u: User permissions.
+g: Group permissions.
+o: Other permissions.
+
+
+===
+Principle of Least Privilege
+
+Principle of least privilege: Grant minimal access required for a task.
+
+Ensures users only have necessary privileges to perform their jobs.
+
+Example: Changing permissions to align with the principle of least privilege.

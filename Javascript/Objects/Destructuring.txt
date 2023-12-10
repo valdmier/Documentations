@@ -1,0 +1,54 @@
+
+
+Destructuring :
+
+The destructuring assignment syntax is a JavaScript 
+expression that makes it possible to store values from 
+arrays, or properties from objects, into
+variables.
+
+===
+example with arrays:
+
+var race = ["sami","Amanda","sara", "Naser", "ali"];
+
+const [first, second, theird] = race;
+
+console.log("1: " +first + " 2: " + second + " 3: " + theird); 
+
+//RESULT: 1: sami 2: Amanda 3: sara
+
+===
+Object destructuring:
+
+const user = {
+    id: 42,
+    is_verified: true
+};
+
+const {id, is_verified} = user;
+
+===
+We can exact properties from a object without accessing the
+ complete object. For example,
+
+Consider an object:
+
+    let person= {
+             firstName: 'Vanna',
+             lastName: 'Vang',
+             email: 'pede.et@euismodurnaNullam.ca',
+             mobileNumber: '1-289-966-7754',
+             companyName: 'Proin Mi Aliquam Company',
+             orgNumber: '03816598299',
+             gender: 'female',
+             id: "ced851f2-95f7-4619-8ba7-83fcc5684aff",
+          }
+
+Now if I want to extract only firstName and lastName from
+ the person object,
+
+I can do it as below: let { firstName , lastName } = person;
+
+The above line assigns the left side variables with values
+ of that same properties in the right side object.

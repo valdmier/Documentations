@@ -1,0 +1,14 @@
+Definition:
+
+Securing digital and physical assets. Also related to the storage maintainance and retention, and destruction of data.
+
+it includes:
+
+1- Securing digital assets
+
+2- Securing Physical assets
+
+3- Data storage and maintenance 
+
+4- Data retention and destruction of data. 
+

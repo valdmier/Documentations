@@ -1,0 +1,31 @@
+relax..go check this just and bring 
+laban or anything that helps you to relax
+okay?
+
+
+you're good enough we both know it
+
+check this honey
+
+https://www.khanacademy.org/computing/computer-programming/programming/debugging-programs/pt/debugging-with-printlns
+
+println:
+
+you can put your comands in it.. n it will
+
+show you..
+if it was copliting all of it terms n
+happening it will show "true"
+
+if not then it wiil show false
+
+like:
+println(mouseY > 100 && mouseY < 250);
+
+
+to make sure that the mouse is clicked 
+and not your miuse or any thing is the 
+proplem:
+
+println("clicked!");
+

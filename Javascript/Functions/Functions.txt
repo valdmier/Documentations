@@ -1,0 +1,63 @@
+
+Functions:
+
+A function is a code that can be called by other  or in some cases by itself(self-invoke functions).
+
+--
+syntax:
+
+function name(parameter1, parameter2, parameter3) {
+  // code to be executed
+}
+
+===
+example:
+
+function myName() {
+
+    console.log("DO");          //<<stored code 
+    console.log("RE");
+    console.log("MI");
+
+}
+
+myName();   
+
+//^^we just called the func to make it executed the cod inside 
+
+===
+to put parametrs:
+
+
+function myDice(MultyplyedNum) {
+
+    console.log(Math.floor(Math.random() * MultyplyedNum + 1));
+}
+
+myDice(10); //random num betwween 1-10
+myDice(20); //random num betwween 1-20
+myDice(30); //random num betwween 1-30
+myDice(100); //random num betwween 1-100
+
+===
+to make it with return:
+
+function mDice(MultyplyedNum1) {
+
+    let returnedValue = Math.floor(Math.random() * MultyplyedNum1 + 1);
+
+    return returnedValue;
+}
+
+console.log(mDice(5));
+
+
+
+===
+two parameters:
+
+function greet(firstName, lastName) {
+    console.log(`Mr ${lastName.charAt(0)}.${firstName} `);
+}
+
+greet("joerge", "son");

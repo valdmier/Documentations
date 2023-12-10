@@ -1,0 +1,20 @@
+!important :
+
+When an important rule is used on a style declaration, this declaration will be made no matter how specefic other style declaration are.
+
+Some rules of thumb:
+
+Always look for a way to use specificity before even considering !important
+Only use !important on page-specific CSS that overrides foreign CSS (from external libraries, like Bootstrap or normalize.css).
+Never use !important when you're writing a plugin/mashup.
+Never use !important on site-wide CSS.
+
+example:
+
+ p {
+
+            background-color:beige !important;
+          }
+          p{
+              background-color: cadetblue;
+          }

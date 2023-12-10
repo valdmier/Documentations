@@ -1,0 +1,108 @@
+Pseudo-Elements:
+
+A CSS pseudo-element is used to style specified parts
+ of an element.
+
+---
+ it can be used to:
+
+Style the first letter, or line, of an element
+Insert content before, or after, the content of an
+ element
+
+----
+All CSS Pseudo Elements
+::after
+::before
+::first-letter
+::first-line
+::selection <<this one is really helpfull and stylish لانها تعدل ع لون التحديدى مثلا بدل ازرق يصير اصفر وهكذا
+
+---
+Syntax
+selector::pseudo-element {
+  property: value;
+}
+
+---
+examples:
+
+
+to make all the selection in the page yellow not blue:
+
+::selection{
+    background-color: #ffc107;
+}
+
+===
+to select the first letter of any text tag:
+p::first-letter {
+color: white;
+background-color: red;
+                 }
+
+===
+
+
+to select the first line of any text tag:
+p::first-line {
+color: white;
+background-color: yellow;
+                 }
+
+===
+
+to put before something before any element:
+
+p::before {
+
+content: "--";
+
+width:50px;
+height:50px;
+
+color:#f00;
+           
+          }
+
+===
+like that you have a green square before every 
+paragraph n there's a lot to do with those..
+
+example: https://codepen.io/callmenick/pen/DjrAv
+
+
+p::after {
+
+content: "..."
+
+           
+          }
+
+like that we have 3 ponits after each element
+
+
+
+Note: The ::first-letter pseudo-element can only be
+ applied to block-level elements.
+
+The following properties apply to the ::first-letter
+ pseudo- element: 
+
+font properties
+color properties 
+background properties
+margin properties
+padding properties
+border properties
+text-decoration
+vertical-align (only if "float" is "none")
+text-transform
+line-height
+float
+clear
+
+
+
+
+

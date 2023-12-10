@@ -1,0 +1,68 @@
+the document object:
+
+well the document object is the window that js opens to the 
+html n css world(:!
+
+
+
+===
+to put the title of the page where ever u want:
+
+var document;
+
+var me = document.getElementById("element");
+
+ 
+me.innerHTML = document.title;
+
+
+===
+
+to acsses stuff in body:
+
+  <div id = "myDiv"></div>
+
+
+var me = document.getElementById("myDiv");
+
+ 
+me.innerText = document.body.innerHTML;
+              
+             //elements ^not element
+
+
+n that will show the html
+
+--
+
+to show just the text:
+
+var document;
+
+var me = document.getElementById("myDiv");
+
+ 
+me.innerText = document.body.innerText;
+
+
+===
+
+to see how many links you've got:
+
+<a href = "#">youtube</a>
+    <a href = "#">youtube</a>
+<a href = "#">youtube</a>
+
+
+var document;
+
+var me = document.getElementById("myDiv");
+
+ 
+me.innerText = document.links.length;
+
+
+
+===
+
+

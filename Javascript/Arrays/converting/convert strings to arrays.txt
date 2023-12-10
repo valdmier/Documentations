@@ -1,0 +1,85 @@
+to convert as on item :
+
+var myString = "iam in love with javascript ",
+  
+
+        splitedString = myString.split(); 
+
+
+          console.log(splitedString);
+
+the result:
+
+         ["iam in love with javascript "]
+                   //one item
+
+
+
+---
+
+
+to make the spliter is the the space between evey
+
+item and the other 
+
+var myString = "iam in love with javascript ",
+
+  
+        splitedString = myString.split(" "); 
+
+
+           console.log(splitedString);
+
+the result:
+
+     ["iam", "in", "love", "with", "javascript"]
+
+---
+
+and u can make the spliter a letter or any thing
+
+here we will put the word and as the spliter:
+
+
+
+var myString = "iam  and in and love and with and 
+javascript",
+  
+        splitedString = myString.split("and"); 
+
+
+
+               console.log(splitedString);
+
+
+the result:
+
+
+["iam  ", " in ", " love ", " with ", " javascript"]
+
+
+---
+
+theres is also a way to tell him how many items
+
+he should show:
+
+
+
+var myString = "iam in love with javascript",
+  
+           
+    splitedString = myString.split(" ", 4);  
+
+
+                  console.log(splitedString);
+
+
+
+the result:
+
+["iam", "in", "love", "with"]
+
+so he just showed the first 4 items
+
+

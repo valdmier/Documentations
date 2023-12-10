@@ -1,0 +1,40 @@
+
+you can use grid system with forms
+
+example:
+
+<div class="container mt-5">
+  
+    <div class="row">
+  
+      <div class="col-4 offset-2">
+      <input placeholder="First name" type="text" class="form-control">
+    </div>
+    
+    <div class="col-4">
+
+      <input placeholder="Last name" type="text" class="form-control">
+    </div>
+  </div>
+  </div>
+
+===
+
+but there's a better way when using the grid system with forms witch is by using .form-row
+
+example:
+
+<div class="container mt-5">
+  
+    <div class="form-row">
+  
+      <div class="col-4 offset-2">
+      <input placeholder="First name" type="text" class="form-control">
+    </div>
+    
+    <div class="col-4">
+
+      <input placeholder="Last name" type="text" class="form-control">
+    </div>
+  </div>
+  </div>

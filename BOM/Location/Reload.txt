@@ -1,0 +1,9 @@
+to make a page reload n bring the data from the browser:
+
+location.reload();
+
+===
+
+to make a forced reload that brings the data from the server:
+
+location.reload(true);

@@ -1,0 +1,117 @@
+
+note: with Id its get "element" but with class n tag name
+it get by "elements".
+
+--
+ get element/s:
+
+===
+
+get element by id:
+
+document.getElementById("element's id")
+
+
+that way is sported in all browsers
+
+
+===
+get element by tag name:
+
+---
+to get all the element in the page:
+
+
+var me = document.getElementsByTagName("p");
+
+              //elements ^not element
+
+me.innerHTML = "IDK";
+
+
+---
+
+to get the element by its index number:
+
+
+var me = document.getElementsByTagName("p");
+
+              //elements ^not element
+
+me[0].innerHTML = "IDK";
+--
+
+shortcut:
+
+var me = document.getElementsByTagName("p")[0].innerHTML = "IDK";
+
+
+
+
+===
+to get elements by class name :
+"elements" not "element"
+
+//not sported in sime browsers
+
+
+var document;
+
+var me = document.getElementsByClassName("element's id");
+             //elements ^not element
+
+me[0].innerHTML = "IDK";
+
+
+--
+or use a shortcut n say:
+
+var me = document.getElementsByClassName("element's id")[0].innerHTML = "IDK";
+
+
+===
+ query selctor:
+
+note: if u selected a class that have many with
+ query selector it well select the first one only n thats 
+the diffrent between "query selctor" n "query selctor All"
+---
+example:
+
+var me = document.querySelector("p");
+
+              //elements ^not element
+
+me.innerHTML = "IDK";
+ 
+
+===
+ query selctor all:
+
+//not sported in sime browsers
+--
+for tags:
+
+var me = document.querySelectorAll("p")[0].innerHTML = "IDK";
+
+---
+for id:
+
+var me = document.querySelectorAll("#element")[0].innerHTML = "IDK";
+
+---
+for classes:
+
+var me = document.querySelectorAll(".element")[0].innerHTML = "IDK";
+
+---
+for attributes:
+
+var x = document.querySelector("a[target]").innerHTML = "IDK";
+
+ //The querySelectorAll() method is not supported in chrome
+ with attributes so i had to use querySelector to give 
+an example.
+
+
+            

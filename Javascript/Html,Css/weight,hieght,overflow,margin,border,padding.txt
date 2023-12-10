@@ -1,0 +1,62 @@
+to change any thing width and height:
+
+img{width: 70%;
+ height: 180px;}
+
+overflow:
+sometimes you want to ad something real
+important but you don't have enough 
+space for it so you try to resize it
+but it doesnt work and come out of the
+limits you want it to be in
+
+solution is:
+1- put the text or the picture 
+ or both of them by div in the size 
+you want them to be in 
+2- div{overflow:auto;}
+
+and like that you will add scroll bars
+and the user can scroll down 
+
+margin:
+
+
+if i want for example my picture
+to be away from the text 10px far
+and the text was under it:
+
+img{margin-bottom: 10px;}
+
+or in the right
+
+img{margin-right;10px;}
+or in the left
+img{margin-left:10px;}
+
+«–« «»€Ï «Õÿ ÕœÊœ ··’Ê—Â «Ê ··‰’ : 
+img {border: 2px solid purple}
+instead of solid we have other styles
+like:ridge or groove,double,dotted
+dashed.
+
+the colors you can use rgb instead of
+the name of the color
+
+border:
+
+if i want the border to be in the right 
+img {border-top: 10px solid purple;}
+
+u can use also border-left
+ border-bottom as well
+
+padding:
+
+padding is the space between the border
+and the content
+
+so if i want some space between
+the border and the content:
+
+div{padding:10px;}

@@ -1,0 +1,20 @@
+onmouseenter:
+
+ ITS like hover in css try
+ it n u will understand.
+
+==
+example:
+
+var myNote = document.getElementById("note"),
+    myb = document.getElementById("button");
+
+
+myb.onmouseenter = function () {
+    "use strict";
+    
+    myNote.textContent = "hi, u hovered me!";
+    
+    
+};
+

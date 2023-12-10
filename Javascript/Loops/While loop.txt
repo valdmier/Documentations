@@ -1,0 +1,35 @@
+while loop:
+
+
+syntax:
+
+starting value: the first value for the variable
+
+ending value: the limit the value will reach
+
+final expression: like i = i + 1 
+
+
+
+var i = starting value;
+
+while (condition) {
+
+
+
+final expression
+}
+
+
+
+example:
+
+
+var i = 0;
+
+while (i <= 10) {
+    
+    console.log(i);
+    
+    i = i + 1;
+}

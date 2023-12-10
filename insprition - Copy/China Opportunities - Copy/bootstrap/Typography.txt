@@ -1,0 +1,55 @@
+to have the amount of size of h1-h6 on other elements like paragraphs...etc 
+
+
+example:
+
+  <p class="h1"> im p </p>
+        <p class="h2"> im p </p>
+        <p class="h3"> im p </p>
+        <p class="h4"> im p </p>
+        <p class="h5"> im p </p>
+        <p class="h6"> im p </p>
+
+
+n there ia another way called display..n its from 1-4:
+
+    
+        <p class="display-1"> im p </p>
+        <p class="display-2"> im p </p>
+        <p class="display-3"> im p </p>
+        <p class="display-4"> im p </p>
+
+its food for headlines
+
+
+then we got lead..well lead class is good for paragraphs
+
+just to make them a little bit fancier:
+
+
+example to see the different between who have lead n who dont:
+
+
+ <p class="lead"> Lorem ipsum dolor sit amet consectetur adipisicing elit.  </p>
+
+
+        <p class=""> Lorem ipsum dolor sit amet consectetur adipisicing elit.  </p>
+
+
+
+to make a paragraph centered(donesnn't work inside containers):
+
+   <p class="text-center"> Lorem ipsum dolor sit amet consectetur adipisicing elit.  </p>
+
+
+or you can put it to the right:
+
+<p class="text-right"> Lorem ipsum dolor sit amet consectetur adipisicing elit.  </p>
+
+
+
+
+
+
+
+

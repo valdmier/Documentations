@@ -1,0 +1,126 @@
+Input group
+
+is an Easy way to extend form controls by adding text, 
+
+buttons, or button groups on either side of textual inputs,
+custom selects, and custom file inputs.
+
+
+so that means it enable you to put buttons on the sides of the input
+
+
+--
+
+soo letss doo one:
+
+
+ <div class="input-group"> //put that to satrt the class
+                
+<div class="input-group-prepend">//to tell him put the txt in back
+                    
+<span class="input-group-text">$</span> 
+ 
+//put inside here whatever you to put next to the input
+</div>
+
+                
+<input type="text" class="form-control" placeholder="price">
+            </div>
+
+
+---
+
+another example that you could your curency :
+
+ <div class="input-group">
+                <div class="input-group-prepend">
+                    <select class="input-group-text">
+                        
+                        <option>USD</option>
+                        <option>SAR</option>
+                        <option>YR</option>
+
+                    </select>
+
+
+===
+
+puting it in the right side with append:
+
+
+
+ 
+<div class="input-group m-3">
+    
+    <input type="text" class="form-control" placeholder="search">
+
+    <div class="input-group-append">
+  
+        <button class="btn btn-success "> Go </button>
+    </div>
+</div>
+
+
+===
+
+appending eamil:
+
+<div class="input-group mt-3">
+    <input type="text" class="form-control">
+
+<div class="input-group-append">
+    <span class="input-group-text"> @gmail.com</span>
+</div>
+</div>
+
+
+===
+
+
+prepending icons fron fontawesome:
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+   crossorigin="anonymous">
+
+
+
+div class="input-group mt-3">
+
+    <div class="input-group-prepend">
+<div class="input-group-text">
+    <span class="text-center"><!--to make the icon centered-->
+        <i class="fas fa-users"></i> <!--this tag stands for icon-->
+       
+        <!--the fa-users class is from fonts awesome -->
+    </span>
+    </div>
+</div>
+
+    <input type="text" class="form-control">
+
+   
+</div>
+
+
+----
+
+
+<div class="input-group mt-3">
+
+    <div class="form-group-prepend">
+<div class="input-group-text">
+    <span class="text-center"><!--to make the icon centered-->
+        <i class="fas fa-key"></i> <!--this tag stands for icon-->
+       
+        <!--the fa-key class is from fonts awesome -->
+    </span>
+    </div>
+</div>
+
+    <input type="text" class="form-control">
+
+   
+</div>
+
+
+

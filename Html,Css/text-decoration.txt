@@ -1,0 +1,24 @@
+text-decoration element:
+
+syntax:
+
+<'text-decoration-line'> || <'text-decoration-style'> || <'text-decoration-color'> || <'text-decoration-thickness'>
+examples:
+
+
+to take the inderline from anchor tags:
+
+text-decoration: none;
+
+
+--
+
+to put underline and overline:
+
+text-decoration: underline overline #FF3028;
+
+
+--
+purple line on text:
+
+  text-decoration: wavy line-through purple 2px;

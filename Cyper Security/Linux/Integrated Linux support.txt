@@ -1,0 +1,45 @@
+Integrated Linux support
+
+===
+man (Manual):
+
+Displays information on other commands and how they work.
+
+Use: man [command]
+
+Example: man chown
+
+Provides detailed command documentation (man page).
+
+===
+apropos:
+
+Searches man page descriptions for a specified string or keyword.
+
+Searches the manual page descriptions for a specified string
+
+Use:
+ apropos [keyword] 
+or
+ apropos -a [keyword1 keyword2]
+
+Example (single keyword search):
+ apropos editor
+
+Example (multi-keyword search):
+ apropos -a graph editor
+
+Useful for finding commands related to specific topics inside the man command output.
+
+===
+whatis:
+
+Displays a brief, one-line description of a command.
+
+Use: whatis [command]
+
+Example: whatis nano
+
+Provides a quick overview of a command's purpose.
+
+Helpful for quickly reminding yourself of a command's function or understanding newly discovered commands.

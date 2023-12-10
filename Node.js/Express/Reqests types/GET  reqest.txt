@@ -1,0 +1,49 @@
+
+
+get expects two things:
+
+1- It expects the path that we are matching.
+
+2-function to respond with
+
+===
+
+let express = require("express");
+const app = express();
+
+app.get('/', function (req, res) {
+    res.send('u r in the main page')
+})
+
+app.get('/cats', function (req, res) {
+    res.send('meow')
+})
+
+app.get('/dogs', function (req, res) {
+    res.send('woof')
+})
+app.listen(8080, () => {
+    console.log('RUNNING ON PORT 8080!');
+});
+
+===
+
+===
+to say thta we dont regonize the path we put "*":
+
+warning: this gotaa be in the end of all get reqests n post
+reqests if u put it the the beinging it always won't regonize
+anything even if u definded laterz.
+
+
+let express = require("express");
+const app = express();
+
+
+app.listen(8080, () => {
+    console.log('RUNNING ON PORT 8080!');
+});
+
+app.get('*', function (req, res) {
+    res.send('i dont know thAT path- from req')
+})

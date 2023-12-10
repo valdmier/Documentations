@@ -1,0 +1,25 @@
+
+fetch in english means serve.
+
+fetch reurns a promise so then and catch.
+--
+warning : fetch resolve the promise as soon as it have the bet
+of the api info...it doesnt wait for the whole info to load.
+
+so we use json with:
+
+
+
+console.log(
+    fetch("https://api.cryptonator.com/api/ticker/btc-usd")
+    .then((res) => {
+        console.log("THE BEIGING OF PARSE", res);
+       return res.json().then((data) => {
+           console.log("DATA PARSED...", data);
+       })
+    })
+
+    .catch((e) => {
+
+        console.log("ERORR", e);
+    }));

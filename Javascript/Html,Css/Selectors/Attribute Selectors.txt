@@ -1,0 +1,101 @@
+
+
+by this selector you can select element that has a 
+specefic attribute.
+
+syntax:
+--
+
+[attr]
+
+Represents elements with an attribute name of attr.
+--
+
+[attr=value]
+Represents elements with an attribute name of attr whose value is exactly value.
+--
+
+[attr~=value]
+Represents elements with an attribute name of attr whose value is a whitespace-separated list of words, one of which is exactly value.
+--
+
+[attr|=value]
+Represents elements with an attribute name of attr whose value can be exactly value or can begin with value immediately followed by a hyphen, - (U+002D). It is often used for language subcode matches.
+--
+
+[attr^=value]
+Represents elements with an attribute name of attr whose value is prefixed (preceded) by value.
+--
+
+[attr$=value]
+Represents elements with an attribute name of attr whose value is suffixed (followed) by value.
+
+===
+examples:
+
+
+input[type="password"] {
+
+color: darkblue;
+
+}
+
+that way all inputs that has this attribute will have that darkblue 
+---
+
+or you can select any attribute that has a certen letter or word..for example you want to select all the links that leads to google:
+
+add this star here to say if it has
+           ^
+ input[href*="google"] {
+
+color: darkblue;
+text-decoration: none;
+background-color: darksalmon;
+
+}
+
+===
+
+
+you can even select classes:
+
+input[class*="s"] {
+
+color: darkblue;
+text-decoration: none;
+background-color: darksalmon;
+
+}
+
+===
+
+/* <a> elements with a title attribute */
+a[title] {
+  color: purple;
+}
+
+===
+
+/* <a> elements with an href matching "https://example.org" */
+a[href="https://example.org"] {
+  color: green;
+}
+===
+
+/* <a> elements with an href containing "example" */
+a[href*="example"] {
+  font-size: 2em;
+}
+===
+
+/* <a> elements with an href ending ".org" */
+a[href$=".org"] {
+  font-style: italic;
+}
+===
+
+/* <a> elements whose class attribute contains the word "logo" */
+a[class~="logo"] {
+  padding: 2px;
+}

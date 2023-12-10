@@ -1,0 +1,20 @@
+var myNote = document.getElementById("note"),
+    
+    myInput = document.getElementById("input");
+
+
+myInput.onfocus = function () {
+    "use strict";
+    
+    myNote.textContent = "dont forget to put 8 letters to yr password!";
+    
+    
+};
+
+myInput.onblur = function () {
+    "use strict";
+    
+    myNote.textContent = " did  u put 8 letters to yr password?";
+    
+    
+};

@@ -1,0 +1,66 @@
+
+
+Regular Expression syntax:
+
+  /pattren/attributes
+ 
+//word^ num etc..
+
+
+Used with:
+
+Search || Replace || Match || Split || Test..etc
+
+---
+attributes
+
+
+
+---
+
+ i = letters are not sensitve to big n small
+
+
+example:
+
+
+var me = "ima mohammed motee saleh al-solimani i live in jeddah city";
+
+
+var meExp = me.search(/L/i);
+
+console.log(meExp);
+
+
+result 
+
+21
+
+--
+
+g = to make it globa so if you changed the "l" letter all "l" letters will be changed
+
+
+
+example:
+
+
+var me = "ima mohammed motee saleh al-solimani i live in jeddah city";
+
+
+var meExp = me.replace(/L/gi, "@");
+
+console.log(meExp);
+
+
+
+the result:
+
+ima mohammed motee sa@eh a@-so@imani i @ive in jeddah city
+
+---
+
+m 
+
+
+we learn bout it later

@@ -1,0 +1,85 @@
+The every() method:
+ checks if all elements in an array pass the test 
+(provided as a function)
+
+
+n if there was one element that doesnt pass the
+test then it returns false
+--
+Syntax: 
+
+array.every(function{the test})
+
+
+===
+example:
+
+ let names = ["joufry", "aana brathway" ,"mr.wizzely", "m. robenson"];
+
+function validNames(names) {
+
+  let shortNames = names.every( (name) => name.length < 11 );
+return shortNames;
+}
+
+console.log(validNames(names));
+
+-
+
+//returns : false 
+
+cuz there is strings more than 10 letters
+
+===
+
+The some() method:
+checks if any of the elements in an array pass a test 
+(provided as a function)
+
+n if there was at least one element that psses the
+test then it returns true
+--
+Syntax: 
+
+array.some(function{the test})
+
+
+===
+example:
+
+ let names = ["joufry", "hana brathway" ,"mr.wizzely", "m. robenson"];
+
+function validNames(names) {
+
+  let shortNames = names.some( (name) => name.length < 11 );
+return shortNames;
+}
+
+console.log(validNames(names));
+
+-
+
+//returns : true
+ cuz there is an element of the array that has more
+ than 10 letter 
+
+
+===
+example on checking if all the numbers are evens in the array:
+
+return false.  Use some or every to help you do this!  (only one of them is actually useful here)
+
+
+
+function allEvens(num) {
+    let evenNums = num.every((evenNum) => evenNum % 2 === 0);
+    
+    return evenNums;
+}
+
+-
+result:
+    allEvens([2,4,6,8]) //true
+    allEvens([1,4,6,8]) //false
+    allEvens([1,2,3]) //false
+

@@ -1,0 +1,128 @@
+
+split:
+
+its the obesete of join().
+
+split is a way to put something instead of something 
+ 
+n it convert it from string to array
+
+like to tell him hey put a space instead every 10:
+
+var myString = "iam 10 in 10 love 10 with 10 javascript",
+
+    String = myString.split("10");
+
+console.log(String);
+
+
+
+n the result will be:
+
+["iam ", " in ", " love ", " with ", " javascript"]
+
+
+
+===
+
+
+
+slice syntax:
+
+varname.slice(start, end)
+
+
+example:
+
+
+var myString = "iam in love with javascript",
+  
+           
+    slicedString = myString.slice(16, 27);  
+
+//started from letter num 16 n ended in 27
+
+                  console.log(slicedString);
+
+
+the result:
+
+
+javascript
+
+
+like that we sliced it
+
+
+===
+
+
+subStr :
+
+it means subtracet witch is like minus
+
+its syntax:
+
+varName.subStr(start, length)
+
+lenth here means how many letters after the number
+
+u selected he will continue..
+
+like if choosed 7 as the start n 10 as the length
+
+he will select all the letter from 7 to 17
+
+
+
+example:
+
+var myString = "iam in love with javascript",
+  
+           
+    slicedString = myString.substr(16, 11);  
+
+
+
+                  console.log(slicedString);
+
+
+the result:
+
+javascript
+
+
+so everything exept who is in 16 and 11 indexs after it exet those every thing will be deleted 
+
+===
+
+
+concat:
+
+synatx:
+
+concat (string, string, string, string);
+
+//concat string as much as u want
+
+example:
+
+
+var myString = "iam in love with javascript",
+  
+
+    msg2 = "aaaaa idl but iam in love with javascriptaaaaa idl but am 2aaaaa idl but am 3am 2",
+
+
+    msg3 = "aaaaa idl but am 3",
+
+    concated = myString.concat(msg2, msg3);
+
+console.log(concated);
+
+
+the result:
+
+
+iam in love with javascriptaaaaa idl but am 2aaaaa idl but am 3
+

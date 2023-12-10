@@ -1,0 +1,31 @@
+Security frameworks are:
+
+ guidelines used for building plans to help mitigate risks and threats to data and privacy.
+
+===
+purpose of security frameworks:
+
+- Protecting PII
+
+- Securing financial information
+
+- Identifying security weaknesses
+
+- Managing organizational risks 
+
+- Aligning security with business goals
+
+===
+Components of Frameworks:
+
+- GOALS:
+ identifying and documenting security goals.
+
+- GUIDLINES:
+setting guidelines to achieve security goals.
+
+- PROCESSES:
+Implementing strong security processes
+
+- COMMUNICATION:
+Monitoring and communicating results.

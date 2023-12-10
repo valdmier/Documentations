@@ -1,0 +1,10 @@
+Tools for Penetration Testing:
+
+- Metasploit: Identifies and exploits vulnerabilities in machines.
+
+- Burp Suite: Tests weaknesses in web applications.
+
+- John the Ripper: Used for password guessing.
+
+
+

@@ -1,0 +1,91 @@
+
+
+The switch statement is used to perform different
+ actions based on different conditions.
+
+
+===
+switch (expression){
+        
+        
+    case x :       
+        code to exceute;
+        break;
+        
+        case x :       
+        code to exceute;
+        break;
+        
+        case x :       
+        code to exceute;
+        break;
+        
+        case x :       
+        code to exceute;
+        break;
+        
+        default x :       
+        code to exceute;
+        break;       
+}
+
+===
+
+example:
+
+var seson = prompt("whats your favorite seson");
+
+switch (seson) {
+        
+    case "winter":       
+       alert("cool i ike it too cold, program?anime?
+               netflix?ah shit"); 
+       
+        break;
+        
+        case "summer":       
+       alert("ah worst seson for me...hot,swet...
+              cool seson");
+        
+        break;
+        
+       
+        
+        
+        case "fall":
+        alert("lovely seson");
+        break;
+        
+        case "spring" :       
+        alert("aaa its cool");
+        break;
+        
+        default :       
+        alert("try inter a seson for real");
+        break;       
+}
+
+
+===
+
+so autumn have 2 names autumn and fall
+
+how could we deal with that and put the same
+result for the two names?:
+
+var seson = prompt("whats your favorite seson");
+
+switch (seson) {
+        
+        
+        case "autumn": //name1
+        case "fall":  //name2
+        alert("lovely seson");
+        break;
+        
+        
+        
+        default :       
+        alert("try inter a seson for real");
+        break;       
+}

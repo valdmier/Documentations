@@ -1,0 +1,19 @@
+
+example:
+
+to make files use touch.
+
+haram@DESKTOP-D1QMJH6 MINGW64 ~/desktop
+$ mkdir website
+
+haram@DESKTOP-D1QMJH6 MINGW64 ~/desktop
+$ cd website
+
+haram@DESKTOP-D1QMJH6 MINGW64 ~/desktop/website
+$ touch index.html
+
+haram@DESKTOP-D1QMJH6 MINGW64 ~/desktop/website
+$ touch app.css
+
+haram@DESKTOP-D1QMJH6 MINGW64 ~/desktop/website
+$ touch app.js

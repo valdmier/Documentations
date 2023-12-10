@@ -1,0 +1,5 @@
+acess this file with terminal then:
+
+type in the terminal
+
+node index.js "hello world"

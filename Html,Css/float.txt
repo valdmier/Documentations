@@ -1,0 +1,24 @@
+floating:
+Ê«··Ì „⁄‰«Â« «·ÿ›Ê
+
+simply that means something around or
+in something elase
+
+so if there'S an image and text under
+it..and you want the image to be
+sorrounded by the text :
+
+img{folat:right;}
+
+Ê›Ì Œ«’ÌÂ  ﬁœ—  ” ⁄„· »œ·Â« «·»Ê“‘‰ ÊÂ” «· ﬂ·Ì—
+clear:
+it's like there's three elements
+and you made 2 two floating..n the 
+third one Crossed one of them..
+so you make clear to grap the third
+element down to stop the crossing
+
+imoprtant note:if something you want it
+to float but it's not working..that's
+because of might be big and doesnt fit
+resize it!

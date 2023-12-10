@@ -1,0 +1,197 @@
+
+
+remeber the index number counts spaces letters n more
+
+how can we search for certain word with inedexOf:
+
+
+var myString = "iam in love with javascript",
+  
+
+    wordLooking4 = myString.indexOf("love"); 
+
+
+
+//here we should put the word we are loo^king for
+
+
+console.log(wordLooking4);
+
+
+
+n the result will be:
+
+
+
+7
+
+
+
+what does 7 means?it means the word am looking for
+ -love- starts in the 7th letter
+
+
+check Arrays>searching in array items document
+for more info bout indexOf
+
+
+===
+
+
+
+you can use lastIndexOf alsi if that helps
+
+but!! you have to know it work differently the index number dont start from the left but from the right (from the last)
+
+
+
+var myString = "iam in love with javascript love ",
+
+  
+
+        wordLooking4 = myString.lastIndexOf("love");
+
+
+
+ //here we should put the word we are looking f^or
+
+
+console.log(wordLooking4);
+
+
+n the result will be:
+
+
+28
+
+
+i explined why it 28 not 7 in the top
+---
+
+
+u can also add from where he should he start 
+looking
+
+
+
+var myString = "iam in love with javascript love ",
+  
+
+
+     wordLooking4 = myString.lastIndexOf("love", 7); 
+
+
+
+//here we should put the number start looking from
+
+
+
+console.log(wordLooking4);
+
+
+
+===
+
+
+how can we search for certain word with search
+
+
+
+here the letters are sensitive if u entered small 
+
+
+letter n its capitial it wont work.
+
+
+
+var myString = "iam in love with javascript love ",
+  
+
+
+
+        wordLooking4 = myString.search("love", 7); 
+
+
+
+
+//here we should put the word we are loo^king for
+
+
+
+
+console.log(wordLooking4);
+
+
+
+
+n the result will be:
+
+
+7
+
+---
+
+
+
+to dont make the the letters :
+
+
+
+var myString = "iam in love with javascript love ",
+
+
+  
+  wordLooking4 = myString.search(/lOvE/i); 
+
+                   //here we should ^put / /i 
+
+
+console.log(wordLooking4);
+
+
+===
+
+how to find, select a letter:
+
+charAt:
+
+var myString = "iam in love with javascript",
+  
+
+//to tell him hey find the 10th letter
+
+          
+    String = myString.charAt(10); 
+
+
+console.log(String);
+
+
+
+n the result :
+
+e
+
+
+===
+how  to say if there was that word then do that:
+
+
+
+var urll = "https://www.youtube.com/watch?v=iAbkABxgqPE&list=PLDoPjvoNmBAy9nFRJgVYgEID8xE2a6q6V&index=13&t=0s";
+
+if (urll.indexOf("watch") > -1) {
+    
+
+    window.console.log("yayy theres watch");
+    
+}
+
+
+result: yayy theres watch
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+
+i'll just atarat with an example:
+
+const req = new XMLHttpRequest(); // <THATS A BULIT IN FUNCTION
+
+req.onload = function () {
+    console.log("ALL DONE WITH REQUEST");
+    console.log(this);
+}
+
+req.onerror = function () {
+    console.log("EROOR");
+    console.log(this);
+}
+
+req.open("Get", "https://api.cryptonator.com/api/ticker/btc-usd");
+
+req.send();
+

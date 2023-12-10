@@ -1,0 +1,58 @@
+## **`re.findall()` Function in Python**
+
+### **Overview**
+
+`re.findall()` is a function provided by Python's `re` module, which is used for working with regular expressions (regex). It allows you to search a given string for all non-overlapping matches of a regular expression pattern and returns the matches as a list of strings. This function is particularly useful for extracting specific information from text data that conforms to a pattern.
+
+### **Usage**
+
+The basic syntax for using `re.findall()` is as follows:
+
+```python
+re.findall(pattern, string)
+```
+
+- `pattern`: A string containing the regular expression pattern you want to search for.
+- `string`: The input string in which you want to search for matches.
+
+### **Return Value**
+
+The `re.findall()` function returns a list of all non-overlapping matches of the pattern found in the input string. If no matches are found, an empty list is returned.
+
+---
+
+### **Examples**
+
+#### Example 1: Searching for Digits
+
+You can use `re.findall()` to search for all digits in a string:
+
+```python
+import re
+
+text = "There are 3 numbers in this text: 42, 7, and 99."
+matches = re.findall(r'\d', text)
+print(matches)  # Output: ['3', '4', '2', '7', '9', '9']
+```
+
+#### Example 2: Extracting Email Addresses
+
+In this example, we use `re.findall()` to extract all email addresses from a given text:
+
+```python
+import re
+
+text = "Emails: john@example.com, alice@gmail.com, and bob@domain.net"
+email_pattern = r'\S+@\S+'
+emails = re.findall(email_pattern, text)
+print(emails)
+# Output: ['john@example.com', 'alice@gmail.com', 'bob@domain.net']
+```
+
+---
+
+### **Note**
+
+- `re.findall()` is a powerful tool for searching and extracting specific patterns from text data. It can be customized to match a wide range of patterns, and it is commonly used in tasks like data parsing and text mining.
+
+This function is just one of the many functions provided by the `re` module for working with regular expressions in Python. Depending on your specific needs, you may also want to explore other functions such as `re.search()`, `re.match()`, and `re.sub()`.

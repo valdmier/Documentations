@@ -1,0 +1,26 @@
+ <div id="boy">
+    
+    <strong>HI ma nigga,</strong><em>click dat button!</em> </h4>
+  <br>
+  <br>
+    <button id="btn">clicky clicky</button>
+  
+  </div>
+ 
+
+  #boy{
+   text-align: center;
+   background-color: aqua
+  }
+
+
+let btn = document.getElementById("btn");
+
+btn.addEventListener('click', function(){
+    let r = Math.floor(Math.random() * 255);
+    let g = Math.floor(Math.random() * 255);
+    let b = Math.floor(Math.random() * 255);
+   let newColor = `rgb(${r} ${g} ${b})`;
+    return document.body.style.backgroundColor = newColor;
+    })
+ 

@@ -1,0 +1,46 @@
+
+The filter() method :
+
+creates an array filled with all array elements that pass
+ the test or apply the condition call it however u want
+the condition or the test is passed in as a function 
+
+Note: filter() does not change the original array
+
+--
+Syntax:
+
+array.filter(function{ the test it shsould paas it})
+
+--
+
+example:
+
+
+let prices = [110, 700 ,40, 49, 78 ,100 ,60 ,70];
+
+let cheapPrices= prices.filter( (price) => 100 > price);
+
+
+console.log(cheapPrices);
+
+// result: [40, 49, 78, 60, 70] 
+
+let expensivePrices= prices.filter( (price) => 100 <= price);
+
+console.log(expensivePrices);
+
+// result: [110, 700, 100]
+
+===
+another example :
+
+ let names = ["joufry", "hana brathway" ,"mr.wizzely", "m. robenson"];
+
+function validNames(names) {
+
+  let shortNames = names.filter( (name) => name.length < 11 );
+return shortNames;
+}
+
+console.log(validNames(names));

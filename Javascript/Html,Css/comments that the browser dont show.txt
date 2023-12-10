@@ -1,0 +1,8 @@
+comments
+to right something that the browser 
+willignore n not show it in the page
+the use of it is to put some detail
+or source to who cares
+
+<!--right here--!>
+n it will be in the source of the page

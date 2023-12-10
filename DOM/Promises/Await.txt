@@ -1,0 +1,57 @@
+The keyword await:
+
+comes before a function, it makes the function wait for the
+ promise n then excute it.
+
+The await keyword is mostly used inside an async function.
+
+
+
+
+===
+example
+
+ if we did the same thing with then instead of await:
+
+function colorized(color, second) {
+    return new Promise((resolve, falie ) =>{
+        setTimeout(() => {
+            document.body.style.backgroundColor = color;
+        resolve();
+        }, second);
+        
+        })
+    }
+
+colorized("red", 1000)
+    .then(() => colorized("red", 1000))
+    .then(() => colorized("blue", 1000))
+    .then(() => colorized("green", 1000))
+    .then(() => colorized("yellow", 1000))
+    .then(() => colorized("skyblue", 1000));
+
+rainbow();
+
+===
+if we did it with await:
+
+
+function colorized(color, second) {
+    return new Promise((resolve, falie ) =>{
+        setTimeout(() => {
+            document.body.style.backgroundColor = color;
+        resolve();
+        }, second);
+        
+        })
+    }
+
+async function rainbow() {
+    await colorized("red", 1000);
+    await colorized("orange", 1000);
+    await colorized("blue", 1000);
+    await colorized("green", 1000);
+    await colorized("red", 1000);
+}
+
+rainbow();

@@ -1,0 +1,176 @@
+// 1. Find and store the element we want to listen
+ to events on.
+
+var clickerButton = document.getElementById
+("clicker");
+    
+
+// 2. store the function that will respond to the
+ event in variable.
+
+var onButtonClick = function() {
+clickerButton.textContent = "Oh wow, you clicked
+ me!"; }
+// 3. Add the event listener for the element and 
+function
+                        the event will happen
+clickerButton.addEventListener("click",
+ onButtonClick);     the event that^ will happen here it clicked
+  ^the respond of the event
+
+
+=== 
+
+
+  but the most important are:
+
+mouse events (MouseEvent): mousedown, mouseup,
+ click, dblclick, mousemove, mouseover, mousewheel,
+ mouseout, contextmenu touch events 
+
+(TouchEvent): touchstart, touchmove, touchend,
+ touchcancel keyboard events
+
+ (KeyboardEvent): keydown, keypress, keyup
+form events: focus, blur, change, submit
+window events: scroll, resize, hashchange, load,
+ unload
+
+
+===
+
+how to make a text show up when move your mouse on 
+something:
+
+ <img id="face" src="https://www.kasandbox.org/programming-images/creatures/Winston.png">
+    <div id="message"></div>
+    <div class="beard"></div>
+
+// 1. Find and store the element we want to listen
+ to events on:
+
+    var face = document.getElementById("face");
+
+// 2. Define the function that will respond to the
+ event:
+    var onMouseMove = function() {
+  document.getElementById("message").textContent +=
+ "mooove ";         
+    };
+
+//note:"+="means not just to show up once..but to 
+continue running if the event is happening
+   
+// 3. Add the event listener for the element 
+and function
+    
+face.addEventListener("mousemove", onMouseMove);
+
+===
+
+how to make dots on winston face:
+
+//winston face
+
+<img id="face" src="https://www.kasandbox.org/programming-images/creatures/Winston.png">
+
+//the beard properties
+<style>
+        .beard {
+              	background: black;
+         		width: 5px;
+         		height: 5px;
+         		position: absolute;
+         		border-radius: 2px;
+         		
+        </style>
+
+ // 1. Find and store the element we want to listen 
+to events on:
+    
+var face = document.getElementById("face");
+    
+// 2. Define the function that will respond to the
+ event:
+
+    var onMouseMove = function(lucifer)
+// here we name the respond so we^ can call later
+i called that respond lucifer
+ {
+        console.log(respond name);
+        document.getElementById("message").textContent += "mooove ";         
+
+       var beard = document.createElement("div");
+        beard.className = "beard";
+
+        document.body.appendChild(beard);
+
+        beard.style.top = 
+                                 الوحده^ يعني هنا الوحده بكسل 
+        beard.style.left = lucifer.clientX + "px";
+ 
+//cleint x and cleint y is like mouse x and mouse y       
+
+
+ // up in the beard class we made the position
+absolute but we didnt make top:10px; so we made it
+in javascribt
+
+
+    };
+
+
+// 3. Add the event listener for the element and function
+                       the event   the resopnd
+face.addEventListener("mousemove", onMouseMove);
+
+
+so now we stored the image in face variable the we
+made a class that named n that have the dot
+properties in we made a respond we named lucifer
+n then we made that respond happpen we mouse is
+moving upove the img 
+
+
+if you didnt understand then check this https://www.khanacademy.org/computing/computer-programming/html-css-js/html-js-dom-events/pt/using-the-event-properties
+
+how to make the user name show up:
+
+<label>What's your name?
+        <input id="name" type="text">
+ 
+//the input^ is a box so the user write his name in 
+it try it to see
+        </label>
+<div id="message"></div>
+
+// Step 1: Find the element we want the event on
+
+  var button = document.getElementById("button");
+
+
+  // Step 2: Define the event listener function
+
+
+  var onButtonClick = function() {
+
+  var name = document.getElementById("name").value;
+
+//the value is the name or the value the user
+ entered
+
+  var greeting = "hi, " + name;
+
+  document.getElementById("message").textContent +=
+  greeting;  
+    
+                                   };
+
+  // Step 3: Attach event listener to element
+  button.addEventListener("click", onButtonClick);
+
+// so if you entered mohammed as your name it will
+ be "hi mohammed"
+
+       
+         

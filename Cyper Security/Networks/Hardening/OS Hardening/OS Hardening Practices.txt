@@ -1,0 +1,61 @@
+OS hardening frequency:
+
+Some OS hardening are done
+
+- at regular intervals  (updates, backups)
+
+- Only once (Encryption)
+
+
+===
+OS hardening practices:
+
+
+===
+- Patch Update
+
+A software and operating system update that adresses security vulnerabilities within a program or product.
+
+As soon as OS vendors publish a patch and the vulnerability fix, malicious actors know exactly where the vulnerability is in systems running the out-of-date OS.
+
+Practice: 
+
+This is why it's important for organizations to run patch updates as soon as they are released.
+
+===
+- Baseline configuration:
+
+ is a documented set of specifications within a system that is used as a basis for future builds, releases, and updates.
+
+For example, a baseline may contain a firewall rule with a list of allowed and disallowed network ports.
+
+Practice:  
+
+If a security team suspects unusual activity affecting the OS, they can compare the current configuration to the baseline and make sure that nothing has been changed.
+
+
+===
+- Hardware and software disposal:
+
+ Removing unused software makes sure that there aren't any unnecessary vulnerabilities connected with the programs that the software uses.
+
+
+===
+- Implementing a strong password policy:
+
+a password policy usually states that a user will lose access to the network after entering the wrong password a certain number of times in a row.
+
+Some systems also require multi-factor authentication, or MFA.
+
+MFA:
+
+is a security measure which requires a user to verify their identity in two or more ways to access a system or network. 
+
+===
+Categories of multi-factor identification:
+
+- Something you know
+
+- Something you have
+
+- Somehting unique about you (personal info, biometrics)

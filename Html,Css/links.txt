@@ -1,0 +1,71 @@
+links:
+
+how to link text:
+
+<a herf="the url"> click here</a>
+
+that will opwn in the same page...
+
+how to open the link in another page:
+
+<a target="_blank" href="put the url
+here">click here</a>
+
+to remove the underline in the link:
+ <style>
+ a {text-decoration: none;
+}
+ </style>
+
+
+how to link an image
+
+<a href="the link">
+
+<img src="url">
+
+</a>
+
+and you can link the whole page
+ like that
+
+
+
+how to scroll down in your webpage:
+
+1:you put id to the place you want 
+to scroll down to 
+2:<a href=:"the id">bla bla</a>
+use that when there's a lot of 
+sections so you scroll down to it
+
+tochange the orgnal color of the links:
+
+a:link{color:red;}
+
+to make the link's color change after 
+the user visited it:
+
+a:visited{color:orange;}
+
+to change the text's aura when u put
+ the mouse it(«· €ÌÌ— «·Â«·Â):
+
+a:hover{background-color:red;
+color:white;}
+
+to change the color or the background
+color or the font or the link size 
+when the user put the mouse on the text
+
+a:active{text-decoration: none;
+font-family:"monospace";
+font-size:45px;}
+
+to change the color or anything in
+the moment the user click the link:
+
+a.focus{background-color:yellow;}
+
+
+

@@ -1,0 +1,14 @@
+sso if u open a window by the window.open
+n u fear that it might come under the main window 
+
+so u want make sure that the focus goes to the one u just opened
+
+
+example:
+
+var mywindow = window.open("https://www.google.com", "idk", "", "");
+
+mywindow.focus();
+
+
+n dats it

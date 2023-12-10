@@ -1,0 +1,56 @@
+ Hash Collisions
+
+===
+A hash collision occurs when two different inputs produce the same output hash value.
+
+Hash functions aim to make each output unique to its input, even minor input changes should drastically alter the output.
+
+===
+Why Collisions Happen:
+
+The number of possible hash values is limited by the hash length.
+
+The number of possible inputs is infinite.
+
+This creates a situation akin to the Pigeonhole Principle – if you have more pigeons than pigeonholes, at least one pigeonhole will contain more than one pigeon.
+
+===
+Example:
+
+The string “hello” would have a hash value of (104 + 101 + 108 + 108 + 111) % 1000 = 532.
+
+The string “olleh” would have a hash value of (111 + 108 + 108 + 101 + 104) % 1000 = 532.
+
+"hello" and "olleh" both yield a hash value of 532, despite being different strings.
+
+===
+Cryptographic hash functions are used to minimize collision probabilities.
+
+However, even these aren't immune to collisions due to the Pigeonhole Principle.
+w
+Note: Collisions are a concern in cryptography as they can lead to vulnerabilities and exploits.
+
+===
+Avoiding Hash Collisions: Longer hash values were introduced to mitigate the risk of hash collisions.
+
+MD5's limitations led to the development of Secure Hashing Algorithms (SHAs).
+
+
+===
+NIST Approval:
+
+NIST (National Institute of Standards and Technology) approves these algorithms.
+
+Each SHA function is identified by a number indicating the size of its hash value in bits.
+
+===
+Except for SHA-1 (160-bit digest), these algorithms are considered collision-resistant but not immune to other attacks.
+The SHA Family:
+
+SHA-1
+SHA-224
+SHA-256
+SHA-384
+SHA-512
+
+Note: While these algorithms offer improved collision resistance, they may still have vulnerabilities that need to be addressed.

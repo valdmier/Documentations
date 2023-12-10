@@ -1,0 +1,81 @@
+let:
+let can be only available inside the scope it's declared, like in for loop
+
+you can't redeclare variables with let:
+
+let cats=5;
+let cats=6;
+
+console.log(cats);
+-
+output: Eror: Identifier 'cats' has already been declared
+
+---
+but you can update it:
+
+let cats = 5;
+cats = 6;
+
+console.log(cats);
+-
+output: 6
+
+note: it could be updated and redeclared inside functions and whats similar to it
+
+
+
+===
+const:
+
+you cant redeclare it:
+
+const cats = 5;
+const cats = 6;
+
+console.log(cats);
+-
+output: SyntaxError: Identifier 'cats' has already been declared
+
+---
+
+you cant update it:
+
+const cats = 5;
+cats = 6;
+
+console.log(cats);
+-
+output: TypeError: Assignment to constant variable
+
+--
+note: it could be updated and redeclared inside functions and whats similar to it
+
+
+
+
+===
+var:
+var can be accessed outside the loop or func..etc
+you can redeclare it:
+
+const cats = 5;
+const cats = 6;
+
+console.log(cats);
+-
+output: 6
+
+---
+you can update it:
+
+let cats = 5;
+cats = 6;
+
+console.log(cats);
+-
+output: 6
+
+
+
+
+

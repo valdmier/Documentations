@@ -1,0 +1,9 @@
+An External Security threat: 
+
+Someone outside of an organization attempts to gain access to its private information.
+
+===
+
+An internal Security threat: 
+
+Someone inside the organization attempts to gain access to its private information.

@@ -1,0 +1,49 @@
+Simulating Threats and Applying an Attacker Mindset
+
+===
+Simulating threats is a method of applying an attacker mindset to enhance cybersecurity.
+
+Attack simulations can be proactive or reactive and aim to make systems safer.
+
+===
+Proactive Simulations (Red Team Exercises):
+
+Proactive simulations assume the role of an attacker to exploit vulnerabilities and test defenses.
+
+Red team exercises involve thorough planning and deployment of various tactics.
+
+Examples include persuading staff to disclose login credentials through fictitious emails to evaluate security awareness.
+
+===
+Reactive Simulations (Blue Team Exercises):
+
+Reactive simulations assume the role of a defender responding to an attack.
+
+Blue team exercises focus on gathering information about protected assets.
+
+Vulnerability scanning tools are commonly used in reactive simulations.
+
+===
+Reactive Simulation Process:
+
+Identification: Flagging vulnerable components, e.g., outdated servers.
+
+Vulnerability Analysis: Researching identified vulnerabilities.
+
+Risk Assessment: Scoring vulnerability severity and evaluating the impact of not addressing them.
+
+Remediation: Using gathered information to address the identified issues.
+
+===
+Reporting Findings:
+
+During threat simulations, findings are documented in reports.
+
+Reports are shared with relevant parties, such as service providers or supervisors.
+
+Effective communication of results is a crucial skill for security professionals.
+
+===
+Many security controls are developed reactively in response to evolving threats.
+
+Staying informed about security trends and emerging technologies is essential.

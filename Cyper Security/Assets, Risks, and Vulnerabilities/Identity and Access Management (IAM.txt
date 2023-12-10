@@ -1,0 +1,44 @@
+Identity and Access Management (IAM)
+
+===
+
+Identity and Access Management (IAM)
+
+IAM is a critical aspect of modern organizational security, focusing on managing digital identities and access privileges. It ensures the right users have appropriate access to resources at the right time for the right reasons. Here's an overview:
+
+===
+Authentication:
+
+Authentication verifies a user's identity. It relies on factors like knowledge (e.g., passwords), ownership (e.g., security tokens), and characteristics (e.g., biometrics).
+
+there are a few factors that can be used to authenticate a user:
+
+- Knowledge, or something the user knows
+
+- Ownership, or something the user possesses
+
+- Characteristic, or something the user is
+
+Single sign-on (SSO) combines multiple logins into one for user convenience.
+
+Multi-factor authentication (MFA) requires users to verify their identity using two or more methods, enhancing security.
+
+
+===
+User Provisioning:
+
+User provisioning involves creating and maintaining digital identities. For example, when a new instructor joins a college, their account is provisioned with access to instructor-only resources.
+
+IAM analysts handle user provisioning and deprovisioning to manage access rights effectively.
+
+===
+Authorization:
+
+Authorization ensures the right resources are accessible to authenticated users. Three common frameworks are used:
+
+- Mandatory Access Control (MAC): Strict need-to-know basis, often found in government agencies.
+
+- Discretionary Access Control (DAC): Data owners determine access levels, as seen in Google Drive folder sharing.
+
+- Role-Based Access Control (RBAC): Access based on a user's role within an organization; for instance, marketing department users have different access than network administrators.
+

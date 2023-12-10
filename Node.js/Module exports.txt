@@ -1,0 +1,44 @@
+
+its all about sharing JavaScript code between different 
+files.
+
+
+in the world of the browser client side JavaScript, if we
+ have different JavaScript files, we just include them in
+ the same HTML document.
+
+
+---
+With node we have a completely different system.
+
+where we can be very particular about what a single file shares
+and what it does not share.
+
+===
+example:
+
+first make a file n lets name it math:
+
+const add = (x, y) => x + y;
+
+const square = x => x * x;
+
+
+module.exports.square = square;
+module.exports.add = add;
+
+
+--
+to export it to another file :
+
+const math = require("./math"); //put here the directory
+
+console.log(math.square(9)); 
+console.log(math.add(9, 1));
+
+the result:
+
+81
+10
+===
+

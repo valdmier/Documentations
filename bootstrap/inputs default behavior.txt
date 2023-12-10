@@ -1,0 +1,79 @@
+there's the default behavior n there is the normal one or the default one 
+
+in the following example you will see the deffeirent between them:
+
+<form >
+
+    <div class="container">
+  
+        <div class="form-groub">
+
+    <h1 class="display-4 "> form checks </h1>
+    
+    <h4 class="d-inline mr-5"> <em>normal</em></h4>
+    <h4 class="d-inline"> <em>custom</em></h4>
+
+</div>
+<hr>
+    <div class="form-check d-inline mr-4"> 
+   
+ <input type="checkbox" class="form-check-input " id="normals">
+    <label for="normals" class="form-check-label">Hi, Im normal </label>
+   
+</div>
+
+   <div class="custom-control custom-checkbox d-inline ml-2"> 
+ 
+    <input type="checkbox" class="custom-control-input " name="pets" id="cats">
+    <label for="cats" class="custom-control-label"> Hi, Im custom </label>
+    </div>
+ 
+
+<div class="d-block"></div>
+   
+        <div class="form-check d-inline mr-4">
+            <input class="form-check-input" type="radio" name="customRadio" id="exampleRadios1" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+                Hi, Im normal
+            </label>
+          </div>
+       
+          
+        
+            <div class="custom-control custom-radio d-inline  ml-2">
+                <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                <label class="custom-control-label" for="customRadio2">Hi, Im custom</label>
+          
+           </div>
+   
+           <hr>
+           <h4 class="d-block"> <em>custom</em></h4>
+
+           <div class="custom-file">
+            <input type="file" class="custom-file-input"  lang="es">
+            <label class="custom-file-label" for="customFileLang">Seleccionar Archivo</label>
+          </div>
+
+          <h4 class="d-block mt-2 ml-1"> <em>normal</em></h4>
+
+
+          <div class="form-groub">
+
+            <input type="file" class="form-control-file">
+
+
+          </div>
+
+          
+          <h4 class="d-block mt-3"> <em>custom</em></h4>
+<input type="range" class="custom-range" min="5" max="4000" step="50" id="customRange3">
+
+
+<h4 class="d-block mt-3"> <em>normal</em></h4>
+
+<input type="range" class="form-control-range">
+
+          
+ </div>
+   </div>
+</form>

@@ -1,0 +1,12 @@
+after you finish go to:
+https://validator.w3.org/
+
+to check if the html were right or not
+
+ you should always consider these questions:
+Can it actually do what I want to do?
+How well does this technique perform?
+ (Does it slow down the browser/computer?)
+How accurate does my timing need to be?
+Does it work in all the browsers that I want my
+ webpage to work in?

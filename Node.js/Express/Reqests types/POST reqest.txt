@@ -1,0 +1,58 @@
+
+The POST method is used to request that the origin server
+ accept the entity enclosed in the request as a new
+ subordinate of the resource identified by the
+ Request-URI in the Request-Line
+--
+
+In other words, POST is used to create.
+--
+post expects two things:
+
+1- It expects the path that we are matching.
+
+2-function to respond with
+
+===
+
+let express = require("express");
+const app = express();
+
+app.post('/cats', function (req, res) {
+    res.send('meow from post req')
+});
+app.get('/cats', function (req, res) {
+    res.send('meow from get req')
+});
+
+app.listen(8080, () => {
+    console.log('RUNNING ON PORT 8080!');
+});
+
+--
+use postman n do some post n get reqests
+
+===
+to say thta we dont regonize the path we put "*":
+
+warning: this gotaa be in the end of all get reqests n post
+reqests if u put it the the beinging it always won't regonize
+anything even if u definded laterz.
+
+
+let express = require("express");
+const app = express();
+
+
+app.listen(8080, () => {
+    console.log('RUNNING ON PORT 8080!');
+});
+
+
+app.post('*', function (req, res) {
+    res.send('i dont know thAT path- from post')
+});
+
+
+
+

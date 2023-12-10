@@ -1,0 +1,38 @@
+
+Definition:
+
+Defining security goals and objectives, risk mitigation, compliance, bisuness continuity, and legal regulations.
+
+so it is about:
+
+1- Setting goals and objectives:
+Reducing risks to critical assets such as PII.
+
+
+2- Mitigating risk:
+Taking the right set of procedures and rules to quickly reduce the impacts of a risk.
+
+3- following legal regulations and the law.
+
+
+4- ensuring compliance:
+Compliance is the primary method to develop an organaztion security policies, independent standards, and regulatory requirements.
+
+5- business continuity:
+An organization ability to stay resilient and maintain their everyday productivity by establishing risl disaster recovery plans.
+
+6- Professional and organizational ethics.
+
+====
+Information security, or InfoSec, is also related to this domain and refers to a set of processes established to secure information. An organization may use playbooks and implement training as a part of their security and risk management program, based on their needs and perceived risk. There are many InfoSec design processes, such as:
+
+- Incident response
+
+- Vulnerability management
+
+- Application security
+
+- Cloud security
+
+- Infrastructure security
+

@@ -1,0 +1,33 @@
+self-invoking expression is 
+invoked (started) automatically,
+ without being called
+
+without being called like: 
+
+Funcname();
+
+or by pressing the button
+
+<button onclick = Funcname()> click to run</button>
+
+
+simple example :
+
+
+(function exampleinvoke() {
+
+"use strict";
+
+var amount = 50;
+
+alert(amount * 3.75)
+
+}());
+
+
+
+
+
+
+
+

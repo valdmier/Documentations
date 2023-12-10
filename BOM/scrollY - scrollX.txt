@@ -1,0 +1,19 @@
+so if u have a body with 4000px width n 4000px 
+
+height n u want to tell the user where is he or u 
+
+wanted to say if the user in is in 1000px then do that 
+
+what should u use?
+
+
+scrollX N scrollY propply
+
+
+example:
+window.console.log(" u r in " + window.scrollX  + " width n  " + window.scrollY + " height");
+
+
+result:
+
+ u r in 1511.199951171875 width n  800 height

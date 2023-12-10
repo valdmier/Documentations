@@ -1,0 +1,134 @@
+
+to give an element a border we use a class called border
+
+example:
+       
+    span {
+
+        width: 200px;
+        height: 200px;
+        display: inline-block;
+
+//note: inline-block cuz ..block would show them perfectly but we want them to set next to each other...and inline will cancle margin n padding n borders soits not usefull
+    }
+
+ <span class="border"></span>
+ <span class="border-left"></span>//give it left only
+ <span class="border"></span>
+ <span class="border-top"></span>//top only
+ <span class="border-bottom"></span>//bottom only
+ <span class="border"></span>
+
+
+---
+
+to choose only one side to have the border in:
+
+bottom only:
+  <h1 class="border-bottom border-danger">
+
+ bottom border
+
+</h1>
+
+top only:
+
+ <h1 class="border-top border-danger">
+
+
+right only:
+
+ <h1 class="border-right border-danger">
+
+left only:
+
+ <h1 class="border-left border-danger">
+
+
+
+---
+
+to cancle a side of the border:
+
+
+<span class="border border-left-0"></span>
+<span class="border border-bottom-0"></span>
+span class="border border-right-0"></span>
+ <span class="border border-top-0"></span>
+
+the left side of the border will be gone
+
+
+
+
+you can give the border a color even:
+
+
+        <span class="border border-primary"></span>
+        <span class="border border-danger"></span>
+        <span class="border border-warning"></span>
+        <span class="border border-info"></span>
+        <span class="border border-success"></span>
+        <span class="border border-muted"></span>
+
+---
+
+ changing Border-radius:
+
+
+
+to have a rounded corners:
+
+  
+ <span class="border border-primary rounded"></span>
+
+
+--
+
+to have a rounded corners from the top only:
+
+ <span class="border border-primary rounded-top"></span>
+
+
+
+--
+
+right only:
+
+
+<span class="border border-primary rounded-right"></span>
+
+
+--
+
+
+left only:
+
+
+<span class="border border-primary rounded-left"></span>
+
+
+--
+
+bottom only:
+
+<span class="border border-primary rounded-bottom"></span>
+
+
+--
+
+to make it like a circle:
+
+<span class="border border-danger rounded-circle"></span>
+
+
+--
+
+to stop the corners from being rounded:
+
+<span class="border border-danger rounded-0"></span>
+
+
+
+
+

@@ -1,0 +1,80 @@
+so you have already knew the display utility in css 
+
+(visit the display document in the css folder if u dont remeber it)
+
+all that bout display none, inline, block, inline-block
+
+
+however in bootstarp u can choose when an element should appear in specefic screen size :
+
+
+
+so u first u have to know that that if gave a value of ten to a small screen that value will be also in md,lg,xl screens so anything u give the smallest screens will go to the bigger ones 
+
+
+class syntax:
+
+.d-{breakpoint}-{value} 
+       ^             ^
+       xs            none
+       sm            inline 
+       md..etc       block
+
+
+
+note: there's no xs here..you cant say d-xs-none ..thats wrong 
+
+
+
+example:
+
+ if i want something only to appear on xs scrrens:
+
+   <span class="d-inline d-sm-none ">xs</span>
+
+
+هنا انت قلت له يظهره دائما بعدين رحت واخفيته من السمول وطالع يعني مابيوهر ال ب اكسترا سمول وانت طالع
+
+
+if i want it to show up in sm:
+
+
+<span class=" d-none d-sm-inline d-md-none">sm</span>
+
+
+
+انت اول شي رحت اخفيته فيهم كلهم بعدين اظهرته  فالسمول وطبعا ماينفع تحط كذا لان بيظهر فالكبير والاكسترا ف رحت قطعته من فوق كمان ؤاخفيته فالميديم وطالع  
+
+
+if i want it to show up in xl :
+
+
+
+<span class="d-none d-xl-inline">xl</span>
+
+
+
+هنا شغلته بسيطه رحت اخفيته فيهم كلهم بعدين اظهرته ف الاكسترا لارج
+
+
+
+to show in what size of screen you're in:
+
+<h2>
+
+
+the current size is :
+<span class="d-inline d-sm-none ">xs</span>
+<span class=" d-none d-sm-inline d-md-none">sm</span>
+<span class="d-none d-md-inline d-lg-none ">md</span>
+<span class="d-none d-lg-inline d-xl-none">lg</span>
+<span class="d-none d-xl-inline">xl</span>
+
+
+
+</h2>
+
+
+
+
+ 

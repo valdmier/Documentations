@@ -1,0 +1,6 @@
+stop is way to stop the loading in your page you might need it one day 
+
+
+example if there was a an image loading to stop it:
+
+window.stop();

@@ -1,0 +1,24 @@
+ Personally Identifiable Information PII:
+
+examples:
+
+Zip code
+Race
+Gender
+Date of birth
+Place of birth
+Religion
+
+====
+ Sensitive Personally Identifiable Information SPII:
+
+examples:
+
+Biometric identifiers
+Credit card number
+Driver's license or state ID number
+Financial account number
+Passport number
+Social Security number
+
+

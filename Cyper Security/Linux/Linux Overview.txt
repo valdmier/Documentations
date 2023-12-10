@@ -1,0 +1,72 @@
+Linux Overview
+
+Creation and Founders:
+
+Linus Torvalds and Richard Stallman
+Early 1990s
+UNIX-based improvements
+
+===
+Linus Torvalds:
+
+Aimed to improve UNIX, make it open source
+Introduced the Linux kernel
+
+===
+Richard Stallman:
+
+Worked on GNU, another UNIX-based OS
+Shared open-source goal
+Missing element: kernel
+Linux - Combination of Torvalds' kernel and GNU
+
+===
+Unique Aspects of Linux:
+
+===
+Open Source:
+
+Access to source code
+Licensed under GNU Public License
+Allows use, sharing, modification
+
+===
+Community-Driven:
+
+Large developer community
+Collaboration on projects
+Advancement in computing
+
+===
+Usage in Security:
+
+Common in security programs
+Used by various organizations
+Essential for security analysts
+
+===
+Distributions (Distros):
+
+Over 600 Linux distributions
+Varieties tailored for specific needs
+Distributions covered later
+Linux in Security Roles:
+
+===
+Log Analysis:
+
+Examine logs for system insights
+Investigate issues using error logs
+
+
+===
+Access and Authorization:
+
+Verify access and authorization
+Critical for system security
+
+===
+Specialized Distributions:
+
+Use specific distributions for particular tasks
+Example: Digital forensic tools for event investigation

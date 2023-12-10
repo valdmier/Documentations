@@ -1,0 +1,48 @@
+
+span:
+to select one word or couople of them
+example:
+<h3>Why I Love Cats</h3>
+
+i want just to color the word "love"
+
+
+<h3>Why I <span id="rr">Love</span>
+ Cats</h3>
+
+<style>
+#rr{color:red;}
+</style>
+
+dev:
+
+
+<div id="ss"> to select a couple of codes
+<h1>All About Cats</h1>
+
+
+    <h3>Why I Love Cats</h3>
+
+    <ul>
+
+        <li>Furry
+
+        <li>Cute
+
+        <li>Evi
+
+    </ul></div>
+
+     <style>
+#ss{backgroud-color:gray;
+</style>
+
+ דוד note:
+  ַdiv: בז ֽ״םÊו Ú ßבדו ָ׃ ֽׁ ם׃זם ׃״ׁ
+ ּֿםֿ בבßבדו זßֻםׁ ַßזַֿ בדַ Ê׃זםוד םÝÊֽ ׃״ׁ ּֿםֿ זָÚײוד דַםÝÊֽ 
+םÚהם Úַֿם ÊÞֿׁ ÊßÊָ ּהָו ַבֿםÝ םÝÊֽ ׃״ׁ ּֿםֿ Ýַ ַ׃Ê־ֿדו ÝÞ״ בÊּֿםֿ
+ַבÚהַױׁ
+span:
+דַ םÝÊֽ בß ׃״ׁ ּֿםֿ זÚַֿם Êֽֿֿ Ýם ֹßבדו ַז
+ Úֿו ßָדַÊ ָֿזה דַ םÝÊֽ ׃״ׁ ּֿםֿ
+

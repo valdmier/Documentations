@@ -1,0 +1,7 @@
+using secure coding practices
+
+secure coding practices are recommended guidelines that are used to create secure applications and services.
+
+ The software development lifecycle is an efficient process used by teams to quickly build software products and features.
+
+ In this process, security is an additional step. By ensuring that each phase of the software development lifecycle undergoes security reviews, security can be fully integrated into the software product. 

@@ -1,0 +1,32 @@
+i dont want to talk a lot ill show u how it works
+
+octal numbers   normal numbers
+     01               1
+     02               2
+     03               3 
+     04               4
+     05               5
+     06               6
+     07               7 
+     010   <<< >>>    8
+     011              9
+     012              10
+     013              11
+     014              12
+     015              13
+     016              14
+     017              15
+     020    << >>     16
+
+so in octal numbers we dont write 9 n 8
+
+so you go 030 = 24
+          040 = 32
+window.console.log(050); 
+
+result= 40
+
+
+serch more bout it its cool
+
+

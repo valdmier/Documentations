@@ -1,0 +1,82 @@
+SQL Query (SELECT, FROM, ORDER BY)
+
+===
+SQL Query Essentials:
+
+Two essential keywords: SELECT and FROM.
+SELECT: Specifies which columns to return.
+FROM: Indicates the table to query.
+
+
+===
+Sample SQL Query:
+
+SELECT employee_id, device_id
+FROM employees;
+
+
+===
+Using SELECT:
+
+You can select one or more columns by separating them with commas.
+
+Example: 
+
+SELECT customerid, city
+
+To select all columns, use an asterisk (*).
+
+Example:
+
+ SELECT *
+
+Note: Be cautious with SELECT * for large databases as it may slow down queries.
+
+===
+Using FROM:
+
+Use the FROM keyword followed by the table name.
+
+Example:
+
+ FROM customers
+
+End the query with a semicolon (;).
+
+
+===
+ORDER BY Keyword:
+
+Used to sort query results.
+
+Default order is ascending (e.g., from smallest to largest).
+
+Example of sorting in ascending order by "city":
+
+SELECT customerid, city, country
+FROM customers
+ORDER BY city;
+
+It will sort alphabetically or from largest num to smallest.
+
+Example of sorting in descending order by "city":
+
+SELECT customerid, city, country
+FROM customers
+ORDER BY city DESC;
+
+===
+Sorting Based on Multiple Columns:
+
+You can sort by multiple columns, e.g., by "country" and then "city."
+
+
+SELECT customerid, country, city
+FROM customers
+ORDER BY country, city;
+
+
+SQL first sorts by "country," and within each country, it sorts by "city."
+
+===
+

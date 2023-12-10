@@ -1,0 +1,26 @@
+node:
+
+to enter node from the terminal.
+
+--
+example:
+
+haram@DESKTOP-D1QMJH6 MINGW64 ~
+$ node
+Welcome to Node.js v14.16.0.
+
+===
+.exit:
+
+to exit node from the terminal after enterig it.
+--
+example:
+
+haram@DESKTOP-D1QMJH6 MINGW64 ~
+$ node
+Welcome to Node.js v14.16.0.
+Type ".help" for more information.
+> ls
+Uncaught ReferenceError: ls is not defined
+> .exit
+

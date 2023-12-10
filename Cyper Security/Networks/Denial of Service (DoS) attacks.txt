@@ -1,0 +1,61 @@
+Denial of Service (DoS) attacks:
+
+ An attack that targets a network or server and floods it with network traffic. 
+
+The goal of the attack is to send so much information to a network device that it crashes or is unable to respond to legitimate users.
+
+A network crash can also leave them vulnerable to other security threats and attacks.
+
+
+===
+A distributed denial of service attack (DDoS):
+
+A kind of DoS attack that uses multiple devices or servers in different locations to flood the target network with unwanted traffic.
+
+===
+Remember, DoS stands for denial of service. So it doesn't matter what part of the network the attacker overloads; if they overload anything, they win.  
+
+
+
+===
+Types of DoS attacks:
+
+===
+- SYN (synchronize) flood attack: 
+
+A type of DoS attack that simulates a TCP connection and floods a server with SYN packets.
+
+
+---
+Let's break this definition down a bit more by taking a closer look at the handshake process that is used to establish a TCP connection between a device and a server:
+
+Establishing a TCP connection involves a handshake. First, the device sends a SYN request to the server. The server replies with a SYN/ACK, leaving a port open. When it gets the final ACK from the device, the connection is made.
+
+Hackers flood servers with SYN requests, overwhelming them if it exceeds available ports, causing the server to fail.
+
+===
+ICMP flood attack:
+
+An ICMP flood attack is a type of DoS attack performed by an attacker repeatedly sending ICMP packets to a network server. This forces the server to send an ICMP packet. This eventually uses up all the bandwidth for incoming and outgoing traffic and causes the server to crash.
+
+---
+ICMP is an internet protocol used by devices to tell each other about data transmission errors across the network.
+
+ICMP is like a request for a status update from a device. The device will return error messages if there is a network concern.
+
+
+===
+There are also attacks that can overwhelm the server with one big request. 
+
+ One example that we'll discuss is called the ping of death.
+
+===
+-Ping of death:
+
+Caused when a hacker pings a system by sending it an oversized ICMP packet that is bigger than 64 kilobytes, the maximum size for a correctly formed ICMP packet. 
+
+
+===
+- Smurf attack: 
+
+A combination of a DDoS attack and an IP spoofing attack. The attacker sniffs an authorized user's IP address and floods it with packets. This overwhelms the target computer and can bring down a server or the entire network.

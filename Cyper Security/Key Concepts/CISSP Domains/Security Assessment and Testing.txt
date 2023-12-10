@@ -1,0 +1,11 @@
+Security Assessment and testing:
+
+Focused on Conducting Security control testing, collecting and nalyzing data, and conducting security audits to monitor risks, threats and vulnerabilities.
+
+it Includes:
+
+- Conducting Security control testing
+
+- collecting and nalyzing data
+
+-  conducting security audits

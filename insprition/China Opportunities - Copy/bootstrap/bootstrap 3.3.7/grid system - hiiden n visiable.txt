@@ -1,0 +1,81 @@
+to hide an element on certen kind of screens is usefull realy..u can see a website who does that
+
+https://imovie-time.cc/series/%D9%85%D8%B3%D9%84%D8%B3%D9%84-for-life-%D9%85%D8%AA%D8%B1%D8%AC%D9%85-%D8%A7%D9%84%D9%85%D9%88%D8%B3%D9%85-%D8%A7%D9%84%D8%A3%D9%88%D9%84/
+
+
+how to do this?
+
+<div class="hidden-xs"> i should be hidden on xs(=  </div>
+
+
+more examples :
+.os {
+    
+    background-color: red;
+    color: white;
+    margin: 8px;
+
+}
+
+<div class="container">
+    <div class="row">
+    
+       
+         <div class="col-lg-4 hidden-xs">    <div class="os">i should be hidden on xs(=</div>   </div>
+         <div class="col-lg-4 col-md-6 col-xs-12">    <div class="os">product</div>   </div>
+         <div class="col-lg-4 col-md-6 col-xs-12">    <div class="os">product</div>   </div>
+         <div class="col-lg-4 col-md-6 col-xs-12">    <div class="os">product</div>   </div>
+         <div class="col-lg-4 col-md-6 col-xs-12">    <div class="os">product</div>   </div>
+
+        
+    </div>
+
+  </div>
+
+
+
+to make an element apear in one type of screens only:
+
+
+
+ <div class="col-lg-4 visible-md-block">    i should be hidden on xs(=   </div>
+
+
+
+n that will make it show up on md screens only
+
+
+
+example:
+
+.os {
+    
+    background-color: red;
+    color: white;
+    margin: 8px;
+
+}
+.vi {
+    
+    background-color: skyblue;
+    color: white;
+    margin: 8px;
+
+}
+
+
+<div class="container">
+    <div class="row">
+    
+       
+         <div class="col-lg-4 visible-md-block">    <div class="vi">i should be hidden on xs(=</div>   </div>
+         <div class="col-lg-4 col-md-6 col-xs-12">    <div class="os">product</div>   </div>
+         <div class="col-lg-4 col-md-6 col-xs-12">    <div class="os">product</div>   </div>
+         <div class="col-lg-4 col-md-6 col-xs-12">    <div class="os">product</div>   </div>
+         <div class="col-lg-4 col-md-6 col-xs-12">    <div class="os">product</div>   </div>
+
+        
+    </div>
+
+  </div>
+    

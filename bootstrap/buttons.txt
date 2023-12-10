@@ -1,0 +1,91 @@
+k i will not give you all the colors im sick of this
+
+
+wanna go see all the colors go to the colors document
+
+
+to give a button a red color:
+
+
+<button class="btn btn-danger"> click </button>
+
+
+
+
+to give only the border(the outline) a color:
+
+
+<button class="btn btn-outline-danger"> click </button>
+
+
+you can also put the btn calss on links or inputs even:
+
+
+link:
+
+<a class="btn btn-primary" href="#">Link</a>
+
+input:
+
+<input type="button" value="hi iam buttton" class="btn btn-outline-danger">
+
+
+
+button also has sizes 
+
+block buttons :
+<button class="btn btn-danger btn-block">click me</button> 
+
+to give it more height lets add btn-lg:
+
+<button class="btn btn-danger btn-block btn-lg ">click me</button> 
+
+
+
+large buttons:
+
+<button type="button" class="btn btn-primary btn-lg">Large button</button>
+
+
+small :
+ 
+            <button type="button" class="btn btn-secondary btn-sm">Small </button>
+
+normal(nothing added);
+
+            <button class="btn btn-warning"> nope im a normal button</button>
+
+
+examole with everything we mintioned:
+
+<div class="container"> 
+    <div class="row">
+    
+            <button class="btn btn-danger btn-block btn-lg ">click me</button> 
+            <button class="btn btn-light btn-block ">click me</button> 
+
+            <button type="button" class="btn btn-primary btn-lg">Large button</button> 
+            <button type="button" class="btn btn-secondary btn-sm">Small </button>
+            <button class="btn btn-warning"> nope im a normal button</button>
+            <button class="btn btn-info">click me</button>
+            <a class="btn btn-primary" href="#">Link</a>
+            
+    </div>
+
+   
+<div class="row">
+
+        <button class="btn btn-outline-danger">click me</button>   
+        <button class="btn btn-outline-primary">click me</button> 
+        <button class="btn btn-outline-secondary">click me</button>
+        <button class="btn btn-outline-warning">click me</button>
+        <button class="btn btn-outline-info">click me</button>
+        <button class="btn btn-outline-success">click me</button>
+        <input type="button" value="hi iam buttton" class="btn btn-outline-danger">
+</div>
+
+</div>
+
+
+
+

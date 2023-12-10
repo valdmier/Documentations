@@ -1,0 +1,58 @@
+Computer Security Incident Response Teams (CSIRTs)
+
+===
+CSIRTS (Pronounced C sirts):
+
+Computer Security Incident Response Team 
+
+Specialaized group of security professionals that are treanied in incident management and response.
+
+GOAL: manage incidents, prevent future incidents from occurring, and provide services and resources for response and recovery.
+
+===
+Roles in CSIRTS:
+
+- Security Analyst
+
+Duty: 
+Investigate security alerts.
+Determine if an incident occurred.
+Assign criticality rating to the incident.
+Remediate less critical incidents.
+
+- Technical Lead (Ops Lead):
+
+Duty: Guides security incidents through their lifecycle.
+
+- Incident coordinators
+
+Duty: 
+Track and manage CSIRT activities.
+Ensure adherence to incident response processes.
+Keep teams updated on incident status.
+
+May also exist in other teams, such as SOC (Security Operations Center).
+
+===
+Variations:
+
+Names:
+CSIRT (Computer Security Incident Response Team)
+IHT (Incident Handling Team)
+SIRT (Security Incident Response Team)
+
+Focus:
+Crisis management.
+Integration with SOC (Security Operations Center).
+
+Shared Goal: All CSIRT variations share the goal of incident management and response.
+===
+Additional Roles
+
+Communications Lead: Manages communications during incidents.
+
+Legal Lead: Deals with legal aspects of incidents.
+
+Planning Lead: Focuses on planning for incident response.
+
+Incident Commander: An alternative title for incident coordinator or leader.

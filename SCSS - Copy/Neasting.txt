@@ -1,0 +1,66 @@
+
+in css when when want to nest an element with certen class if it was inside a certen element we do:
+   
+
+<p> hi <span class = "className"> mohammed </span> 
+    alsolimani  </p> 
+
+p .className{
+    
+    color: aquamarine;
+    
+}
+
+
+result the name mohammed changed
+
+well in sass its a different thing 
+
+how we do this in sass?:
+
+
+well you can do the same thing or you can do it like that 
+
+<p>hi <span class = "className"> mohammed </span> 
+    alsolimani  </p> 
+
+p {
+    color: orangered;
+    
+    .className {
+    color: aquamarine;
+    }
+    
+}
+
+n it will do the same thing but the rest of the paragraph will be red cuz i commanded that.
+
+and like that you put the parent and the child...or a child inside a child...its much easier here
+
+
+
+but how if i wanted to use some properties like pesudo classrs or element?:
+
+
+p {
+    color: orangered;
+    
+    .className {
+    color: aquamarine;
+    }
+         &:hover {
+        background-color:darkorchid;
+        
+    }
+        
+    }
+
+
+we refer to the main parent with the "$" sign
+
+
+
+
+
+
+

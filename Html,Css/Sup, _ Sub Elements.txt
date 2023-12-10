@@ -1,0 +1,21 @@
+sup element :
+
+يخلي الكلام زي الاس صغير وطالع ع فوق يمين
+
+example:
+
+ <span>x<sup>2</sup>+ x<sup>2</sup> = x<sup>4</sup> </span>
+
+
+===
+
+Sub element:
+
+يسوي لك زي كتابه تحت بمبن كذا مثل عدد ذرات فالكيمياء
+
+
+example:
+
+      <span>H<sub>2</sub>+ O = H<sub>2</sub>O </span>
+
+

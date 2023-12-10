@@ -1,0 +1,62 @@
+Databases 
+
+
+===
+Definition: An organized collection of information or data.
+
+
+===
+Relational Databases
+
+Definition: Structured databases containing related tables.
+
+===
+Table Components:
+
+Columns (Fields): Define attributes (e.g., employee_id).
+
+Rows (Records): Contain specific data related to columns.
+
+===
+Table Relationships: Connect tables using keys (e.g., employee_id).
+
+Primary Key: Unique, no duplicates, identifies each row.
+
+Foreign Key: Links to primary key in another table.
+
+A table can have one primary key but multiple foreign keys.
+
+===
+A query: 
+
+request for data from a database table or a combination of tables 
+
+
+===
+SQL vs. Linux Filtering
+
+Accessing SQL from Linux:
+
+Use SQL commands for specific SQL versions (e.g., sqlite3).
+
+Execute SQL commands via the Linux command line.
+
+===
+Differences:
+
+===
+Structure:
+
+- SQL offers organized, column-based data.
+- Linux presents data as unstructured text lines.
+
+===
+Joining Tables:
+
+- SQL allows joining multiple tables for complex queries.
+- Linux lacks this functionality, making it less suitable for complex data analysis.
+
+===
+Best Uses:
+- SQL is preferred for structured data in databases.
+- Linux is useful for unstructured data or data in incompatible formats (e.g., text files).

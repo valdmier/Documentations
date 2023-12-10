@@ -1,0 +1,62 @@
+lets get started real quick:
+
+
+fisrt lets make a folder n name house 
+
+house contains me n salem n abdo
+
+me contents:
+module.exports = {
+    name: "mohammed",
+    height: "tall"
+}
+
+abdo contents:
+
+module.exports = {
+    name: "abdo",
+    height: "tall"
+}
+
+salem contents:
+
+module.exports = {
+    name: "salem",
+    height: "chuppy"
+}
+==
+then we make another file to lonl all the files to it:
+its prefered to name it index so the computer open it first 
+we open the folder..if we didnt name it index then when we 
+
+call the folder we'll have to tell him wthat specific
+ file he should open inside that folder but if we named
+
+ it index then when just telling him open that folder 
+he'll automaticly open the index file
+
+
+index file contents:
+
+const me = require("./me");
+const abdo = require("./abdo");
+const salem = require("./salem");
+
+const allhouse = [me, salem, abdo];
+
+console.log(allhouse);
+
+module.exports = allhouse;
+
+
+===
+now lets go to a file thats inside the same folder that
+house is in but not inside house
+
+back.js:
+
+const math = require("./house");
+
+or if u didnt name it index 
+
+const math = require("./house/whtaeverYouNamedIT");

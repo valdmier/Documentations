@@ -1,0 +1,12 @@
+he onresize event occurs when the browser window has been resized.
+
+it only work with window
+
+
+window.onresize = function () {
+    
+    "use strict";
+    
+    alert('why resizing'); 
+    
+};

@@ -1,0 +1,60 @@
+Security zone:
+A segement of a network that protects the internal network from the internet.
+
+They are a part of a security technique called network segmentation that divides the network into segments.
+
+===
+Network segmentation:
+
+A security technique that divides the network into segments.
+
+===
+One example of network segmentation is a hotel that offers free public Wi-Fi.
+
+The unsecured guest network is kept separate from another encrypted network used by the hotel staff.
+
+
+===
+Organization's network can be divided into subnetworks, or subnets, to maintain privacy for each department in a organization.
+
+For instance, at a university, there may be a faculty subnet and a separate students subnet.
+
+If there is contamination on the student's subnet, network administrators can isolate it and keep the rest of the network free from contamination.
+
+
+===
+An organization's network is classified into two types of security zones.
+
+
+ - Uncontrolled zone:
+Which is any network outside of the organization's control, like the internet.
+
+- Controlled zone:
+which is a subnet that protects the internal network from the uncontrolled zone. 
+
+there are several types of networks within the controlled zone:
+
+-Outer layer:
+is the demilitarized zone, or DMZ, which contains public-facing services that can access the internet. This includes web servers, proxy servers that host websites for the public, and DNS servers that provide IP addresses for internet users. 
+
+The DMZ acts as a network perimeter to the internal network.
+
+- Internal network:
+The internal network contains private servers and data that the organization needs to protect.
+
+- Restricted zone:
+protects highly confidential information that is only accessible to employees with certain privileges.
+
+
+===
+Picture this: Imagine a castle with three layers of defense.
+
+Security Zones and Firewalls:
+
+- DMZ (Demilitarized Zone): Think of this as the castle's welcoming front yard. In the digital world, it's where public-facing servers like websites and emails reside. The first firewall, like the castle's outer wall, manages who enters this zone from the internet. The second firewall, like an inner castle wall, provides extra protection for the core network.
+
+- Internal Network: Picture this as the treasure-filled castle vault. It holds sensitive data, crucial servers, and all the workstations. The DMZ acts as a protective buffer, like a courtyard, stopping direct access to this precious data. Even if an intruder gets into the courtyard (DMZ), they still have to break through another barrier to reach the treasure (the internal network).
+
+- Restricted Zone: This is like the castle's hidden chambers where only the most trusted individuals are allowed. Extra firewalls protect these ultra-sensitive areas. Access here is limited to the highest clearance, just like a king's chamber.
+
+- Access Control Policies: Your role, as the security analyst, is akin to the master gatekeeper of the castle. You craft strict rules, allowing only authorized individuals (or digital traffic) to enter. For example, you might decree, "Only permit messengers bearing a specific emblem (HTTPS) to enter the castle courtyard (DMZ)." This ensures the safety of the castle's treasures and secrets, digitally or in medieval times.

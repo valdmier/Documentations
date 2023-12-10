@@ -1,0 +1,29 @@
+
+
+Destructuring :
+
+The destructuring assignment syntax is a JavaScript 
+expression that makes it possible to store values from 
+arrays, or properties from objects, into
+variables.
+
+===
+example with arrays:
+
+var race = ["sami","Amanda","sara", "Naser", "ali"];
+
+const [first, second, theird] = race;
+
+console.log("1: " +first + " 2: " + second + " 3: " + theird); 
+
+//RESULT: 1: sami 2: Amanda 3: sara
+
+===
+Object destructuring:
+
+const user = {
+    id: 42,
+    is_verified: true
+};
+
+const {id, is_verified} = user;

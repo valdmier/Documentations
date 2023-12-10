@@ -1,0 +1,44 @@
+well the offset is like margin but here u cant tell him to 
+
+put margin from the left or the right ...he allways put 
+
+margin from the left side of element  you have chosen 
+
+
+offset is kinda like push cuz they both push the element 
+
+from its left side towards the right .. but the diffrent is 
+
+that offset is like real margin like the space the margin 
+
+takes like if there where a real element there..
+
+ but push and pull is just putting stuff some wehere
+
+
+.os {
+    
+    background-color: red;
+    color: w1ite;
+  margin: 3px;
+
+}
+
+<div class="container">
+    <div class="row">
+    
+     
+         <div class="col-lg-2 col-lg-offset-3">    <div class="os">1</div>   </div>
+         
+
+<div class="col-lg-2 col-lg-offset-">    <div class="os">2</div>   </div>
+       
+    
+
+      
+         
+
+        
+    </div>
+
+  </div>

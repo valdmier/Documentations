@@ -1,0 +1,146 @@
+things you have to serch for:
+
+-the word this with every single element
+
+
+-hr in hrml,label DONE
+-pseudo classes DONE
+
+-entity codes DONE
+
+-pesudo elements DONE
+
+-regular expression DONE
+
+- what are rems KINDA DONE
+
+- fromCharCode and everything bout char code it 
+really usfull if u want to be a pro
+
+-stylesheets 
+
+-    <a href = "javascript:history.back();">click</a>
+this javascript thing in html n how it works
+
+-Invoke noLoop() 
+
+-Quantifiers in regular expression DONE
+
+-<iframe>ٍٍ
+
+-The lower case text tool DONE
+
+-addEventListener DONE
+
+-loop();
+
+-label in loops
+
+-cockies https://www.youtube.com/watch?v=D8SVbXcPJv4&list=PLDoPjvoNmBAy9nFRJgVYgEID8xE2a6q6V&index=17
+
+-how this line of code works:
+
+fill(80, 204, 55);
+
+rect(100, 0, 200, 400);
+
+
+
+var draw = function() {
+ 
+   
+var numCircles = 6;
+
+   
+ for (var i = numCircles; i > 1; i--)
+ { var radius = i * 7;
+        if (mouseX > 100 && mouseX < 300)
+ {
+ fill(255, 255, 255);
+ } else {
+
+      fill(80, 204, 55);
+}
+      
+  ellipse(mouseX, mouseY, radius, radius);
+
+    }
+};
+
+-Object Inheritance
+
+-objects methood
+
+-attributes in javascribt
+
+-css animation https://daneden.github.io/animate.css/
+and more than these
+
+- how to change the menu that appears when u click right click like: https://stackoverflow.com/questions/4909167/how-to-add-a-custom-right-click-menu-to-a-webpage
+
+-window.requestAnimationFrame, and CSS animations/transitions
+
+-window.setInterval/setTimeout
+
+-JS libraries
+
+- how can say here if the img become 300px stop...i tried a lot
+
+
+
+<img id="ohnoes" src="https://www.kasandbox.org/programming-images/creatures/OhNoes.png">
+<h1>Oh noes, the world will end in
+<span id="countdown">500</span>
+seconds!
+</h1>
+</div>
+
+<script>
+// Step 1. What element do we want to animate?
+var countdown = document.getElementById("countdown");
+// Step 2. What function will change it each time?
+var countItDown = function() {
+countdown.textContent = parseFloat(countdown.textContent) - 1;
+};
+// Step 3: Call that on an interval
+window.setTimeout(countItDown, 1000);
+</script>
+
+
+-
+all pesudo classes:
+
+:active
+:checked
+:disabled
+:visited
+:valid	
+:target
+:root
+:required
+:read-write
+:read-only
+:out-of-range
+:optional
+:only-child	
+:only-of-type
+:nth-of-type(n)
+:nth-last-of-type(n)
+:nth-last-child(n)
+:nth-child(n)
+:not(selector)
+:link
+:last-of-type
+:last-child
+:lang(language)
+:invalid
+:in-range
+:hover
+:focus
+:first-of-type
+:focus
+:first-child
+:enabled
+
+
+-cash

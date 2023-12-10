@@ -1,0 +1,43 @@
+so there is inline elements that take can come all in the same line n there is the block elements that takes the whole line for themselfies ..
+
+here are the block elements:
+
+
+<address> <article> <aside> <blockquote> <canvas>
+
+<dd> <div> <dl> <dt> <fieldset> <figcaption> <figure>
+
+<footer> <form> <h1> <h6> <header> <hr> <li> <main> 
+
+<nav> <noscript> <ol> <p> <pre> <section> <table>
+
+<tfoot> <ul> <video>
+
+
+---
+
+n there is the inline elements that donesnt take the whole space for themselives..n u can put them next to each other 
+inline will cancle margin n padding n borders 
+    }
+ the inline elements:
+
+
+<a> <abbr> <acronym> <b> <bdo> <big> <br> <button> <cite>
+
+<code> <dfn> <em> <i> <img> <input> <kbd> <label>
+
+<map><object><output><q><samp><script><select>
+
+<small><span><strong><sub><sup><textarea>
+
+<time> <tt> <var>
+
+
+---
+
+the inline-block takes all block properties but the makes elements next to each other
+
+
+
+
+

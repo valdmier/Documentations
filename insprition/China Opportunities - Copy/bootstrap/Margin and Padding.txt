@@ -1,0 +1,93 @@
+note:
+the linit is 5 you cant say m-6 or p-6 or upove
+n
+yup you cant say p-xs-5 it works just the display utility
+
+
+margin:
+
+
+you learned what margin is so lets learn its classes in bootstrap
+
+
+class sytax:
+     l=left r=right
+     t=top  b=bottom
+      x=left n right 
+     y= top and bottom
+            ^
+{property}{sides}-{size} for xs and {property}{sides}-{breakpoint}-{size} for sm, md, lg, and xl.
+   ^
+m= margin
+p= padding
+or 
+
+{property}{sides}-{breakpoint}-{size}
+                       ^
+                  xs,sm,md,lg,xl
+
+example:
+span {
+ 
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+        margin:3px;
+
+    }
+
+<span class="bg-warning rounded mr-3"> </span>
+
+that gave it a margin to the right
+
+
+
+to make the margin changes in whaterver screen size
+ u r in:
+
+
+try changenigh screen size to see the defference
+        
+            <span class="bg-warning rounded m-1 m-sm-2 m-lg-4 m-xl-5"> </span>
+            <span class="bg-warning rounded m-1 m-sm-2 m-lg-4 m-xl-5"> </span>
+            <span class="bg-warning rounded m-1 m-sm-2 m-lg-4 m-xl-5"> </span>
+            <span class="bg-warning rounded m-1 m-sm-2 m-lg-4 m-xl-5"> </span>
+            <span class="bg-warning rounded m-1 m-sm-2 m-lg-4 m-xl-5"> </span>
+            <span class="bg-warning rounded m-1 m-sm-2 m-lg-4 m-xl-5"> </span>
+            <span class="bg-warning rounded m-1 m-sm-2 m-lg-4 m-xl-5"> </span>
+            <span class="bg-warning rounded m-1 m-sm-2 m-lg-4 m-xl-5"> </span>
+            <span class="bg-warning rounded m-1 m-sm-2 m-lg-4 m-xl-5"> </span>
+            
+      
+ padding:
+
+
+pading is done the same way like margin
+
+
+to add a padding to the right:
+
+pr-1
+
+to add a padding to the left:
+pl-2
+
+to add the padding in a specefic screen size:
+
+p-sm-3
+
+n like that the padding will be added only in small screens
+
+
+to make the padding changes in couple of elements however what screen size u r in:
+
+
+ <span class="bg-warning rounded  p-sm-2 p-lg-4 p-xl-5"> </span>
+            <span class="bg-warning rounded  p-sm-2 p-lg-4 p-xl-5"> </span>
+            <span class="bg-warning rounded p-sm-2 p-lg-4 p-xl-5"> </span>
+            <span class="bg-warning rounded p-1 p-sm-2 p-lg-4 p-xl-5"> </span>
+            <span class="bg-warning rounded p-1 p-sm-2 p-lg-4 p-xl-5"> </span>
+            <span class="bg-warning rounded p-1 p-sm-2 p-lg-4 p-xl-5"> </span>
+            <span class="bg-warning rounded p-1 p-sm-2 p-lg-4 p-xl-5"> </span>
+            <span class="bg-warning rounded p-1 p-sm-2 p-lg-4 p-xl-5"> </span>
+            <span class="bg-warning rounded p-1 p-sm-2 p-lg-4 p-xl-5"> </span>

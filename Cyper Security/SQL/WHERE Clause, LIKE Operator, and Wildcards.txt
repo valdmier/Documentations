@@ -1,0 +1,68 @@
+WHERE Clause, LIKE Operator, and Wildcards
+
+===
+Filtering with WHERE Clause:
+
+- As a security analyst, filtering is essential for working with large and complex security logs.
+
+- The WHERE keyword is used to create a filter in SQL.
+
+- WHERE indicates the condition for a filter in a query.
+
+Example:
+
+SELECT firstname, lastname, title, email
+FROM employees
+WHERE title = 'IT Staff';
+
+This query filters the results to only include employees with the title 'IT Staff'.
+
+===
+Filtering for Patterns:
+
+SQL allows you to filter based on patterns, such as entries that start or end with specific characters.
+
+Filtering for patterns requires two elements in the WHERE clause: a wildcard and the LIKE operator.
+
+===
+Wildcards:
+
+Wildcards are special characters that can be substituted with other characters.
+
+Two useful wildcards are % (percentage sign) and _ (underscore):
+
+%: Substitutes for any number of characters.
+_: Substitutes for a single character.
+
+
+===
+Examples of Wildcards:
+
+'a%': Matches strings that start with 'a' (e.g., 'apple123', 'art').
+
+'a_': Matches strings where 'a' is followed by one character (e.g., 'as', 'an', 'a7').
+
+'a__': Matches strings where 'a' is followed by two characters (e.g., 'ant', 'add', 'a1c').
+
+'%a': Matches strings that end with 'a' (e.g., 'pizza', 'Z6ra', 'a').
+
+'_a': Matches strings where 'a' is preceded by one character (e.g., 'ma', '1a', 'Ha').
+
+'%a%': Matches strings that contain 'a' anywhere in the string (e.g., 'Again', 'back', 'a').
+
+'a': Matches strings where 'a' is surrounded by one character on each side (e.g., 'Car', 'ban', 'ea7').
+
+===
+Using the LIKE Operator:
+
+To apply wildcards in your filter, use the LIKE operator instead of the equals sign (=).
+LIKE is used with the WHERE clause to search for patterns in a column.
+
+Example:
+SELECT lastname, firstname, title, email
+FROM employees
+WHERE title LIKE 'IT%';
+
+This query filters employees with titles starting with 'IT', such as 'IT Staff' and 'IT Manager'.
+
+Remember to use the semicolon (;) to end your SQL query.

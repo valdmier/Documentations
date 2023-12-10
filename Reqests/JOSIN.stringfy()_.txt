@@ -1,0 +1,24 @@
+JSON.stringify():
+
+When sending data to a web server, the data has to be a
+ string.
+
+Convert a JavaScript object into a string with 
+JSON.stringify()
+
+--
+Imagine we have this object in JavaScript:
+var obj = { name: "John", age: 30, city: "New York" };
+
+Use the JavaScript function JSON.stringify() to convert it into a string.
+var myJSON = JSON.stringify(obj);
+
+===
+example:
+
+let sentData ={ name: "John", age: 30, city: "New York" };
+
+console.log(JSON.stringify(sentData));
+
+
+The result will be a string following the JSON notation.

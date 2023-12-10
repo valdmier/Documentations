@@ -1,0 +1,137 @@
+soo to add a checkboxes or raido buttons folow up in here:
+
+(::
+
+so thats how you make check boxes :
+
+
+<form >
+
+    <div class="container">
+  
+        <div class="form-groub"></div>
+<!--do the old reguler stuff n make form then form groub div..etc-->
+    <h1 class="display-4"> form checks </h1>
+    
+    <h4> <em>Checkboxes</em></h4>
+
+<!--here make a check boxes div that will align the button n the label-->
+
+    <div class="form-check"> 
+   <!--theres to elements in the form-check tag, label n input just give the input its class n the label its class  -->
+ <input type="checkbox" class="form-check-input " id="chickens">
+  
+  <!--potion 1-->
+
+    <label for="chickens" class="form-check-label"> Chickens </label>
+   </div>
+
+
+   <div class="form-check">
+<input type="checkbox" class="form-check-input" id="cats">
+  
+ <!--potion 2-->
+
+<label for="cats" class="form-check-label" > Cats</label>
+
+      
+ </div>
+ </div>
+   </div>
+</form>
+
+
+
+to make radio buttons:
+
+<div class="form-groub">
+    <!--do the old reguler stuff n make form..etc-->
+  
+        
+        <h4> <em>radio buttons</em></h4>
+    
+    <!--here make a check boxes div that will align the button n the label-->
+    
+        <div class="form-check"> 
+       <!--theres to elements in the form-check tag, label n input just give the input its class n the label its class  -->
+     <input type="radio" class="form-check-input " name="pets" id="chickens">
+      
+      <!--potion 1-->
+    
+        <label for="chickens" class="form-check-label"> Chickens </label>
+       </div>
+    
+    <!--you have to give them the same name so u can choose only
+         one of them-->
+       <div class="form-check">
+    <input type="radio" class="form-check-input" name="pets" id="cats">
+      
+     <!--potion 2-->
+    
+    <label for="cats" class="form-check-label" > Cats</label>
+     
+  
+       
+    </div>
+    
+    
+    </div>
+
+
+
+
+raido buttons n checkboxes:
+
+
+
+<form >
+
+    <div class="container">
+  
+        <div class="form-groub">
+
+    <h1 class="display-4 "> form checks </h1>
+    
+    <h4 class="d-inline mr-3"> <em>Checkboxes</em></h4>
+    <h4 class="d-inline"> <em>radio buttons</em></h4>
+
+</div>
+<hr>
+    <div class="form-check d-inline mr-4"> 
+   
+ <input type="checkbox" class="form-check-input " id="chickens">
+    <label for="chickens" class="form-check-label"> Chickens </label>
+   
+</div>
+
+   <div class="form-check d-inline ml-2"> 
+ 
+  <input type="radio" class="form-check-input " name="pets" id="chickens">
+     <label for="chickens" class="form-check-label"> Chickens </label>
+   
+    </div>
+ 
+    <!--cats-->
+<div class="d-block"></div>
+    <div class="form-check d-inline mr-5"> 
+   
+        <input type="checkbox" class="form-check-input " id="cats">
+           <label for="cats" class="form-check-label"> cats </label>
+          
+       </div>
+       
+          <div class="form-check d-inline ml-4"> 
+        
+         <input type="radio" class="form-check-input " name="pets" id="cats">
+            <label for="cats" class="form-check-label"> cats </label>
+          
+           </div>
+   
+
+ </div>
+   </div>
+</form>
+
+
+
+

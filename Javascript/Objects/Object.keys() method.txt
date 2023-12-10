@@ -1,0 +1,23 @@
+
+
+The Object.keys() :
+
+ method returns the keys or properties of a given object
+
+--
+Syntax:
+
+Object.keys(obj)
+
+
+===
+example:
+
+var myCar = {
+    color: "gray",
+    model: "2022",
+    price: "50k USD",
+    type: "sydan"
+};
+
+console.log(Object.keys(myCar))

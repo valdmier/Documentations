@@ -1,0 +1,38 @@
+Cloud Haredning Practices:
+
+===
+Cloud network:
+
+ a collection of servers or computers that stores resources and data in a remote data center that can be accessed via the internet.
+
+
+===
+Cloud Network Basics:
+
+- Cloud networks store resources and data in remote data centers accessible via the internet.
+
+- They offer on-demand storage, processing power, and data analytics.
+
+Security Hardening in the Cloud:
+
+- Cloud servers, like traditional ones, require proper maintenance and security measures.
+
+- Cloud providers can't prevent intrusions from malicious actors.
+
+===
+1- Server Baseline Image:
+
+- Unique to cloud network hardening.
+
+- A baseline image is used for all cloud server instances.
+
+- It helps detect unverified changes that could result from intrusions.
+
+===
+2- Isolation of Data and Applications:
+
+Data and applications in the cloud are separated based on service categories.
+
+Old and new applications are kept separate.
+
+Internal software is isolated from user-facing applications (front-end).

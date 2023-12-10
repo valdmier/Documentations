@@ -1,0 +1,156 @@
+Scope determines the accessibility (إمكانية الوصول لمتغير)
+ of variables.
+
+note: with let and const the block scope works even in if statment, loops..etc not just in functions.
+
+
+In JavaScript there are two types of scope:
+
+Local scope
+Global scope
+
+
+- Variables defined inside a function are not
+ accessible (visible) from outside the function.
+---
+example:
+
+ <button onclick = "myCar()"> show car name</button>
+
+function myCar() {
+
+    "use strict";
+  
+    var carName = "Volvo";
+
+ 
+    return console.log(carName); //number1
+}
+
+ console.log(carName); //number2
+
+
+the result wiil be :
+
+ Volvo //number1
+
+undefined //number2
+
+why?cuz Variables defined inside a function are not
+ accessible (visible) from outside the function
+
+
+===
+
+-if you redeclare a variable many times. the value 
+of it will be the last one!
+
+---
+var x = 1;
+ x = 2;
+
+comsole.log(x)
+
+the result will be 2 cuz if you change on a variable
+ many times the value of it will be the last one.
+
+
+===
+
+if you dont add a var to variable in a function it
+wiil be global
+
+---
+
+function myCar() {
+
+    carName = "Volvo";
+
+    console.log(carName); //number1
+}
+myCar();
+console.log(carName); //number2
+
+
+the result wiil be :
+
+ Volvo //number1
+
+Volvo //number2
+
+why?cuz if you dont add a var to variable in a function it
+wiil be global
+
+
+===
+you can get to the variables outside of the function. But, you cant access the function's variables from outside it:
+
+let nani = "haaa???"
+function returnDay() {
+
+    console.log(nani);
+}
+
+
+returnDay();
+
+-
+output: haaa???
+
+
+===
+
+Warning
+Do NOT create global variables unless you intend to.
+
+Your global variables (or functions) can overwrite
+ window variables (or functions).
+Any function, including the window object,
+ can overwrite your global variables and functions.
+
+===
+
+function inside function:
+
+well if a function were inside another:
+
+the second function treats the first function 
+just like how the first function treats whats 
+outside it ...like if out side was zero and inside
+was function 1 2 3....func 1 for func 3 and func 2
+is like 0 to func 1...so on for func 2 for func 3
+...however its simple really :
+
+---
+example of function inside function:
+
+let nani = "haaa???"
+function outside() {
+    let nani = "haaa???"//inside func can access it
+
+    function inside() {
+        console.log(nani);
+        let notDefined = "ima not defines";
+        illBeAGlobalVar = "hell yeah";
+    }
+    inside();
+    console.log(illBeAGlobalVar);  //output: hell yeah
+    console.log(notDefined); //output: is not defined
+}
+outside();
+
+-
+output:
+-haaa??? //thats from outside func printed in inside func
+-hell yeah ///thats a global
+-Uncaught ReferenceError: notDefined is not defined
+    at outside   //thats a local one from inside called in outside so it doesnt work
+
+
+
+
+===
+
+here is a link for more info bout that https://www.youtube.com/watch?v=VPQJNF_JXds&list=PLDoPjvoNmBAw6p0z0Ek0OjPzeXoqlFlCh&index=21
+ 
+===

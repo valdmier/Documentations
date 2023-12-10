@@ -1,0 +1,19 @@
+ identity and access management (IAM):
+
+focused on access and authorization to keep data secure by making sure users follow established policies to control and manage assets. 
+
+Components of IAM:
+
+- Identification:
+providing a username, access card, or biometric data.
+
+- Authentication:
+the verification proccess to prove a person's identity.
+
+- Authorization: 
+Level of access depending on their role in the organization.
+
+- Accountibility:
+Monitoring and Recording user actions, like login attempts. To prove dta is used properly.
+
+ 

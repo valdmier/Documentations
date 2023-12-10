@@ -1,0 +1,20 @@
+
+break is way to stop the loop if something did happen
+
+
+we wanna say if i reaches 4 then stop the loop
+
+
+
+example:
+
+var i = 0;
+
+while (i <= 10) {
+    
+    if (i === 4) { break; }
+    
+    console.log(i);
+    
+    i = i + 1;
+}  

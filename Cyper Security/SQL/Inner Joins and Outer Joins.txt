@@ -1,0 +1,93 @@
+ Inner Joins and Outer Joins
+
+===
+Inner Joins
+
+- An INNER JOIN returns rows matching on a specified column that exists in more than one table.
+
+- It only returns rows where there is a match.
+
+- All specified columns from all joined tables are returned.
+
+- When using SELECT *, a column existing in both tables is returned twice.
+
+===
+Syntax of an Inner Join
+- To use INNER JOIN:
+
+  - Specify the two tables to join.
+  - Use the ON keyword and the = operator to indicate the column for joining.
+
+  - Specify both table and column names by placing a period (.) between them.
+
+===
+Selecting Specific Columns in an Inner Join**
+- You can select specific columns:
+
+  SELECT username, operating_system, employees.device_id
+  FROM  employees
+  INNER JOIN machines ON employees.device_id = machines.device_id;
+
+==
+  - Specify both table and column names if the column exists in both tables.
+
+===
+Outer Joins
+
+- Outer joins return all rows from one table or both tables.
+
+===
+Left Join
+
+- LEFT JOIN returns all records from the first table and matching rows from the second table.
+- Syntax:
+  
+  SELECT *
+  FROM employees
+  LEFT JOIN machines ON employees.device_id = machines.device_id;
+  
+- Specify the first or left table after FROM and the second or right table after LEFT JOIN.
+
+- All records from the left table and matching records from the right table are returned.
+
+===
+Right Join
+
+- RIGHT JOIN returns all records from the second table and matching rows from the first table.
+
+- Syntax is the same as LEFT JOIN, but it produces different output.
+
+- You can switch table order to achieve the same result:
+  
+  SELECT *
+  FROM machines
+  RIGHT JOIN employees ON employees.device_id = machines.device_id;
+  
+===
+Full Outer Join
+
+- FULL OUTER JOIN returns all records from both tables, merging them entirely.
+
+- Syntax:
+  
+  SELECT *
+  FROM employees
+  FULL OUTER JOIN machines ON employees.device_id = machines.device_id;
+
+==
+- Order of tables doesn't affect results.
+  
+===
+Key Takeaways
+
+- In SQL, various ways to join tables.
+
+- INNER JOIN returns matching records.
+
+- Outer joins (LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN) return all or some unmatched records.
+
+- LEFT JOIN returns all from the left table and matching from the right.
+
+- RIGHT JOIN returns all from the right table and matching from the left.
+
+- FULL OUTER JOIN merges all records from both tables.

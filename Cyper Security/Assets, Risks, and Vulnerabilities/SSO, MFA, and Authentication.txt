@@ -1,0 +1,53 @@
+SSO, MFA, and Strengthening Authentication
+
+===
+SSO (Single Sign-On):
+
+SSO combines multiple logins into one, benefiting companies for three main reasons:
+
+- Experience: Improves the user experience by reducing the number of usernames and passwords to remember.
+
+- Cost: Lowers costs by simplifying service management.
+
+- Security: Enhances security by reducing potential access points for attackers.
+
+SSO technology emerged in the mid-1990s to combat password fatigue, where people reuse passwords across services, which is a security risk.
+
+SSO shifts authentication responsibility away from users.
+
+===
+How SSO Works:
+
+SSO automates trust establishment between users and service providers.
+
+Trusted third-parties validate users' identities through encrypted access tokens exchanged between identity providers and service providers.
+
+Common authentication protocols used in SSO are LDAP (on-premises) and SAML (off-premises, cloud).
+
+LDAP and SAML protocols are often used together for SSO.
+
+SSO connects users to multiple applications with a single access token.
+
+===
+Limitations of SSO:
+
+SSO, relying on usernames and passwords, may not provide the highest level of security.
+
+A lost or stolen password could expose multiple services.
+
+===
+MFA (Multi-Factor Authentication):
+
+MFA requires users to verify their identity using two or more factors, enhancing security.
+
+MFA combines multiple forms of identification for authentication.
+
+Factors include:
+
+- Knowledge: Something the user knows (e.g., username, password).
+
+- Ownership: Something the user has (e.g., a one-time passcode sent via SMS).
+
+- Charactristic: Something the user is (e.g., fingerprints, facial scans).
+
+MFA strengthens authentication, especially in cloud environments, by making it challenging for threat actors to impersonate users.

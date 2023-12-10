@@ -1,0 +1,31 @@
+for loop is a loop what can i say?'-'
+
+
+sooo yeah lets get to the example but before that i want to tell u that when u want to replace a sytax in the language itself u have to put #{$i}
+
+
+example:
+
+th eexample idea is that we call the whole q0 clases with out having to repeat . and increase the font size each time.
+
+<p id = "class1">ERO</p>    
+<p id = "class2">ERO</p>    
+<p id = "class3">ERO</p>    
+<p id = "class4">ERO</p>    
+<p id = "class5">ERO</p>    
+<p id = "class6">ERO</p>    
+<p id = "class7">ERO</p>    
+<p id = "class8">ERO</p>    
+<p id = "class9">ERO</p>    
+<p id = "class10">ERO</p>    
+
+@for $i from 1 through 10 {
+    #class#{$i} {
+        font-size: 11px + $i;
+  
+    
+    } 
+    
+    
+    
+}

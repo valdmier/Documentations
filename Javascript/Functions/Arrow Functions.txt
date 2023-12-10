@@ -1,0 +1,78 @@
+
+An arrow function expression:
+
+         بديل              دمج
+ its a compact alternative to a traditional function expression, but is limited and can't be used in all situations.
+
+===
+syntax:
+
+(param1, paramN) => expression
+===
+
+Comparing traditional functions to arrow functions:
+
+// Traditional Function:
+function (a){
+  return a + 100;
+}
+
+// Arrow Function Break Down
+
+// Remove the word "function" and place arrow between the argument and opening body bracket
+(a) => {
+  return a + 100;
+}
+                              
+note: it does matter in witch direction the arrow is it gotta stay like that " => ".
+
+===
+example:
+
+let greet = (person) => {
+    return "Hey " + person + "!";
+};
+
+greet("harlod");
+
+--
+easy bisy right? tell here at least(:!
+
+===
+Implicit Return:
+
+here when you have one expression or one thing to do only u could use that and dont have to use the return key word:
+
+--
+example:
+
+//1-we could get rid of the return
+let doMath = () => {
+    return Math.floor(Math.random() * 6 + 1)
+};
+ 
+//2- by adding parentheses
+
+let doMath = () => (
+    Math.floor(Math.random() * 6 + 1)
+)
+
+//3- or even with out of parentheses
+
+let doMath = () => Math.floor(Math.random() * 6 + 1)
+
+---
+note that only work when there is one expression only:
+
+let doMath = () => (
+    Math.floor(Math.random() * 6 + 1)
+    Math.floor(Math.random() * 6 + 1)
+    ) 
+//thats wont work
+
+
+
+
+
+
+           

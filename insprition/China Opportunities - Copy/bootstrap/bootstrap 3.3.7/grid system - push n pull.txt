@@ -1,0 +1,41 @@
+well lets start explaning push:
+
+
+push n pull is kinda like offset cuz they both push the element 
+
+from its left side towards the right .. but the diffrent is 
+
+that offset is like real margin like the space the margin 
+
+takes like if there where a real element there..
+
+ but push n pull and pull is just putting stuff some wehere
+
+however lets make an example:
+
+before push n pull:
+
+  <div class="col-md-4">    <div class="os">1</div>   </div>
+
+<div class="col-md-8">    <div class="os">2</div>   </div>
+
+
+
+after pudh n pull:
+
+<div class="container">
+    <div class="row">
+    
+     
+         <div class="col-md-4 col-md-push-8">    <div class="os">1</div>   </div>
+         <div class="col-md-8 col-md-pull-4">    <div class="os">2</div>   </div>
+       
+ </div>
+
+  </div>
+    
+    
+
+
+
+

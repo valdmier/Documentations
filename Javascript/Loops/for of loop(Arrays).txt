@@ -1,0 +1,75 @@
+The for...of statement:
+
+a loop iterating over iterable objects, including: built-in String, Array, array-like objects 
+
+حلقة تتكرر على الكائنات القابلة للتكرار ، بما في ذلك: سلسلة مضمنة ، مصفوفة ، كائنات تشبه المصفوفة
+
+simply the variable u make represent each element in the array or the object ..etc
+
+
+example:
+
+const array1 = ['a', 'b', 'c'];
+
+for (const element of array1) {
+  console.log(element);
+}
+
+-
+output:
+ "a"
+ "b"
+ "c"
+---
+adding a value to each element:
+
+const iterable = [10, 20, 30];
+
+for (let value of iterable) {
+  value += 1;
+  console.log(value);
+}
+// 11
+// 21
+// 31
+===
+nested arrays with nested loops example:
+
+
+const setingPlace = [
+
+    ['Kristen', 'Erik', 'Namita'],
+    ['Ali', 'Nice', 'Smantha'],
+    ['Leo', 'Nazar', 'Sona'],
+
+]
+
+for (row of setingPlace) {
+
+    console.log(row)
+
+    for (Element of row) {
+
+        console.log(Element)
+    }
+}
+
+
+===
+Iterating with a String:
+
+
+const iterable = 'boo';
+
+for (const value of iterable) {
+  console.log(value);
+}
+// "b"
+// "o"
+// "o"
+
+
+===
+with object:
+ 
+with the for..in loop >>>see the the for in loop document 

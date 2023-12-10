@@ -1,0 +1,11 @@
+Threat: Any circumstance or event that can negatively impact assets
+
+===
+There are many different types of threats. However, they are commonly categorized as two 
+
+types: 
+
+- intentional 
+- unintentional
+
+For example, an intentional threat might be a malicious hacker who gains access to sensitive information by targeting a misconfigured application. An unintentional threat might be an employee who holds the door open for an unknown person and grants them access to a restricted area. 

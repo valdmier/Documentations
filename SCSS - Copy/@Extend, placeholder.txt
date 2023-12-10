@@ -1,0 +1,91 @@
+extend is way to add a class to another class
+
+
+example:
+
+<p class = "class1"> hi im 1</p>
+<p class = "class2"> hi im 2</p>
+<p class = "class3"> hi im 3</p>
+
+
+.elementsSize {
+    
+    margin: 30px;
+    border: 4px dashed red;
+    margin: 30px;     
+}
+
+.class1 {
+    @extend .elementsSize;
+    color: red;
+}
+
+
+.class2 {
+    @extend .elementsSize;
+    color: blue;
+
+}
+
+.class3 {
+    @extend .elementsSize;
+    color: yellow;
+}
+
+
+
+Now here comes the interesting part. What if we never
+
+ use the icon class in our markup and its only purpose 
+is to be there to extend? The resulting CSS will be 
+slightly larger than it really needs to be because 
+we'll have a style that will never be used. We can get
+around this with placeholder selectors.
+
+
+
+Enter placeholder selectors:
+
+
+Placeholder selectors were introduced to solve this
+
+ exact problem. They are very similar to class 
+selectors, but instead of using a period (.) at the 
+start, the percent character (%) is used. Placeholder 
+selectors have the additional property that they will 
+not show up in the generated CSS, only the selectors that extend them will be included in the output.
+
+example:
+
+
+<p class = "class1"> hi im 1</p>
+<p class = "class2"> hi im 2</p>
+<p class = "class3"> hi im 3</p>
+
+
+%elementsSize {
+    
+    margin: 30px;
+    border: 4px dashed red;
+    margin: 30px;     
+}
+
+.class1 {
+    @extend %elementsSize;
+    color: red;
+}
+
+
+.class2 {
+    @extend %elementsSize;
+    color: blue;
+
+}
+
+.class3 {
+    @extend %elementsSize;
+    color: yellow;
+}
+
+
+

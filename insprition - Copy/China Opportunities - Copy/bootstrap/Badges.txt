@@ -1,0 +1,26 @@
+
+
+Badges:
+
+
+to make Badges:
+
+ <div class="col-4">
+    
+ <h4 class="lead">Rating <span class="badge badge-warning ">4.7</span></h4>
+    </div>
+===
+or to make the corners rounded:
+
+ <h4 class="lead">Rating <span class="badge badge-warning badge-pill">4.7</span></h4>
+
+===
+to add an icon:
+
+ <h4 class="lead">Rating <span class="badge badge-warning badge-pill">4.7</span></h4>
+===
+important note:Using the contextual .badge-* classes on an <a> element quickly provide actionable badges with hover and focus states.
+
+to make it a link instead of span:
+
+ <h4 class="lead">Jobs<a href="#" class="badge badge-light">Light</a></h4>

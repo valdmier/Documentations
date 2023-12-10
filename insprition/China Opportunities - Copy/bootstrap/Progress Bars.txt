@@ -1,0 +1,116 @@
+
+
+ Progress Bars:
+
+its simple just put the number and the present mark.
+
+example:
+
+
+<div class="container mt-5">
+
+<div class="progress">                   
+  <div class="progress-bar" style="width: 50%">
+  </div>
+</div>
+
+</div>
+
+---
+
+or to make it 30% present
+
+
+<div class="container mt-5">
+<div class="progress">
+  <div class="progress-bar" style="width: 30%"></div>
+  
+</div>
+</div>
+
+etc...
+
+===
+to put the number of the present:
+
+<div class="container mt-5">
+<div class="progress">
+  <div class="progress-bar" style="width: 70%">70%</div>
+
+</div>
+</div>
+
+===
+sizing:
+
+the sizing her will be done manually with inline style:
+
+to make it real small and good looking:
+
+<div class="container mt-5">
+<div class="progress" style="height: 1px">
+  <div class="progress-bar" style="width: 70%">70%</div>
+
+</div>
+</div>
+
+---
+
+and to make it a bet larger:
+
+<div class="container mt-5">
+<div class="progress" style="height: 4px">
+  <div class="progress-bar" style="width: 70%">70%</div>
+
+</div>
+</div>
+
+===
+
+to change the color:
+
+<div class="container mt-5">
+<div class="progress" style="height: 7px">
+  <div class="progress-bar bg-info" style="width: 50%"></div>
+</div>
+<div class="progress mt-1" style="height: 7px">
+  <div class="progress-bar bg-warning" style="width: 70%"></div>
+</div>
+<div class="progress mt-1" style="height: 7px">
+  <div class="progress-bar bg-danger" style="width: 90%"></div>
+</div>
+</div>
+
+===
+
+to make it striped(مخططه) add .progress-bar-striped:
+
+Joke: it reminds me of barber shops in amirca
+
+<div class="container mt-5">
+<div class="progress" style="height: 7px">
+  <div class="progress-bar progress-bar-striped bg-info " style="width: 50%"></div>
+</div>
+<div class="progress mt-1" style="height: 7px">
+  <div class="progress-ba progress-bar-striped bg-warning" style="width: 70%"></div>
+</div>
+<div class="progress mt-1" style="height: 7px">
+  <div class="progress-bar progress-bar-striped bg-danger" style="width: 90%"></div>
+</div>
+</div>
+
+===
+to make the stripped bars animated add .progress-bar-animated with .progress-bar-striped:
+
+<div class="container mt-5">
+<div class="progress" style="height: 7px">
+  <div class="progress-bar progress-bar-striped progress-bar-animated bg-info " style="width: 50%"></div>
+</div>
+<div class="progress mt-1" style="height: 7px">
+  <div class="progress-ba progress-bar-striped progress-bar-animated bg-warning " style="width: 70%"></div>
+</div>
+<div class="progress mt-1" style="height: 7px">
+  <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width: 90%"></div>
+</div>
+</div>
+

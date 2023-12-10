@@ -1,0 +1,17 @@
+The value property:
+
+ sets or returns the value of the attributes.
+
+note: it doesnt work on all attributes
+
+===
+
+<p>Click the button to change the value of the text field.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  document.getElementById("myText").value = "Johnny Bravo";
+}
+</script>

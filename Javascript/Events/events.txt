@@ -1,0 +1,202 @@
+you might wonder why do i have two event documents 
+bout events well thats on khanacademy it wasny that 
+easy but in the elzero school it really easy
+
+
+sooo leettss get started
+===
+
+<div id="clicker">u didnt click me:(</div>
+
+
+
+window.onclick = function () {
+
+   document.getElementById("clicker").textContent =
+ "Oh wow, you clicked me!";
+}
+
+
+so we r saying when the window is clicked do bring 
+that element and do that to it..simple n easy
+
+===
+
+onclick:
+
+
+<div id="clicker">u didnt click me:(</div>
+
+
+window.ondblclick = function () {
+
+    document.getElementById("clicker").textContent =
+ "Oh wow, you double clicked me!";
+}
+
+we r saying when the window is double clicked do
+ bring that element and do that to it..simple n easy
+
+===
+
+dblclick:
+
+double click n click with button
+
+div id="clicker">u didnt click me:(</div>
+
+<button onclick="oneClick()" ondblclick="doubleClick()">
+
+click or double click me 
+
+</button>
+
+
+
+doubleClick = function () {
+
+    document.getElementById("clicker").textContent =
+ "Oh wow, you double clicked me!";
+};
+
+oneClick = function () {
+
+    document.getElementById("clicker").textContent =
+ "Oh wow, you clicked me!";
+};
+
+===
+
+another way to deal with buttons:
+
+ <div id="div">u didnt click me:(</div>
+ <button id = "button"> </button>
+ <input id = "input" type = "text">
+
+
+var mybutton = document.getElementById("button");
+
+  var mydiv = document.getElementById("div");
+   
+        var myinput = document.getElementById("input");
+
+mybutton.onclick = function () {
+
+    "use strict";
+
+    mydiv.innerHTML = myinput.value * 3.75;
+
+
+};
+
+
+===
+
+onkey events:
+keydown - The key is on its way down.
+keypress - The key is pressed down.
+keyup - The key is released.
+
+---
+onkeyup
+
+the function is triggered when the user releases a 
+ key in the input field. The function transforms the 
+  character to upper case
+
+<input type="text" id="input" onkeyup="myFunction()">
+
+
+function myFunction() {
+  var x = document.getElementById("input");
+  x.value = x.value.toUpperCase();
+}
+
+===
+n you can change that onkeyup="myFunction in the input
+n try it yourself n see the deference between those 
+three 
+
+
+====
+
+onmouseover:its like mouse hover in aa css
+
+<h1 id="demo" onmouseover="mouseOver()">Mouse over me
+</h1>
+
+
+function mouseOver() {
+  document.getElementById("demo").style.color = "red";
+}
+
+n when you hover it will get red
+
+
+===
+
+mouseOut: when the mouse not hovring on the element
+
+<h1 id="demo" onmouseout="mouseOut()">Mouse over me
+</h1>
+
+
+function mouseOut() {
+  document.getElementById("demo").style.color = "yellow";
+}
+
+--- 
+we could put them toghter n thats the best thing
+
+<h1 id="demo" onmouseout="mouseOut()">Mouse over me</h1>
+
+
+
+function mouseOver() {
+  document.getElementById("demo").style.color = "red";
+}
+
+function mouseOut() {
+  document.getElementById("demo").style.color = "yellow";
+}
+
+
+===
+
+onchange:when somthing is changed..i made this example
+by myself im so proud of it :
+
+
+    <div id="div"></div>
+    <input id = "input" type = text>
+    
+<select id="Select" onchange="myFunction()">
+   <option value="0">not selected</option> 
+  <option value="55">1 dollar</option>
+  <option value="200">R.S</option>
+  <option value="1000">jeneh</option>
+  <option value="100000">R.Y</option>
+    
+</select>
+
+<p>put the amount of gold (by grams) and see how much
+ it cost by dollars</p>
+
+var mySelect = document.getElementById("Select");
+
+  
+var mydiv = document.getElementById("div");
+   
+        
+var myinput = document.getElementById("input");
+
+mySelect.onchange = function () {
+
+    "use strict";
+
+    mydiv.innerHTML = myinput.value + "  grams of 
+   gold is worth  " + myinput.value * mySelect.value;
+
+
+};
+

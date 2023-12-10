@@ -1,0 +1,45 @@
+Sass extends CSS's @import rule with the ability to 
+
+import Sass and CSS files to sass files, n stylesheets. providing access to 
+mixins, functions, and variables and combining 
+multiple stylesheets' CSS together. Unlike plain CSS 
+imports, which require the browser to make multiple 
+HTTP requests as it renders your page, Sass imports are handled entirely during compilation.
+
+طلبات http
+ اللي بيتكلم عليها فوق ذا بيأخر الصفحه لكن ب لغه الساس الوضع مختلف وما بيسوي كذا وعادي تقدر تستخدم ال أيم بورت 
+
+
+ok with that being said ...
+
+
+
+so our main style file is style.scss lets import another file to it
+
+
+i named it _newFont.scss
+
+i puted that in it:
+
+body {
+font-family:monospace;
+
+}
+
+n then i went to my main file (style.scss) n imprted it n thats how:
+
+@import "_newFont.scss";
+
+note: when improrting u dont have to add the _ or the ".scss" or ".css" ...just the name of the file
+
+note:
+/*why the " _ "? thats the way to tell the compiler 
+
+hey dont compile that...why i dont want him to compile
+it?
+cuz when i import him to my main folder then he will
+
+ comile him again...so i just want him to compile it once the folder is imported */
+
+
+

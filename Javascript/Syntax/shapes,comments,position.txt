@@ -1,0 +1,73 @@
+
+rule: the last thing you write will be
+  above evrything and the opposite
+
+  ellipse()every thing will be on this
+  ellippe()
+  ellipse()this will be in the top
+
+ellipse:
+
+ellipse(200,200,200,200);
+ 
+what does those numbers mean?:
+        ÇáØæá    ÇáÚÑÖ  ÇáãæŞÚ ÈÇáØæá  ÇáãæŞÚ ÈÇáÚÑÖ     
+ellipse(  x  ,     y  ,   w,   h  );
+
+the limit of numbers is 400
+
+rectangle:
+
+rect(100,100,100,100)
+
+note:the ellipse are controled from the
+center..but the rectangle is controled
+from the upper lift corner so if you give 
+them the same parameters they won't be 
+in the same place
+
+parameter=ÇáãÚÇãá
+
+line:
+
+line(x1,y1,x2,y2)
+
+in the line there's 2 points..point to start
+and point to end the x1 and h1 controls the 
+left point position..h2 and x2 controls 
+the right point
+
+
+Òí ÇáÇíä ÇáãäÍÑİ ßá ÇËäíä íãËáæä ãæŞÚ äŞØå
+quad(x1, y1, x2, y2, x3, y3, x4, y4);
+every point of the quad have width and height
+
+
+position width and height                                             ãäÍäì
+arc(x, y, w, h,angle start,angle stop);
+            to decide from where to where it will opened          
+
+bezier(x1, y1, cx1, cy1, cx2, cy2, x2, y2)
+serch for it
+
+triangle(x1, y1, x2, y2, x3, y3)
+serch for it
+
+point(x, y)
+
+
+if you Mess up between them..u didnt know
+that rectangle 4 what and that line 4 what?
+you can add comments:
+
+rect(76, 45, 250, 300); // face
+
+but what if you ended up making the whole
+page a comment ?how to end a comment?:
+
+//comment here 
+*/
+
+ 
+
+

@@ -1,0 +1,44 @@
+Common Vulnerabilities and Exposures (CVE)
+
+===
+CVE is a crucial resource for identifying and categorizing known vulnerabilities and exposures. 
+
+These terms have a subtle difference: 
+
+a vulnerability: is a system weakness, while 
+
+an exposure: is a mistake exploitable by a threat. 
+
+===
+CVE Overview:
+
+Created by MITRE Corporation in 1999, a nonprofit R&D center sponsored by the US government.
+
+Serves as an openly accessible dictionary of vulnerabilities and exposures.
+
+Offers a standardized way to identify and categorize these issues.
+
+===
+Criteria for Assigning CVEs:
+
+A vulnerability must be independent of other issues, meaning it can be fixed without addressing other problems.
+
+It should be recognized as a potential security risk by the reporter.
+
+Supporting evidence must accompany the vulnerability report.
+
+The vulnerability should affect only one codebase or program's source code.
+
+===
+CVSS Scoring:
+
+CVSS scores vulnerabilities on a scale of 0-10, with 0 being the lowest risk and 10 being the highest.
+
+Scores below 4.0 are considered low risk and may not require immediate attention.
+
+Scores above 9.0 are deemed critical and demand immediate action to protect company assets.
+
+===
+Vulnerability Management:
+
+Security teams use CVE references and CVSS scores to prioritize security fixes, such as installing software updates.

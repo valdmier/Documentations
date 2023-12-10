@@ -1,0 +1,42 @@
+Brute Force Attacks & OS Hardening
+
+Trial-and-error method to discover private info.
+
+Types: 
+
+- Simple brute force (guessing), 
+
+- Dictionary attacks (using common passwords).
+
+===
+Using brute force to access a system can be a tedious and time consuming process, especially when it’s done manually. 
+
+So attackers use tools for efficiency.
+
+
+===
+Assessing Vulnerabilities: Proactive Security Measures
+
+Security measures against brute force attacks include:
+
+- Virtual Machines (VMs): These software-based systems create isolated testing environments, preventing malware from affecting the host computer.
+
+There’s still a small risk that a malicious program can escape virtualization and access the host machine. Note that some malware authors know how to write code to detect if the malware is executed in a VM or sandbox environment.
+
+- Sandboxes: They execute software separately  from your network. Used for testing patches, identifying bugs, and detecting vulnerabilities.
+
+Note that some malware authors know how to write code to detect if the malware is executed in a VM or sandbox environment. Attackers can program their malware to behave as harmless software when run inside these types of  testing environments.
+
+===
+Prevention Measures: Safeguarding Networks
+
+Organizations prevent brute force attacks with:
+
+- Salting and Hashing: Hashing converts data into an irreversible code, ensuring integrity. It's a one-way process, making reverse engineering impossible. Salting adds randomness to passwords, enhancing security.
+
+- Multi-factor Authentication (MFA) and Two-factor Authentication (2FA): Require multiple identity verifications.
+
+- CAPTCHA and reCAPTCHA (Completely Automated Public Turing test): Distinguish humans from automated software.
+
+- Password Policies: Standardize secure practices like password complexity and login attempt limits.
+  

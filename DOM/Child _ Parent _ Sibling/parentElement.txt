@@ -1,0 +1,45 @@
+parentElement:
+
+ is way to find or select the parentElement of some child...
+
+===
+example:
+
+<div id="main">
+
+        <p id = "theP">1</p>
+</div>
+
+var myP = document.getElementById("theP");
+  
+console.log(myP.parentElement);
+    
+--
+ result: 
+<div id="main">..</div>
+
+===
+more complecated one to mae you understand:
+
+    <div id="bigDad">
+
+      <div id="main">
+
+        <p id = "theP">1</p>
+      </div>
+      
+    </div>
+
+var myP = document.getElementById("theP");
+    
+
+console.log(myP.parentElement);
+//result: <div id="main">..</div>
+
+console.log(myP.parentElement.parentElement);
+//result: <div id="bigDad">..</div>
+
+console.log(myP.parentElement.parentElement.parentElement);
+////result: <body>..</body>
+
+

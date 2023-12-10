@@ -1,0 +1,51 @@
+
+axios library is a:
+
+Promise based HTTP client for the browser and node.js.
+
+===
+
+to call it:
+
+ <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+put it before the main script
+
+
+===
+after es called it lets start with our first reqest:
+
+
+axios.get("https://api.cryptonator.com/api/ticker/btc-usd")
+.then( res => {
+    console.log(res.data.ticker.price);
+})
+
+===
+to access one of the headers:
+
+axios.get("https://api.cryptonator.com/api/ticker/btc-usd")
+
+const getDadJokes = async () => {
+let config = {headers: {Accept: "application/json"}}
+    const res = await axios.get("https://icanhazdadjoke.com/", config);
+    console.log(res);
+
+}
+
+getDadJokes();
+
+---
+to access the data in the header:
+
+axios.get("https://api.cryptonator.com/api/ticker/btc-usd")
+
+const getDadJokes = async () => {
+let config = {headers: {Accept: "application/json"}}
+    const res = await axios.get("https://icanhazdadjoke.com/", config);
+    console.log(res.data.joke);
+
+}
+
+getDadJokes();
+

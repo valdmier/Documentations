@@ -1,0 +1,101 @@
+length with strings:
+
+
+if used lenth with a string it will count it letters
+n tell you how many leters there r(space is considered
+a letter) 
+numbers
+
+---
+example:
+
+var myString = "blaBla";
+console.log(myString.length);
+
+the result
+ will be 6 cuz there are 6 letters in the string
+
+--
+or we could say:
+
+var me = "Mohammed"
+
+console.log(me[3]);
+
+
+the result:
+
+a
+===
+
+using length with arrays:
+
+
+length will count the number of items in the array 
+
+---
+example:
+
+ar myArray = ["idk", "bonn bon", "zyad", "idk"];
+console.log(myArray.length);
+
+the result will be 4..cuz there r 4 items in the array 
+
+--
+or we could say:
+
+var myArray = ["idk", "bonn bon", "zyad", "idk"];
+
+console.log(myArray[2]);
+
+
+the result:
+
+zyad
+
+
+===
+calling array counting &length counting differences:
+
+lenth counting: well when put a lenght u start
+ counting from 1
+
+array counting: but when call an array like :
+
+myExample[0]
+
+u start counting from 0 not from 1 like length
+
+n thats the difference
+
+===
+
+changing the lenth of array:
+
+so we have this array:
+
+var coolArray = ["bonnBonn", "food", "wealth",
+ "health"];
+
+its length = 4
+
+if we want to change the length of it for some reason
+
+we could say:
+
+var coolArray = ["bonnBonn", "food", "wealth",
+ "health"];
+
+coolArray.length = 2;
+
+console.log(coolArray);
+
+n the result will be:
+
+["bonnBonn", "food"]
+
+
+
+
+
+

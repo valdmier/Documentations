@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('Partials/head') %>
+
+        <bod class="body">
+            <%- include('Partials/navbar') %>
+                <h1>Welcome to <%= name %> subsredditt</h1>
+                <h3>
+                    <%= description %>
+                </h3>
+
+                <p>
+                    <%= subscribers %>
+                        Total subscribers
+                </p>
+                <hr>
+                <% for(let post of posts) { %>
+                    <p>
+                        posts:
+                        <br>
+                        <%= post.title %> - author: <%= post.author %>
+
+                    </p>
+                    <% if(post.img) { %>
+                        <img src="<%= post.img %>" alt="">
+                        <% } %>
+
+
+                            <% } %>
+                                </body>
+
+</html>

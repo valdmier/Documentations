@@ -1,0 +1,31 @@
+Incident Response Plans
+
+===
+Elements of a security plan: 
+
+- Policies
+
+- Standards
+
+- Procedures
+
+===
+Incident response plan:
+
+A document that outlines the procedures to take in each step of the incident response.
+
+===
+Elements of an incidents plan
+
+- Incident response procedures.
+
+- System Information:
+
+Things like network diagrams, data flow diagrams, logging, and asset inventory information.
+
+- Other documents:
+
+ like contact lists, forms, and templates.
+
+==
+Incident processes and procedures should be subject to regular review and testing.

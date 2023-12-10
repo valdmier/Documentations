@@ -1,0 +1,15 @@
+to convert from string to number:
+
+var me = "50 million dollar";
+
+
+var meExp = parseInt(me);
+
+
+console.log(meExp);
+
+
+result will be: 50
+
+
+note:you have to put the number the first thing or it will show NaN

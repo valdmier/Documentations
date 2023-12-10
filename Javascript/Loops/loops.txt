@@ -1,0 +1,211 @@
+while loops:
+
+
+if we want to repeat something with
+difrent parameters:
+
+before i we do this we always have to ask
+ourselif couple of qusetions
+
+
+1. What do I want to repeat?
+> The text function with the message!
+
+
+ 
+2. What do I want to change each time? 
+
+>The y position increasing by 20 each time.
+ 
+
+
+3. How long should we repeat?
+  
+
+> As long as y is less than 400, all the
+  way down
+
+
+after we answerd:
+          3answer
+while(till when u want to repeat this code)
+          1answer
+ {
+  put here what do you want to repeat
+          2answer
+    var = var + 5
+
+ 
+}
+real example:
+
+var y = 40;
+while(y < 400)
+ {
+ 
+   text(message, 30, y);
+ 
+   y += 20;
+   
+      }
+
+so what if like we want to draw a guy 
+holding some balloons:
+
+first we ask our qustions
+The Three Loop Questions:
+ 
+1. What do I want to repeat? 
+ the ballons
+2. What do I want to change each time?60px 
+ 
+3. How long should we repeat? till x<329
+
+background(99, 200, 255);
+
+stroke(116, 57, 204);
+
+fill(221, 0, 255);
+
+var x = 100;
+while (x < 329)
+ {
+    line(x, 94, 224, 300);
+
+    ellipse(x, 94, 49, 68);
+
+    
+    x += 60;
+}
+
+after we did lets grab an image to a gay:
+
+image(getImage("url"), 100, 100, 40, 80);
+
+for loops:
+
+it the same almost
+ 
+ for (variable; how long; change)
+ for (var y = 63; y < 313; y += 41)
+//note:
+the semicolon in here is for spliting
+each parameter of the other
+ 
+ //n just complete like how u do
+{
+text("Pineapple pizza is the best!", 69, y);
+}
+
+but!      
+                  (changing y)(changing x)
+ what if you want to a coulm and a row:
+here you can put a loop in a loop
+
+æ
+for (var y = 0; y < 13; y++)
+ {
+    for (var x = 0; y < 12; y++) {
+ "url"), y*36
+, y*30, 40, 60);
+ }
+
+}
+ÐÇ ßäÊ ÊÊÓÇÆá ßíÝ 0 íäÖÑÈ Ý ÚÏÏ æíÊÛíÑ ãßÇäå æíÚØíäÇ Ôí ÛíÑ ÇáÕÝÑ¿
+ ÝÇ ÇÞæáß ÇäÊ ÍØíÊ Çäå íÒíÏ È æÇÍÏ Ý Èíßæä æÇÍÏ ÒÇÆÏ ÕÝÑ íÓÇæí æÇÍÏ ÒÇÆÏ 
+æÇÍÏ íÓÇæí ÇËäíä æåßÐÇ 
+
+
+to make it look like stairs:
+
+
+for (var y = 0; y < 13; y++) 
+{
+image(getImage("cute/GemOrange"),
+ y*36, y*30, 40, 60);
+ 
+}
+
+
+
+
+using loops with arrys:
+
+so here is my friends
+
+var myFriends = ["mohaned", "majed", "me",
+ "bonn bonn", "mazen"];
+text(myFriends[0], 10, 30);
+
+text(myFriends[1], 10, 78);
+
+text(myFriends[2], 10, 130);
+
+text(myFriends[3], 10, 182);
+
+n here is our questions
+1. What do I want to repeat?
+ 
+
+  the text() command
+ 
+
+2. What do I want to change each time?
+
+  the friend num, and the y position
+ 
+
+3. How long should we repeat?
+ 
+
+  until there are no more friends left
+
+//to make everything adebends on it
+
+
+var friendNum = 0;
+          //3answer 
+//that mean as long as friendnum variable
+is less than my friends run this..
+the length:íÚäí Ú ÍÓÈÈ ÇáÚÏÏ ÍÞ ÇáÝÑíäÏÒ Çááí ÚäÏí ÈãÚäì ÇäÇ åäÇ ÚäÏí
+ÇÑÈÚ ÝÑäÏÒ ÓæíÊåã Ý åæ ÈíÔÛá ÇáÈÑäÇãÌ ãÇ ÏÇã ÇáÝÑäÏ äã ÇÕÛÑ ãä ÇÑÈÚå..æÇÐÇ ÒæÏÊ
+ÇáÝÑäÏÒ á ÚÓÑå Ý åæ ÈíÔÛáå ãÇ ÏÇã ÇáÝÑäÏÒ ÇÞá ãä ÚÔÑå æåßÐÇ Ý åæ ÇÚÊÈÑå ãæ
+ãæÌæÏ æÇÚÊÈÑ ÚÏÏ ÇáÝÑäÏÒ ÈÏÇáå
+comment replay:
+.length` is a property of JS arrays.
+ You use it in statements like
+ _arrayName_`
+
+.length` This will return the
+ number of elements in the given array.
+ In the code at the end of the video,
+ on line 11,
+
+ Pamela has the code `myFriends.
+
+length` This evaluates to 6 because there
+ are six elements in the `myFriends` array.
+
+ You can test this by pausing the video and
+ typing `println(myFriends.length);` at the
+ end of the code.
+
+*/
+
+while(friendNum < myFriends.length)
+
+//now we add the caliing so they can show up
+{
+text(myFriends[friendNum], 10, friendNum);
+
+
+//so he add one each time and call them all
+n stop runing it when he rich 4 
+
+friendNum++;
+}
+
+if not understood
+https://www.khanacademy.org/computing/computer-programming/programming/arrays/pt/looping-through-arrays
+but hey she wont explain the length thing
+so foucas on my explaning

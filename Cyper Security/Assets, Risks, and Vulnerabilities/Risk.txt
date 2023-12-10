@@ -1,0 +1,72 @@
+ Risk:
+
+Risk is the possibility of undesirable events or circumstances that may impact an organization's assets, specifically related to the:
+- confidentiality
+- integrity
+- availability 
+of those assets.
+
+===
+Components of Security Planning:
+
+Security practitioners focus on maintaining the three components of the CIA triad:
+
+- Confidentiality: Ensuring that information is protected from unauthorized access.
+
+- Integrity: Safeguarding the accuracy and reliability of data.
+
+- Availability: Ensuring that systems and data are accessible when needed.
+
+===
+Security Risk Planning:
+
+Security risk planning is the initial step in safeguarding these core principles.
+
+Each organization develops its unique security plan based on the specific risks they face.
+
+Basic understanding of how these plans are structured is essential for security practitioners.
+
+
+===
+Analysis of Security Plans:
+
+Security plans are based on analyzing three key elements: 
+
+- assets (what)
+- threats (why)
+- vulnerabilities (how)
+
+These elements represent the "what, why, and how" of security.
+
+===
+Assets:
+
+Assets are items or elements within an organization perceived as valuable.
+
+Examples include buildings, equipment, data, and people.
+
+Prioritization of asset protection is necessary due to the variety of assets and resource limitations.
+
+Security plans allocate resources based on asset value and vulnerability.
+
+===
+Risk Equation:
+
+Likelihood x Impact = Risk
+
+Risk is calculated using the formula:
+
+Likelihood (probability of an event)
+multiplied
+by Impact (severity of the event) equals Risk.
+
+we use this formula to determine the risk priority.
+
+===
+Factors in Risk Calculation:
+
+Risk assessment in security revolves around two primary factors:
+
+Threats: Potential circumstances or events that can negatively affect assets.
+
+Vulnerabilities: Weaknesses or flaws within assets that can be exploited by threats.

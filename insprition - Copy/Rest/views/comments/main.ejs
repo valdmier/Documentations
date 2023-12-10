@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('../Partials/head') %>
+
+    <body>
+        <%- include('../Partials/navbar') %>
+            <div class="container">
+                <h1 class="display-4">Comments</h1>
+                <ul>
+                    <%for(comment of comments ) { %>
+                        <a href="http://localhost:3000/comments/<%= comment.id %>">
+                            <li>
+                                <b>
+                                    <%= comment.username %>
+                                </b>
+                                <p class="lead"> : <%= comment.comment %>
+                                </p>
+                            </li>
+                        </a>
+                        <% } %>
+                </ul>
+
+
+                <a class="btn btn-info text-white" href="/comments/new">Add a Comment!</a>
+            </div>
+
+    </body>
+
+</html>

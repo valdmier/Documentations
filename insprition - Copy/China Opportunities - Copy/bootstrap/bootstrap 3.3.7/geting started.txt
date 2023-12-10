@@ -1,0 +1,64 @@
+first of alll go to the bootstrap folder u
+
+ have downloaded
+
+then take the bootstarp.js,bootstrap.css,bootstrap.jqery.
+
+take them to your working file 
+
+and link them in the index file like that:
+
+
+  <link rel='stylesheet' href='style.css'>
+            
+           <!-- Bootstrap CSS -->
+  <link rel='stylesheet' href='bootstrap.css'>
+
+
+
+
+<!-- jQuery first, then main.js, then Bootstrap JS -->
+
+<script src = "jquery.min.js"></script>   
+    <script src = "script.js"></script>
+    <script src = "bootstrap.min.js"></script>
+
+
+now we have to add a meta for a responsive website:
+
+
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+n lets add a meta to make it fit with internet explorer:
+
+
+<meta http-equiv="X-UA Compatible" content="IE=edge">
+
+
+n lets add the more libraries to make the website fit with inter net explorer 
+
+ <!--[if lt IE 9]>   
+<script src = "respond.min.js"></script>
+<script src = "html5shiv.min.js"></script> 
+<![endif]-->
+
+
+
+the comment if it ie 9 ..etc means if u browse that on ie9 these libraries will work...but in other browsers it will stay as comment
+
+html5shiv library: is for leting the IE know html5 elements
+
+respond library: for fixing some responsivty proplems
+
+
+
+
+
+
+
+
+
+
+
+

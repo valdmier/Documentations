@@ -1,0 +1,104 @@
+how to add space in variables:
+
+<h1 id = "age"></h1>
+
+var myAge = "16" +" " +"years old";
+/*
+or
+var myAge = "16 "+"years old";
+var myAge = "16"+" years old";
+*/
+
+ 
+ document.getElementById("age").innerHTML = myAge;
+    
+
+---
+
+strings and numbers:
+
+
+
+if you started with string it will the string :
+
+
+
+var myAge = "mohammed" + 10 + 6;
+
+now the result will be mohammed106
+
+why?cuz u started with string so the numbers will be
+considered as strings 
+
+
+
+to fix it :
+
+var myAge = "mohammed" + (10 + 6);
+
+the result: 
+
+mohammed16 
+
+---
+
+
+if u started with numbers 
+
+
+var myAge = 10 + 6 +"Mohammed"
+
+now the result will be 16Mohammed
+---
+
+
+
+another example:
+
+var myAge = 9 + 7 + "moha" + 79 + 1
+
+the result : 16moha791
+
+
+to fix it :
+
+var myAge = 9 + 7 + "moha" + (79 + 1)
+
+the result:
+
+16moha80
+
+---
+
+  you can add strings that includes html tags:
+
+var myAge = 16 + 5 + "<br>" + "<em>years old</em>" + 4 + 6 ;
+
+
+ 
+ document.getElementById("age").innerHTML = myAge;
+
+--- 
+
+
+ u also can add inline style to the html tags :
+
+
+var myAge = 16 + 5 +"<p style = 'color: red'><em>
+years old</em></p>" + 4 + 6 ;
+
+
+---
+u can style variables also:
+
+var myAge = "sixteen";
+
+var ik = "pla pla " + "<span style='color:red'>" +
+  myAge + "</span>";
+ 
+document.getElementById("age").innerHTML = ik;
+    
+
+
+
+ 

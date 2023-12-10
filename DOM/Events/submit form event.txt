@@ -1,0 +1,25 @@
+The onsubmit event:
+
+ occurs when a form is submitted.
+
+===
+example:
+
+  <div id="container" id="myForm">
+   
+<form id="myForm" action="/act">
+    <input type="text" name="" id="" placeholder="Username">
+    <input type="text" name="" id="" placeholder="Password">
+  <button type="submit">submit</button>
+  </form>
+  
+  </div>
+
+
+document.getElementById("myForm").addEventListener("submit", 
+function() {
+
+    alert("submited!")
+});
+
+

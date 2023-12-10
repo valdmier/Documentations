@@ -1,0 +1,58 @@
+Focus, Blur
+
+
+it works with some elment like inputs n links\
+
+Give focus to an <a> element:
+
+
+
+<a id="myAnchor" href="https://www.w3schools.com">Visit W3Schools.com</a>
+
+<p>Click the buttons to give focus and/or remove focus from the link above.</p>
+
+<button onclick="getfocus()"> focus </buttton>
+<button onclick="losefocus()"> blur </buttton>
+
+
+css:
+:a:focus, a:active {
+  color: green;
+}
+
+
+
+function getfocus() {
+  document.getElementById("myAnchor").focus();
+}
+
+function losefocus() {
+  document.getElementById("myAnchor").blur();
+}
+
+
+
+
+to give foucas to a faild:
+
+<input type="text" id="myText" value="A text field">
+
+<p>Click the buttons to give focus and/or remove focus from the text field.</p>
+
+<button type="button" onclick="getFocus()">Get focus</button>
+<button type="button" onclick="loseFocus()">Lose focus</button>
+
+
+function getFocus() {
+  document.getElementById("myText").focus();
+}
+
+function loseFocus() {
+  document.getElementById("myText").blur();
+}
+
+
+
+Give focus to a text field, immediately after the document window has been loaded:
+
+

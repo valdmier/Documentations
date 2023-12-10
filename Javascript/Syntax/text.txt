@@ -1,0 +1,19 @@
+to add text:
+
+fill(0, 13, 255);
+
+
+text("right here", 99, 96);
+
+to change the size of the text:
+
+fill(0, 13, 255);
+
+
+textSize(38);
+
+
+text("Sophia", 99, 96);
+
+you control the text:
+ from the left down angle

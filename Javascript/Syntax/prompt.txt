@@ -1,0 +1,46 @@
+
+its the same how alert works 
+
+Display a prompt box which ask the user for her/his
+ age, and output a message:
+===
+
+The prompt() method displays a dialog box that 
+prompts the visitor for input. A prompt box is
+ often used if you want the user to input a value
+ before entering a page. Note: When a prompt box
+ pops up, the user will have to click either "OK"
+ or "Cancel" to proceed after entering an input
+ value. Do not overuse this method, as it prevents
+ the user from accessing other parts of the page
+ until
+ the box is closed. The prompt() method returns the
+ input value if the user clicks "OK". If the user
+ clicks "cancel" the method returns null.
+
+===
+
+example:
+
+
+
+
+
+ <button onclick="myFunction()">Try it</button>
+
+ <p id="demo"></p> 
+
+
+
+<script> function myFunction() { var person =
+ prompt("Please enter your age", "age"); 
+        //the thing              //word in the box^
+
+
+
+if (person < 18) {
+ document.getElementById("demo").innerHTML =
+
+ "so yr age " + person + "! yr a teen or a kid?"; }
+
+ } </script> 

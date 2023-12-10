@@ -1,0 +1,59 @@
+
+
+how to get attribute:
+
+var myImg = document.getElementById("imgEl");
+ 
+console.log(myImg.src);
+
+
+n it will show the the source of the image with id imgEl
+
+---
+with getAttribute:
+
+getAttribute("attribute u wanna get")
+--
+
+var myImg = document.getElementById("imgEl");
+ 
+console.log(myImg.getAttribute("src"));
+
+n it will show the the source of the image with id imgEl
+
+
+
+===
+how to set attribute:
+
+var myImg = document.getElementById("imgEl");
+ 
+console.log(myImg.src = "https://i.ytimg.com/vi/bgu-ugPATKo/maxresdefault.jpg");
+
+
+it will change from the old source to the new one u just
+ seted it
+
+---
+ with setAttribute:
+
+sytax: 
+setAttribute("attribute u wanna change",
+ "the value you wanna enter")
+
+
+--
+example:
+
+var myImg = document.getElementById("imgEl");
+ 
+myImg.setAttribute("src", "https://i.ytimg.com/vi/bgu-ugPATKo/maxresdefault.jpg");
+
+
+and the image src will be changed to what you've entered
+
+
+
+
+
+

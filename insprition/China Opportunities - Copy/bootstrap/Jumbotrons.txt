@@ -1,0 +1,118 @@
+what is it?:
+
+i searched to see the meaning of jumbotron in arabic n thats its:
+
+a card or 
+استخدم مكوِّن Jumbotron (شاشة الإعلان) للتركيز على محتوى ذي أهميّة في صفحة الويب.
+
+
+so i understood its more like a way to heighlight some sort of things like a card of some sort...so lettss ddooo iittt
+
+---
+
+
+well there's two types of jumbotrons..
+1- the first one its class name is "jumbotrons" 
+
+2- n the other type its class name "jumbotron jumbotron-fluid"
+
+..n the defference is that the fluid goes all the way on the screen horizontaly n doesnt work good inside containers instead containers work inside them perfectly..but the other one is just a square n works preettyy good inside containers
+
+
+--
+
+example of the first type of jumbotron:
+
+<div class="container"> 
+        <div class="jumbotron text-light bg-dark">
+        
+          <h1 class="display-4"> hello world </h1>
+    
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit cumque voluptatum ipsam exercitationem!</p>
+          
+          <hr class="mr-4 bg-light" >
+    
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi asperiores delectus ex quam velit temporibus rem ad, aspernatur facilis culpa ipsam sit possimus expedita quos.</p>
+    
+          <a class="btn btn-outline-primary btn-lg" href="#" role="button">Learn more</a>
+        </div>
+    </div>
+
+   
+
+
+
+
+
+the other type  it class name "jumbotron jumbotron-fluid"
+
+
+an eaxample of it:
+
+<div class="jumbotron jumbotron-fluid bg-success text-light">
+        
+        <div class="container"> 
+
+      <h1 class="display-4"> hello world </h1>
+
+      <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit cumque voluptatum ipsam exercitationem!</p>
+      
+      <hr class="mr-4 bg-black-50">
+
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi asperiores delectus ex quam velit temporibus rem ad, aspernatur facilis culpa ipsam sit possimus expedita quos.</p>
+
+      <a class="btn btn-outline-light btn-lg" href="#" role="button">Learn more</a>
+    </div>
+</div>
+
+
+
+notice the hr is tag for a thin line
+
+
+n you can add a background image to the jumbotron:
+
+
+
+#junbo {
+
+    height: 400px;
+margin: 10px;
+background-image: url(https://images.unsplash.com/photo-1531259736756-6caccf485f81?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60);
+
+}
+
+
+  <div class="container"> 
+        <div id= "junbo" class="jumbotron text-light bg-dark">
+        
+          <h1 class="display-4"> hello world </h1>
+    
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit cumque voluptatum ipsam exercitationem!</p>
+          
+          <hr class="mr-4 bg-light" >
+    
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi asperiores delectus ex quam velit temporibus rem ad, aspernatur facilis culpa ipsam sit possimus expedita quos.</p>
+    
+          <a class="btn btn-outline-primary btn-lg" href="#" role="button">Learn more</a>
+        </div>
+    </div>
+
+    <div class="container"> 
+        <div class="jumbotron text-light bg-dark">
+        
+          <h1 class="display-4"> hello world </h1>
+    
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit cumque voluptatum ipsam exercitationem!</p>
+          
+          <hr class="mr-4 bg-light" >
+    
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi asperiores delectus ex quam velit temporibus rem ad, aspernatur facilis culpa ipsam sit possimus expedita quos.</p>
+    
+          <a class="btn btn-outline-primary btn-lg" href="#" role="button">Learn more</a>
+        </div>
+    </div>
+
+
+
+

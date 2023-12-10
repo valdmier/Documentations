@@ -1,0 +1,15 @@
+how to make classes in javascribt:
+
+<h1 id="heading">All about dogs</h1>
+<style>
+1 .catcolors {
+            color: orange;
+            background-color: black;
+        } </style>
+<java>
+ var headingEl = document.querySelector("#heading");
+         
+  2 headingEl.className = "catcolors"; 
+//n like that the "all about dogs" will be orange
+and has a yellow background
+</java>

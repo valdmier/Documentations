@@ -1,0 +1,26 @@
+
+ondblclick event:
+
+  happens when some element is double clicked 
+===
+example:
+
+    
+<button ondblclick ="myFunc()">click</button>
+
+function myFunc() {
+return alert("u clicked me");
+
+};
+===
+var myNote = document.getElementById("note"),
+    myb = document.getElementById("button");
+
+
+myb.ondblclick = function () {
+    "use strict";
+    
+    myNote.textContent = "dont forget to put 8 letters to yr password!";
+    
+    
+};

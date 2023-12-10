@@ -1,0 +1,40 @@
+
+
+Popovers:
+
+note:Popovers: could be used with almost any html item
+
+Popovers is like a notifiction that appers when you click on it
+
+but to make this thing really work..make sure that you put this in the script file:
+
+
+$(function () {
+  $('[data-toggle="popover"]').popover()
+})
+
+---
+
+lets get started with an example:
+
+<button class="btn btn-danger btn-lg" data-toggle="popover" title="THANKS" data-content="for puting the js code to be able to see me(::!!">Click on me</button>
+
+the data-toggle: is to tell bootstrap that this is a Popover.
+
+the tittle: is to tell bootstrap what should be written in the tittle of the popover.
+
+data content: to tell bootstrap whats the content of the popover or the massege.
+
+===
+But!! like that it wont dispear till u click the button again
+
+
+how to make it disapear:
+
+1- use the <a> tag, not the <button> tag.
+2-include a tabindex attribute.
+3- include a data-trigger attribute and set it to focus.
+
+example:
+
+ <a class="btn btn-danger btn-lg" tabindex="0" data-trigger="focus" data-toggle="popover" title="THANKS" data-content="for puting the js code to be able to see me(::!!"> Click on me</a>

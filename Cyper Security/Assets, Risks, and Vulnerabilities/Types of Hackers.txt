@@ -1,0 +1,75 @@
+Types of Hackers:
+
+===
+Unauthorized Hackers (Malicious Hackers):
+
+Intent: Commit crimes and exploit vulnerabilities for personal gain or malicious purposes.
+
+Skill Level: Varies widely, from script kiddies (limited skills) to highly skilled hackers.
+
+Often use pre-written code obtained from other hackers.
+
+Example: Individuals engaged in cybercrimes, such as stealing sensitive data or launching cyberattacks.
+
+===
+Authorized (Ethical) Hackers:
+
+Intent: Improve an organization's security by identifying vulnerabilities and weaknesses.
+
+Include internal security team members and external security vendors.
+
+Engage in activities like penetration testing and vulnerability assessments.
+
+Example: White-hat hackers, security professionals hired to test and strengthen systems.
+
+===
+Semi-Authorized Hackers:
+
+Intent: May violate ethical standards but not necessarily malicious.
+
+Include hacktivists and individuals with political or social motivations.
+
+May expose security risks to raise awareness.
+
+Example: Hacktivists who exploit security vulnerabilities for political causes.
+
+===
+Advanced Persistent Threats (APTs):
+
+Definition: APTs are threat actors, often associated with nation-states, that maintain unauthorized access to a system over an extended period.
+
+Objectives: APTs typically surveil targets to gather information for manipulation or espionage purposes.
+
+Targets: Primarily government, defense, financial, and telecom services, but also private organizations.
+
+Stealth: APTs are known for their stealthy and persistent nature.
+
+Access Points: They may target private organizations as a stepping stone to gain access to larger entities.
+
+===
+Access Points for Threat Actors:
+
+Threat actors use various attack vectors to gain access to systems and networks.
+
+Attack Vector Categories Include:
+
+- Direct Access: Physical access to a system.
+
+- Removable Media: Portable hardware like USB flash drives.
+
+- Social Media Platforms: Used for communication and sharing.
+
+- Email: Personal and business email accounts.
+
+- Wireless Networks: On-premises Wi-Fi networks.
+
+- Cloud Services: Third-party cloud providers.
+
+- Supply Chains: Third-party vendors and partners.
+
+===
+Considerations for Access Points:
+
+Recognizing a threat actor's intent can help identify potential access points and target areas.
+
+For example, remote workers may pose an email-related threat, while physical access threats are more relevant in controlled environments.

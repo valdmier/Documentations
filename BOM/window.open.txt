@@ -1,0 +1,22 @@
+window.open is way to make a page pop up like the adds i hate in the movies websites
+
+sytax:
+
+window.open(URL, NAME, sepecification, history)
+
+url = put the url of the page u want
+
+name = just u will see it cuz if u have too many 
+sepecification = u can change the window hieght n width n the position n more i wont use it if u want search 4 it
+
+history = to put the page in the history or not
+ i wont use it if u want search 4 it
+
+example:
+
+
+window.onclick = function () {
+    "use strict";
+
+window.open("https://www.google.com", "idk", "", "");
+};

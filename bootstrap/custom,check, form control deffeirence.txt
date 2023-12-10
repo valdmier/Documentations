@@ -1,0 +1,229 @@
+form control:
+
+form control u can put it inside inputs 
+
+inside text,emails,passwords(all the inputs you want them to be wide n with borders)
+
+
+
+
+
+---
+
+
+ inputs we put it like that:
+
+
+<label for="slector" class="mt-4 d-block">
+
+select your fav brand
+
+</label>
+
+ <select name="" id="slector" class=" form-control">
+        
+                <option value="">huawei</option>
+                <option value="">apple</option>
+                <option value="">samsung</option>
+                <option value="">motorilla</option>
+        
+        
+            </select>
+
+---
+
+
+or emails:
+
+
+ <input type="password" id="Password" class="form-control" placeholder="Enter your password">
+
+
+
+n like that..
+
+---
+
+
+but there's some kind of inputs we dont want them to be wide n with borders some times...like files or ranges
+
+sooo we have a specefic class for ranges n files:
+
+---
+
+ranges in form-control:
+
+  <input type="range" class="form-control-range">
+
+
+---
+
+
+files in form-control:
+
+  <input type="file" class="form-control-file">
+
+
+
+---
+
+soo thats it for form control...easy right?(::
+
+
+
+
+
+===
+
+
+
+
+n hey know that "form-control" doesnt work with checkboxes and raido buttons 
+
+
+so we use another class calledddd :
+
+
+"form-check" taddddaaaaaa
+
+---
+
+
+soooo lets make a check box with that class:
+
+
+
+<div class="form-check"> 
+           
+
+<input type="checkbox" class="form-check-input " id="normals">
+            
+<label for="normals" class="form-check-label">
+Hi, Im normal </label>
+           
+
+        </div>
+
+---
+
+
+<div class="form-check"> 
+           
+
+<input class="form-check-input" type="radio" name="customRadio" id="exampleRadios1" >
+
+                    
+<label class="form-check-label" for="exampleRadios1">
+                        
+Hi, Im normal
+</label>
+           
+ </div>
+
+
+nn dattsss itttt
+
+
+
+
+
+
+
+
+
+
+===
+
+
+
+
+n there's custom:
+
+well unlike form-control custom changes the default looking:
+
+it change the default looking of the element and unlike form-control it also works on checkboxs 
+
+---
+
+making a checkbox custom:
+
+
+div class="custom-control custom-checkbox"> 
+         
+<input type="checkbox" class="custom-control-input" id="cat">
+
+<label for="cats" class="custom-control-label"> Hi, Im custom </label>
+           
+
+ </div>
+
+
+
+n taddaa it workss
+
+---
+
+n lets make two radio buttons also:
+
+  <div class="custom-control custom-radio">
+
+
+<input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                  
+     
+ <label class="custom-control-label" for="customRadio2">
+Hi, Im custom 1</label>
+            
+      
+</div>
+
+
+
+<div class="custom-control custom-radio">
+
+
+<input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                  
+     
+ <label class="custom-control-label" for="customRadio2">
+Hi, Im custom 2</label>
+            
+      
+</div>
+
+
+
+---
+
+
+custom files:
+
+
+<div class="custom-file">
+
+<input type="file" class="custom-file-input"  lang="es">
+
+
+
+  <label class="custom-file-label" for="customFileLang">
+
+Seleccionar Archivo</label>
+                  
+
+</div>
+
+
+---
+
+
+custom range:
+
+
+<input type="range" class="form-control-range">
+
+
+===
+
+n thats pretty much it
+
+

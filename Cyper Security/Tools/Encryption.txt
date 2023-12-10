@@ -1,0 +1,4 @@
+Encryption
+Encryption makes data unreadable and difficult to decode for an unauthorized user; its main goal is to ensure confidentiality of private data. Encryption is the process of converting data from a readable format to a cryptographically encoded format. Cryptographic encoding means converting plaintext into secure ciphertext. Plaintext is unencrypted information and secure ciphertext is the result of encryption.  
+
+Note: Encoding and encryption serve different purposes. Encoding uses a public conversion algorithm to enable systems that use different data representations to share information.    

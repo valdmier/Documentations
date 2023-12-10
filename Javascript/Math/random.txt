@@ -1,0 +1,89 @@
+random:
+
+you need to foucas up with me now
+
+
+so if you puted 
+
+var x = Math.random();
+
+that will give you number between 0-1
+
+maybe 
+
+0  or 0.84858 or 0.759500875
+
+but not 1
+
+idk
+
+
+but to tell him hey i want a random number between
+that number n that number 
+
+how to tell him that?:
+
+//first put the reandom syntax
+
+
+Math.random()
+
+
+
+//second we will get number from 0-1 right?we wil 
+
+multiply that number he give us to the number we want
+
+to be the limit :
+
+
+Math.random() * 10
+
+
+
+//cool cool now it will be from 0-10...butt what if we got 0?multuplying 0 will give us 0 right?
+
+to avoild that lets plus 1:
+
+Math.random() * 10 + 1
+
+
+
+// but!! what if i dont want to have like 3.499
+like i just 4 5 9..not 7.8398493
+
+shoud we use round?or ceil?or floor?
+
+
+lets take 10.5 as an example:
+
+Math.round(10.5) = 11..no we want from 1 - 10 not 11
+
+Math.ceil(10.5) = 11..no we want from 1 - 10 not 11
+
+Math.floor(10.5) = 10..yes thats it
+
+
+
+
+so finally it will be:
+
+Math.floor(Math.random() * 10 + 1)
+
+
+//cool 
+ 
+
+example: from 1-10
+
+
+var x = Math.floor(Math.random() * 10 + 1);
+
+console.log(x);
+
+example: from 1-100
+
+
+window.console.log( Math.floor(Math.random() * 100 + 1));
+
+ 

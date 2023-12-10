@@ -1,0 +1,34 @@
+to make an image responsive with website n doesnt come out 
+of the div its in we add the class img responsive
+
+
+example:
+
+
+<div class="container">
+    <div class="row">
+    
+     
+         <div class="col-md-4 col-xs-12">    <div class="os">      <img class="img-responsive center-block" src="data:image/png;base64,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">        </div>   </div>
+        
+        <div class=" col-md-6">    <div class="os">orem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</div>   </div>
+       
+         
+
+        
+    </div>
+
+  
+    
+        <div class="row">
+    
+           <div class="col-xs-4">    <div class="os">3</div>   </div>
+         <div class="col-xs-4">    <div class="os">4</div>   </div>
+         <div class="col-xs-4">    <div class="os">5</div>   </div>
+        
+
+             </div>
+     </div>
+
+
+

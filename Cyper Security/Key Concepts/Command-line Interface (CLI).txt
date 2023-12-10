@@ -1,0 +1,38 @@
+Command-line Interface (CLI)
+
+===
+Function:
+
+GUI: Allows one request at a time.
+CLI: Permits multiple requests concurrently.
+Advantages of CLI in Cybersecurity:
+
+===
+1. Efficiency:
+
+CLI is quicker with proficiency.
+GUI preferable for beginners.
+
+===
+2. Efficiency Example:
+
+CLI excels in multitasking.
+Create multiple files swiftly in CLI.
+GUI can be time-consuming for repetitive tasks.
+
+===
+3. History File:
+
+Linux CLI records command and action history.
+GUI doesn't necessarily save actions.
+
+===
+4. Use Case - Playbook Response:
+
+CLI helps with incident response using playbooks.
+History file allows reviewing command steps for accuracy.
+
+===
+5. Security Benefit - Traceability:
+
+Track attacker actions using CLI history if a system is compromised.

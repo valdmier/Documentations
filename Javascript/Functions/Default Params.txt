@@ -1,0 +1,20 @@
+
+Default Params:
+
+if u r writig a method its not gonna work unless you
+ pass a value to parameter while caling it and if you
+dont pass any value to the parameter then then function 
+isnt gonna work
+unless there was a default value to the parameter if there
+wasnt any value assigned 
+
+===
+example:
+
+
+function greeting(name = "user", greet  = "hi"){
+  console.log(`${name}, ${greet}`);
+}
+
+greeting();//user, hi
+greeting("mohammed", "Yo"); // mohammed, Yo

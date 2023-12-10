@@ -1,0 +1,60 @@
+onmouseleave:
+
+ ITS like hover in css try
+ it n u will understand.
+
+==
+example:
+
+    <button onclick ="Click();" onmouseenter="Enter();" onmouseleave="leave(); ">click</button>
+
+
+    function Enter(){
+    return alert("click mmee pleasee::((");
+    
+    };
+
+function Click(){
+    return alert("u really click mee!!!");
+    
+    };
+    
+    
+function leave(){
+    return alert("dont leave mmee pleasee::((");
+    
+    };
+
+
+    <button onclick ="Click();" onmouseenter="Enter();" onmouseleave="leave(); ">click</button>
+
+
+    function Enter(){
+    return alert("click mmee pleasee::((");
+    
+    };
+
+function Click(){
+    return alert("u really click mee!!!");
+    
+    };
+    
+    
+function leave(){
+    return alert("dont leave mmee pleasee::((");
+    
+    };
+
+====
+example:
+
+var myNote = document.getElementById("note"),
+    myb = document.getElementById("button");
+
+myb.onmouseleave = function () {
+    "use strict";
+    
+    myNote.textContent = " can u please hover me again? that felt good";
+    
+    
+};

@@ -1,0 +1,20 @@
+replace:
+
+to replace a word or letters instead of another
+
+var myString = "iam in love with javascript",
+  
+          
+    replacedWord = myString.replace("javascript",
+ "programoing"); 
+
+  //to tell him what to replace n what to replace
+
+console.log(replacedWord);
+
+
+
+n the result :
+
+
+iam in love with programoing

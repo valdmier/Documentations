@@ -1,0 +1,34 @@
+removeChild:
+
+removeChild is way to remove the child.
+
+===
+example:
+
+
+var myMainDiv = document.getElementById("main");
+let myP = document.querySelector("#pp");
+
+    myMainDiv.removeChild(myP);
+
+div id="main">
+
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+</div>
+
+result:
+
+2
+
+3
+===
+more complecated example:
+
+var myMainDiv = document.getElementById("main");
+
+    myMainDiv.removeChild(myMainDiv.childNodes[1]);
+
+
+//note: nodes:space,element, everything

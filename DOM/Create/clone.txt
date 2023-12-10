@@ -1,0 +1,29 @@
+colne = copy = نسخ
+
+
+exanple how to make a clone:
+
+===
+
+<div id="main">
+
+        <p id = "theP">1</p>
+</div>
+   <div id = "new">
+    
+    
+    </div>
+
+var myMainDiv = document.getElementById("main"),
+    
+    myNewDiv = document.getElementById("new"),
+    
+    myClonedElement = myMainDiv.firstElementChild.cloneNode(true);
+
+myNewDiv.appendChild(myClonedElement);
+
+
+that way you got p in the main div the another in the new div
+
+but what does true mean?well it means hey dont take the
+ elment only take its content more

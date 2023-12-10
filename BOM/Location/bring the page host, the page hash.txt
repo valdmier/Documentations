@@ -1,0 +1,60 @@
+to bring the page host:
+
+write that in the console:
+
+location.host
+
+
+n it will bring for u the main page of the page
+
+example on you tube:
+
+go to any video then go to console n write 
+
+location.host
+
+result: www.youtube.com
+
+
+
+so the host i the ,ain webpage of the website n the other pages r Secondary or hashs
+
+
+===
+
+how to bring the page hash:
+
+	location.hash
+
+n it will bring the page hash
+
+===
+so the hashs r some parts in the website..like when 
+
+enter the youtube theres a hash that called watch n
+
+ stuff like that ...but what like if i have a massage 
+that i just want certen poeple how entered a certen hash to see it
+
+
+ <a href = "#div2"><button id = "button"> click me</button></a>
+
+that will give us a hash named div2
+
+
+if (window.location.hash.indexOf("div2") > -1) {
+    
+
+    window.console.log("hi u clicked the button");
+    
+    
+}
+
+
+
+
+
+
+
+
+

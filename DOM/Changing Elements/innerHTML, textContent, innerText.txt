@@ -1,0 +1,81 @@
+innerHTML :
+
+shows you the inner html of the code you selected
+
+example:
+
+<div id = "myDiv">this contain <span>different</span> </div>
+
+var me = document.getElementById("myDiv");
+ 
+console.log(me.innerHTML);
+
+result:
+
+this contain <span>different</span>
+
+
+===
+innerText : innerText returns all text contained by an element and all its child elements. 
+
+example:
+
+<div id="mylinks">
+  This is my <b>link collection</b>:
+  <ul>
+    <li><a href="www.borland.com">Bye bye <b>Borland</b> </a></li>
+  </ul>
+</div>
+
+var me = document.getElementById("mylinks");
+ 
+console.log(me.innerText);
+---
+the result:
+
+This is my link collection:
+Bye bye Borland
+Welcome to Micro Focus
+
+===
+
+textContent:
+
+textContents is all text contained by an element and all its children 
+that are for formatting purposes only. 
+
+example:
+
+<div id="mylinks">
+  This is my <b>link collection</b>:
+  <ul>
+    <li><a href="www.borland.com">Bye bye <b>Borland</b> </a></li>
+  </ul>
+</div>
+
+var me = document.getElementById("mylinks");
+ 
+console.log(me.textContent);
+
+the result:
+
+ 
+  This is my link collection:
+  
+    Bye bye Borland 
+    Welcome to Micro Focus
+
+
+===
+
+the defference:
+
+    
+textContents:
+ is all text contained by an element and all its children that are for formatting purposes only.
+---
+innerText:
+ returns all text contained by an element and all its child elements.
+---
+innerHtml:
+ returns all text, including html tags, that is contained by an element.

@@ -1,0 +1,31 @@
+
+
+so the inner width n height:
+
+ count the document like if u open the console it will 
+
+be smaller cuz it only count the page onlyy not the
+
+ url bar not the scroll bar just the document onlyy.
+
+
+the outer width:
+
+in counts the scroll,the menu bar evey thing exept the url bar, n everything else.
+
+lets try it out
+
+
+example:
+
+
+//so if what we said was true..then the outer height n width must be more than than the inner height nwidth always
+
+
+
+window.console.log("thats inner height: " + window.innerHeight + " px n that inner height: " + window.innerWidth + " px n that outer height: " + window.outerHeight + " px n thats outer width :" + window.outerWidth + " px ");
+
+
+result: 
+
+thats inner height: 754 px n that inner height: 1156 px n that outer height: 824 px n thats outer width :1536 px 

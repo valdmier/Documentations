@@ -1,0 +1,111 @@
+OWASP Top 10: Common Web Application Vulnerabilities
+
+===
+Overview:
+
+The OWASP (Open Web Application Security Project) is a nonprofit foundation dedicated to improving software security.
+
+The OWASP Top 10 is a list of the most critical web application vulnerabilities.
+
+Organizations use this list to enhance the security of their web applications.
+
+===
+Importance and Updates:
+
+The OWASP Top 10 has been published since 2003 to raise awareness about common vulnerabilities.
+
+It applies mainly to new or custom-made software.
+
+Rankings are based on discovery frequency and risk levels.
+
+Auditors reference it for regulatory compliance checks.
+
+===
+Vulnerabilities in OWASP (Open Web Application Security Project) Top 10:
+
+===
+1. Broken Access Control:
+
+Access controls restrict user actions in web apps.
+Failures can lead to unauthorized access, disclosure, or modification.
+
+Example: Unauthorized deletion of articles on a blog.
+
+===
+2. Cryptographic Failures:
+
+Weak encryption of sensitive data poses risks.
+GDPR mandates strong data protection.
+
+Vulnerabilities occur when encryption methods are inadequate (e.g., using MD5).
+
+===
+3. Injection:
+
+Injection is inserting malicious code into a vulnerable app.
+
+Attackers exploit weaknesses, often targeting login forms.
+
+Injection can lead to unauthorized access or data theft.
+
+===
+4. Insecure Design:
+
+Applications should be designed with security in mind.
+
+Weak design makes apps susceptible to various attacks.
+
+===
+5. Security Misconfiguration:
+
+Misconfigurations happen due to improper security settings.
+
+Default settings and unaudited systems are common pitfalls.
+
+Example: Using default settings on network servers.
+
+===
+6. Vulnerable and Outdated Components:
+
+Developers use open-source libraries for efficiency.
+
+Apps using unmaintained or vulnerable components are at risk.
+
+===
+7. Identification and Authentication Failures:
+
+Authentication failures can lead to unauthorized access.
+
+Apps must correctly identify users and their permissions.
+
+Example: Failing to prevent unauthorized network access.
+
+===
+8. Software and Data Integrity Failures:
+
+Inadequate review of updates or patches can lead to vulnerabilities.
+
+Attackers may exploit these weaknesses, leading to supply chain attacks.
+
+Example: SolarWinds cyber attack in 2020.
+
+===
+9. Security Logging and Monitoring Failures:
+
+Logging and tracing events are crucial for identifying and fixing problems.
+
+Insufficient monitoring and incident response can lead to undetected threats.
+
+===
+10. Server-Side Request Forgery (SSRF):
+
+SSRF manipulates server operations to access unauthorized data.
+
+Vulnerable applications allow malicious code to fetch unauthorized data.
+
+===
+The OWASP Top 10 is a valuable resource for addressing common web application vulnerabilities.
+
+Organizations use it to improve software security and regulatory compliance.
+
+Understanding these vulnerabilities is crucial for effective threat prevention and mitigation.

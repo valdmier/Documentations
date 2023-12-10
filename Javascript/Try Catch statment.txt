@@ -1,0 +1,68 @@
+
+Errors Will Happen!
+When executing JavaScript code, different errors can occur.
+
+===
+thats why we have catch and try statements:
+
+The try statement:
+
+allows you to define a block of code to be tested for errors while it is being executed
+--
+
+The catch statement:
+
+ allows you to set a plab B code to be executed, if an error occurs in the try block.
+
+===
+why do have them?:
+
+When an error occurs, JavaScript will normally stop and generate an error message but with try it will test hte code if there is an error then it will genrate the code inside catch
+
+
+===
+example:
+
+function randomize(limit) {
+    try {
+        console.log(heelo)
+
+    } catch (e) {
+        console.log("looks loke u forgot to define heelo or forgot to make it a string")
+    }
+}
+console.log(randomize("ss"));
+
+
+===
+better example:
+
+function randomize(limit) {
+    try {
+
+        return limit.toUpperCase().trim().repeat(3);
+
+    } catch (e) {
+        console.log("looks like you've entered a num, [laease enter a string");
+    }
+}
+console.log(randomize("hi"));
+
+
+//for example this func depends on giving a string..what if 
+// you got a number instead right?
+
+---
+how to tell him if there was an erorr because that you got a number do that:
+
+
+function randomize(limit) {
+    try {
+
+        return limit.toUpperCase().trim().repeat(3);
+
+    } catch (error) {
+        console.log("looks like you've entered a num, [laease enter a string");
+    }
+}
+console.log(randomize(88));

@@ -1,0 +1,39 @@
+Network hardening practices:
+
+- Port filtering 
+
+- network access privileges
+
+- Encryption
+
+===
+Network Hardening: Regular and Occasional Tasks
+
+
+===
+Regular Tasks:
+
+- Firewall Rules Maintenance: Ongoing management of firewall rules to control network traffic.
+
+- Network Log Analysis: The process of examining network logs to identify events of interest. Security teams use a log analyzer tool or a security information and event management tool (SIEM) to conduct network log analysis.
+
+- Patch Updates: Regularly updating software and systems to address security vulnerabilities.
+
+- Server Backups: Routine backup of servers to safeguard data and facilitate recovery.
+
+
+===
+Occasional Tasks:
+
+- Port Filtering: Firewall function that blocks or allows certain port numbers to limit unwanted communication. " The only ports that are needed are the ones that are allowed. "
+
+- Network Access Privileges: Management of user access rights to maintain security.
+
+- Encryption for Communication: Ensuring secure data transmission through encryption protocols.
+Wireless Protocol Management: Using up-to-date wireless protocols and disabling older, less secure ones.
+
+- Network Segmentation: Creating isolated subnets for different departments to limit the scope of potential threats.
+
+- Security Zone Separation: Isolating highly classified or confidential data from the rest of the network.
+
+- Data Encryption Standards: Applying robust encryption standards, especially for data in restricted zones.

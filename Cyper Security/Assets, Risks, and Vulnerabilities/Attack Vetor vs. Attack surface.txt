@@ -1,0 +1,4 @@
+Attack Vetor vs. Attack surface
+
+===
+An attack vector refers to the pathways attackers use to penetrate security defenses; an attack surface refers to all the vulnerabilities of an asset that can be exploited. 

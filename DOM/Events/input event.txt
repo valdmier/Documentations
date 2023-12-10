@@ -1,0 +1,21 @@
+This event:
+
+ occurs when the value of an <input> or <textarea> 
+element is changed.
+===
+example:
+
+<p>Write something in the text field to trigger a function.</p>
+
+   <input type="text" id="product" name="product">
+
+<p id="demo"></p>
+
+
+let inp = document.querySelector('#product');
+
+inp.addEventListener("input", function() {
+    let produckt = document.querySelector('#product').value;
+    document.getElementById("demo").innerHTML = `You wrote : ${produckt}`;
+});
+

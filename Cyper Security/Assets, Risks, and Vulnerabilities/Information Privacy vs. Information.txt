@@ -1,0 +1,59 @@
+Information Privacy vs. Information Security
+
+===
+Information Privacy: Protects against unauthorized access and distribution of data.
+
+Information Security (InfoSec): Protects data in all states from unauthorized users.
+
+===
+Key Difference:
+
+Privacy: Focuses on giving individuals control over their personal information and how it's shared.
+
+Security: Focuses on protecting people's choices and keeping their information safe from threats.
+
+===
+A retail company collects personal information with customer consent (privacy).
+
+It implements security controls to protect that data from unauthorized access (security).
+
+Both privacy and security are crucial for maintaining trust and brand reputation.
+
+Security involves protecting the user data from threats. Privacy is protecting the user data from you, taking the user consent before doing anything with his data.
+
+===
+ while security focuses on protecting user data from external threats and ensuring its integrity and availability, privacy centers around respecting user preferences and legal requirements related to how their data is collected and used. 
+
+===
+Importance of Privacy in Security:
+
+Data privacy and protection gained attention in the late 1990s.
+
+Organizations began collecting, storing, and using data, raising concerns about data privacy.
+
+===
+Notable Privacy Regulations:
+
+===
+- General Data Protection Regulation (GDPR):
+
+Gives data owners control over personal information.
+
+Applies to businesses handling EU citizens' or residents' data, regardless of location.
+
+===
+- Payment Card Industry Data Security Standard (PCI DSS):
+
+Secures credit and debit card transactions against data theft and fraud.
+
+===
+- Health Insurance Portability and Accountability Act (HIPAA):
+
+Protects sensitive patient health information.
+
+Requires consent for the disclosure of medical information.
+
+===
+Compliance and Security Assessments:
+
+Compliance involves security audits (reviewing controls, policies, and procedures) and security assessments (evaluating resilience against threats).

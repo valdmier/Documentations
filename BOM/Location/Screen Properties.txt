@@ -1,0 +1,45 @@
+you can bring the real screen size not the window..not the browser no!..the laptop or pc screen :
+
+window.console.log(window.screen.width + " width");
+
+window.console.log(window.screen.height + " height");
+
+result:
+
+1536 width
+864 height
+
+
+===
+
+n theres the avilable screen size 
+
+like the dont count the taskbar down cuz its not an avilabile space
+
+example:
+
+
+
+window.console.log(window.screen.availWidth + " width");
+
+window.console.log(window.screen.availHeight + " height");
+
+
+result:
+
+1536 width
+824 height
+
+
+===
+
+n theres pixelDepth = تركيز لون البكسل ف شاشه يعني
+
+
+
+window.console.log(window.screen.pixelDepth);
+
+
+
+
+ 

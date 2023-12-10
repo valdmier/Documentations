@@ -1,0 +1,71 @@
+to check if thos element have the attrbute we're
+ looking for:
+
+
+hasAttribute:
+
+
+var myImg = document.getElementById("imgEl");
+ 
+
+console.log(myImg.hasAttribute("src"));
+
+
+result : true, cuz i added a src attribute to the img
+
+--
+
+another examplewith if elese:
+
+    myImg = document.getElementById("imgEl");
+ 
+if (myImg.hasAttribute("src")) {
+    
+    alert("yes it has ");
+    
+} else {
+
+    alert("yes it hasnt");
+
+}
+
+or u can say if there is nothing there in the attribute :
+
+if(myImg.alt === "") {
+bla bla
+}
+
+
+
+
+===
+
+to remove attributes:
+
+
+removeAttribute:
+
+example:
+
+    myImg = document.getElementById("imgEl");
+ 
+if (myImg.hasAttribute("alt")) {
+    
+    if (myImg.alt === "") {
+    
+        
+        myImg.removeAttribute("alt");
+    
+         
+        alert("i deleted it cuz theres nothing in it");
+    
+    } else {
+
+        alert("everything is ok");
+
+    }   
+}
+
+
+===s
+

@@ -1,0 +1,66 @@
+to see more fonts:
+https://fonts.google.com/?sort=date
+
+fonts:
+example:
+ p {
+ color: rgb(191, 0, 255);
+   font-family: sans-serif;
+  }
+
+
+if the user dont have that font the 
+browser will choose any font randomly
+..we dont want it up to chance
+so:
+p {
+  color: rgb(191, 0, 255);
+ font-family: "Helvetica", sans-serif;
+
+        }
+ÇáİÇÕáå Çááí ÊÍØåÇ íÚäí ÇĞÇ ãÇİí ĞÇ ÇÓÊÎÏã ĞÇ ..
+.ØÈÚÇ ÈÚÖ ÇáÎØæØ íÈÛÇáß ÊÍØ áåã ÚáÇãÇÊ ÊäÕíÕ æÈÚÖåã İÇ ÌÑÈ æÔ Çááí íäİÚ áå æ æÔ Çááí ãÇ íäİÚ 
+
+
+to change the size of the font:
+p{font-size:12px;}
+
+to change the style of the font:
+p{font-style:bold;}or you can use
+italic or..etc 
+
+example:
+ p {
+  background-color: yellow;
+
+      font-family: fantasy;
+
+      font-size: 13px;
+
+      font-style: italic;
+ }
+    ÊŞÏÑ ÊÎÊÕÑ æÊŞæá:
+     font: italic 13px fantasy;
+
+
+    to control the space between the
+    lines:
+    p{line-height:1.2px;}
+
+    to move the text:
+   p {text-align:center;}or left,right
+    
+    Çhow to change opacity:
+   p{opacity:1.5;}
+
+   to put an underline under
+   the text:
+  p {text-decoration:underline;}
+
+  to remove the underline in the link:
+  a {text-decoration: none;
+}
+  to put space in the beiging of the 
+  paragraf:
+  {text-indent: 30px;}
+  

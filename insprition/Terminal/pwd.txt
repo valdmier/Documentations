@@ -1,0 +1,5 @@
+tyoe "pws" in the bash cmd 
+
+and it will show your current location in your pc.
+
+like the user..etc

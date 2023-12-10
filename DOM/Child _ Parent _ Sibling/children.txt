@@ -1,0 +1,43 @@
+note: nodes:space,elements,comments, everything
+
+
+===
+children:
+
+ know the element children
+---
+example
+<div id = "myDiv" class = " ss kbl ljy vmkig wow">
+    <button>add class</button>
+    <p>bla bla</p>
+    </div>
+ 
+
+ myDiv = document.getElementById("myDiv");
+
+console.log(myDiv.children);
+
+
+result: [button, p]
+
+---
+
+select a child by index number:
+
+<div id = "myDiv" class = " ss kbl ljy vmkig wow">
+    <button>add class</button>
+    <p>bla bla</p>
+    </div>
+ 
+
+ myDiv = document.getElementById("myDiv");
+
+console.log(myDiv.children[0]);
+
+
+result:
+
+<button data-brackets-id="27">add class</button>
+
+
+===

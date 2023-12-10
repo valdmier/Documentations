@@ -1,0 +1,28 @@
+Network interception attacks:
+
+-  packet sniffing: 
+
+They see info they're not entitled to see, they alter it, can insert malicious code modifications or altering the message and interrupting network operations.
+
+ an attacker can intercept a transfer and change the account receiving the funds to one that the attacker controls.
+
+===
+Backdoor attacks:
+
+Backdoors are like secret passages intentionally created by programmers or administrators to bypass regular security measures. They are meant for legitimate purposes like troubleshooting and system management. However, hackers can also sneak in and use these backdoors to gain ongoing access.
+
+When hackers enter through a backdoor, they can wreak havoc: planting malicious software, launching attacks to overwhelm the system, performing a denial of service (DoS) attack, stealing confidential data, or altering security settings, leaving the system wide open to further attacks.
+
+
+--
+DoS attack: is an attack that targets a network or server and floods it with network traffic.
+
+
+===
+Network attacks can harm organizations in several ways:
+
+- Financial Impact: Attacks, like DoS, can disrupt operations, causing significant revenue loss. If customer data is breached, legal costs may add up.
+
+- Reputation Damage: Public knowledge of an attack can erode trust in an organization's security practices. Customers may turn to competitors.
+
+- Public Safety Concerns: Government network breaches can jeopardize citizens' safety. Access to critical infrastructure like power grids or defense systems poses physical harm risks due to cyberattacks.

@@ -1,0 +1,64 @@
+@import url(Bootstrap/bootstrap.css);
+body {
+  font-family: "Raleway", sans-serif; }
+
+.fa-2x {
+  font-size: 80px;
+  color: #ffc107; }
+
+.navbar {
+  font-weight: 100;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 3; }
+  .navbar .navbar-brand h3 {
+    font-weight: 100; }
+  .navbar .nav-item {
+    font-size: 1.4rem; }
+  .navbar .nav-link:hover {
+    transition: border 3s;
+    border-bottom: 1px solid gray; }
+
+#showcase {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("images/uni.jpg") bottom center/cover no-repeat;
+  min-height: 600px;
+  position: relative; }
+
+#book {
+  font-size: 1.5rem;
+  border-radius: 2rem; }
+
+.icons {
+  font-size: 80px;
+  color: #ffc107; }
+
+.icon {
+  opacity: 0.3; }
+
+.h-100 {
+  max-height: 340px; }
+
+.bg-black {
+  background-color: black !important; }
+
+#footer {
+  font-weight: 100; }
+
+a.bg-black:hover, a.bg-black:focus,
+button.bg-black:hover,
+button.bg-black:focus {
+  background-color: #5e5d5d !important; }
+
+@media (max-width: 768px) {
+  .navbar {
+    background-color: black; }
+    .navbar .nav-link:hover {
+      border-bottom: none; }
+
+  #showcase {
+    background: url(images/uni.jpg) bottom center/cover no-repeat;
+    min-height: 400px; }
+    #showcase h1 {
+      font-size: 4rem; } }

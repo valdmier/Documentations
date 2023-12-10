@@ -1,0 +1,16 @@
+ondblclick is an event that happens when an element is double clicked
+
+example:
+
+
+var myNote = document.getElementById("note"),
+    myb = document.getElementById("button");
+
+
+myb.onclick = function () {
+    "use strict";
+    
+    myNote.textContent = "dont forget to put 8 letters to yr password!";
+    
+    
+};

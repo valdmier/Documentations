@@ -1,0 +1,15 @@
+three-way handshake:
+
+===
+The handshake consists
+of three steps:
+
+1. A SYN packet is sent from the source to the destination, requesting to
+connect.
+
+2. The destination replies to the source with a SYN-ACK packet to accept
+the connection request. The destination will reserve resources for the
+source to connect.
+
+3. A final ACK packet is sent from the source to the destination
+acknowledging the permission to connect.

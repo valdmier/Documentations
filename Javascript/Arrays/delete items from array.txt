@@ -1,0 +1,79 @@
+deleting by splice:
+
+Syntax:
+let arrDeletedItems = array.splice(start, deleteCount)
+
+var myArray = ["idk", "bonn bon", "zyad", "idk",
+ "nobody"];
+
+myArray.splice(2,2);
+
+/*
+wich means from number 2 delete 3..it will
+ delete 2,3,4..three numbers
+*/
+
+console.log(myArray);
+
+
+the result will be:
+
+["idk", "bonn bon"]
+
+===
+
+pop:
+
+its the obese of push
+
+
+pop deletes the last item just the opposite
+of push cuz push adds to the last one..
+pop deletes the last one
+
+
+example:
+
+
+var myArray = ["idk", "bonn bon", "zyad", "idk",
+ "nobody"];
+
+myArray.pop();
+
+console.log(myArray);
+
+
+the result:
+
+["idk", "bonn bon", "zyad", "idk"]
+
+
+
+===
+
+
+shift:
+
+the obesete of unshift.
+ 
+shift deletes the first item just the opposite
+of unshift cuz unshift adds to the first one..
+shift deletes the first one
+
+
+example :
+
+var myArray = ["idk", "bonn bon", "zyad", "idk",
+ "nobody"];
+
+myArray.shift();
+
+console.log(myArray);
+
+
+the result:
+
+["bonn bon", "zyad", "idk", 
+"nobody"]
+
+

@@ -1,0 +1,48 @@
+set time out us to make be excuted afyer a couple og seconds
+
+example:
+
+
+function waited() {
+    
+    "use strict";
+    
+    window.console.log("hi, it been 10 seconds");
+    
+}
+
+setTimeout(waited, 10000);
+
+note:unlike when call a function uou put () in the end of its name..here we dont do that
+
+u reload then wait 10s n it appears after 10s as "hi, it been 10 seconds" 
+
+
+===
+
+clear time out is way to stop the set time out when u press the button:
+
+example:
+
+<button id = "button"> click me</button>
+
+
+var mybutton = document.getElementById("button");
+
+function waited() {
+    
+    "use strict";
+    
+    window.console.log("hi, it been 10 seconds");
+    
+}
+
+var myTime = setTimeout(waited, 3000);
+
+mybutton.onclick = function () {
+
+    "use strict";
+    clearTimeout(myTime);
+
+};
+

@@ -1,0 +1,44 @@
+scrollHeight
+
+The scrollHeight property returns the entire height
+
+ of an element in pixels, including padding, but not the border, scrollbar or margin.
+
+Tip:
+
+ Use the scrollWidth property to return the entire width of an element.
+
+note:
+
+The scrollWidth and scrollHeight properties return the entire height and width of an element, including the height and width that is not viewable (because of overflow).
+
+
+count: padding, content
+
+dont count: margin, border
+
+
+the difrence between scrol hight n width n client hight n width :
+
+that scroll count the invisiable content to..but the client count whats visiable only
+
+example:
+<p id = "p">Click the buttons to give focus and/or remove focus from the text field.</p>
+
+
+#p {
+  height: 250px;
+  width: 400px;
+  padding: 10px;
+  margin: 20px;
+  border: 5px solid red;
+  background-color: lightblue;
+}
+
+var myD = document.getElementById("mainDiv"),
+    alert,
+    myP =  document.getElementById("childP");
+
+console.log(myD.scrollHeight + " px " + myD.scrollWidth + " px");
+
+

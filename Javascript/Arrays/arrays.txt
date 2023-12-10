@@ -1,0 +1,330 @@
+Arrays:
+
+array is a way to store things
+
+===
+There are two ways to write arrays
+
+The Constructor Array 
+
+var friends = new array();
+frends[0] = "mohaned";
+frends[1] = "majed"; 
+frends[2] = "me";
+
+or 
+
+var friends = new array(
+
+   " yousef ",
+   " zyad ",
+   " bonn bonn "
+
+
+);
+
+
+this way isnt quite right..you wont need it now
+
+
+---
+
+
+the normal array:
+
+
+var myFriends = ["mohaned", "majed", "me",
+ "bonn bonn", "mazen"];
+
+so if we wanted to call mohanad:
+
+text( myFriends[0], 10, 30);
+
+not cuz he is the first one we write
+ 1 no we start from zero 
+
+  calling mazen:
+
+text( myFriends[4], 10, 40);
+
+===
+
+how to check if this vaiable is array or not:
+
+var friends = ["mohammed", "ali", "nader"];
+
+
+if (Array.isArray(friends)) {
+
+
+    alert("its an array");
+
+} else {
+    
+    
+    alert("it aint an array");
+}
+
+
+the result will be its an array
+
+
+---
+another way to check
+
+var friends = ["mohammed", "ali", "nader"];
+
+
+if (friends.constructor === Array) {
+
+
+    alert("its an array");
+
+} else {
+    
+    
+    alert("it aint an array");
+}
+
+
+
+the result will be its an array
+
+
+===
+big mistake:
+
+
+var myFriends = ["mohaned", "majed", "me",
+ "bonn bonn", "mazen"];
+
+if u wrote your array like that it wiil be good
+
+but if you added a couma to the last item like
+
+var myFriends = ["mohaned", "majed", "me",
+ "bonn bonn", "mazen,"];
+
+thats a real mistake 
+
+n in some browser that wont work so take care of 
+that
+
+
+
+
+===
+
+using loops with arrys:
+
+so here is my friends
+
+var myFriends = ["mohaned", "majed", "me",
+ "bonn bonn", "mazen"];
+text(myFriends[0], 10, 30);
+
+text(myFriends[1], 10, 78);
+
+text(myFriends[2], 10, 130);
+
+text(myFriends[3], 10, 182);
+
+n here is our questions
+1. What do I want to repeat?
+ 
+
+  the text() command
+ 
+
+2. What do I want to change each time?
+
+  the friend num, and the y position
+ 
+
+3. How long should we repeat?
+ 
+
+  until there are no more friends left
+
+//to make everything adebends on it
+
+
+var friendNum = 0;
+          //3answer 
+//that mean as long as friendnum variable
+is less than my friends run this..
+the length:íÚäí Ú ÍÓÈÈ ÇáÚÏÏ ÍŞ ÇáİÑíäÏÒ Çááí ÚäÏí ÈãÚäì ÇäÇ åäÇ ÚäÏí
+ÇÑÈÚ İÑäÏÒ ÓæíÊåã İ åæ ÈíÔÛá ÇáÈÑäÇãÌ ãÇ ÏÇã ÇáİÑäÏ äã ÇÕÛÑ ãä ÇÑÈÚå..æÇĞÇ ÒæÏÊ
+ÇáİÑäÏÒ á ÚÔÑå İ åæ ÈíÔÛáå ãÇ ÏÇã ÇáİÑäÏÒ ÇŞá ãä ÚÔÑå æåßĞÇ İ åæ ÇÚÊÈÑå ãæ
+ãæÌæÏ æÇÚÊÈÑ ÚÏÏ ÇáİÑäÏÒ ÈÏÇáå
+comment replay:
+.length` is a property of JS arrays.
+ You use it in statements like
+ _arrayName_`
+
+.length` This will return the
+ number of elements in the given array.
+ In the code at the end of the video,
+ on line 11,
+
+ Pamela has the code `myFriends.
+
+length` This evaluates to 6 because there
+ are six elements in the `myFriends` array.
+
+ You can test this by pausing the video and
+ typing `println(myFriends.length);` at the
+ end of the code.
+
+*/
+
+while(friendNum < myFriends.length)
+
+//now we add the caliing so they can show up
+{
+text(myFriends[friendNum], 10, friendNum);
+
+
+//so he add one each time and call them all
+n stop runing it when he rich 4 
+
+friendNum++;
+}
+
+if not understood
+https://www.khanacademy.org/computing/computer-programming/programming/arrays/pt/looping-through-arrays
+but hey she wont explain the length thing
+so foucas on my explaning
+
+
+to make a text or an ellipse moves by mouse
+clicking here we call a balloon made by
+line n ellipse and by the array we will 
+make two of them with out having to repeat
+it it n then make a thired if the user 
+cliced it will show up:
+
+
+var xPositions = [100, 200];
+
+
+var draw = function(){
+
+//just one n chnge its place each time:
+if (mouseIsPressed) {
+
+xPositions[2] = mouseX;
+}
+
+
+//if i want to make a lot of them:
+if (mouseIsPressed) 
+{xPositions.push(mouseX);
+}
+
+//push:
+
+Add a new item to an array:
+
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.push("Kiwi");
+
+*/
+
+for (var i = 0; i < xPositions.length; i++){
+line(xPositions[i], 120, 194, 285);
+
+ellipse(xPositions[i], 104, 32, 46);
+
+    }
+  
+
+how to draw winston as much as u want by 
+object n loop or array :
+
+var drawWinston = function(faceX, faceY){
+fill(255, 255, 0);
+
+ellipse(faceX, faceY, 300, 300);
+ // face
+
+
+fill(46, 46, 41);
+ellipse(faceX - 45, faceY - 57, 40, 40);
+ // eyes
+
+
+ellipse(faceX + 102, faceY - 66, 40, 40);
+
+
+fill(252, 65, 65);
+
+ellipse(faceX + 55, faceY + 32, 120, 136); // mouth
+    
+
+fill(46, 46, 41);
+
+ellipse(faceX - 45, faceY - 57, 40, 40);
+ // eyes
+    
+
+ellipse(faceX + 102, faceY - 66, 40, 40);
+    
+
+fill(252, 65, 65);
+
+ellipse(faceX + 55, faceY + 32, 120, 136);
+ // mouth
+}
+
+//repeating the drawing by ararrys n loop:
+
+var xPositions = [99, 294, 101,  294, 10, 1,
+10]
+
+;
+var yPositions = [117, 117, 316, 316, 1, 1,
+ 1];
+
+
+for (var i = 0; i < xPositions.length; i++){
+
+
+drawWinston(xPositions[i], yPositions[i]);
+
+
+}
+
+and if you add a new number to the y n x 
+array positions it will show up a new 
+winston
+
+but an array here is a little messy n 
+confusing
+
+//repeating the drawing by objects n loops:
+
+var positions = [
+  
+{x: 99, y: 117},
+
+{x: 294, y: 117},
+
+{x: 101, y: 316},
+
+{x: 294, y: 316}
+  
+];
+for (var i = 0; i < positions.length; i++){
+
+
+drawWinston(positions[i].x,
+ positions[i].y);
+
+
+}
+
+n its more readable
+
+  
+

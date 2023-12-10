@@ -1,0 +1,34 @@
+Logs:
+
+a record of events that occur within an organization's systems and networks.
+
+===
+An example of logs is the event viewer app in windows.
+
+===
+Types of logs:
+
+- Firewall logs
+
+- Network logs
+
+- Server Logs
+
+
+===
+A firewall log is: (NETWORK < INTERNET)
+ a record of attempted or established connections for incoming traffic from the internet. I t also includes outbound requests to the internet from within the network.
+
+ 
+
+===
+A Network Log is a: (NETWORK < DEVICES)
+record of all computers and devices that enter and leave the network. It also records connections between devices and services on the network.
+
+
+===
+A server log is a: (INFO > INTERNET)
+record of events related to services , such as websites, emails, or files shares. it includes actions such as login, password, and username request.
+
+
+

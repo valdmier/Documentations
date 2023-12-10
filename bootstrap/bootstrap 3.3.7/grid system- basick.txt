@@ -1,0 +1,107 @@
+first of all we have to know screen types ..
+well..there is 4 types:
+
+
+-large screen       lg
+
+-midium screens     md
+
+-small screen       sm
+
+-extra small screen  xs
+
+فالشاشه مقسمه ل 12 وحده بالعرض حلو؟ بمعنى لو عندك اربع عناصر تبغى تقسم المساحه بينهم تحط لكل واحد 3 ..
+
+الامثله القادمه بتوضح
+
+
+
+<div class="container">
+    <div class="row">
+    
+        <div class="col-lg-4">hey im 1</div>
+        <div class="col-lg-4">hey im 2</div>
+        <div class="col-lg-4">hey im 3</div>
+        
+    </div>
+
+  </div>
+
+what does col-lg-means?:
+
+col:coulm in the row div
+
+lg: large screen
+
+4: how much space in the row you want it to take (the row contains 12)
+
+
+---
+
+to tell him what to do to midium screens and large screens and extra small screens in one time:
+
+.os {
+    
+    background-color: red;
+    color: white;
+    margin: 8px;
+
+}
+
+  <div class="col-lg-4 col-md-6 col-xs-12">    <div class="os">product</div>   </div>
+        
+         <div class="col-lg-4 col-md-6 col-xs-12">    <div class="os">product</div>   </div>
+        
+         <div class="col-lg-4 col-md-6 col-xs-12">    <div class="os">product</div>   </div>
+        
+         <div class="col-lg-4 col-md-6 col-xs-12">    <div class="os">product</div>   </div>
+        
+         <div class="col-lg-4 col-md-6 col-xs-12">    <div class="os">product</div>   </div>
+        
+         <div class="col-lg-4 col-md-6 col-xs-12">    <div class="os">product</div>   </div>
+        
+         <div class="col-lg-4 col-md-6 col-xs-12">    <div class="os">product</div>   </div>
+        
+         <div class="col-lg-4 col-md-6 col-xs-12">    <div class="os">product</div>   </div>
+
+    
+    </div>
+
+  </div>
+
+
+
+---
+
+
+but what if i told him what to do to the xs screens only?not the lg and md screens?what will he do? 
+
+example:
+
+<div class="col-xs-12">   product   </div>
+
+
+the result will be that the md n the lg will be like the xs screens ...so if you dont wanna bother just make for the md n the xs screens
+
+
+the big takes it size from the smaller size under it 
+
+
+so if you did that:
+
+
+
+<div class="col-xs-12 col-lg-6">   product   </div>
+
+the lg will be 6
+md will be 12 
+sm will be 12
+
+cuz the big thats not mintioned takes from the smaller than him that is mintioned 
+
+
+
+
+
+
+

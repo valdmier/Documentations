@@ -1,0 +1,19 @@
+createComment:
+
+to create comment.
+
+===
+example:
+
+    myComment = document.createComment("this is comment");
+
+//to male apear on the wep page:
+
+document.body.appendChild(myComment);
+
+//result:
+
+<!--this is comment-->
+
+
+===

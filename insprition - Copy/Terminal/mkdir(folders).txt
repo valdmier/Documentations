@@ -1,0 +1,22 @@
+
+mkdir
+
+its for making folders
+===
+
+haram@DESKTOP-D1QMJH6 MINGW64 ~
+$ cd desktop
+
+haram@DESKTOP-D1QMJH6 MINGW64 ~/desktop
+$ mkdir goats
+
+haram@DESKTOP-D1QMJH6 MINGW64 ~/desktop
+$ ls
+ BOM/                          'Microsoft VS Code'/   Terminal/
+ DOM/                           Multi-Drive.lnk*      Train/
+ Git/                           Nox.lnk*              bootstrap/
+'GitHub Desktop.lnk'*          'Old Firefox Data'/    desktop.ini
+ Goat.Simulator.Incl.ALL.DLC/   Pc.txt                goats/
+ Html,Css/                      Postman.lnk*          insprition/
+ Javascript/                      jQery/
+

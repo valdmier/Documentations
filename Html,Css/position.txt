@@ -1,0 +1,72 @@
+position:
+
+we have three kinds of position:
+
+«Џ—Ё «д «б—нбн Ё ж «б«»”бж  дЁ” »Џ÷ жб« Ён «ќ б«Ё жбяд Ў—ё бб Ќяг ж џнн— «г«яд «б«‘н«Ѕ 
+
+relative:
+
+е–« «бджЏ гд «б Ќяг нќбня  Ќ—я «б«‘н«Ѕ Ё«б’ЁЌе гд дЁ” гжёЏе« «б«’бн Ё «б’ЁЌе ...Ё бж я«д Ён 
+Ё«б’ЁЌе г—»Џ жќбн е нЌ—я нгнд ..»н Ќ—я гд дЁ” гжёЏе «б«’бн 
+
+
+absolute:
+
+  « бж ЌЎн е »нЌЎ бя «ббн  »џ«е гд «б“«жне «ббн Ёжё н”«— жгд ед«я  џн— Ё «бёнг бЌѕ г«  ж’б жнд 
+г«  »џм Ё«б’ЁЌе ..
+important info:
+бж  »џм нЌЎ «ббн  »џм Ё «б“«жне «ббн Ёжё нгнд :
+right:0; top:0;
+нЌЎе бя Ё«б“«жне  Ќ  нгнд:
+ bottom:0;right:0;
+нЌЎ бя Ё “«жне  Ќ  н”«—:
+bottom:0;left:0;
+Ёжё  г«г«
+top:0;
+ Ќ   г«г«
+bottom:0;
+н”«—  г«г«
+left:0;
+нгнд  г«г«
+right:0;
+жея–«
+
+
+fixed :
+жнЏгб »дЁ” Ў—нёе «»”бж  жбяд ед« нўб б«’ё гЏя гег«  Ќ—я ..ггяд  ЌЎ Ёне ‘н “н «‘Џ«— гЋб«
+«ж гж«ёЏ «б ж«’б «ж ќ«де «б»ЌЋ «бќ «бќ
+
+‘—Ќ:
+
+Absolute is by default the top left
+ corner, completely out of the flow,
+ and you then specify top and left to
+ move it where you want. z-index also
+ controls what's on top of what. Fixed
+ is always on the screen, no matter
+ where you scroll, and is also
+ customized by left top and z-index.
+ relative is simply relative to where
+ the element would otherwise be, but
+ is then moved from there by top and
+ left, and is also customized by
+ z-index
+
+what is z-index:
+
+еж «б«жбжне »ЌнЋ бж «д я–« ’ж—е ћж Џ »Џ÷ «ж Ёжё »Џ÷ «д   ёѕ—  Ќѕѕ «‘ «ббн няжд Ёжё «бЋ«дн
+жяб г« я«д «б—ёг «Џбм я«д  бе «б«жбжне Ё «ббн —ёге 3 бе «жбжне «яЋ— гд «ббн —ёге 1 
+гЋ«б:
+img1 {position: absolute;
+ 
+top: 50px;
+ left: 50px;
+ z-index: 1;}
+
+img2{position: absolute;
+ 
+top: 50px;
+ left: 50px;
+ z-index: 2;}
+
+»е–н «бЎ—нёе —Ќ  яжд «н «г ћн 2 ен «ббн Ёжё ж «н «г ћн 1 ен «ббн  Ќ  

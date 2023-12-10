@@ -1,0 +1,31 @@
+loop with arrays :
+
+loop with arrays debends on a varable that always 
+a number 
+
+and an array n its length
+
+
+loop with Arrays
+
+
+example:
+
+var friends = ["mohammmed", "bonn bon", "zyad"];
+
+for (i = 0; i < friends.length; i = i + 1) {
+
+    console.log(friends[i]);
+
+}
+
+
+---
+another example:
+
+let animals = ["lions", "tigers", "bears", "donkey"]
+
+for (let i = 0; i < animals.length; i++) {
+    console.log(animals[i]);
+}
+

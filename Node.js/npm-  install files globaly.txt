@@ -1,0 +1,54 @@
+it applys the package to the user so u can use it from 
+anywhere
+
+just go on n apply this to the terminal
+
+ npm install -g nameOfthePackgeUWant
+
+===
+if that didnt work then type:
+
+ runas chown -R $USER /usr/local/lib/node_modules
+
+then type:
+
+$ npm install -g cowsay 
+
+then:
+cowsay heelloo
+
+--
+to use this package on the terminal:
+
+cowsay heelloo
+
+to use this package on some file and require it:
+
+1-go to terminal n type: 
+npm link cowsay   //or whaterver the packge name
+
+2- go to the file n reqire it n it will work
+
+
+===
+example:
+
+$ npm install -g cowsay
+
+--
+to use this package on the terminal:
+
+cowsay heelloo
+
+//this^have nothing to do with global packges just to
+ show u how to use this single one
+
+===
+to use this package on some file and require it:
+
+1-go to terminal n type: 
+npm link cowsay   //or whaterver the packge name
+
+2- go to the file n reqire it n it will work
+
+

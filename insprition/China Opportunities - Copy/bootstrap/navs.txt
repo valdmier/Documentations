@@ -1,0 +1,56 @@
+first of all navs srent navbars.. navs could be anywhere in the page
+
+
+how to add a nav link:
+
+<nav class="nav">
+  <a class="nav-link active" href="#">Active</a>
+  <a class="nav-link" href="#">Link</a>
+  <a class="nav-link" href="#">Link</a>
+  <a class="nav-link disabled" href="#">Disabled</a>
+</nav>
+
+
+---
+
+how to add a nav link with an ul:
+
+<ul class="nav">
+<li><a href="" class="nav-link active">First</a></li>
+<li><a href="" class="nav-link disabled">Second</a></li>
+<li><a href="" class="nav-link">Third</a></li>
+<li><a href="" class="nav-link">fourith</a></li>
+
+</ul>
+
+===
+
+how to make nav tabs:
+
+
+<ul class="nav nav-tabs">
+<li><a href="#" class="nav-link nav-items active">First</a></li>
+<li><a href="#" class="nav-link disabled">Second</a></li>
+<li><a href="#" class="nav-link">Third</a></li>
+<li><a href="#" class="nav-link">fourith</a></li>
+
+
+</ul>
+
+
+
+===
+
+
+to make pills:
+<div class="container">
+
+  <ul class="nav nav-pills nav-fill border-top border-right ">
+    <li class="nav-item "><a href="#" class="nav-link active">Job</a></li>
+    <li class="nav-item"><a href="#" class="nav-link">Study</a></li> 
+    <li class="nav-item "><a href="#" class="nav-link disabled">Who are we</a></li>  
+  </ul>
+</nav>
+
+</div>
+

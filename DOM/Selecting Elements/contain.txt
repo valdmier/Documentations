@@ -1,0 +1,23 @@
+its way to check if a parent contains a child or not
+
+contains:
+
+
+example:
+
+<div id= "mainDiv">
+
+<p id = "childP">Click the buttons to give focus and/or remove focus from the text field.</p>
+
+</div>
+
+
+var myD = document.getElementById("mainDiv"),
+    alert,
+    myP =  document.getElementById("childP");
+
+if (myD.contains(myP)) {
+    
+    alert("yea it contain");
+} 
+

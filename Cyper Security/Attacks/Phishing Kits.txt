@@ -1,0 +1,13 @@
+Phishing Kits:
+
+===
+Attackers commonly employ phishing kits, which are collections of software tools for launching phishing campaigns.
+
+These kits are designed to be user-friendly, allowing individuals with limited technical expertise to conduct attacks.
+
+===
+Phishing kits include various tools to avoid detection, and security professionals should be aware of the three main components:
+
+1- Malicious attachments
+2- Fake-data collection forms
+3- Fraudulent web links

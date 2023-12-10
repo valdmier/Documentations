@@ -1,0 +1,29 @@
+round is true rounding not like ceil and floor
+
+rounding = تقريب
+
+example:
+
+var Math;
+var console;
+
+var x = Math.round(4.7 + 1.5); //which is 6.2
+
+console.log(x);
+
+
+the result: 6
+
+---
+
+another example:
+
+var Math;
+var console;
+
+var x = Math.round(4.7 + 1.8); //which is 6.5
+
+console.log(x);
+
+
+the result : 7

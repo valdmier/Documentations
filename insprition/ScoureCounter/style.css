@@ -1,0 +1,29 @@
+small{
+
+  font-size: xx-small;
+}
+
+.btn1{
+position: relative;
+bottom: 1px;
+height: 100px;
+width: 200px;
+}
+
+.btn2{
+  position: relative;
+  bottom: 1px;
+  height: 100px;
+  width: 200px;
+  
+  
+  }
+  
+  .btn3{
+    position: relative;
+    bottom: 1px;
+    height: 100px;
+    width: 200px;
+    
+    
+    }

@@ -1,0 +1,61 @@
+AND, OR, and NOT
+
+Logical operators, including AND, OR, and NOT, are essential tools in SQL for precise data filtering.
+
+===
+AND Operator
+
+AND is used to filter based on two conditions simultaneously, requiring both conditions to be met for a row to be included in the results.
+
+Example: To find customer accounts handled by support representative ID 5 located in the USA, use:
+
+SELECT firstname, lastname, email, country, supportrepid
+
+FROM customers
+
+WHERE supportrepid = 5 AND country = 'USA';
+
+===
+OR Operator
+
+The OR operator connects two conditions and returns results where either the first, second, or both conditions are met.
+
+Example: To find customers in the USA or Canada for a security update communication, use:
+
+SELECT firstname, lastname, email, country
+FROM customers
+WHERE country = 'Canada' OR country = 'USA';
+
+
+===
+NOT Operator
+
+NOT negates a single condition, returning all records that don't match the specified condition in the query.
+
+Example: To find customers not located in the USA, use:
+
+SELECT firstname, lastname, email, country
+FROM customers
+WHERE NOT country = 'USA';
+
+Pro tip: You can also use the <> or != operators to find values not equal to a certain value, like: WHERE country <> 'USA' or WHERE country != 'USA'.
+
+example:
+
+SELECT * FROM log_in_attempts WHERE NOT country LIKE 'MEX%';
+===
+Combining Logical Operators
+
+Logical operators can be combined in filters for more complex queries. For example, to find customers in countries other than the USA and Canada, use:
+
+SELECT firstname, lastname, email, country
+FROM customers
+WHERE NOT country = 'Canada' AND NOT country = 'USA';
+
+
+===
+SELECT *
+FROM log_in_attempts
+WHERE login_date = '2022-05-09' 
+OR
+login_date = '2022-05-08';

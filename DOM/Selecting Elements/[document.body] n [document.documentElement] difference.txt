@@ -1,0 +1,63 @@
+
+
+The difference between this property and the 
+
+document.documentElement property, is that the 
+
+document.body element returns the <body> element,
+
+while the document.documentElement returns the <html> 
+
+element.
+
+
+
+What is the purpose of document.documentElement?
+
+document.documentElement: returns the documentElement
+
+ of a document, as an Element object. For HTML 
+
+documents the returned object is the HTML element. It
+
+ returns the Element that is the root element of the
+
+ document (for example, the <html> element for HTML 
+documents).
+
+
+What is the purpose of document.body?
+
+document.body is the element that contains the content 
+for the document. In documents with <body> contents, 
+returns the <body> element, and in frameset documents, 
+this returns the outermost <frameset> element.
+
+
+What is the effect of setting the document.body?
+
+
+Though body is settable, setting a new body on a 
+document will effectively remove all the current 
+
+children of the existing <body> element.
+
+
+What may be the cause for document.body to be null or 
+undefined?
+
+
+If you are experiencing a problem where document.body 
+is null or undefined, check your JavaScript code to 
+make sure that your JavaScript code is only executed 
+after the DOM is fully loaded. If your JavaScript code 
+is located in the head section of the page, move your 
+JavaScript code into the body section of the page as 
+recommended for performance reason. If the problem 
+goes away, then your JavaScript code (when it was in 
+the head section) was being executed before the DOM is 
+
+fully loaded. Browser parses your html from top down, 
+your script runs before body is loaded. To fix put 
+script just before the closing body tag.
+

@@ -1,0 +1,63 @@
+Stages of Social Engineering Attacks
+
+===
+1 - Preparation:
+
+Objective: Gather information about the target.
+
+Purpose: Determine the best way to exploit the target.
+
+Initial data gathering phase.
+
+===
+2 - Establish Trust (Pretexting):
+
+Objective: Open a line of communication with the target.
+
+Strategy: Disguise and manipulate to gain the target's trust.
+
+Use gathered information to create a convincing pretext.
+
+===
+3 - Persuasion Tactics:
+
+Objective: Manipulate the target into volunteering information.
+
+Methods: Use persuasive techniques and organization-specific vocabulary.
+
+Leverage the preparation phase to appear credible.
+
+===
+4 - Disconnect from Target:
+
+Objective: After collecting desired information, break communication.
+
+Purpose: Cover tracks and avoid detection.
+
+Disappear to evade suspicion.
+
+
+===
+Preventing Social Engineering Attacks:
+
+===
+1- Implement Managerial Controls:
+
+Utilize policies, standards, and procedures to establish defense mechanisms.
+
+Follow industry standards and best practices, such as NIST Special Publication 800-40 for patch management.
+
+Develop procedures for updating vulnerable software and firmware.
+
+===
+2- Stay Informed and Share Knowledge:
+
+Prioritize staying informed about emerging social engineering attack trends.
+
+Share knowledge with others to create a better defense.
+
+Educate individuals on recognizing signs of social engineering attacks.
+
+Encourage vigilance and critical thinking to counteract attackers' manipulation.
+
+Social engineering attacks often rely on the exploitation of human psychology, and awareness and education play crucial roles in preventing such attacks.

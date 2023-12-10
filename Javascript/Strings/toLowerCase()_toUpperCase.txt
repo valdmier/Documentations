@@ -1,0 +1,22 @@
+i would like to explin those one by another
+
+but thats example is enough:
+
+var myString = "IM in loVe wIth javaScript";
+  
+    var small = myString.toLowerCase();
+
+
+   var big = myString.toUpperCase();
+
+
+console.log(myString);
+console.log(small);
+console.log(big);
+
+
+the result
+
+IM in loVe wIth javaScript
+im in love with javascript
+IM IN LOVE WITH JAVASCRIPT

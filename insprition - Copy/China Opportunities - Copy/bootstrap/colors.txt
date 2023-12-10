@@ -1,0 +1,90 @@
+well in bootstrap there are colors that gives you a shorter way instead of writing colors by yorself
+
+
+for example:
+
+<h3 class="text-primary">hello, world</h3>
+
+that will make it blue 
+
+
+
+
+<p class="text-primary">.text-primary</p> 
+
+= light blue
+
+
+
+
+
+<p class="text-secondary">.text-secondary</p> 
+
+= light black
+
+
+
+<p class="text-success">.text-success</p> 
+
+= green
+
+
+
+<p class="text-danger">.text-danger</p> 
+
+= red
+
+
+
+<p class="text-warning">.text-warning</p> 
+
+= orange
+
+
+
+<p class="text-info">.text-info</p> 
+
+= blue
+
+
+
+
+<p class="text-light bg-dark">.text-light</p>
+
+ = lack backgound to show it. its color is  white 
+
+
+
+
+<p class="text-dark">.text-dark</p>
+ = dark
+
+
+
+<p class="text-body">.text-body</p>
+
+ = black
+
+
+
+<p class="text-muted">.text-muted</p>
+ = gray 
+
+
+
+<p class="text-white bg-dark">.text-white</p>
+
+ =  black backgound to show it. its color is super white 
+
+
+
+<p class="text-black-50">.text-black-50</p>
+
+ = light gray
+
+
+
+
+<p class="text-white-50 bg-dark">.text-white-50</p>
+
+=  black backgound to show it.its color is gray or 50% black just

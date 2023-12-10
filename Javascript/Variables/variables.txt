@@ -1,0 +1,86 @@
+Variables:
+
+ellipse(157, 151, 30, 30);
+
+ellipse(304, 142, 30, 30);
+
+you can put an Abbreviation by variables:
+
+var eyesize = 30;
+
+ellipse(157, 151, eyeSize, eyeSize);
+
+ellipse(304, 142, eyeSize, eyeSize);
+
+note: define the variables with var then you call
+its name without if saying var just mention its name
+
+notes: dont put spaces in the name of the
+variables..define the variable before u
+use it...if it was loke that:
+ellipse(304, 142, eyeSize, eyeSize);
+var eyesize = 30;
+it won't work
+
+ what if you have 3 ellipses and you want 
+ to move one of them and the others  
+ to move along with it relaitvely together
+here they are
+ellipse(150, 151, 40, 40);
+
+ellipse(300, 142, 40, 40);
+
+ellipse(200, 240, 120, 136);
+
+1 choose one of them :
+ellipse(200, 240, 120, 136);
+
+2 lets make a variable
+
+3 lets make for the x here 
+
+4 var x = 200 
+
+ellipse(x, 240, 120, 136)
+
+ellipse(x + 100, 142, 40, 40);
+
+»ÕÌÀ „Â„« €Ì—  «·«ﬂ” »ÌŸ· «ﬂÀ— » 100 Ê»ﬂ–« »ÌŸ· „ ‰«”ﬁ Ê„ ‰«”»
+
+ellipse(x - 50, 151, 40, 40);
+
+»ﬂ–« „Â„« Õ—ﬂ Â »ÌŸ· „Õ«›Ÿ ⁄ ‰›” «·„”«›Â «··Ì ÂÌ «ﬁ· „‰ «ﬂ” » Œ„”Ì‰
+
+to make them move with rate :
+
+
+1 so you have two ellipses:
+
+eliipse(200,200,400,400)//face
+
+eliipse(100,100,50,50)//mouth
+
+
+2 make variables:
+
+var faceposition = 200;
+var facesize = 400; 
+
+eliipse(faceposition,faceposition,facesize,facesize)//face
+
+eliipse(100,100,50,50)//mouth
+
+
+3 make variables for the mouth 
+
+var faceposition = 200;
+var facesize = 400;
+var mouthposition = 1/2 * faceposition
+var mouthsize: 1/8 * facesize   
+»ﬂ–«  Œ·ÌÂ„ œ«Ì„ «ﬁ· „‰ «·›Ì” ”«Ì“ » À„‰ «Ê ‰’ «Ê «Ê «Ê..Ê ﬁœ—  Œ·ÌÂ„ „À·« «ﬂ»— » Œ„” «÷⁄«›
+
+eliipse(faceposition,faceposition,facesize,facesize)//face
+
+eliipse(mouthposition,mouthposition,mouthsize,mouthsize)//mouth
+
+

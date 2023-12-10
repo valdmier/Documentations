@@ -1,0 +1,42 @@
+qery strings:
+
+ are strings coming from forms or inputs that there 
+value added to the url. like :blabla.com/search/q=cats
+
+===
+to make a qeury sting n add it to the url:
+
+app.get('/search', (req, res) => {
+    console.log(req.query);
+    const { q } = req.query;
+    res.send(`Hi! You are searching for ${ q } right?`);
+});
+
+app.listen(8080, () => {
+    console.log('RUNNING ON PORT 8080!');
+});
+
+-- 
+then go to http://localhost:8080/search?q=notGoodThings
+
+===
+example with ejs:
+
+app.get('/search', (req, res) => {
+    console.log(req.params);
+    let { q } = req.query;
+    res.render('search', { q: q });
+
+});
+
+app.listen(3000, () => {
+    console.log('RUNNING ON PORT 3000!');
+});
+
+--
+search file:
+
+
+    <h1>The Home Page <%= q %></h1>
+
+

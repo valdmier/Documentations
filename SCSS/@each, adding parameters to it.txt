@@ -1,0 +1,83 @@
+The @each rule makes it easy to emit styles or evaluate code for each element of a list
+
+sytax:
+
+$listCreated
+
+@each $nameAvarablie in $listCreated {
+
+make each of those varabliles have these stuff and name them with there name witch is #{$nameAvarablie}
+}
+
+example:
+
+<p class = "class1">ERO</p>    
+<p class = "class2">ERO</p>    
+<p class = "class3">ERO</p>    
+<p class = "class4">ERO</p>    
+<p class = "class5">ERO</p>    
+<p class = "class6">ERO</p>    
+<p class = "class7">ERO</p>    
+<p class = "class8">ERO</p>    
+<p class = "class9">ERO</p>    
+<p class = "class10">ERO</p>    
+
+
+$numbers: 1 2 3 4 5 6 7 8 9 10;
+
+@each $number in $numbers {
+    
+    .class#{$number} {
+        
+        font-family: monospace;
+        background-color: yellow;
+    }
+    
+}
+
+
+or there is another way to do it with out of using a variable:
+
+<p class = "class1">ERO</p>    
+<p class = "class2">ERO</p>    
+<p class = "class3">ERO</p>    
+<p class = "class4">ERO</p>    
+<p class = "class5">ERO</p>    
+<p class = "class6">ERO</p>    
+<p class = "class7">ERO</p>    
+<p class = "class8">ERO</p>    
+<p class = "class9">ERO</p>    
+<p class = "class10">ERO</p>    
+
+
+@each $number in (1),(2),(3),(4),(5),(6),(7),(8),(9),(10) {
+    
+    .class#{$number} {
+        
+        font-family: monospace;
+        background-color: yellow;
+    }
+    
+} 
+
+
+n thers a way to put two parametes not only one
+
+<p class = "class1">ERO</p>    
+<p class = "class2">ERO</p>    
+<p class = "class3">ERO</p>    
+<p class = "class4">ERO</p>  
+
+
+@each $number, $color in (1, yellow ), (2, blue), (3, red), (4, gray) {
+    
+    .class#{$number} {
+        
+        font-family: monospace;
+        background-color: yellow;
+        background-color: $color;
+    }
+    
+}
+
+and you can add more parameters

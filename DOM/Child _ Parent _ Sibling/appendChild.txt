@@ -1,0 +1,25 @@
+appendChild:
+
+the appendChild() method appends an element  as the last child of another element.
+
+example:
+<div id="main">
+A DIV element
+</div>
+
+
+var myMainDiv = document.getElementById("main"),
+
+    myNewElement = document.createElement("P");
+
+myNewElement.innerHTML = "aaa";
+
+myMainDiv.appendChild(myNewElement);
+
+
+
+
+result:
+
+A DIV element //from the div
+aaa //from the p i creater n appended

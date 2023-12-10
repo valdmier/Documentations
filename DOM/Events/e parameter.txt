@@ -1,0 +1,25 @@
+The e is short for event
+
+The simplest way to create an event is to click somewhere
+ on the page.
+
+When you click, a click event is triggered. This event is
+ actually an object containing information about the action
+ that just happened.
+
+note: u could just right event instead of e
+===
+<form id="myForm" action="/action_page.php">
+    <input type="text" name="" id="" placeholder="Username">
+    <input type="text" name="" id="" placeholder="Password">
+  <button type="submit">submit</button>
+  </form>
+
+document.getElementById("myForm").addEventListener("submit", 
+function(e) {
+    alert("submited!");
+    e.preventDefault();
+});
+
+n that means when the event occrs stop the action of the form
+(witch is the default behavior) n dont take us nowehre 

@@ -1,0 +1,42 @@
+Returning Functions:
+
+its simple but not as simple as you might think first u dont have to name the function u return 
+
+--
+when you call the function put double parentheses:
+
+mainFuncName()():
+to make the <^|^>to make the func under the if
+first func    |   statment work 
+work          |
+
+--
+note:u put the parentheses as much as it needs..for example if u had 3 functions under indide each other put 3 parentheses()()(); ..etc 
+===
+example:
+
+
+function lameFunc() {
+    let luck = Math.floor(Math.random() * 10 + 1);
+    console.log(luck)
+    if (luck < 5) {
+
+        return function () {
+
+            console.log("Congrats yr such a luky human");
+            console.log("you got no virus + million dollar");
+        };
+
+    } if (luck > 5) {
+        return function () {
+            alert("YOU ARE SUCH UNLUCKY HUMAN");
+            alert("you got virus");
+            alert("YOU CANNT CLOSE ME!!");
+            alert("YOU CANNT CLOSE ME!!");
+
+        };
+    }
+
+
+}
+lameFunc()();

@@ -1,0 +1,47 @@
+
+its just parts of the code that u save n call it later so dont have to write the code over and over.
+
+explaining:
+
+1-make folder next the view folder n the modules folder(make inside of the main folder)
+
+2-name it , i'll name it Partials
+
+3- make ejs folder inside it , i'll name it head
+ and put inside the code u wanna reuse 
+
+4-go to the file u wanna reuse the code in n put that to call it:
+
+<%- include('Partials/head') %>
+
+n thats it
+===
+example:
+
+Partials/head.ejs file:
+
+<head>
+    <meta http-equiv="X-UA Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>training</title>
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <script src="/js/bootstrap.min.js"></script>
+</head>
+
+
+calling it:
+
+i deleted the head tag then put:
+
+<%- include('Partials/head') %>
+
+
+n just like that 
+
+
+
+
+
+
+

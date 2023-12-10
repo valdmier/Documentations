@@ -1,0 +1,28 @@
+
+process.argv:
+
+to show the curent file diretory and where the code have been 
+typed in witch line and in witch file
+==
+example:
+
+console.log("this agrv example");
+
+console.log(process.argv);
+
+//go to the terminal n run the file
+
+result:
+
+this agrv example
+[
+  'C:\\Program Files\\nodejs\\node.exe',
+  'C:\\Users\\haram\\desktop\\back\\back.js'
+]
+
+
+
+
+
+
+

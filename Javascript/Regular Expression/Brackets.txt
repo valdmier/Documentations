@@ -1,0 +1,153 @@
+
+
+how brackets are used in the regular expression:
+
+syntax:
+
+  /[pattren]/attributes
+ 
+===
+
+with what you can use it:
+
+===
+
+
+[..]characters
+
+
+example:
+
+
+var me = "ima mohammed motee saleh al-solimani i live in jeddah city";
+
+
+var meExp = me.replace(/[L]/gi, "@");
+
+console.log(meExp);
+
+
+result:
+
+ima mohammed motee sa@eh a@-so@imani i @ive in jeddah city
+
+
+===
+
+[^..] not that charater..like if you want to choose 
+
+
+evary thing exepet some letters or words:
+
+
+---
+
+
+replace every thing with @ exepet the leters of my name "mohammed":
+
+
+
+var me = "ima mohammed motee saleh al-solimani i live in jeddah city";
+
+
+
+var meExp = me.replace(/[^mohammed]/gi, "@");
+
+
+console.log(meExp);
+
+
+
+the result:
+
+
+@ma@mohammed@mo@ee@@a@eh@a@@@o@@ma@@@@@@@@e@@@@@eddah@@@@@
+
+
+
+===
+
+[a-z] alphapet range
+
+like if you select from a - c you selct a b c
+
+c-g = c d e f g n like dat
+
+
+
+---
+
+
+example:
+
+
+var me = "ima mohammed motee saleh al-solimani i live in jeddah city";
+
+
+var meExp = me.replace(/[a-c]/gi, "@");
+               //so i choo^sed a b c
+
+console.log(meExp);
+
+
+result:
+
+im@ moh@mmed motee s@leh @l-solim@ni i live in jedd@h @ity
+
+
+
+---
+
+
+
+another example using nit character and range:
+
+
+var me = "ima mohammed motee saleh al-solimani i live in jeddah city";
+
+
+var meExp = me.replace(/[^a-k]/gi, "@");
+          //so i chossed ev^ery thing exepet a-k
+
+console.log(meExp);
+
+
+---
+
+to choose to characters:
+
+
+var me = "ima mohammed motee saleh al-solimani i live in jeddah city";
+
+
+var meExp = me.replace(/[a,l]/gi, "@");
+     // i choosed a and l letter
+
+console.log(meExp);
+
+
+
+result:
+
+im@ moh@mmed motee s@@eh @@-so@im@ni i @ive in jedd@h city
+
+
+===
+
+[0-9] number range
+
+
+---
+
+example:
+
+
+
+var me = "ima mohammed motee saleh al-solimani i live in jeddah city";
+
+
+var meExp = me.replace(/[0-9]/gi, "@");
+
+
+console.log(meExp);
+

@@ -1,0 +1,31 @@
+Rainbow Table Attack:
+
+===
+Rainbow tables are large precomputed tables used to reverse cryptographic hash functions, typically for cracking password hashes.
+
+These tables contain precomputed hash values for various passwords, making it easier for attackers to crack hashed passwords.
+
+===
+In a scenario where an attacker has stolen a database of hashed passwords:
+
+Without rainbow tables, they'd need to guess a password, hash it, and check if the hash matches the database entry (time-consuming).
+
+With rainbow tables, they can directly look up the hash in the table and find the corresponding password.
+
+===
+Example: If an attacker has a rainbow table of all possible 5-character passwords, they can quickly find the original password for a given hash from a stolen database.
+
+
+===
+Salting:
+
+Salting is an additional step during hashing, primarily used when storing passwords, involving the addition of secret data (salt) to the input before hashing.
+
+The purpose of salts is to enhance security by defending against dictionary attacks and rainbow table attacks.
+
+Each password gets a unique salt, and the salted password is hashed, with the result (not the original password) stored in the database.
+
+===
+Example: Two users choosing "password" as their password would typically produce the same hash.
+
+However, with salts, their hashed passwords become unique (e.g., "password123" and "password456"), even though they have the same original password. This complicates an attacker's task of cracking passwords as each hashed password is different.

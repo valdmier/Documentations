@@ -1,0 +1,37 @@
+sooo...we v=both know how to use loop with arrays n show alll of its items ?right? butt how could we show the whole object items??
+
+--
+example:
+
+var myCar = {
+    color: "gray",
+    model: "2022",
+    price: "50k USD",
+    type: "sydan"
+};
+
+
+for (let element in myCar) {
+
+    console.log(`${element} : ${myCar[element]}`);
+}
+
+
+output:
+-
+ color : gray
+ model : 2022
+ price : 50k USD
+  type : sydan
+
+
+
+
+note :
+ u might get a little bet confused bout the variable 
+and ask qoustion like:
+
+how could he know that i wanna store the object element in that variable?
+
+
+well thats totally fine...its just a method that represent 

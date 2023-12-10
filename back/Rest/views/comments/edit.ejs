@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('../Partials/head') %>
+
+    <body>
+        <%- include('../Partials/navbar') %>
+            <div class="container">
+                <h1 class="display-4">Edit your comment</h1>
+
+                <form method="POST" action="/comments/<%=comment.id%>?_method=PATCH">
+                    <!-- its not really a post reqest its a patch to see that check the href -->
+                    <textarea class=" form-control m-4" name="comment" id="comment">
+                    <%= comment.comment %>
+                        </textarea>
+                    <button class="btn btn-info text-white">Edit</button>
+                </form>
+                <a class=" m-3 btn btn-warning text-white" href="/comments/">Back to All comments</a>
+    </body>
+
+</html>

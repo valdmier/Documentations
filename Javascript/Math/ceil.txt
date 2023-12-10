@@ -1,0 +1,31 @@
+
+ceil = سقف
+
+ceil round it to the biggst number it can round to
+
+like 2.08 he round it to 3...if its rounded normally it 
+
+will be 2...but with ceil it will rounded to 3
+
+
+example:
+
+
+var x = Math.ceil(4.047);
+
+console.log(x);
+
+---
+
+another example:
+
+var Math;
+var console;
+
+var x = Math.ceil(4.7 + 1.5); //which is 6.2
+
+console.log(x);
+
+
+the result: 7
+the result : 5 

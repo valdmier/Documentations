@@ -1,0 +1,20 @@
+createElement:
+
+makes u able to create html tags with out touching the html.
+
+===
+example:
+
+    myElement = document.createElement("div");
+
+//to male apear on the wep page:
+
+document.body.appendChild(myElement);
+
+myElement.textContent = "ola";
+
+result:
+
+<div> ola </div>
+
+

@@ -1,0 +1,16 @@
+
+PUT => 
+If user can update all or just a portion of the record, 
+use PUT (user controls what gets updated)
+
+to replace a whole thing. for example a comment you if
+u used put then you would replace the whole comment
+
+
+PATCH => 
+If user can only update a partial record, say just 
+an email address (application controls what can be updated),
+ use PATCH.
+
+to patch things. for example a comment you if
+u used patch then you would modify comment

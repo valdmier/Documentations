@@ -1,0 +1,182 @@
+What are Pseudo-classes?
+A pseudo-class is used to define a special state of an element.
+
+For example, it can be used to:
+
+Style an element when a user mouses over it
+Style visited and unvisited links differently
+Style an element when it gets focus
+
+all pesudo classes:
+
+:active
+:checked
+:disabled
+:visited
+:valid	
+:target
+:root
+:required
+:read-write
+:read-only
+:out-of-range
+:optional
+:only-child	
+:only-of-type
+:nth-of-type(n)
+:nth-last-of-type(n)
+:nth-last-child(n)
+:nth-child(n)
+:not(selector)
+:link
+:last-of-type
+:last-child
+:lang(language)
+:invalid
+:in-range
+:hover
+:focus
+:first-of-type
+:focus
+:first-child
+:enabled
+
+---
+pesudo classes:
+to change the orgnal color of the links:
+
+a:link{color:red;}
+
+===
+
+to make the link's color change after 
+the user visited it:
+
+a:visited{color:orange;}
+
+===
+
+to change the text's aura when u put
+ the mouse it(الهاله):
+
+a:hover{background-color:red;
+color:white;}
+
+===
+
+
+to change the color or the background
+color or the font or the link size 
+when the user put the mouse on the text
+
+a:active{text-decoration: none;
+font-family:"monospace";
+font-size:45px;}
+
+to change the color or anything in
+the moment the user click the link:
+
+a.focus{background-color:yellow;}
+
+===
+
+another way to mention is by classes:
+
+<p>
+<a class="highlight" href="css_syntax.asp">
+CSS </a>
+
+<a id="highlight2" href="css_syntax.asp">CSS Syntax</a>
+</p>
+
+
+<style>
+<--!to select all the liks with a specific class:--!>
+
+a.highlight:hover {
+  color: #ff0000;
+
+<--!to select all the elements with 
+ a specific class:--!>
+
+.highlight:hover {
+  color: #ff0000;
+} 
+
+<--!to select all the elements with 
+ a specific id:--!>
+
+#highlight2:hover {
+  color: #ff0000;
+} 
+
+</style>
+
+===
+
+first-child Pseudo-class:matches a specified 
+element that is the first child of another element.
+ 
+example:
+
+<p>This is some text1.</p>
+<p>This is some text2.</p>
+
+<style>
+p:first-child {
+  color: blue;
+} 
+</style>
+
+n like that he will use the first paragraph number 1
+
+===
+
+to select all the first <b> tags that are inside a 
+paragraph :
+
+<p>I am a <b>strong</b> person. I am a <b>strong</b> person.</p>
+<p>I am a <b>strong</b> person. I am a <b>strong</b> person.</p>
+
+<style>
+p:first-child i {
+  color: blue;
+} 
+</style>
+
+that would make the first b in each paragraph blue
+
+===
+
+lang Pseudo-class:this one is very usefull
+cuz store any propties in it and use it later 
+
+example:
+<style>
+       name it
+q:lang(lucifer) {
+   color: blue ;
+}
+</style>
+
+<p>Some text <q lang="lucifer">A quote in a paragraph</q>
+ Some text.</p>
+
+so like that i can store any properties inside that
+pesudo class,name it and use it later
+
+
+ :"checked" CSS pseudo-class selector represents any
+ radio (<input type="radio">), checkbox
+ (<input type="checkbox">), or option (<option> in a
+ <select>) element that is checked or toggled to an 
+  on state.
+
+example:
+* Matches any checked/selected radio, checkbox,
+^ or option */
+ :checked {
+  margin-left: 25px;
+  border: 1px solid blue;
+}
+

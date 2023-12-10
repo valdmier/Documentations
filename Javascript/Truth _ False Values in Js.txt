@@ -1,0 +1,18 @@
+False values in Js:
+
+-False
+
+-0
+
+-"" (empty strings)
+
+-null
+
+-undefined
+
+-NaN
+
+
+AND EVERY OTHER VALUE IS CONSIDERED TRUTH!!
+
+===

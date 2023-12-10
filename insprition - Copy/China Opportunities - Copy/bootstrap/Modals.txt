@@ -1,0 +1,35 @@
+a modal is like an alert
+
+its too many classes but the only ones you will write in is the .modal-title n .modal-body n .modalfooter
+
+
+lets start with an example that will include comments to explain it
+
+example:
+
+
+<button class="btn btn-info " data-toggle="modal" data-target="#myModal">Sure?</button>
+
+<!--modal that will pop up-->
+  <div class="modal fade" id="myModal" tabindex="1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis voluptatibus praesentium repellat quis voluptates?</h5>
+          <!-- thats colsing button its an entity code-->
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero at facilis, sit facere quia dicta qui doloribus dolorum exercitationem ab ut.
+        </div>
+        <div class="modal-footer">
+          <!--dismiss button is like the the X button-->
+          <button class="btn btn-primary" data-dismiss="modal">OK</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  

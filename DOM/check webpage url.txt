@@ -1,0 +1,15 @@
+meaning of url:
+
+uniform resource locator
+
+
+to check the webpage url:
+
+
+console.log(document.URL);
+
+
+result: http://127.0.0.1:52306/index.html
+
+
+u may have some ideas 4 it so i add it 

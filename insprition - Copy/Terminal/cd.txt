@@ -1,0 +1,51 @@
+
+cd is for Changing Directories
+
+u can access a file with it ad navigate 
+
+to go back do cd.. 
+===
+example :
+
+//first lets see the files we have  on our user 
+
+$ ls
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+
+//lets go to destop
+
+haram@DESKTOP-D1QMJH6 MINGW64 ~
+$ cd desktop
+
+//in desktop go to a file called bootstrap
+
+haram@DESKTOP-D1QMJH6 MINGW64 ~/desktop
+$ cd bootstrap
+
+//or just to save time type 
+
+haram@DESKTOP-D1QMJH6 MINGW64 ~
+$ cd desktop/bootstrap
+
+//go back to desktop
+haram@DESKTOP-D1QMJH6 MINGW64 ~/desktop/bootstrap
+$ cd ..
+
+//go back to the main user Directory
+haram@DESKTOP-D1QMJH6 MINGW64 ~/desktop
+$ cd ..
+
+//or to save time:
+haram@DESKTOP-D1QMJH6 MINGW64 ~/desktop/bootstrap
+$ cd ../..
+
+
+

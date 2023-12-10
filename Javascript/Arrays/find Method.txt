@@ -1,0 +1,55 @@
+find() :
+
+its a real helfull method 
+
+The find() method returns the value of the first 
+element in an array that pass a test (provided as a
+ function).
+
+The find() method passes the array items inside the function
+parametr by default
+
+Syntax:
+array.find(function(currentValue, index, arr),thisValue)
+
+WARNING: Know that the function you pass to the find method 
+should have a paramter so the find could pass the array items.
+
+===
+example:
+<p id="demo"></p>
+
+var ages = [3, 10, 18, 20];
+
+function checkAdult(age) {
+  return age >= 18;
+}
+
+function myFunction() {
+  document.getElementById("demo").innerHTML = ages.find(checkAdult);
+} 
+
+==
+more examples:
+
+const comments = [
+    {
+        id: 1,
+        username: 'Todd',
+        comment: 'funny'
+    }, {
+        id: 2,
+        username: 'luc',
+        comment: 'yooo wtfff'
+    }, {
+        id: 3,
+        username: 'skyler',
+        comment: "I'M THE DANGER"
+    }, {
+        id: 4,
+        username: 'MESII',
+        comment: "hELLO WORLD "
+    },
+]
+
+console.log(comments.find((c) => c.id);)

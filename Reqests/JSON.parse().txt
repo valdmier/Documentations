@@ -1,0 +1,23 @@
+SON.parse():
+
+When receiving data from a web server, the data is always a 
+string.
+
+convert the data with JSON.parse(), and the data becomes 
+a JavaScript object.
+--
+Imagine we received this text from a web server:
+
+let recevedData ='{ "name":"John", "age":30, "city":"New York"}';
+
+Use the JavaScript function JSON.parse() to convert text into
+ a JavaScript object:
+
+var obj = JSON.parse(recevedData);
+
+===
+example:
+
+let recevedData ='{ "name":"John", "age":30, "city":"New York"}';
+
+console.log(JSON.parse(recevedData));

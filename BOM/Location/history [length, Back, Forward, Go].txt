@@ -1,0 +1,46 @@
+to see how many pages yr history have:
+
+history.length
+
+
+result: 17 cuz a visited 17 page in this tap
+
+===
+to go to the back page:
+
+history.back();
+
+
+===
+
+to go to the next page:
+
+hsstory.forward();
+
+
+===
+
+
+if i want to go back to times 
+
+
+history.go(-2);
+
+--
+
+or go forward to pages:
+
+history.go(2);
+
+
+however..no matter how many times you want to go back or forward just put it in neigative(-) if u want to go back and in postive if forward(+)
+
+
+
+to put it in link :
+
+
+in html:
+
+    <a href = "javascript:history.back();">click</a>
+

@@ -1,0 +1,75 @@
+search:
+
+what is search? well look at any link in the web..
+
+like this one :
+
+https://www.youtube.com/watch?v=Go9kKO2_ohQ&list=PLDoPjvoNmBAy9nFRJgVYgEID8xE2a6q6V&index=13
+
+or this 
+
+https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_button_formaction
+
+or this
+
+https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_pre
+
+
+what do this three have in common?
+
+the question mark "?" one of things in common right?
+
+well eveything after that question mark is the search n u can bring it by the search property
+
+but before than know that the main pages dont have a search just the secondry pages in the pages
+
+now lets pring the search:
+
+we wanna take the search of this link:
+
+
+https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_pre
+
+
+write in the console:
+
+
+location.search
+
+
+
+result:
+
+"?filename=tryhtml_pre"
+
+
+===
+
+pathname:
+
+the path name is between the website name and the 
+
+question mark "?" 
+                          
+https://www.w3schools.com/tags/tryit.asp?
+                         ^     between ^
+filename=tryhtml_pre
+
+ok enough talking
+
+example:
+
+
+this link:
+
+https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_pre
+
+
+go to console write: location.pathname
+
+
+result:
+
+"/tags/tryit.asp"
+
+

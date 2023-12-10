@@ -1,0 +1,20 @@
+theres in the web some protocols 
+
+ - http = hyper text transfer protocol
+
+ - https = hypertext transfer protocol secured
+
+ - file = a file that licaly hosted in computer
+
+ - mailto = dunno much bout it but it bout mails
+
+ - ftp = that appears when yr uploading files to web
+
+
+to get the protocol any webpage is using:
+
+location.protocol
+
+to set the protocol to what u want(u cant change it if its in the web)
+
+location.protocol = "mailto";

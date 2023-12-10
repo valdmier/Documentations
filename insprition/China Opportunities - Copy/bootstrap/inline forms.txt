@@ -1,0 +1,92 @@
+
+okay some times you might want to make the form and its 
+elements inline
+
+soooo thats how u do it :
+
+<form action="" class="form-inline">
+            
+            <div class="input-group mt-3 mr-3 ml-3">
+                <div class="input-group-prepend">
+                    <select class="input-group-text">
+                        
+                        <option>USD</option>
+                        <option>SAR</option>
+                        <option>YR</option>
+
+                    </select>
+                </div>
+                <input type="text" class="form-control " placeholder="price">
+            </div>
+ 
+            
+<div class="input-group  mt-3 mr-3 ml-3">
+    <input type="text" class="form-control" placeholder="Search">
+    <div class="input-group-append">
+        <button class="btn btn-success">Go</button>
+
+    </div>
+</div>
+
+
+<div class="input-group  mt-3 mr-3 ml-3">
+    <input type="text" class="form-control">
+
+<div class="input-group-append">
+    <span class="input-group-text"> @gmail.com</span>
+</div>
+</div>
+
+
+<div class="input-group  mt-3 mr-3 ml-3">
+
+    <div class="input-group-prepend">
+<div class="input-group-text">
+    <span class="text-center">
+        <i class="fas fa-users"></i> 
+    </span>
+    </div>
+</div>
+
+    <input type="text" class="form-control">
+
+   
+</div>
+
+<div class="input-group  mt-3 mr-3 ml-3" >
+    <div class="input-group-prepend">
+    <span class="input-group-text">
+        <i class="fas fa-key"></i> 
+    </span>
+    </div>
+    <input type="password" class="form-control"  placeholder="Password">
+</div>
+
+
+   
+
+
+  <div class="input-group  mt-3 mr-3 ml-3">
+    <div class="input-group-prepend">
+        <span class="input-group-text">
+            <i class="fas fa-key"></i>
+        </span>
+    </div>
+    <input type="password" class="form-control" placeholder="Password">
+</div>
+
+<div class="input-group  mt-3 mr-3 ml-3">
+
+    <div class="input-group-prepend">
+<div class="input-group-text">
+    <span class="text-center">
+        <i class="fas fa-users"></i> 
+    </span>
+    </div>
+</div>
+
+    <input type="text" class="form-control">
+
+   
+</div>
+          </form>

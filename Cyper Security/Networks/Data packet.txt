@@ -1,0 +1,46 @@
+Data packet:
+
+A basic unit of information that travels from one device to another within a network.
+
+==
+When data is sent from one device to another across a network, it is sent as a packet that contains information about:
+
+- where the packet is going
+- where it's coming from
+- the content of the message.
+
+===
+A data packet is very similar to a physical letter. It contains:
+
+- Header:
+ IP adress / MAC adress / Protcol Number
+
+- Body: 
+ The message that needs to be trasmitted.
+
+- Footer:
+ Signals that the packet is finished
+
+===
+
+The flow and the movement of data packets through the network provides an indication on how well the network is preforming.
+
+ Network performance can be measured by bandwidth
+
+===
+Bandwidth:
+
+refers to the amount of data a device receives every second.
+
+--
+ You can calculate bandwidth by dividing the quantity of data by the time in seconds.
+
+ Speed refers to the rate at which data packets are received or downloaded.
+
+Security personnel are interested in network bandwidth and speed because if either are irregular, it could be an indication of an attack.
+
+===
+Packet sniffing:
+
+THe practice of captuaring and inspecting data packets across a network.
+

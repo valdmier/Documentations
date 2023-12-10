@@ -1,0 +1,77 @@
+The Promise object:
+
+ represents the eventual completion (or failure) of an
+operation and its resulting value.
+
+
+===
+further explaintion:
+
+A Promise is in one of these states:
+
+ -pending: initial state, neither fulfilled nor rejected.
+ -fulfilled: meaning that the operation was completed successfully.
+ -rejected: meaning that the operation failed.
+
+
+--
+A pending promise can either be fulfilled with a value or
+ rejected with a reason (error).
+
+
+--
+ When either of these options happens, the associated handlers
+ queued up by a:
+promise's then method.
+
+
+--
+- The methods promise.then()
+ - promise.catch()
+- and promise.finally()
+
+ are used to associate further action with a promise that 
+becomes settled. These methods also return a newly generated 
+promise object, which can optionally be used for chaining.
+
+===
+fake example cuz i didnt get to to serevers for real:
+
+const myPromise =
+  (new Promise(myExecutorFunc))
+  .then(handleFulfilledA)
+  .then(handleFulfilledB)
+  .then(handleFulfilledC)
+  .catch(handleRejectedAny);
+
+//all thiese are fake names just to make u undertand
+
+===
+example: creation a real promise:
+
+notes: it just sumilate like if there was a server.
+
+resolve, reject, data and err are bulit inparameters.
+
+
+const Request = (url) => {
+   return new Promise ((resolve, reject) => {
+let rand = Math.random();
+if(rand < 0.7) {
+    setTimeout(() => {
+        resolve();
+    }, 500)
+}else{
+    reject("Request Error");
+}
+})
+}
+
+Request("www.ss.com/q")
+.then(() => {
+    console.log('DONE, HERE IS YOUR DATA');
+})
+.catch((err) => {
+    console.log("OH NO", err);
+});
+

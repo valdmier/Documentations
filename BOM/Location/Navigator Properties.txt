@@ -1,0 +1,41 @@
+
+//to bring the the browser code name name:
+
+
+
+var txt = "";
+txt += "<p>Browser CodeName: " + navigator.appCodeName + "</p>";
+
+//to bring app name
+
+txt += "<p>Browser Name: " + navigator.appName + "</p>";
+
+//to bring app version
+
+txt += "<p>Browser Version: " + navigator.appVersion + "</p>";
+
+//to bring app version
+
+txt += "<p>Cookies Enabled: " + navigator.cookieEnabled + "</p>";
+
+//to bring browser language:
+
+txt += "<p>Browser Language: " + navigator.language + "</p>";
+
+//to check the browser ia online
+
+txt += "<p>Browser Online: " + navigator.onLine + "</p>";
+//to see browser platform
+
+txt += "<p>Platform: " + navigator.platform + "</p>";
+
+//to check user agent
+
+txt += "<p>User-agent header: " + navigator.userAgent + "</p>";
+
+//to see agent product
+
+txt += "<p>product: " + navigator.product + "</p>";
+
+
+document.getElementById("demo").innerHTML = txt;

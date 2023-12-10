@@ -1,0 +1,223 @@
+animations:
+
+1 put all the elements here 
+(even those you dont want to animate
+them)
+noStroke();
+
+var x = 10;
+draw = function { 
+
+    ellipse(x, 221, 24, 24);
+
+    
+    x = x + 1;
+};
+       };
+  ÈßÐÇ ÑÍ íÚíÏåÇ æíÚíÏåÇ ÈÓ ãÇ ÈíãÓÍ Çááí ÑÓãåÇ ãä Çæá..ÌÑÈ æÊÝåã
+
+ ÚÔÇä íÑÓãåÇ æíãÓÍ æÊÊÍÑß:
+var x = 10;
+draw = function {
+  background(151, 244, 247); 
+
+    ellipse(x, 221, 24, 24);
+
+    
+    x = x + 1;
+
+       };ßá ãÇÒÏÊ ÇáÚÏÏ ÒÇÏÊ^ ÓÑÚå ÇáÊÍÑíß 
+
+ÇÓãÚ ÇáãæÖæÚ Óåá ãÑå Òí ãÇ ÔÝÊ ÝæÞ ...ÊÈí ãÚáæãÇÊ ÇßËÑ ÎÔ 
+Ú ÐÇ ÑÇÈØ æÓæí ÇáÊÍÏí ÖÑæÑí
+https://www.khanacademy.org/computing/computer-programming/programming/animation-basics/pt/making-animations 
+   
+how to make go up and right together:
+
+var x = 200;
+
+var y = 350;
+
+draw = function(){
+
+ background(255, 206, 71);
+
+
+ 
+fill(191, 0, 255);
+
+
+ ellipse(x, y, 45, 159);
+
+
+    x = x + 1;
+
+    y = y - 2; };
+  
+how to make the ball to get smaller or
+bigger:
+
+var ballWidth = 300;
+
+var ballHeight = 200; 
+
+draw = function(){
+
+ background(255, 206, 71);
+
+
+ 
+fill(191, 0, 255);
+
+
+
+ellipse(99, 77, ballWidth, ballHeight);
+
+
+
+  ballWidth = ballWidth * 99/100;
+
+  ballHeight = ballHeight *  99/100; };
+             íÚäí ÈÊßæä ÇÕÛÑ È æÇÍÏ ÈÇáãíå ßá ãÑå ^
+  
+ and you can mix it..go up and right and 
+geting smaller
+
+
+important note!!!!!!!!!!!: you cant make 
+2 draw function in the same place the
+last one is what will run just:
+
+
+draw = function() {
+bla bla}; //1
+
+draw = function() {
+bla bla}; //2
+
+draw = function() {
+bla bla}; //3
+
+number 3 will only run the others wiil be
+canceled so if you have a lot of things
+put in one draw function:
+
+draw = function() {
+rect(Bla bla)
+ellipse(bla bla)};
+
+if:
+if (condition) {code to run}..
+
+
+so here we have a ball which is animated:
+
+// position of the ball
+var
+ x = 20;
+
+// how far the ball moves every time
+var
+ speed = 3;
+
+
+draw = function() {
+
+   background(202, 255, 97);
+
+   ill(66, 66, 66);
+
+    ellipse(x, 200, 50, 50);
+
+
+    // move the ball
+
+    x = x + speed;};
+
+so we want the ball to go right and lift:
+// position of the ball
+var
+
+ x = 20;
+
+// how far the ball moves every time
+var
+
+ speed = 3;
+
+draw = function() {
+background(202, 255, 97);
+
+
+   ill(66, 66, 66);
+
+    ellipse(x, 200, 50, 50);}
+
+if (x > 400)
+{speed = -1;}
+
+if (x < 0) 
+{
+speed = 5;
+}
+
+     
+// move the ball
+
+    x = x + speed;};
+
+to make two balls coming from up and down
+var position = 20;
+
+var speed = 3;
+
+
+draw = function() 
+
+background(202, 255, 97);
+
+
+ fill(66, 66, 66);
+
+ 
+position = position + speed;
+
+
+// mouseX and mouseY
+ 
+ 
+ellipse(position, mouseY, 50, 50);
+
+ 
+ellipse(mouseX, position,50, 50);
+
+    
+ if (position > 375)
+ {
+        speed = -5;
+    }
+
+    if (position < 25)
+ {
+        speed = 5;
+    }
+
+};
+
+to make an ellipse appear when you press:
+draw = function() {if (mouseIsPressed)
+ {
+ellipse(mouseX, position, 50, 50);
+}
+};
+
+
+
+
+ 
+
+ 
+
+
+
+

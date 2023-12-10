@@ -1,0 +1,39 @@
+All JavaScript objects like arrays n strings have properties
+ and there methods from a prototype object.
+
+Prototype Inheritance
+
+All JavaScript objects inherit properties and methods from a prototype:
+
+    Date objects inherit from Date.prototype
+    Array objects inherit from Array.prototype
+    Person objects inherit from Person.prototype
+
+
+warning: Only modify your own prototypes. Never modify
+ the prototypes of standard JavaScript objects.
+===
+how to make a new method n aplly it to an array prototype:
+
+let hi = [1,2,3];
+
+Array.prototype.yell = function() {
+  alert("hi iam the new prototype, u called me!!!!");
+};
+
+hi.yell();
+
+===
+or stings:
+
+let hi = "hi";
+
+String.prototype.yell = function() {
+  alert("hi iam the new prototype, u called me!!!!");
+};
+
+hi.yell();
+
+
+
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('Partials/head') %>
+
+
+    <body>
+        <%- include('Partials/navbar') %>
+            <h1 class="m-2">The Home Page <%="heelo world".toUpperCase(); %>
+            </h1>
+
+            <p class="m-2 lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis sint accusantium
+                deserunt quisquam,
+                esse
+                asperiores pariatur ad mollitia quaerat possimus temporibus, laboriosam nesciunt minus consequuntur a
+                repellat
+                eius eum vel.</p>
+
+            <p class="m-2 lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum rem officiis ipsam
+                consequuntur similique
+                id
+                dicta, doloremque, fuga adipisci neque mollitia laboriosam? Aliquid quas ad vitae perspiciatis iure!
+                Dolores,
+                eveniet.</p>
+            <div class="container">
+                <form action="/tacos">
+                    <h1 class="display-4">GET</h1>
+                    <input class="form-control m-2" type="text" name="meat">
+                    <input class="form-control m-2" type="number" name="qty">
+                    <button class="btn btn-warning" type="submit">Submit</button>
+                </form>
+                <form action="/tacos" method="post">
+                    <h1 class="display-4">POST</h1>
+                    <input class="form-control m-2" type="text" name="meat">
+                    <input class="form-control m-2" type="number" name="qty">
+                    <button class="btn btn-warning" type="submit">Submit</button>
+                </form>
+            </div>
+
+
+    </body>
+
+</html>

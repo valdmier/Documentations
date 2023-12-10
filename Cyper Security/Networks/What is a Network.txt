@@ -1,0 +1,68 @@
+What is a Network?
+
+A group of connected devices.
+
+===
+LAN:
+
+A local area network, or LAN, spans a small area like an office building, a school, or a home.
+
+For example, when a personal device like your cell phone or tablet connects to the WIFI in your house, they form a LAN.
+
+The LAN then connects to the internet.
+
+===
+WAN:
+
+A wide area network or WAN spans a large geographical area like a city, state, or country.
+
+ You can think of the internet as one big WAN. An employee of a company in San Francisco can communicate and share resources with another employee in Dublin, Ireland over the WAN.
+
+===
+Components of a network:
+
+1- A hub
+A network device that broadcasts information to every device on the network.
+
+2- A switch
+makes connections between specific devices on a network by sending and receiving data between them. 
+
+Most routers have built-in switches. 
+
+A switch is more intelligent and secure than a hub. This enables them to control the flow of traffic in a network and improves netwok performance.
+
+3- Router 
+A networks device that connects multiple networks toghether.
+
+Router prodacsts the internet to mulitple devices
+
+4- Modems
+A device that connects your router to the internet and brigns access to the LAN.
+
+Modems Modulate form analog signals of the internet to digital signals that the computer 
+
+===
+if a computer from one network wants to send information to a device on a network in a different geographic location, it would be transferred as follows: 
+
+- The computer would send information to the router.
+
+- The router would then transfer the information through the modem to the internet. 
+
+- The intended recipient's modem receives the information, and transfers it to the router.
+
+- Finally, the recipient's router forwards that information to the destination device.
+
+
+===
+Wireless access point:
+
+A wireless access point sends and receives digital signals over radio waves creating a wireless network. Devices with wireless adapters connect to the access point using Wi-Fi. Wi-Fi refers to a set of standards that are used by network devices to communicate wirelessly. Wireless access points and the devices connected to them use Wi-Fi protocols to send data through radio waves where they are sent to routers and switches and directed along the path to their final destination.
+
+===
+Firewalls: (stands between the modem and the Router)
+
+A firewall is a network security device that monitors traffic to or from your network. Firewalls can also restrict specific incoming and outgoing network traffic. The organization configures the security rules. Firewalls often reside between the secured and controlled internal network and the untrusted network resources outside the organization, such as the internet.
+===
+Virtualization tools:
+
+Virtualization tools carry out operations that would normally be completed by a hub, switch, router, or modem, and they are offered by Cloud service providers. These tools provide opportunities for cost savings and scalability. You'll learn more about them later in the certificate program.

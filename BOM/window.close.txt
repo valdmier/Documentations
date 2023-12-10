@@ -1,0 +1,12 @@
+sso if u open a window by the window.open
+u can close it with window.close
+
+
+example:
+
+var mywindow = window.open("https://www.google.com", "idk", "", "");
+
+mywindow.close();
+
+
+n dats it

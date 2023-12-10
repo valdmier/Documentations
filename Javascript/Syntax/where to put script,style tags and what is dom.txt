@@ -1,0 +1,50 @@
+1
+the style tag you have to put it above
+of the body tag not in it not under it
+cuz:
+
+Our browsers today process pretty fast,
+ 
+so you often don't see the "FOUC" - flash
+
+ of unstyled content. But if the browser
+
+ was processing the page slower, and you
+ 
+had the style at the bottom, then you might
+ 
+see the unstyled HTML for some amount of
+ 
+time first like some websites.
+
+
+2
+you have to put you're javascript before 
+the ending of the body tag cuz:
+
+the browser has some HTML to show before it
+ has to go through the effort of parsing JS
+
+ like: 
+<style></style>
+<body>
+bla bla bla
+
+
+<script></script>
+</body>
+
+dom means :
+
+document object model
+
+doucument= your webpage its code everything
+
+object=like every single code in your
+ webpage
+
+model= ÿ—«“ «Ê ‰Ê⁄ Â–« «·ﬂ«∆‰
+
+practicably:
+webpage ||object ||the specif object   
+document.body.innerHTML = "Webpage be gone!";

@@ -1,0 +1,15 @@
+ Text Area element:
+
+witch is like an input but bigger 
+
+
+example:
+
+      <label for="comments">What do you Think?</label>
+      <textarea name="comment" class="form-control" id="comments" cols="20" rows="4"></textarea>
+
+
+col attribute: to give more width
+
+
+row attribute: to give more height

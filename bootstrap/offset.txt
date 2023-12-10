@@ -1,0 +1,55 @@
+
+
+Offsetting columns:
+
+
+well the offset is like margin but here u cant tell him to 
+put margin from the left or the right
+
+ it allways put 
+margin from the left side of element if you have chosen 
+offset is kinda like push cuz they both push the element 
+from its left side towards the right 
+
+ but the diffrent(between margin and offset) is 
+that offset is like real margin like the space the margin 
+takes like if there where a real element there..
+ but push and pull is just putting stuff some wehere
+
+
+example:
+ <div class="container">
+      <div class="row border " style="">
+        <div class="col-4 border offset-2">
+          <h3 class="display-4 ">Parsgraph 1</h3>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut unde quia similique cum, placeat quibusdam nostrum excepturi, quam et temporibus corrupti tenetur eius, modi nam dolorem vero voluptatum voluptates tempora.</p>
+        </div>
+      
+        <div class="col-4 border  offset-1">
+          <h3 class="display-4 ">Parsgraph 2</h3>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aperiam dolor blanditiis ad quo accusamus libero distinctio obcaecati odit hic.</p>
+        </div>
+      </div>
+    </div>
+
+
+===
+
+to make it change debending on the screen size:
+use .offset-[screen-size]-[num]
+
+example:
+
+    <div class="container">
+      <div class="row border " style="">
+        <div class="col-4 border offset-sm-2 offset-4">
+          <h3 class="display-4 ">Parsgraph 1</h3>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut unde quia similique cum, placeat quibusdam nostrum excepturi, quam et temporibus corrupti tenetur eius, modi nam dolorem vero voluptatum voluptates tempora.</p>
+        </div>
+      
+        <div class="col-4 border  offset-lg-1 offset-4">
+          <h3 class="display-4 ">Parsgraph 2</h3>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aperiam dolor blanditiis ad quo accusamus libero distinctio obcaecati odit hic.</p>
+        </div>
+      </div>
+    </div>

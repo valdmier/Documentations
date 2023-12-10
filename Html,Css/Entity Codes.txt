@@ -1,0 +1,29 @@
+Entity Codes:
+
+Its not understandable codes by humans.
+
+to have the source of most of entity codes:
+
+https://entitycode.com
+
+
+===
+
+examples:
+
+--
+copy right sign:
+
+&copy;
+
+---
+
+x sign:
+
+&times;
+
+---
+
+Infinity sign :
+
+&infin;

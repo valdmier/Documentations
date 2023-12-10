@@ -1,0 +1,55 @@
+stylesheets:
+
+it's a Abbreviation or shortrer way to
+
+avoide making the same codes over and
+ over
+
+1 so you go to your page and select all
+ 
+ the css rules..copy it
+(dont copy style code with them!!)
+
+
+  here is it:
+
+
+  body {
+background:rgb(215, 250, 220);
+
+   font-family: sans-serif;}
+
+ 
+.header {
+background-color: rgb(23, 66, 23);
+color: white;
+   padding: 5px 10px;
+        }
+
+ 
+.footer{
+ background-color: rgb(186, 222, 187);
+           
+padding: 6px; clear: both;
+}
+
+
+2 copy it and put in a file
+
+
+3 name the file and put .css in the 
+end of it
+                                                
+4    "put it always"  "put it always"  "put the file's name here"
+<link rel="stylesheet" type="text/css" href="bla bla.css">
+
+dont put that^ between style codes
+or in the body or any where else
+put it like that:
+
+<title bla bla</title>
+
+put it here!!
+
+<body>bla bla<body>
+

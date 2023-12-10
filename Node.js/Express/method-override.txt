@@ -1,0 +1,36 @@
+forms onlu accepts post and get reqests so to fix that
+you need to trick the form
+
+to do that we need method-override
+===
+Install:
+$ npm install method-override
+---
+
+example:
+
+var express = require('express')
+var methodOverride = require('method-override')
+var app = express()
+
+app.use(methodOverride('_method'))
+
+--
+ejs/html document:
+
+//here we are sending patch reqest you can change the type
+ of reqest as you wish
+//note the form metod gotta be always set to post
+
+
+<form method="POST" 
+action="/whatever/<%=something.id%>?_method=PATCH">
+
+<!-- its not really a post reqest its a patch to 
+see that check the href -->
+
+==
+so the part you should add is: ?_method=PATCH"
+   
+
+

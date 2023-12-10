@@ -1,0 +1,7 @@
+A threat is any circumstance or event that can negatively impact assets. One example of a threat is a social engineering attack.
+
+Common threats include:
+
+Insider threats: Staff members or vendors abuse their authorized access to obtain data that may harm an organization.
+
+Advanced persistent threats (APTs): A threat actor maintains unauthorized access to a system for an extended period of time.

@@ -1,0 +1,42 @@
+its a file that if u dont have it n u tried to install
+somthing from npm then its gonna give u a warning that u dont
+have it
+
+
+that file helps anyone who sees your code to 
+understand the dependencies of your code n the license 
+the author.
+
+===
+how to make it:
+//type in he terminal:
+
+npm init 
+
+//somthing wil pop up
+
+//name the package
+package name: (artster)
+
+//number the version
+version: (1.0.0)
+
+//put a descriotion if u want
+description:
+
+//the entry pointgonna index.js by default 
+entry point: (index.js)
+
+//the others doesnt really matter just hit enter
+test command:
+git repository:
+keywords:
+author: Lucifer
+license: (ISC)
+
+
+===
+now if u installed anything in the same the the package is in
+
+then its gonna be added to the dependencies 
+

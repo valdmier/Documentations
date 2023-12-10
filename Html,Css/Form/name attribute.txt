@@ -1,0 +1,12 @@
+its an attribute that help in serching and going to data and with labels:
+
+
+example :
+
+if u gave the exac same url the youtube gives to the form of his search input and give the input the same name of the youtube search  input that will happen:
+
+ <form class="my-5" action="https://www.youtube.com/results">
+      <input class="form-control" name="search_query" placeholder="search youtube">
+      <br>
+      <button class=" mt-2 btn btn-outline-info" type="submit">Submit</button>
+    </form>

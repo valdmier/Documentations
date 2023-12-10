@@ -1,0 +1,17 @@
+they are the same thing like js
+
+
+to add: +
+
+to minus: -
+
+to divide: /
+
+to multiply: *
+
+to have المتبقي من القسمه: %     <
+                          ^
+n thats pretty much it    ^
+                          ^
+                          ^
+the last one i aint sure boute it

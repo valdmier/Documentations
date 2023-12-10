@@ -1,0 +1,31 @@
+Vulnerabilities:
+
+weaknesses within an organization's systems, processes, or assets that can be exploited by threats, leading to various risks and security incidents. Vulnerabilities can be categorized into two main groups: technical and human vulnerabilities.
+
+1. Technical Vulnerabilities:
+
+Definition: Technical vulnerabilities are weaknesses related to technology, software, hardware, and network infrastructure.
+
+Examples:
+
+- Misconfigured software that allows unauthorized access to sensitive data.
+
+- Outdated and unpatched operating systems or applications susceptible to known exploits.
+Weak encryption protocols that can be exploited by attackers.
+
+- Inadequate firewall configurations that fail to block unauthorized network access.
+
+
+===
+2. Human Vulnerabilities:
+
+Definition: Human vulnerabilities pertain to weaknesses associated with human behavior, actions, or errors that can compromise security.
+
+Examples:
+
+- An employee who inadvertently shares sensitive information with unauthorized parties.
+
+- A forgetful staff member who loses their access card or leaves it unattended.
+Weak or easily guessable passwords used by employees.
+
+- Falling victim to social engineering attacks, such as phishing or pretexting.

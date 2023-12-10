@@ -1,0 +1,17 @@
+trim(); 
+
+trim is way to cut the spaces beside the string
+
+example:
+
+var myString = "   iam 10 in 10 love 10 with 10 javascript  ",
+
+    String = myString.trim();
+
+console.log(String);
+
+
+
+result:
+
+iam 10 in 10 love 10 with 10 javascript 

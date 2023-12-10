@@ -1,0 +1,58 @@
+A risk is anything that can impact the confidentiality, integrity, or availability of an asset.
+
+
+An example of a risk to an organization might be the lack of backup protocols for making sure its stored information can be recovered in the event of an accident or security incident.
+
+===
+Both a vulnerability and threat must be present for there to be a risk.
+===
+
+ Organizations tend to rate risks at different levels: low, medium, and high, depending on possible threats and the value of an asset.
+
+==
+
+- A low-risk asset is:
+
+information that would not harm the organization's reputation or ongoing operations, and would not cause financial damage if compromised. This includes public information such as website content, or published research data.
+
+- A medium-risk asset might include:
+
+information that's not available to the public and may cause some damage to the organization's finances, reputation, or ongoing operations. For example, the early release of a company's quarterly earnings could impact the value of their stock.
+
+- A high-risk asset is:
+
+ any information protected by regulations or laws, which if compromised, would have a severe negative impact on an organization's finances, ongoing operations, or reputation. This could include leaked assets with SPII, PII, or intellectual property.
+
+===
+Some common strategies used to manage risks include:
+
+- Acceptance:
+ Accepting a risk to avoid disrupting business continuity
+
+- Avoidance:
+ Creating a plan to avoid the risk altogether
+
+- Transference:
+ Transferring risk to a third party to manage
+
+- Mitigation:
+ Lessening the impact of a known risk
+
+===
+
+There are different factors that can affect the likelihood of a risk to an organization’s assets, including:
+
+- External risk:
+ Anything outside the organization that has the potential to harm organizational assets, such as threat actors attempting to gain access to private information
+
+- Internal risk:
+ A current or former employee, vendor, or trusted partner who poses a security risk
+
+- Legacy systems:
+ Old systems that might not be accounted for or updated, but can still impact assets, such as workstations or old mainframe systems. For example, an organization might have an old vending machine that takes credit card payments or a workstation that is still connected to the legacy accounting system.
+
+- Multiparty risk:
+ Outsourcing work to third-party vendors can give them access to intellectual property, such as trade secrets, software designs, and inventions.
+
+- Software compliance/licensing:
+ Software that is not updated or in compliance, or patches that are not installed in a timely manner

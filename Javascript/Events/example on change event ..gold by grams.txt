@@ -1,0 +1,32 @@
+    <div id="div"></div>
+    <input id = "input" type = text>
+    
+<select id="Select" onchange="myFunction()">
+   <option value="0">not selected</option> 
+  <option value="55">1 dollar</option>
+  <option value="200">R.S</option>
+  <option value="1000">jeneh</option>
+  <option value="100000">R.Y</option>
+    
+</select>
+
+<p>put the amount of gold (by grams) and see how much
+ it cost by dollars</p>
+
+var mySelect = document.getElementById("Select");
+
+  
+var mydiv = document.getElementById("div");
+   
+        
+var myinput = document.getElementById("input");
+
+mySelect.onchange = function () {
+
+    "use strict";
+
+    mydiv.innerHTML = myinput.value + "  grams of 
+   gold is worth  " + myinput.value * mySelect.value;
+
+
+};

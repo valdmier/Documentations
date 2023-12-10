@@ -1,0 +1,83 @@
+Sudo and Users Commands
+
+===
+Root User and sudo:
+
+- Root user or superuser has elevated privileges.
+
+- It's not recommended to run commands as the root user due to security risks, irreversible mistakes, and lack of command tracking.
+
+- Instead, use sudo to temporarily grant elevated permissions to specific users.
+
+===
+sudo Explained:
+
+sudo stands for "super user do."
+
+Users must be given access in the "sudoers file" to use sudo.
+
+Using sudo is safer than logging in as the root user.
+
+===
+Responsible sudo Usage:
+
+Even if you have sudo access, use it only for necessary commands.
+
+Running commands with sudo bypasses regular security controls.
+
+Be cautious when copying commands from online sources to avoid accidental sudo usage.
+
+===
+Commands:
+
+===
+useradd:
+
+Adds a user to the system.
+
+Example: sudo useradd fgarcia
+
+Options:
+
+-g: Sets the user's default (primary) group.
+
+-G: Adds the user to additional (supplemental or secondary) groups.
+
+==
+- Example with -g: sudo useradd -g security fgarcia
+
+- Example with -G: sudo useradd -G finance,admin fgarcia
+
+===
+usermod:
+
+Modifies existing user accounts.
+
+Can use -g and -G options similar to useradd to change primary and supplemental groups.
+
+==
+Example to change primary group: sudo usermod -g executive fgarcia.
+
+Example to add a supplemental group: sudo usermod -a -G marketing fgarcia.
+
+===
+userdel:
+
+Deletes a user from the system.
+
+Example: sudo userdel fgarcia.
+
+Use -r to delete the user's home directory: sudo userdel -r fgarcia.
+
+===
+chown:
+
+Changes ownership of a file or directory.
+
+Example to change user owner: sudo chown fgarcia access.txt.
+
+Example to change group owner:
+
+ sudo chown :security access.txt (use a colon before the group name).
+
+Additional options available with chown for more advanced ownership changes.

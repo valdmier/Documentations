@@ -1,0 +1,7 @@
+ Tools for Digital Forensics:
+
+- tcpdump: A command-line packet analyzer for capturing network traffic.
+
+- Wireshark Offers a graphical user interface for live and captured network traffic analysis.
+
+- Autopsy: A forensic tool to analyze hard drives and smartphones.

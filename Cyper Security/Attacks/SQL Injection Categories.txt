@@ -1,0 +1,35 @@
+SQL Injection Categories
+
+===
+In-band SQL Injection
+
+In-band SQL injection is the most common type.
+Attacker uses the same channel for the attack and to retrieve results.
+Example: A vulnerable search box on a retailer's website where an attacker enters a malicious query, causing the database to return sensitive information, displayed in the same search box.
+
+===
+Out-of-band SQL Injection
+
+Involves a different communication channel for the attack and results.
+Rare due to specific target server requirements.
+Example: Attacker establishes a connection between a vulnerable website and their controlled database, bypassing security controls on the website's server, enabling data theft.
+
+===
+Inferential SQL Injection
+
+Attacker can't directly see results but interprets them from system behavior.
+Example: An attack on a login form results in an error message, revealing database structure. Attacker crafts further attacks to access data or gain control.
+
+===
+Injection Prevention
+
+SQL queries assume user inputs are relevant and safe.
+Prevent injection by escaping user inputs to prevent unexpected code insertion.
+
+Prevention methods:
+
+- Prepared Statements: Execute SQL statements before passing them to the database.
+
+- Input Sanitization: Remove user input that could be code.
+
+- Input Validation: Ensure user input meets system expectations.

@@ -1,0 +1,24 @@
+
+Template literals (Template strings):
+
+simply that thing allows you to do mathematical opreations in such an easy way.
+
+---
+syntax:
+
+`string text ${expression} string text`
+
+note: use this > ` not this' or this " بتلاقيها بنفس مكان حرف ذ
+
+===
+
+example:
+
+var mangoPrice = 3,
+    mangoQuantity = 32;
+
+
+console.log(`You have bought ${mangoQuantity} and the price iss ${mangoPrice * mangoQuantity}SR`)
+
+-
+output: You have bought 32 and the price iss 96SR

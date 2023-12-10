@@ -1,0 +1,25 @@
+
+making conditionals within the ejs document :
+  <h1>Your random num is: <%= num %>
+    </h1>
+
+  <% if(num % 2===0){ %>
+        <h1>thats even number </h1>
+        <% } else { %>
+
+            <h1>thats odd number </h1>
+
+            <% } %>
+
+index.file:
+
+app.get('/r/:subreddit', (req, res) => {
+    const { subreddit } = req.params;
+    res.render('search', { subreddit });
+});
+
+
+
+app.listen(3000, () => {
+    console.log('RUNNING ON PORT 3000!');
+});

@@ -1,0 +1,50 @@
+nextElementSibling:
+
+to choose the next sibling of some element.
+
+===
+example:
+
+<div id="main">
+
+        <p id = "theP">1</p>
+        <p id = "theP2">2</p>
+        <p id = "theP3">3</p>
+</div>
+
+
+var myP = document.getElementById("theP2");
+
+console.log(myP.nextElementSibling);
+
+
+
+result: <p id = "theP3">3</p>
+
+
+
+===
+previousElementSibling:
+
+to choose the previous sibling of some element.
+
+===
+exmple:
+
+<div id="main">
+
+        <p id = "theP">1</p>
+        <p id = "theP2">2</p>
+        <p id = "theP3">3</p>
+</div>
+
+
+var myP = document.getElementById("theP2");
+
+console.log(myP.previousElementSibling);
+    
+
+result: <p id = "theP">1</p>
+
+
+

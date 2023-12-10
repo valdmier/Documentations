@@ -1,0 +1,19 @@
+
+app.get('/random', function (req, res) {
+    let userNum = Math.floor(Math.random() * 10) + 1;
+    res.render('random', { num: userNum });
+})
+                 //here u r ^saying hey i wanna include an object to the ejs file and its equal to that variable i have in the main file (index.js or whatever u named it) 
+
+app.listen(3000, () => {
+    console.log('RUNNING ON PORT 3000!');
+});
+
+
+===
+random file:
+
+    <h1>Your random num is: <%= num %>
+    </h1>
+
+

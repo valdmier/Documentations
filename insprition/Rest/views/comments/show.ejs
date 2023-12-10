@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('../Partials/head') %>
+
+    <body>
+        <%- include('../Partials/navbar') %>
+
+
+            <div class="container">
+                <h3 class="lead mt-3">Comment ID: <%= comment.id %>
+                        </h4>
+                        <b>
+                            <%= comment.username %>
+                        </b>
+                        <p class="lead"> : <%= comment.comment %>
+                        </p>
+                        <a class=" m-3 btn btn-info text-white" href="/comments/<%=comment.id%>/edit">Edit
+                            comment</a>
+                        <br>
+                        <form method="POST" action="/comments/<%=comment.id%>?_method=DELETE">
+                            <button type="submit" class="btn btn-danger">Delete</button>
+                        </form>
+
+                        <a class=" m-3 btn btn-warning text-white" href="/comments/">Back to All comments</a>
+
+            </div>
+
+    </body>
+
+</html>

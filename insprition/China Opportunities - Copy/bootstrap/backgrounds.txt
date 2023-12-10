@@ -1,0 +1,81 @@
+well in bootstrap there are backgrounds that gives you a shorter way instead of writing the bacjkground by yourself
+
+
+for example:
+
+<h3 class="bg-primary">hello, world</h3>
+
+that will make it blue 
+
+
+
+
+<p class="bg-primary">hello</p> 
+
+= light blue
+
+
+
+
+
+<p class="bg-secondary">hello</p> 
+
+= light black
+
+
+
+<p class="bg-success">hello</p> 
+
+= green
+
+
+
+<p class="bg-danger">hello/p> 
+
+= red
+
+
+
+<p class="bg-warning">hello</p> 
+
+= orange
+
+
+
+<p class="bg-info">hello</p> 
+
+= blue
+
+
+
+
+<p class= <"bg-dark">hello</p>
+
+ = lack backgound to show it. its color is  white 
+
+
+
+
+<p class="bg-light">hello</p>
+ = dark
+
+
+
+<p class="bg-body">hello</p>
+
+ = black
+
+
+    <div class="p-3 mb-2 bg-gradient-primary text-white">.bg-gradient-primary</div>
+    <div class="p-3 mb-2 bg-primary text-white">.bg-primary</div>
+<div class="p-3 mb-2 bg-secondary text-white">.bg-secondary</div>
+<div class="p-3 mb-2 bg-success text-white">.bg-success</div>
+<div class="p-3 mb-2 bg-danger text-white">.bg-danger</div>
+<div class="p-3 mb-2 bg-warning text-dark">.bg-warning</div>
+<div class="p-3 mb-2 bg-info text-white">.bg-info</div>
+<div class="p-3 mb-2 bg-light text-dark">.bg-light</div>
+<div class="p-3 mb-2 bg-dark text-white">.bg-dark</div>
+<div class="p-3 mb-2 bg-white text-dark">.bg-white</div>
+<div class="p-3 mb-2 bg-transparent text-dark">.bg-transparent</div>
+
+

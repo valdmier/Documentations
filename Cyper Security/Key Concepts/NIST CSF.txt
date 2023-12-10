@@ -1,0 +1,50 @@
+Nist framework (CSF) is a:
+
+voulunry framework that consists of standards, guidlines, and best practices to manage cybersecurity risk.
+
+- identify: UNKOWN DEVICE COONECTED.
+- protect: BLOCK THE DEVIECE.
+- detect: DETECT ANY DAMAGES CAUSED.
+- respond: INVISTIGATING THE INCIDENT.
+- recover: RECOVER WHATEVER WAS INNFECTED.
+
+The NIST CSF also expands into the protection of the United States federal government with NIST special publication, or SP 800-53.
+
+SP 800-53:
+A unified framework for protecting the security of information systems within the fedral government.
+
+===
+1- IDENTIFY:
+
+The management of cybersecurity risk and its effect on an organization's people and assets.
+
+Meaning: monitor.
+
+--
+
+2- PROTECT:
+
+The strategy used to protect an organization through the implementation of policies, procedures, training and tools that help mititgate the cybersecurity threats.
+
+For example, as a security analyst, you and your team might encounter unfamiliar threats and attacks. For this reason, studying historical data and making improvements to policies and procedures is essential.
+
+--
+3- DETECT:
+
+Identifying potential security incidents and improving monitoring capabilities to increase the speed and effciency of the detection.
+
+For example, as an analyst, you might be asked to review a new security tool's setup to make sure it's flagging low, medium, or high risk, and then alerting the security team about any potential threats or incidents. 
+
+--
+4- RESPOND:
+
+Making sure that the proper procedure are used to contain, neutralize, and analyze security incidents, and implement improvements to the security process.
+
+contain, neutralize, and analyze
+
+---
+5- RECOVER:
+
+The process of returning affected systems back to normal operations.
+
+Restore data and assets

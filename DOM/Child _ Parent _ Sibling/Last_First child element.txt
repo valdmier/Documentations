@@ -1,0 +1,86 @@
+firstChild:
+
+ <div id = "myDiv" class = " ss kbl ljy vmkig wow">
+        <button>add class</button>
+    <p>bla bla</p>
+    </div>
+
+
+
+myDiv = document.getElementById("myDiv");
+
+console.log(myDiv.firstChild);
+
+
+result:
+
+#text 
+
+
+
+===
+lastChild:
+
+
+<div id = "myDiv" class = " ss kbl ljy vmkig wow">
+        <button>add class</button>
+    <p>bla bla</p></div>
+
+
+myDiv = document.getElementById("myDiv");
+
+console.log(myDiv.lastChild);
+
+
+result:
+
+<p data-brackets-id="48">bla bla</p>
+
+
+===
+to get elements only.. not spaces n comments?:
+
+lastElementChild:
+
+
+<div id = "myDiv" class = " ss kbl ljy vmkig wow">
+        <button>add class</button>
+    <p>bla bla</p></div>
+
+
+ myDiv = document.getElementById("myDiv");
+
+console.log(myDiv.lastElementChild);
+
+
+result:
+
+<p data-brackets-id="48">bla bla</p>
+
+
+===
+to bring the first child Element
+
+firstElementChild:
+
+
+
+<div id = "myDiv" class = " ss kbl ljy vmkig wow">
+        <button>add class</button>
+    <p>bla bla</p></div>
+
+
+ myDiv = document.getElementById("myDiv");
+
+console.log(myDiv.firstElementChild);
+
+
+result:
+
+<button data-brackets-id="47">add class</button>
+
+
+=== 
+
+
+n thats pretty much it

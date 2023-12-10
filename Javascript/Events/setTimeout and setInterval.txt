@@ -1,0 +1,52 @@
+
+setTimeout() method:
+---
+Syntax:
+
+setTimeout(function, milliseconds)
+---
+1- 1000 ms = 1 second.
+
+2- The function is only executed once. If you need to repeat 
+execution, use the setInterval() method.
+
+3- Use the clearTimeout() method to prevent the function from
+ running.
+
+===
+
+Example:
+
+Display text in the console after 6 seconds 
+(6000 milliseconds):
+
+setTimeout(() => console.log("Hello zzzaa awwaarddoo"), 6000)
+
+---
+more compleceted example:
+
+setTimeout(() => {
+    document.body.style.backgroundColor = "red";
+    setTimeout(() => {
+        document.body.style.backgroundColor = "yellow";
+        setTimeout(() => {
+            document.body.style.backgroundColor = "skyblue";
+        },1000)
+    },1000)
+},1000);
+
+
+===
+
+The setInterval() method:
+
+ calls a function that evaluates in a specified time or intervals (in milliseconds).
+
+The setInterval() method will continue calling the function until clearInterval() is called, or the window is closed.
+
+===
+example:
+
+Display text in the console every 6 seconds (6000 milliseconds):
+
+setInterval(() => console.log("Hello zzzaa awwaarddoo"), 6000)

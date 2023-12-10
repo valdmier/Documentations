@@ -1,0 +1,42 @@
+OSI model:
+
+The OSI model is a standardized concept that describes the seven layers computers use to communicate and send data over the network. Network and security professionals often use this model to communicate with each other about potential sources of problems or security threats when they occur.
+
+===
+Le modèle TCP/IP comparé au modèle OSI.
+The OSI visually organizes network protocols into different layers. Network professionals often use this model to communicate with each other about potential sources of problems or security threats when they occur. 
+
+===
+The TCP/IP model combines multiple layers of the OSI model. There are many similarities between the two models. Both models define standards for networking and divide the network communication process into different layers. The TCP/IP model is a simplified version of the OSI model.
+
+
+===
+ ALL PEOPLE SEEM TO NEED DATA PROCESSING
+
+Layer 7 - the Application layer: (EMAILS, MESSAGES)
+
+is the top layer of the OSI model and focuses on user interaction with software applications. It manages the networking protocols that enable users to connect to the internet through applications like web browsers and email clients.
+
+Layer 6 - the Presentation layer: (FORMAT, ENCRYPTION)
+
+handles data translation and encryption, ensuring data formats are compatible between sending and receiving systems. It plays a crucial role in security, using protocols like SSL to encrypt data during transmission.
+
+Layer 5 - the Session layer: (START & STOP SESSIONS)
+
+establishes and manages communication sessions between devices, ensuring data transfer continuity. It handles tasks such as authentication, reconnection, and checkpointing during transmission.
+
+Layer 4 - the Transport layer: (PORT NUMBERS)
+
+is responsible for delivering data between devices, managing the speed and flow of data, and segmenting large transmissions into smaller packets. Protocols like TCP and UDP operate at this layer.
+
+Layer 3 - the Network layer: (IP ADDRESS)
+
+routes data packets between different networks based on IP addresses, ensuring they reach their intended destinations.
+
+Layer 2 - the Data Link layer: (MAC ADRESS, SWITCHES)
+
+manages data packet transmission within a single network, using protocols like NCP, HDLC, and SDLC. It involves devices like switches and network interface cards.
+
+Layer 1 - the Physical layer: (CABLE, HUBS)
+
+deals with the physical hardware of network transmission, including cables, modems, and hubs. It transforms data packets into electrical signals for transmission over physical media.

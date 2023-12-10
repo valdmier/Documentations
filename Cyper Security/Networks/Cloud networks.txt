@@ -1,0 +1,58 @@
+Cloud Computing:
+
+The practice of using remote servers, applications, and neetwork services that are hosted on the internet instead of local physical devices.
+
+===
+Cloud Network:
+
+A collection of servers or computers that stores resources and data in remote data centers that can be accessed via the internet.
+
+Because companies don't house the servers at their physical location, these servers are referred to as being "in the cloud".
+
+===
+Cloud servers providers (CSPs) offer:
+
+- On demand storage
+
+- Processing power
+
+-  Analytics
+
+===
+CSPs provide three main categories of services:
+
+- Software as a service (SaaS): 
+ refers to software suites operated by the CSP that a company can use remotely without hosting the software. 
+
+(cloud hosted applications)
+
+===
+- Infrastructure as a service (Iaas):
+
+ refers to the use of virtual computer components offered by the CSP. These include virtual containers and storage that are configured remotely through the CSP’s API or web console. Cloud-compute and storage services can be used to operate existing applications and other technology workloads without significant modifications. Existing applications can be modified to take advantage of the availability, performance, and security features that are unique to cloud provider services.
+
+(Operating systems, Database management & developement tools)
+
+===
+Platform as a service (PaaS):
+ refers to tools that application developers can use to design custom applications for their company. Custom applications are designed and accessed in the cloud and used for a company’s specific business needs.
+(servers, networking, sotrage, physical data center)
+
+====
+Hybrid cloud environments:
+
+When organizations use a CSP’s services in addition to their on-premise computers, networks, and storage, it is referred to as a hybrid cloud environment. When organizations use more than one CSP, it is called a multi-cloud environment. The vast majority of organizations use hybrid cloud environments to reduce costs and maintain control over network resources.
+
+===
+Benefits of cloud computing and software-defined networks:
+
+Three of the main reasons that cloud computing is so attractive to businesses are reliability, decreased cost, and increased scalability. 
+
+1 - Reliability
+Reliability in cloud computing is based on how available cloud services and resources are, how secure connections are, and how often the services are effectively running. Cloud computing allows employees and customers to access the resources they need consistently and with minimal interruption. 
+
+2 - Cost
+Traditionally, companies have had to provide their own network infrastructure, at least for internet connections. This meant there could be potentially significant upfront costs for companies. However, because CSPs have such large data centers, they are able to offer virtual devices and services at a fraction of the cost required for companies to install, patch, upgrade, and manage the components and software themselves.
+
+3- Scalability
+Another challenge that companies face with traditional computing is scalability. When organizations experience an increase in their business needs, they might be forced to buy more equipment and software to keep up. But what if business decreases shortly after? They might no longer have the business to justify the cost incurred by the upgraded components. CSPs reduce this risk by making it easy to consume services in an elastic utility model as needed. This means that companies only pay for what they need when they need it. 

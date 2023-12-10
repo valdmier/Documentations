@@ -1,0 +1,32 @@
+well to get whats inside the input u say :
+
+<input type="text" id="example">
+
+
+
+document.getElementById("dollar").value
+
+
+//so we use value to get whats inside not innerHTML
+
+
+
+
+===
+
+
+and if want to put an IF statment we act with 
+everything inside it as a string but the truth its not
+
+example:
+
+ var amount = document.getElementById("dollar").value
+
+
+if (amount === "0") { bla bla  }
+
+//not if (amount === 0)..cuz its a text input
+ everything inside it is text but it could deal with
+it as number  though
+
+

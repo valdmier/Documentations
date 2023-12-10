@@ -1,0 +1,34 @@
+href is way to put the location of the page on some part of the page:
+
+window.console.log(location.href);
+
+n it will show the page url
+
+===
+thats how u get a url but to set it:
+
+location.href = "https//www.google.com";
+
+
+===
+
+but u can set other stuff like:
+
+the id n it will take u to it
+
+   <div id = "div3"> hi</div>
+     <div id = "div2"> hi</div>
+
+
+div {
+    color:lightblue;
+    height: 600px;
+
+    
+}
+
+
+
+write that in the console n it will take to it:
+
+location.href = "#div2";

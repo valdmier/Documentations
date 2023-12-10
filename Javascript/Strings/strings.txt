@@ -1,0 +1,26 @@
+strings:
+strings r like variables but instead numbers
+u use a word:
+
+var myName = "Sophia";
+
+text(myName, 41, 30);
+
+text(myName, 41, 60);
+
+text(myName, 41, 90);
+
+and he will write sophia 3 times
+
+you can do stuff like:
+
+var myName = "Sophia";
+
+var message = myName + "!!!";
+
+text(message + message, 41, 30);
+
+
+and he will write :
+
+sophia!!!sophia!!!

@@ -1,0 +1,83 @@
+input value attribute:
+
+to give the input some words to be wrote in when it show up
+
+unlike 
+
+this one there's real letters wrote in it ..like u have to delete them b4 u type
+
+w3:The input value attribute specifies an initial value for an input field:
+
+<input type="text" id="fname" name="fname" value="John">
+
+---
+
+The input readonly attribute
+
+The readonly attribute specifies that an input field should 
+
+be read-only (cannot be changed): 
+
+<input type="text" id="fname" name="fname" value="John" readonly>
+
+
+---
+
+The input disabled attribute
+
+The disabled attribute specifies that an input field should 
+
+be disabled (unusable and un-clickable):
+
+
+<input type="text" id="fname" name="fname" value="John" disabled >
+
+---
+
+The input size attribute
+The size attribute specifies the width (in characters) of 
+an input field:
+
+
+ <label for="fname">First name:</label><br>
+
+  <input type="text" id="fname" name="fname" size="40"><br>
+
+  <label for="pin">PIN:</label><br>
+
+  <input type="text" id="pin" name="pin" size="4"><br><br>
+
+
+---
+
+he maxlength Attribute
+The input maxlength attribute specifies the maximum number of characters allowed in an input field.
+
+Note: When a maxlength is set, the input field will not accept more than the specified number of characters. However, this attribute does not provide any feedback. So, if you want to alert the user, you must write JavaScript code
+
+
+example:
+
+<input type="text" id="pin" name="pin" maxlength="4" size="4"><br><br>
+
+
+---
+
+The min and max Attributes
+The input min and max attributes specify the minimum and maximum values for an input field.
+
+The min and max attributes work with the following input types: number, range, date, datetime-local, month, time and week.
+
+Tip: Use the max and min attributes together to create a range of legal values.
+
+example:
+
+
+The min and max Attributes
+The input min and max attributes specify the minimum and maximum values for an input field.
+
+The min and max attributes work with the following input types: number, range, date, datetime-local, month, time and week.
+
+Tip: Use the max and min attributes together to create a range of legal values.
+
+

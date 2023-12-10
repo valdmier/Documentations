@@ -1,0 +1,58 @@
+Packet Sniffing: Unauthorized Data Viewing
+
+Overview:
+
+Packet sniffing: Observe data on a network.
+Valuable data in packets: Personal info, messages, financial details.
+===
+Usage:
+
+Security analysts: Analyze and capture packets for investigation and debugging.
+
+Malicious actors: Illegally view data not intended for them (like opening someone else's mail).
+
+===
+Threat Actions:
+- Insert in authorized connection.
+- Spy on data packets.
+- Find valuable info.
+- Use it to their advantage.
+- Modify packet data, e.g., change bank account info.
+
+
+===
+types of packet sniffing:
+
+--
+- Passive:
+
+A type of attack where data packets are read in transit.
+
+Reading data packets in transit, like a postal worker reading mail.
+
+--
+- Active:
+
+A type of attack where data packets are manioulated in transit.
+
+Active: Manipulating data packets in transit, like a neighbor tampering with your mail before delivery, even if they deliver it correctly.
+
+
+===
+Preventing Malicious Packet Sniffing
+
+- Use VPN (Virtual Private Network):
+
+Encrypts and protects data on the network.
+Makes it unreadable and unable to be decoded for hackers even if they intercept it.
+
+- Ensure Websites Use HTTPS:
+
+HTTPS encrypts data with SSL/TLS.
+Safeguards against eavesdropping by malicious actors.
+
+- Avoid Unprotected Public WiFi:
+
+Public WiFi in places like coffee shops lacks encryption.
+Data is accessible to anyone on the network.
+Use it cautiously or with a VPN already installed for added security.

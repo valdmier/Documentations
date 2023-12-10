@@ -1,0 +1,49 @@
+onclick event:
+
+  happens when some element is clicked 
+===
+example:
+
+    
+<button onclick="myFunc()">click</button>
+
+function myFunc() {
+return alert("u clicked me");
+
+};
+===
+example:
+
+var myNote = document.getElementById("note"),
+    myb = document.getElementById("button");
+
+
+myb.onclick = function () {
+    "use strict";
+    
+    myNote.textContent = "dont forget to put 8 letters to yr password!";
+    
+    
+};
+
+===
+
+    <button onclick ="Click();" onmouseenter="Enter();" onmouseleave="leave(); ">click</button>
+
+
+    function Enter(){
+    return alert("click mmee pleasee::((");
+    
+    };
+
+function Click(){
+    return alert("u really click mee!!!");
+    
+    };
+    
+    
+function leave(){
+    return alert("dont leave mmee pleasee::((");
+    
+    };
+

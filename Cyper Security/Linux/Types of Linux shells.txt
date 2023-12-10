@@ -1,0 +1,32 @@
+Shell Overview: 
+
+Shell: Command-line interpreter acting as a translator between users and the computer system.
+
+Allows users to issue commands and receive responses.
+
+Executes internal processes to interpret commands, send them to the kernel, and return results.
+
+===
+Types of Shells: 
+
+Linux offers various shell options, including:
+
+- Bourne-Again Shell (bash)
+- C Shell (csh)
+- Korn Shell (ksh)
+- Enhanced C shell (tcsh)
+- Z Shell (zsh)
+
+While they share common Linux commands, each shell may have unique features.
+Different shells may use distinct symbols for command input (e.g., $ in ksh and bash, % in zsh).
+
+===
+Bash (Bourne-Again Shell): 
+
+Default shell in most Linux distributions.
+Known for user-friendliness.
+
+Suitable for basic Linux commands and complex projects.
+
+Widely used in the cybersecurity profession.
+

@@ -1,0 +1,33 @@
+how to sort items from A - Z(alphabetic):
+
+sort:
+
+var myArray = ["idk", "bonn bon", "zyad", "idk",
+ "nobody"];
+
+myArray.sort();
+
+console.log(myArray);
+
+the result:
+  //b          //i          //n       //z
+["bonn bon", "idk", "idk", "nobody", "zyad"]
+
+===
+
+how to reverse items Arranging:
+
+
+
+var myArray = ["idk", "bonn bon", "zyad", "idk",
+ "nobody"];
+
+myArray.reverse();
+
+console.log(myArray);
+
+
+the result:
+
+["nobody", "idk", "zyad", "bonn bon", "idk"]
+

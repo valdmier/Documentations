@@ -1,0 +1,123 @@
+    html :
+
+  <!DOCTYPE html> 
+«
+   б Џ—нЁ «б»—«ж”— «д «б «бн гжѕ—д « ‘  н «г «б   
+
+  жбн” джЏ« гд гд «б «‘  н «б «бёѕнге 
+
+  <html>  
+
+   нЏдн «де «бгя ж» »бџе «‘  н «г «б жежм Ћ«дн яжѕ »Џѕ «ббн Ёжё ѕ«∆г«
+
+  <head>
+
+   жеж яжѕ н”«Џѕ «б»—«ж”— Џбм гЏ«бће «б’ЁЌе »‘яб гЏнд   
+
+    жбяд «бг ’ЁЌ б«н—«е 
+
+  <meta>
+    же–« нЏЎн «б»—«ж”—  Ё«’нб «яЋ— Ќжб янЁ нЏ«бћ «б’ЁЌе
+
+   <meta charset="utf-8">
+
+   Џбм ”»нб «бгЋ«б е–« «б «ё нгядя гд «бя «»е »«ббџе «бЏ—»не «бќ...  
+
+   <title>
+
+   же–« бя »е «бЏдж«д «б’ЁЌе 
+
+  <body>
+
+  е–« бя «»е гЌ жн«  «б’ЁЌе ѕ«ќбе 
+
+   <h1> - <h6>
+
+  е–« бя «»е ћгбе г« ябг« ёб «бЏѕѕ я«д «бќЎ «я»—
+
+  <p>
+
+     бя «»е »—«џ—«Ё г«  
+
+
+ <br>
+   бя «»е ’Ў— ћѕнѕ  
+   жб« нег «д ќ г е «г б« 
+
+ Ён Ќ«б «—ѕ  гЏбжг«  «яЋ— Ќжб џбё «б«яж«ѕ
+
+
+https://www.khanacademy.org/computing/computer-
+programming/html-css/intro-to-html/a/quick-tip-html-tags
+
+
+
+ <em>
+
+ же–« бб√гЁ”«н“ ж«б «янѕ жг«ќж– гд ябге «гЁ”” ж«б н  Џдн  √янѕ 
+
+ <strong> 
+
+  бћЏб «б я”  »‘яб »жбѕ ж ёжн   
+ 
+  Lists:
+
+ <ul>
+
+   Џдн    unordered list
+
+   же–« нЏдн «д «бб”  бд  яжд г—ёге
+
+
+  <li>
+
+ list item
+
+  ж Џдн «Ќѕ гяжд«  «бб”    
+
+  гЋ«б
+
+  <h2>Why rabbits make great pets</h2>
+  
+  
+    <ul>
+    
+    <li>They're furry!</li>
+  
+      <li>Great listeners!</li>
+    
+    <li>Eat all you</li>
+    </ul>
+    
+
+
+  <ol>
+
+   oredered list
+
+   нЏдн «д «б»—«ж”— ”жЁ н—ёге«
+
+   <ol>
+     
+   <li>Bugs bunny</li>
+    
+    <li>Thumper</li>
+    
+    <li>Easter Bunny</li>
+  
+    </ol>
+
+    <img src="put the url hrer" alt="explin the
+     image to those who cant see it
+   " width="203" height="150">
+
+   src stands for source
+   ж»е–« нгядя «÷«Ёе ’ж—е 
+   ж Џѕнб Ќћге« 
+  
+ or instead of alt i can use title:
+
+  <img src="put the url hrer" title="explin the
+     image to those who cant see it
+   " width="203" height="150">
+

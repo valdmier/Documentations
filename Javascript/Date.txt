@@ -1,0 +1,64 @@
+to show the date:
+
+var todaysDate = new Date();
+
+
+window.console.log(todaysDate);
+
+n the date will show up in the console
+
+
+==
+
+to add a new date by how ever you want:
+
+you have to know that time in the internet starts at 1970 +3 hours grenech cuz we r in saudi arabia 
+to prove that:
+var todaysDate = new Date(1000);
+
+
+window.console.log(todaysDate);
+
+result: 
+
+Thu Jan 01 1970 03:00:01
+
+
+
+so if we want to put it 1970 00:00?
+
+do that:
+
+
+var todaysDate = new Date(-1800000 + -1800000 + -1800000 + -1800000 + -1800000 + -1800000);
+
+//since 1800000 = half hour
+
+window.console.log(todaysDate); 
+
+
+
+result: Thu Jan 01 1970 00:00:00
+
+
+taddaa 
+
+==
+
+to add a specifc date :
+
+var todaysDate = new Date("August 5, 2003 3:38:34");
+
+
+window.console.log(todaysDate);
+
+
+result:
+
+Tue Aug 05 2003 03:38:34
+
+
+
+
+
+

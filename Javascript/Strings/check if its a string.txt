@@ -1,0 +1,39 @@
+ by typeof:
+
+var myName = "lucifer";
+
+if (typeof (myName) === "string") {
+
+   
+    alert("yup its a string");
+} else {
+    
+    
+    alert("it aint a string");
+}
+
+
+the result will be:
+
+yup its a string
+
+n thats pretty much it
+
+
+---
+
+you can also try this
+
+
+var mynumber = 100;
+
+console.log(typeof (mynumber));
+
+//result: number or intger
+
+var myNewNumber = mynumber.toString();
+
+console.log(typeof (myNewNumber)); 
+
+
+its the same almost

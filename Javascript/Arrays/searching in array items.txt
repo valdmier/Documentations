@@ -1,0 +1,82 @@
+finding the index number for the item u want:
+
+indexOf :
+
+var coolArray = ["bonnBonn", "food", "wealth",
+ "health", "programing", "joy", "cold", "cofee",
+ "netflix", "sport", "happiness", "love", "life",
+ "medtinon" ];
+
+
+//to bring the index number of the item i want:
+
+
+var bestThing = coolArray.indexOf("programing", 3); 
+      //to tell him frome where to start looking^
+
+//so we found the inex number its 0..lets use it boii
+
+
+document.getElementById("myP").innerHTML =
+ coolArray[bestThing];
+
+
+//the value stored in thre the variable "bestThing"
+ is 0 witch is the index to bonnBonn item
+
+n thats pretty much it
+
+
+=== 
+lasstInedexOf:
+
+
+to save the users internet u can use lastlastIndexOf
+ if the item u want is more neer from the last 
+
+
+example: 
+
+var coolArray = ["bonnBonn", "food", "wealth",
+ "health", "programing", "joy", "cold", "cofee",
+ "netflix", "sport", "happiness", "love", "life",
+ "medtinon" ];
+
+
+//to bring the index number of the item i want:
+
+
+var bestThing = coolArray.lastIndexOf("programing");
+
+
+n to be more specefic n save my users time:
+
+
+var bestThing = coolArray.lastIndexOf("programing", 5);
+
+
+iimmpppoorrtaanntt!!:::
+
+
+but!! take care cuz in lastIndexOf he takes the index
+ number n search up 
+
+
+
+but in indexOf he takes the index number n search down
+
+
+===
+The includes() method:
+
+ determines whether an array includes a certain value among its
+
+example:
+
+const pets = ['cat', 'dog', 'bat'];
+
+console.log(pets.includes('cat'));
+// expected output: true
+
+console.log(pets.includes('at'));
+// expected output: false

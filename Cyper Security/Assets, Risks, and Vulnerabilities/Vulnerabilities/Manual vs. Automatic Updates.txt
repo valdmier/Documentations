@@ -1,0 +1,55 @@
+Manual vs. Automatic Updates
+
+===
+Outdated computer systems and software are vulnerable to security threats, much like a house with unlocked doors.
+
+Software updates, known as patches, are essential for addressing security vulnerabilities and exposures.
+
+Patches often include bug fixes that address common security issues.
+
+===
+Common Update Strategies:
+
+===
+1. Manual Updates:
+
+Manual deployment relies on users or IT departments obtaining updates from developers.
+
+Small businesses and home users may need to find, download, and install updates themselves.
+
+Enterprises often use configuration management tools for centralized update deployment.
+
+
+===
+Advantage: Control over updates, useful when thorough testing is needed.
+
+Disadvantage: Critical updates can be forgotten or ignored.
+
+===
+2. Automatic Updates:
+
+Automatic deployment allows the system or application to find, download, and install updates.
+
+Users or IT groups may need to enable permissions for automatic updates.
+
+===
+Advantage: Simplified deployment process, keeps systems current with critical patches.
+
+Disadvantage: Potential instability if patches are not well-tested, leading to performance issues.
+
+===
+End-of-Life (EOL) Software:
+
+- EOL software refers to software that is no longer supported by its developer.
+
+- Software has a lifecycle, starting from production and ending when a newer version is released.
+
+- Developers allocate resources to newer versions, leading to EOL status for older software.
+
+- EOL software poses unfixable security risks, as it no longer receives updates or patches.
+
+CISA recommends discontinuing the use of EOL software to mitigate risks, but replacement can be costly.
+
+- The proliferation of Internet of Things (IoT) devices increases the risks associated with unpatched EOL technology.
+
+- A single unpatched IoT device can provide attackers access to a network, highlighting the importance of software updates in an increasingly connected world.

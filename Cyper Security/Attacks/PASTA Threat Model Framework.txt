@@ -1,0 +1,87 @@
+PASTA Threat Model Framework
+
+===
+PASTA (Process of Attack Simulation and Threat Analysis) is a comprehensive framework for systematically addressing security concerns during application development and maintenance.
+
+===
+Stage 1: Define Business and Security Objectives
+
+Determine goals and objectives, e.g., protecting customer data.
+
+Ask questions about data handling and personally identifiable information.
+
+Evaluate the impact of potential threats.
+
+===
+Stage 2: Define Technical Scope
+
+Identify the components to be evaluated (attack surface).
+
+Include technology related to data at rest and in use.
+
+Encompass network protocols, security controls, and data interactions.
+
+===
+Stage 3: Decompose the Application
+
+Identify existing controls safeguarding user data.
+
+Work with developers to create a data flow diagram.
+
+Illustrate the data's journey from user devices to the company's database.
+
+===
+Stage 4: Perform Threat Analysis
+
+Adopt an attacker mindset.
+
+Collect up-to-date information on attack types.
+
+Reference resources to stay current as attack vectors evolve.
+
+===
+Stage 5: Perform Vulnerability Analysis
+
+Investigate potential vulnerabilities and their root causes.
+
+===
+Stage 6: Conduct Attack Modeling
+
+Simulate attacks to test vulnerabilities analyzed in Stage 5.
+
+Create an attack tree, resembling a flow chart.
+
+Identify attack vectors for testing and validation.
+
+Example: An attack tree for a mobile app may include SQL injection as an attack vector.
+
+===
+Stage 7: Analyze Risk and Impact
+
+Compile information from Stages 1 to 6.
+
+Make informed risk management recommendations aligned with business goals.
+
+===
+Retailer's Mobile App Scenario
+
+Stage 1: Define Business and Security Objectives
+✅ Retailer's objective: Protect customer data.
+
+Stage 2: Define the Technical Scope
+✅ Identify app components for evaluation.
+
+Stage 3: Decompose the Application
+✅ Identify existing controls to safeguard user data.
+
+Stage 4: Perform a Threat Analysis
+✅ Gather intel on mobile app attack types.
+
+Stage 5: Perform a Vulnerability Analysis
+✅ Investigate potential app vulnerabilities.
+
+Stage 6: Conduct Attack Modeling
+✅ Create an attack tree, map vulnerabilities to attack vectors.
+
+Stage 7: Analyze Risk and Impact
+✅ Analyze data, make risk management recommendations.

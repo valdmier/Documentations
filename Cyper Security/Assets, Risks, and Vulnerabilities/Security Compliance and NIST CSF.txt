@@ -1,0 +1,58 @@
+Security Compliance and NIST Cybersecurity Framework
+
+===
+Security Compliance:
+
+Compliance involves adhering to internal standards and external regulations.
+
+==
+Highly regulated industries like healthcare, energy, and finance face severe financial and reputational consequences for non-compliance.
+
+===
+Regulations:
+
+Regulations are rules established by governments or authorities to control various aspects, including data protection on a larger scale.
+Compliance can be complex due to numerous global regulations.
+
+===
+
+Note: Regulations are rules that must be followed, while frameworks are resources you can choose to use.
+
+===
+NIST Cybersecurity Framework:
+
+The National Institute of Standards and Technology (NIST) Cybersecurity Framework (CSF) is a voluntary framework consisting of standards, guidelines, and best practices to manage cybersecurity risk.
+
+===
+Components of NIST CSF:
+
+===
+- Core:
+
+The core defines five broad functions: 
+
+- identify: UNKOWN DEVICE COONECTED.
+- protect: BLOCK THE DEVIECE.
+- detect: DETECT ANY DAMAGES CAUSED.
+- respond: INVISTIGATING THE INCIDENT.
+- recover: RECOVER WHATEVER WAS INNFECTED.
+
+These functions serve as a security checklist.
+
+===
+- Tiers:
+
+Tiers provide a way to measure performance across the five core functions.
+
+Tiers range from Level-1 (bare minimum standards) to Level-4 (exemplary standards).
+
+CSF tiers are used to assess an organization's security posture.
+
+===
+- Profiles:
+
+Profiles offer insights into the current state of a security plan.
+
+They are akin to capturing a moment in time, allowing for comparisons over time.
+
+Profiles help organizations understand how their security measures change and adapt.

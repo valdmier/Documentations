@@ -1,0 +1,48 @@
+coloring:
+background(100,100,100);
+the  background color have to be the last 
+thing always
+
+if want to color an ellipse:
+fill(40,30,200);
+ellipse(220,55,77,100);
+
+the fill comand will fill every thing under
+it so if there's
+fill(40,30,200);
+ellipse(220,55,77,100);
+ellipse(220,55,117,10); it will color that 
+
+the sulotion:
+fill(40,30,200);
+ellipse(220,55,77,100);
+fill(40,230,20);
+ellipse(220,55,117,10);
+
+put another color for every element
+
+the fill function will always fill what's 
+inside the element..
+
+what if i want to color the lines of the 
+line or ellipse 
+
+strok(280,98,290);
+line(83, 116, 271, 74)
+
+n you cant color the line function with fill
+
+to make the line thicker:
+strokeWeight(33);
+
+line(83, 116, 271, 74);
+
+if you dont want strokes(the lines):
+nostoke();   
+but you have to put it above every thing
+so it efects every thing under it
+
+
+
+
+

@@ -1,0 +1,80 @@
+convert a number to string:
+
+String() :
+
+var mynumber = 100;
+
+console.log(typeof (mynumber)); 
+
+//result: number or intger
+
+var myNewNumber = String(mynumber);
+
+
+console.log(typeof (myNewNumber)); 
+
+//result: string
+
+
+--
+another example:
+
+var myString = " 50 dollar",
+    
+    myNum = parseInt(myString);
+
+    
+window.console.log(typeof (myNum));  //it says its a number 
+
+//now we made it a number..lets return it to a string
+
+  
+var convert = myNum.String();
+
+window.console.log(typeof (convert)); //it says its a string 
+
+//result = string yayy we did it 
+
+
+
+
+
+===
+
+convert a number to string with toString :
+
+
+
+var mynumber = 100;
+
+console.log(typeof (mynumber)); 
+
+//result: number or intger
+
+var myNewNumber = mynumber.toString();
+
+console.log(typeof (myNewNumber)); 
+
+//result: string
+
+--
+
+another example:
+
+
+var myString = " 50 dollar",
+    
+    myNum = parseInt(myString);
+
+    
+window.console.log(typeof (myNum));  //it says its a number 
+
+//now we made it a number..lets return it to a string
+
+  
+var convert = myNum.toString();
+
+window.console.log(typeof (convert)); //it says its a string 
+
+//result = string yayy we did it 
+

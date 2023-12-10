@@ -1,0 +1,126 @@
+How do frameworks, principles, and compliance regulations all work together?
+
+answer: Using security audits
+===
+Secuirty Audit:
+
+A security audit is a review of an organization's security controls, plicies, and procedures against a set of expectations.
+
+===
+a security audit tests:
+whether your organization's information systems are adhering to a set of internal or external criteria regulating data security, network security, and infrastructure security. 
+
+===
+A security audit is a review of an organization's security records, activities, and other related documents. For example, an analyst may examine in-house security issues, such as making sure that confidential information, like individual computer passwords, isn't available to all employees.
+===
+types of security of audits:
+
+-External
+
+
+
+----
+-Internal
+
+An internal security audit is conducted by a team of peoples.
+
+Internal security audits are used to help improve an organization's security posture and help organizations avoid fines from governing agencies due to a lack of compliance. 
+
+--
+Purposes of internal security audits: 
+
+- identify organizational risk
+
+- Asses controls
+
+- Correct compliance issues
+
+===
+Planning for an audit:
+
+--
+Common elements of internal audits:
+
+1 - Establishing the scope and goals:
+
+1.1: Scope refers to the specific criteria of an internal secuirty audit.
+
+scope requires organizations to identify people, assets, policies, procedures, and technologies that might impact an organization's security posture.
+
+1.2: Goals are an outline of the organization's security objectives, or what they want to achieve in order to improve their security posture.
+
+2 - Conducting a risk assessment:
+
+- Identifying potential threats, risks, and vulnerabilities.
+
+3 - Controls assessments:
+
+reviewing an organization's existing assets, then evaluating potential risks to those assets, to ensure internal controls and processes are effective. 
+
+types of controls:
+- physical controls: Security guards.
+
+- technical controls: Firewalls.
+
+- administrative controls: Separation of duties, Authorization, password policies.
+
+4 - Assessing complaince 
+determining whether or not the organization is adhering to necessary compliance regulations.
+
+5 - Communicating results
+
+Comuunicating results to stakehokders
+
+===
+Factors that affect audits and  determine the types of audits an organization implements include: 
+
+Industry type:
+
+- Organization size
+
+- Ties to the applicable government regulations
+
+- A business’s geographical location
+
+- A business decision to adhere to a specific regulatory compliance
+
+===
+
+Audit checklist:
+
+1 - Identify the scope of the audit
+
+The audit should:
+
+- List assets that will be assessed (e.g., firewalls are configured correctly, PII is secure, physical assets are locked, etc.) 
+
+- Note how the audit will help the organization achieve its desired goals
+
+- Indicate how often an audit should be performed
+
+- Include an evaluation of organizational policies, protocols, and procedures to make sure they are working as intended and being implemented by employees
+
+2- Complete a risk assessment
+
+A risk assessment is used to evaluate identified organizational risks related to budget, controls, internal processes, and external standards (i.e., regulations).
+
+3- Conduct the audit
+
+When conducting an internal audit, you will assess the security of the identified assets listed in the audit scope.
+
+4- Create a mitigation plan
+
+A mitigation plan is a strategy established to lower the level of risk and potential costs, penalties, or other issues that can negatively affect the organization’s security posture. 
+
+5- Communicate results to stakeholders
+
+The end result of this process is providing a detailed report of findings, suggested improvements needed to lower the organization's level of risk, and compliance regulations and standards the organization needs to adhere to. 
+
+ In general, this type of communication 
+
+- summarizes the scope and goals of the audit. 
+
+- it lists existing risks and notes how quickly those risks need to be addressed. 
+
+- identifies compliance regulations the organization needs to adhere to and provides recommendations for improving the organization's security posture
+

@@ -1,0 +1,117 @@
+css 1
+
+<style>
+ ··ﬂ «»Â »·€Â css 
+
+important note:   „«  ﬂ » «ﬁÊ«” «·” «Ì· ﬂ· ﬂÊœ  ﬂ »Â »Ì‰ ‰Â«ÌÂ Ê»œ«ÌÂ «·” «Ì· »ÌﬂÊ‰ „‰‘‰ Ê ﬁœ—  €Ì— »„ŸÂ— Â–« «·ﬂÊœ...·Ê «Œ —  ﬂÊœ h1
+   » ·«ÕŸ «‰ﬂ  Œ «—Â„ ﬂ·Â„ ›Ì ÿ—ﬁ ·«Œ Ì«— ‘Ì „Õœœ »  ⁄·„Â ·«Õﬁ«
+     
+     to change the color:
+           
+            h1{color:green:}  or
+            h1{color:rgb(number,number,number);}
+    
+  to change the background color
+
+   body {background-color:rgb(num,num,num):}
+
+   body {background-color:blue;}
+        
+   important note:you can't make spaces in the names of ides and clases
+            
+   css selectors 
+
+           id: „À«·
+          
+  <h1id="ooo9">
+   to tag it: <style>
+              
+   #ooo9{background-color:rgb(n,n,n);}
+
+    </style>
+      
+   note:don't put 2 of it
+
+    another way to put styles:
+   
+   inline style:
+<h1 style="background: salmon;">Salmon
+   </h1>
+    
+            
+
+   selecting:
+
+    specificity:
+   if the orders were Contradictor
+ "the browser always take the most 
+  specif order..if they were in the
+  same level of specificity..the
+ browser takes the newest one
+
+example:
+p{color:red;}
+p{color:blue;}
+like that the browser will make it blue
+     
+
+   class:to to make a groubs and chnge them togther
+   <h1 class="bla">
+
+    we can tag it:
+  .bla{bla bla bl}
+ 
+  what does the space in the clases
+  means: 
+
+   it means that the tag belongs to 
+   two classes 
+
+    for example:
+   <h2 class="1 2">
+   that mean it belongs to class
+   1 and 2..
+   
+   what oreders will it follow?:
+   it wil follow both but if the codes
+  were contradictory and aginst each
+  other orders like one its color is
+  red and the other is white  
+   
+  in that case it will folow the second
+  one..which is here class "2"
+  
+
+   what if we have a class that 
+contains all images and the text
+ and i just want to select the images
+only and add border to them
+ and the class name was "mo":
+
+img.mo{border:10px dashed red;}
+
+note: dont put space between the img
+and the class name"img .om"dont do like
+this..it means another thing we wiil will
+explin it down
+
+
+to select two elements:
+
+h1,h2 {color:red;}
+
+
+
+to select every class inside a code
+
+p .classname{color:red;}
+
+so like that we will look inside every p
+n select the staff that have 
+"class name" class
+ 
+
+
+
+  
+  

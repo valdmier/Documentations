@@ -1,0 +1,59 @@
+Aggregate functions
+
+===
+Aggregate functions
+In SQL, aggregate functions are functions that perform a calculation over multiple data points and return the result of the calculation. The actual data is not returned. 
+
+There are various aggregate functions that perform different calculations:
+
+- COUNT returns a single number that represents the number of rows returned from your query.
+
+- AVG returns a single number that represents the average of the numerical data in a column.
+
+- SUM returns a single number that represents the sum of the numerical data in a column. 
+
+===
+To use an aggregate function, place the keyword for the function after the SELECT keyword.
+
+Within parentheses, indicate the column you want to perform the calculation on.
+
+===
+Example with COUNT Function:
+
+Suppose you have a table named customers and you want to find the total number of customers:
+
+SELECT COUNT(firstname)
+FROM customers;
+
+- COUNT is the aggregate function.
+
+- firstname is the column on which the calculation is performed.
+
+- SQL returns one row with a single column, indicating the count of non-NULL values in the specified column.
+
+===
+Adding Filters:
+
+You can refine the calculation by adding a WHERE clause to filter the data.
+
+SELECT COUNT(firstname)
+FROM customers
+WHERE country = 'USA';
+
+This query counts the number of customers with 'USA' as their country.
+
+The count will be lower because it only includes records that meet the specified condition.
+
+===
+SQL offers various other aggregate functions (e.g., SUM, AVG, MAX, MIN) with the same basic syntax as COUNT.
+
+You can use them to perform different types of calculations on your data.
+
+Example:
+SELECT AVG(salary)
+FROM employees;
+
+This query calculates the average salary of employees.
+
+===
+In summary, aggregate functions in SQL are powerful tools for summarizing and analyzing data. You specify the function you want to use, the column you want to apply it to, and you can optionally filter the data using a WHERE clause for more specific calculations.

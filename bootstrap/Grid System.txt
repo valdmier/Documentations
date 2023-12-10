@@ -1,0 +1,115 @@
+well yeah the grid system is made of :
+
+container, row, columns
+
+===
+CONTAINERS:
+
+there is two types of containers the fluid and the normal one
+
+
+-normal container:
+
+ <div class="container">
+
+
+-fluid containers:
+
+ <div class="container-fluid">
+
+
+===
+
+ROWS:
+syntax: .row
+rows comes inside of containers and they 
+are made of 12 units
+
+   <div class="row">
+
+
+===
+COLUMNS:
+columns comes inside rows and they can take up to
+ 12 unit in or down to 1 unit in each row
+synatx: .col
+
+<div class="col-2">FIRST</div>
+---
+
+
+example of all what we mitioned :
+
+   <div class="container-fluid">
+      <div class="row border" style="height: 150px;">
+        <div class="col bg-warning">FIRST</div>
+          <div class="col bg-primary">SECOND</div>
+          <div class="col bg-success">THEIRD</div>
+          <div class="col bg-danger">FOURTH</div>
+    </div>
+  </div>
+
+
+and the space is decied equaly betwwen them
+
+
+---
+
+to choose the space each column should take we use 
+.col-[number]
+
+example:
+
+ <div class="container-fluid">
+
+    <h1 class="display-2">customized </h1>
+    <div class="row border">
+      <div class="col-2 bg-warning">FIRST</div>
+        <div class="col-4 bg-primary">SECOND</div>
+        <div class="col-4 bg-success">THEIRD</div>
+        <div class="col-2 bg-danger">FOURTH</div>
+  </div>
+    </div>
+
+
+
+===
+
+
+to change it debending on what size you are in
+
+use :
+
+SM:
+
+<div class="col-6 col-sm-4">SM</div>
+
+MD:
+
+<div class="col-6 col-md-4">MD</div>
+
+LG:
+
+<div class="col-6 col-lg-4">LG</div>
+
+XL:
+
+<div class="col-6 col-xl-4">XL</div>
+
+
+--
+example to tell what size you have reached:
+
+
+  <div class="container-fluid">
+    <h1 class="display-2">customized <p class="lead">what size you have reached?</p> </h1>
+    <div class="row border">
+      <div class="col-1 col-12 d-none-sm bg-warning">XS</div>
+        <div class=" col-1 col-sm-12 bg-primary">SM</div>
+        <div class=" col-1 col-md-12 bg-success">MD</div>
+        <div class=" col-1 col-lg-12 bg-danger">LG</div>
+        <div class=" col-1 col-xl-12 bg-info">Xl</div>
+  </div>
+    </div>
+        
+

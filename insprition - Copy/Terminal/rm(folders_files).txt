@@ -1,0 +1,17 @@
+to remove a file.
+
+===
+example:
+
+haram@DESKTOP-D1QMJH6 MINGW64 ~/desktop
+$ cd website
+
+haram@DESKTOP-D1QMJH6 MINGW64 ~/desktop/website
+$ rm app.js
+
+===
+to remove folders:
+
+haram@DESKTOP-D1QMJH6 MINGW64 ~/desktop
+$ rm -rf website
+

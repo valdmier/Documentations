@@ -1,0 +1,70 @@
+note: nodes:space,elements,comments, everything
+
+===
+childElementCount:
+
+ count the number of childs an element have.
+---
+example:
+
+<div id = "myDiv" class = " ss kbl ljy vmkig wow">
+    <button>add class</button>
+    <p>bla bla</p>
+    </div>
+
+
+    myDiv = document.getElementById("myDiv");
+
+console.log(myDiv.childElementCount);
+
+
+result : 2 cuz there 2 elements..button n p
+
+===
+note:stuf like comments are bot considered elements
+
+
+===
+
+to show the nodes:
+
+childNodes:
+
+div id="main">
+
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+</div>
+
+
+var myMainDiv = document.getElementById("main");
+
+ console.log(myMainDiv.childNodes);
+
+
+result:
+
+NodeList(7) [text, p, text, p, text, p, text]
+
+
+--
+
+ calling with childNodes :
+
+childNodes:var myMainDiv = document.getElementById("main");
+
+ console.log(myMainDiv.childNodes[1]);
+
+
+result:
+
+<p>1</p>
+
+
+
+
+
+
+
+

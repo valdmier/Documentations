@@ -1,0 +1,22 @@
+Virtual Private Networks (VPN):
+
+A network security service that changes your public Ip address and hides your virtual laoction so that you can keep your data private when you are using a public network like the internet.
+
+VPNs also encrypt your data as it travels across the internet to preserve confidentiality.
+
+A VPN service performs encapsulation on your data in transit. 
+
+===
+Encapsulation: 
+
+A process performed by a VPN service that protects your dtat by wrapping sensitive data in other data packets.
+
+===
+With a VPN, you have the added assurance that your data is encrypted, and your IP address and virtual location are unreadable to malicious actors.
+
+===
+Remote Access vs. Site-to-Site VPNs:
+
+- Remote Access VPNs: These are for individuals. They secure your connection when you're using a personal device to access the internet. They encrypt data and are set up through the internet.
+
+- Site-to-Site VPNs: Big organizations use these to connect multiple offices across the world. IPSec is common here, creating secure tunnels between different networks. They are complex to configure compared to remote VPNs.

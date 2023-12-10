@@ -1,0 +1,73 @@
+
+
+Pagination:
+
+its about numbering pages
+soo lets do it:
+
+<div class="container mt-5">
+   <ul class="pagination">
+    
+    <li class="page-item">
+      <a href="#" class="page-link">Previous</a>
+    </li>
+     <li class="page-item active">
+       <a href="#" class="page-link">1</a>
+     </li>
+     <li class="page-item">
+      <a href="#" class="page-link ">2</a>
+    </li>
+    <li class="page-item">
+      <a href="#" class="page-link ">3</a>
+    </li>
+    <li class="page-item ">
+      <a href="#" class="page-link">Next</a>
+    </li>
+   </ul>
+</div>
+
+===
+
+to change the size:
+
+lg:
+
+<div class="container mt-5">
+   <ul class="pagination pagination-lg">
+    
+    <li class="page-item"><a href="#" class="page-link">Previous</a></li>
+     <li class="page-item active"> <a href="#" class="page-link">1</a></li>
+     <li class="page-item"><a href="#" class="page-link ">2</a></li>
+    <li class="page-item"> <a href="#" class="page-link ">3</a></li>
+    <li class="page-item "><a href="#" class="page-link">Next</a></li>
+   </ul>
+</div>
+
+
+sm:
+
+div class="container mt-5">
+   <ul class="pagination pagination-sm">
+    
+    <li class="page-item"><a href="#" class="page-link">Previous</a></li>
+     <li class="page-item active"> <a href="#" class="page-link">1</a></li>
+     <li class="page-item"><a href="#" class="page-link ">2</a></li>
+    <li class="page-item"> <a href="#" class="page-link ">3</a></li>
+    <li class="page-item "><a href="#" class="page-link">Next</a></li>
+   </ul>
+</div>
+
+===
+to center them you can with nav positionings classes:
+
+<div class="container mt-5">
+   <ul class="pagination pagination-sm justify-content-center">
+    
+    <li class="page-item"><a href="#" class="page-link">Previous</a></li>
+     <li class="page-item active"> <a href="#" class="page-link">1</a></li>
+     <li class="page-item"><a href="#" class="page-link ">2</a></li>
+    <li class="page-item"> <a href="#" class="page-link ">3</a></li>
+    <li class="page-item "><a href="#" class="page-link">Next</a></li>
+   </ul>
+</div>
+

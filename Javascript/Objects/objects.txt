@@ -1,0 +1,280 @@
+object:
+object type:propites:
+
+objects is way to call info and call it 
+whenever u need it..the difrent between it
+n arrays is that arrays you call them by 
+numbers so you have to know witch number
+is for that info n that doesnt help if you
+have so many info..object by words n that is
+much easy to remember
+
+note: 
+to start an object:{}
+to make more details bout an element in the 
+object:[]
+
+var winston = {
+  age: 19,
+
+  eyes: "black",}  
+
+likes: ["programming","being programmed"],
+
+  
+isCool: true,
+
+ 
+ birthplace: {
+
+city: "Mountain View",
+
+
+   state: "California"
+    
+    }
+  
+n then put a the name of the var and (.)
+a point and if i had two info or 3 4etc..
+ad brackets:
+
+fill(0, 0, 0);
+textSize(16);
+
+
+text("All about Winston:", 10, 30);
+
+
+text("Winston is " + winston.age + " years
+ old", 10, 50);
+
+
+text("Winston has " + winston.eyes + 
+" eyes", 10, 70);
+
+.d                   //cuz we have two info 
+  text("Winston likes " + winston.likes[0]
+ +" and " +  winston.likes[1], 10, 90);
+
+to call an object inside object:
+
+text("Winston was born in " +
+ winston.birthplace.city + ", " +
+ winston.birthplace.state, 10, 110);
+
+
+repeating an object with loops:
+
+so we want our program to repeat his age
+till the age of 40
+
+first we bring our objects:
+
+var winston = {
+  age: 19,
+
+  eyes: "black",
+
+  
+
+likes: ["programming","being programmed"],
+
+  
+isCool: true,
+
+ 
+ birthplace: {
+
+city: "Mountain View",
+
+
+   state: "California"
+    
+    }
+
+then bring our while loop:
+
+while(winston.age <= 40) 
+//so if its stops at 40
+                      //so the age changes
+{
+text("Winston is " + winston.age + 
+            
+" years old", 10, winston.age*20 - 350);
+
+ //and the y for each
+             age change also by ading one
+               each time */
+    winston.age++;
+}
+//that change the y and age
+
+
+
+how to draw winston as much as u want by 
+object n loop or array :
+
+var drawWinston = function(faceX, faceY){
+fill(255, 255, 0);
+
+ellipse(faceX, faceY, 300, 300);
+ // face
+
+
+fill(46, 46, 41);
+ellipse(faceX - 45, faceY - 57, 40, 40);
+ // eyes
+
+
+ellipse(faceX + 102, faceY - 66, 40, 40);
+
+
+fill(252, 65, 65);
+
+ellipse(faceX + 55, faceY + 32, 120, 136); // mouth
+    
+
+fill(46, 46, 41);
+
+ellipse(faceX - 45, faceY - 57, 40, 40);
+ // eyes
+    
+
+ellipse(faceX + 102, faceY - 66, 40, 40);
+    
+
+fill(252, 65, 65);
+
+ellipse(faceX + 55, faceY + 32, 120, 136);
+ // mouth
+}
+
+//repeating the drawing by ararrys n loop:
+
+var xPositions = [99, 294, 101,  294, 10, 1,
+10]
+
+;
+var yPositions = [117, 117, 316, 316, 1, 1,
+ 1];
+
+
+for (var i = 0; i < xPositions.length; i++){
+
+
+drawWinston(xPositions[i], yPositions[i]);
+
+
+}
+
+and if you add a new number to the y n x 
+array positions it will show up a new 
+winston
+
+but an array here is a little messy n 
+confusing
+
+//repeating the drawing by objects n loops:
+
+var positions = [
+  
+{x: 99, y: 117},
+
+{x: 294, y: 117},
+
+{x: 101, y: 316},
+
+{x: 294, y: 316}
+  
+];
+for (var i = 0; i < positions.length; i++){
+
+
+drawWinston(positions[i].x,
+ positions[i].y);
+
+
+}
+
+n its more readable
+
+
+object type:methood:
+
+how to make characters then just change
+on there propites:
+  Çæá ÍÑÝ Ý ÇáÇæÈßÊ áÇÒã íßæä ßÈÊá we will change those parameters
+var Winston = function(nickname, age, x, y)
+{
+
+this.nickname = nickname;
+
+
+ this.age = age + "yrs old";
+
+
+    this.x = x;
+    this.y = y;
+
+  };
+
+what does this mean?:
+
+it means u have a couple of propties n when
+u write this that mean you're  mentioning
+this properties n calling it to change 
+them.
+
+
+n now we have our character
+
+the real method:
+
+var Winston = function(nickname, age, x, y)
+{
+
+this.nickname = nickname;
+
+this.age = age + "yrs old";
+
+
+this.x = x;
+
+
+this.y = y;
+
+};
+
+// the draw method
+
+
+//prototybe:The JavaScript prototype
+ property allows you to add new properties
+ to object constructors*/
+
+Winston.prototype.draw = function() {
+    
+fill(255, 0, 0);
+
+    
+var img = getImage("creatures/Winston");
+
+    
+image(img, this.x, this.y);
+    
+
+var txt = this.nickname + ", " + this.age;
+    
+
+text(txt, this.x+20, this.y-10);
+
+    
+};
+
+
+};
+winstonTeen.draw();
+winstonTeen.talk();
+
+winstonAdult.draw();
+

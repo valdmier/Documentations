@@ -1,0 +1,59 @@
+## **Python `list.insert()` Method Documentation**
+
+### **Overview**
+
+The `list.insert()` method in Python is a built-in method used to insert an element at a specified position (index) within a list. This method allows you to add new elements to a list while preserving the existing elements' order.
+
+### **Usage**
+
+The `list.insert()` method is typically used in the following format:
+
+```python
+list.insert(index, element)
+```
+
+- `list`: The list in which you want to insert the element.
+- `index`: The index at which you want to insert the element.
+- `element`: The element you want to add to the list.
+
+---
+
+### **Return Value**
+
+The `list.insert()` method does not return a new list but instead modifies the original list by adding the specified element at the given index. It returns `None`.
+
+---
+
+### **Examples**
+
+#### **Example 1: Inserting an Element**
+
+You can use the `list.insert()` method to insert an element at a specific index within the list:
+
+```python
+fruits = ["apple", "banana", "cherry"]
+fruits.insert(1, "orange")
+
+# 'fruits' list is now ['apple', 'orange', 'banana', 'cherry']
+```
+
+#### **Example 2: Inserting at the Beginning and End**
+
+You can insert elements at the beginning or end of a list by specifying index 0 or using a negative index:
+
+```python
+numbers = [2, 3, 4]
+numbers.insert(0, 1)  # Insert at the beginning
+numbers.insert(-1, 5)  # Insert at the end
+
+# 'numbers' list is now [1, 2, 3, 5, 4]
+```
+
+---
+
+### **Notes**
+
+- The `list.insert()` method allows you to add elements at any valid index within the list, extending the list's length accordingly.
+- If the specified index is out of range (either too large or too small), it does not raise an error but inserts the element at the nearest valid position (e.g., at the beginning or end).
+- Elements located at or after the specified index are shifted to make space for the new element.
+- While `list.insert()` is a valuable method for adding elements to a specific location in a list, it can affect the list's overall performance when inserting elements frequently, especially in large lists. In such cases, consider using other data structures like `collections.deque` for efficient insertions.

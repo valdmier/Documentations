@@ -1,0 +1,40 @@
+فاا بنبدأ نقسم النافبار لاقسام ونشرح وبعدين بحطه لك كامل حلو؟
+
+<nav class="navbar navbar-inverse navbar-fixed-top"> 
+    
+the nav bar code and its fixed top its color is black cuz i inversed its colors 
+ 
+    <div class="container-fluid"> 
+
+ Brand and toggle get grouped for better mobile display 
+ يقولك البراند والتوجل حق الناف بار يجتمعون ومايطلع الا علامه الثلاث خطوط لاجل عرض افضل في شاشه الجوال
+    
+
+---
+header:
+
+ <!--nav header-->
+        <div class="navbar-header">
+
+    
+            <button type="button" 
+class="navbar-toggle collapsed" 
+
+data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+
+
+وهنا نفتح بوتون ونحط داخلها علامه الثلاث خطوط 
+
+بس قبل هذا خلينا نشرح الداتا تارجت اللي فوق..الداتا تارجت زي بنحط فيها اي دي عنصر تبغاه ينفتح لما ينضغط عليه ...
+                
+        <span class="sr-only">Toggle navigation</span>
+      
+          <span class="icon-bar"></span><!--ذي علامه الشرطات ذيك اللي عاليمين وذي الشرطه الاولى-->
+      
+          <span class="icon-bar"></span><!--ذي الشرطه الثانيه-->
+       
+          <span class="icon-bar"></span><!--ذي الشرطه الثالثه-->
+    
+            </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>

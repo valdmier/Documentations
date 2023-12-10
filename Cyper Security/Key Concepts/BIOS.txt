@@ -1,0 +1,26 @@
+ The Basic Input/Output System (BIOS):
+
+is a microchip that contains loading instructions for the computer and is prevalent in older systems. 
+
+meaning: 
+
+it is the program a computer's microprocessor uses to start the computer system after it is powered on.
+
+===
+booting a computer
+
+steps 1:
+
+The user powers on the computer.
+
+step 2:
+
+BIOS or UEFI loads the bootloader.
+
+step 3: 
+
+The bootloader program loads the OS.
+
+===
+The BIOS and UEFI chips both perform the same function for booting the computer. BIOS was the standard chip until 2007, when UEFI chips increased in use. Now, most new computers include a UEFI chip. UEFI provides enhanced security features.
+

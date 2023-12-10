@@ -1,0 +1,5 @@
+لوضع تاريخ التعديل الاخير:
+
+console.log(document.lastModified);
+
+result: console.log(document.lastModified);

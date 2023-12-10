@@ -1,0 +1,60 @@
+Firewall:
+
+A network security device that monitors traffic to and from your network.
+
+A firewall can use port filtering, which is:
+
+
+===
+Port filtering:
+
+A firewall function that blocks or allows certain numbers to limit unwanted communication.
+
+===
+Kinds of firewalls:
+
+- Hardware firewall:
+
+A hardware firewall is considered the most basic way to defend against threats to a network. A hardware firewall inspects each data packet before it's allowed to enter the network. 
+
+example: router 
+
+==
+software firewall:
+
+A software firewall is like a security guard inside your computer. It checks all the information coming in and going out. If you install it on a server, it safeguards all the devices connected to that server. It's a cost-effective option compared to buying a separate device, and it doesn't need extra physical space. However, because it's a software program, it  will add some processing burden to the individual devices.
+
+
+==
+cloud-based firewall (Faas):
+
+Cloud service providers offer Firewalls as a Service (FaaS), which are like digital security guards in the cloud. These are software firewalls hosted by the cloud provider. You can set up rules for these firewalls on the provider's website, and they'll protect your network from any bad stuff before it even gets to your physical office. They also keep your stuff safe if you're using cloud services. So, it's like having an extra layer of protection in the cloud.
+
+
+===
+Firewalls states:
+
+Stateful vs. Stateless Firewalls:
+
+- Stateful Firewall:
+
++ Like a Watchful Guardian: Keeps an eye on data passing through and actively looks for dangers.
+Suspicious Behavior Watcher: It checks network traffic for anything that seems fishy and blocks it.
+
++ Remembers Stuff: It remembers what it's seen and uses that knowledge to protect the network.
+
++ More Secure: Considered safer because it can detect threats beyond predefined rules.
+
+- Stateless Firewall:
+
++ Rule Follower: Follows predefined rules set by the admin but doesn't actively analyze data.
+No Memory: Forgets what it sees right away and doesn't adapt to changing threats.
+
++ Limited Security: Not as secure because it can't spot new or unusual threats on its own.
+So, stateful is like an active, adaptable protector, while stateless is a rule-based follower that doesn't remember much.
+
+===
+Next-Generation Firewall (NGFW):
+
+ is like a super-smart security guard. It provides even more security than a stateful firewall and does everything a regular firewall does (checking incoming and outgoing stuff), but it also goes deeper. It looks inside the data packets to spot hidden threats and even protects against cyber attacks. Some NGFWs talk to the cloud to get the latest threat info and stay up-to-date.
+

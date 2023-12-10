@@ -1,0 +1,32 @@
+well DOM is socument object moadel
+
+n BOM is a browser object model
+
+well DOM always was dealing with document elements
+
+but BOM will deal with browser
+
+so?what r we gonna learn:
+
+these r topcis:
+
+- window
+- screen
+- location
+- history
+- navigation
+- timing
+- cookies
+
+
+so what can we do with BOM?:
+
+- change URL
+- background requests
+- alert, confirm, prompt
+- window move, window open, wondow close
+- change text in the status bar
+
+
+
+

@@ -1,0 +1,65 @@
+Security Operations Center (SOC)
+
+==
+A Security Operations Center (SOC) is a dedicated unit responsible for monitoring networks, systems, and devices for security threats and attacks.
+
+It plays a vital role in blue team activities, focusing on defense against security threats.
+
+===
+SOC Analysts
+
+===
+Tier 1 SOC Analyst (L1):
+
+Responsibilities:
+
+- Monitor, review, and prioritize alerts based on criticality.
+
+- Create and close alerts using ticketing systems.
+
+- Escalate alert tickets to Tier 2 or Tier 3.
+
+===
+Tier 2 SOC Analyst (L2):
+
+Responsibilities:
+
+- Receive escalated tickets from Tier 1 and conduct deeper investigations.
+
+- Configure and refine security tools.
+
+- Report to the SOC Lead.
+
+===
+SOC Leads
+
+Tier 3 SOC Lead (L3):
+
+Responsibilities:
+
+- Manage team operations.
+
+- Explore advanced detection techniques like 
+malware and forensics analysis.
+
+- Report to the SOC Manager.
+
+===
+SOC Manager
+
+Responsibilities:
+
+- Hire, train, and evaluate SOC team members.
+
+- Create performance metrics and manage team performance.
+
+- Develop reports related to incidents, compliance, and auditing.
+
+- Communicate findings to stakeholders, including executive management.
+
+===
+Other Specialized Roles in SOC
+
+Forensic Investigators: Typically L2s and L3s who collect, preserve, and analyze digital evidence related to security incidents.
+
+Threat Hunters: Usually L3s who focus on detecting, analyzing, and defending against new and advanced cybersecurity threats using threat intelligence.

@@ -1,0 +1,100 @@
+slice:
+
+/* 
+syntax:
+
+var coolArray = ["bonnBonn", "food", "wealth",
+ "health", "programing","joy"];
+
+//u have to put a strat... but if dont put an end it
+ cut everyrhing under the start
+
+coolArray.slice(start cuting, End cating);
+
+ //slice not splice
+
+*/
+
+
+example:
+
+var coolArray = ["bonnBonn", "food", "wealth",
+ "health", "programing", "joy"];
+
+
+var notQuiteCool = coolArray.slice(2, 6); 
+
+//so he's spuossed to take the items between number
+ 2 n 6 n put in a new array
+
+console.log(notQuiteCool);
+
+
+the result:
+
+
+["wealth", "health", "programing", "joy"]
+
+
+perfect
+
+
+===
+
+concat:
+
+to concat betwwen to arrays
+
+example:
+
+var coolArray = ["bonnBonn", "food", "wealth",
+ "health", "programing", "joy"];
+
+var goodstuff = ["happiness, love, life, medtinon"]
+
+var allstuff = coolArray.concat(goodstuff);
+
+
+console.log(allstuff);
+
+
+
+the result:
+
+
+["bonnBonn", "food", "wealth", "health", "programing",
+ "joy", "happiness, love, life, medtinon"]
+
+wich is the to arrays toghether
+
+
+---
+
+you can add as much as u want:
+
+example :
+
+var coolArray = ["bonnBonn", "food", "wealth",
+ "health", "programing", "joy"];
+
+var goodstuff = ["happiness", "love", "life",
+ "medtinon" ];
+
+var moreGoodstuff = ["cold", "cofee", "netflix",
+ "sport" ];
+
+var allstuff = coolArray.concat(goodstuff, moreGoodstuff);
+
+console.log(allstuff);
+
+
+
+the result:
+
+
+["bonnBonn", "food", "wealth", "health",
+ "programing", "joy", "happiness", "love",
+ "life", "medtinon", "cold", "cofee", "netflix",
+ "sport"]
+
+

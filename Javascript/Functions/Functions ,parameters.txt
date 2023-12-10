@@ -1,0 +1,443 @@
+functions:
+
+
+what if we wanted to do them in one step
+with out having to copy and paste them
+
+here where it comes the functions:
+        «·«”„ «··Ì » ” œ⁄ÌÂ »⁄œÌ‰  
+var drawWinston = function()
+{//winstonsyntax
+
+var faceX = 202;
+var faceY = 208;
+
+
+fill(255, 255, 0);
+
+ellipse(faceX, faceY, 300, 300);
+ // face
+
+
+fill(46, 46, 41);
+ellipse(faceX - 45, faceY - 57, 40, 40);
+ // eyes
+
+
+ellipse(faceX + 102, faceY - 66, 40, 40);
+
+
+fill(252, 65, 65);
+
+ellipse(faceX + 55, faceY + 32, 120, 136); // mouth
+    
+
+fill(46, 46, 41);
+
+ellipse(faceX - 45, faceY - 57, 40, 40);
+ // eyes
+    
+
+ellipse(faceX + 102, faceY - 66, 40, 40);
+    
+
+fill(252, 65, 65);
+
+ellipse(faceX + 55, faceY + 32, 120, 136);
+ // mouth
+
+
+
+   }
+
+
+
+and to call it n appear on the screen:
+
+drawWinston();
+
+n it will draw it
+
+anotheer way to call it by HTML :
+
+ <button onclick = "drawwinston()" >preess here
+    to call  function</button>>
+
+
+
+
+
+---
+
+
+another example:
+
+
+function drawwinston() {
+
+
+var name = "lucifer";
+    
+  "use strict";
+    
+   prompt(" welcome " + name + " bonn bonn is fine");
+    
+    
+}
+
+
+and to call it n appear on the screen:
+
+drawWinston();
+
+n it will draw it
+
+anotheer way to call it by HTML :
+
+ <button onclick = "drawwinston()" >preess here
+    to call  function</button>>
+
+
+
+===
+
+but!!!what if we have 4 or 5 winstons?
+they will be in the same place right?
+how to change that?
+well you can make them go random and by
+making the variable random:
+var faceX = random(50, 350);
+
+                Ì⁄‰Ì ÌÕÿÂ »Ì‰ –Ê· «·„ﬂ«‰Ì‰..„‰ «·Ï
+var faceY = random(50, 350);
+                Ì⁄‰Ì ÌÕÿÂ »Ì‰ –Ê· «·„ﬂ«‰Ì‰..„‰ «·Ï 
+
+but if wnted it in a specific place?:
+
+1 change this :
+\
+
+
+var drawWinston = function(faceX, faceY)..
+
+//when do this that you're telling the
+  
+browser to skip those varibles parameters
+
+2 delete the varibles:
+var faceX = 202;
+var faceY = 208;
+
+ delete them 
+
+3 so now bring your characters:
+drawWinston();
+
+drawWinston();
+
+drawWinston();
+
+drawWinston();
+
+add width and height:
+drawWinston(10, 30);
+
+drawWinston(200, 30);
+
+drawWinston(10, 230);
+
+drawWinston(200, 230);
+
+tttaadddaaa!!!!
+
+
+
+
+
+===
+
+
+
+
+//foucs its really intersting
+
+
+
+so lets make that how many chicken you have
+ate in your life:
+
+
+                            ·«‰Â «·„ €Ì— «·ÊÕÌœ 
+var calcTotalchicken = function(numyears){
+        «–« ﬁ·‰« Ì«ﬂ· œÃ«ÃÂ ﬂ· ÌÊ„    
+var totalchicken = 1 * 365 * numyears;
+
+return totalchicken;};
+
+text(calcTotalchicken(2), 10, 40);//2years
+
+text(calcTotalchicken(14), 10, 40); //14years
+
+text(calcTotalchicken(22), 10, 40); //22years
+
+text(calcTotalchicken(30), 10, 40); //30years
+
+text(calcTotalchicken(60), 10, 40); //60years
+
+
+
+a shortcut:
+instead of this:
+"
+var calcTotalchicken = function(numyears){
+        «–« ﬁ·‰« Ì«ﬂ· œÃ«ÃÂ ﬂ· ÌÊ„    
+var totalchicken = 1 * 365 * numyears;
+
+return totalchicken;};   "
+
+you can write this:
+"
+var calcTotalchicken = function(numYears) {
+
+    return 3 * 365 * numYears;
+};   "
+
+
+
+===
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+another example of :
+
+
+function daysYouLived(age) {
+    "use strict";
+    
+    
+  
+    
+        return age * 365;
+        
+    }
+    
+
+
+document.getElementById("example").innerHTML =
+ daysYouLived(2);
+
+
+and the result will be 730..cuz 365 * 2 = 730
+
+
+
+---
+
+
+example using 3 parameters :
+
+
+
+
+
+function daysYouLived(firstName, middleName, lastName) {
+    "use strict";
+    
+    
+  
+      return "Hi " + firstName + " " + middleName +
+ " " + lastName;
+        
+    }
+    
+
+
+document.getElementById("example").innerHTML =
+ daysYouLived("mohammed", "motee", "saleh");
+
+
+
+
+
+
+
+
+
+===
+some methods with functions(if,arrays,loops...):
+
+===
+
+
+if:
+if (condition) {code to run}..
+
+
+so here we have a ball which is animated:
+
+// position of the ball
+var
+ x = 20;
+
+// how far the ball moves every time
+var
+ speed = 3;
+
+
+draw = function() {
+
+   background(202, 255, 97);
+
+   ill(66, 66, 66);
+
+    ellipse(x, 200, 50, 50);
+
+
+    // move the ball
+
+    x = x + speed;};
+
+so we want the ball to go right and lift:
+// position of the ball
+var
+
+ x = 20;
+
+// how far the ball moves every time
+var
+
+ speed = 3;
+
+draw = function() {
+background(202, 255, 97);
+
+
+   ill(66, 66, 66);
+
+    ellipse(x, 200, 50, 50);}
+
+if (x > 400)
+{speed = -1;}
+
+if (x < 0) 
+{
+speed = 5;
+}
+
+     
+// move the ball
+
+    x = x + speed;};
+
+
+how to draw winston as much as u want by 
+object n loop or array :
+
+var drawWinston = function(faceX, faceY){
+fill(255, 255, 0);
+
+ellipse(faceX, faceY, 300, 300);
+ // face
+
+
+fill(46, 46, 41);
+ellipse(faceX - 45, faceY - 57, 40, 40);
+ // eyes
+
+
+ellipse(faceX + 102, faceY - 66, 40, 40);
+
+
+fill(252, 65, 65);
+
+ellipse(faceX + 55, faceY + 32, 120, 136); // mouth
+    
+
+fill(46, 46, 41);
+
+ellipse(faceX - 45, faceY - 57, 40, 40);
+ // eyes
+    
+
+ellipse(faceX + 102, faceY - 66, 40, 40);
+    
+
+fill(252, 65, 65);
+
+ellipse(faceX + 55, faceY + 32, 120, 136);
+ // mouth
+}
+
+//repeating the drawing by ararrys n loop:
+
+var xPositions = [99, 294, 101,  294, 10, 1,
+10]
+
+;
+var yPositions = [117, 117, 316, 316, 1, 1,
+ 1];
+
+
+for (var i = 0; i < xPositions.length; i++){
+
+
+drawWinston(xPositions[i], yPositions[i]);
+
+
+}
+
+and if you add a new number to the y n x 
+array positions it will show up a new 
+winston
+
+but an array here is a little messy n 
+confusing
+
+//repeating the drawing by objects n loops:
+
+var positions = [
+  
+{x: 99, y: 117},
+
+{x: 294, y: 117},
+
+{x: 101, y: 316},
+
+{x: 294, y: 316}
+  
+];
+for (var i = 0; i < positions.length; i++){
+
+
+drawWinston(positions[i].x,
+ positions[i].y);
+
+
+}
+
+n its more readable
+
+
+
+
+
+
+ 
+

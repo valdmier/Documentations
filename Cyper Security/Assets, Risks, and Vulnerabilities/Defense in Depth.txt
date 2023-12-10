@@ -1,0 +1,55 @@
+Defense in Depth
+
+===
+Defense in depth is a cybersecurity strategy that safeguards information by employing multiple layers of security controls.
+
+These layers serve as barriers to protect data as it moves in and out of the system.
+
+Each layer has distinct security measures and technologies to enhance overall protection.
+
+===
+Five Layers of Defense in Depth:
+
+===
+1- Perimeter Layer (User Authentication):
+
+Mainly focuses on user authentication.
+Utilizes technologies like usernames and passwords.
+
+Filters external access, permitting trusted partners to advance to the next layer.
+
+
+===
+2- Network Layer (Authorization):
+
+Concerned with authorization and network security.
+
+Includes technologies like network firewalls.
+
+Controls access to network resources.
+
+===
+3- Endpoint Layer (Device Security):
+
+Addresses the security of devices with network access (e.g., laptops, desktops, servers).
+
+Employs technologies like antivirus software.
+Protects devices from threats.
+
+===
+4- Application Layer (Interface Security):
+
+Focuses on securing interfaces used to interact with technology.
+
+Security measures are integrated into applications.
+
+Examples include multi-factor authentication, such as password and SMS code verification.
+
+===
+5- Data Layer (Critical Data Protection):
+
+Protects sensitive data like personally identifiable information (PII).
+
+Security control, such as asset classification, is crucial.
+
+Safeguards the most critical information.

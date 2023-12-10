@@ -1,0 +1,78 @@
+
+how to change imges:
+1
+var imageEls = document.getElementsByTagName
+("img");
+2
+imageEls[0].src = "https://www.kasandbox.org/
+programming-images/animals/cat.png";
+
+n you could use a loop if there r too many
+
+how to change images height:
+1
+var avatarEls = document.getElementsByTagName("img");
+2
+for(var i = 0; i < avatarEls.length; i++){
+                    
+    avatarEls[i].height = "40"
+
+}
+
+how to change links in the page:
+
+so we have this link here
+<a href="http://en.wikipedia.org/wiki/Dog">Read
+ more on Wikipedia</a>
+
+1
+var linkEls = document.getElementsByTagName("a");
+2
+linkEls[0].href = "http://en.wikipedia.org/wiki/Cat";
+
+n you could use a loop if there r too many
+
+
+how to select links that have a certain words:
+
+1 in css :
+
+ a[href*="Dog"] {
+                color: yellow;
+            }
+now he will make any link that includes the dog word
+yellow (just change any thing)
+
+2 javascribt
+
+var linkEls = document.querySelectorAll("a[href*="Dog"]");
+
+3 
+linkEls[0].href = "http://en.wikipedia.org/wiki/Cat";
+
+how to change styles with java scribt:
+so you have this
+<h1 id="heading">All about dogs</h1>
+<java>
+1
+var headingEl = document.querySelector("#heading");
+2
+headingEl.style.color = "orange";
+
+or to change background:
+2
+ headingEl.style.backgroundColor = "black";
+
+or to make it centered:
+2
+ headingEl.style.textAlign = "center";
+
+or to change font:
+
+headingEl.style.fontFamily = "monospace"
+
+
+
+
+
+</java>

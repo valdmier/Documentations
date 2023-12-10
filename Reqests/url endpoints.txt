@@ -1,0 +1,10 @@
+its really 
+
+this url
+
+: /singlesearch/shows?q=:query 
+                        ^ the ":" means thats a variable
+                      ^      you'll have to pass
+                  input name 
+===
+Example: http://api.tvmaze.com/singlesearch/shows?q=girls

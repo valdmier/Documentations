@@ -1,0 +1,32 @@
+innerText :
+ not sported in browsers like firefox and some modren browsers
+
+use :
+text content instead
+
+--
+outerText :
+ not sported in browsers like firefox and some modren browsers
+
+use :
+text content instead
+
+--
+querySelctorAll:
+
+ not sported in browsers like explorer and some old browsers
+
+use :
+getElementById or TagName instead 
+
+
+--
+getElementsByClassName
+
+ not sported in browsers like explorer and some old browsers
+
+use :
+getElementById or TagName instead 
+
+
+

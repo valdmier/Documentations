@@ -1,0 +1,35 @@
+clientHeight:
+
+its a way count the content + padding of some element 
+
+so it counts: content + padding
+
+it doesnt count: border + margin
+
+The clientHeight property returns the viewable height of an element in pixels, including padding, but not the border, scrollbar or margin
+
+the difrence between scrol hight n width n client hight n width:
+
+that scroll count the invisiable content to..but the client count whats visiable only
+
+okay
+
+lets give an example:
+
+<p id = "p">bla bla bla bla.</p>
+
+#p {
+  height: 250px;
+  width: 400px;
+  padding: 10px;
+  margin: 20px;
+  border: 5px solid red;
+  background-color: lightblue;
+}
+
+
+var myD = document.getElementById("mainDiv"),
+    alert,
+    myP =  document.getElementById("childP");
+
+console.log(myD.clientHeight + " px " + myD.clientWidth + " px");

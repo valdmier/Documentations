@@ -1,0 +1,22 @@
+Software-defined networks:
+
+ Software-defined networks (SDNs) are made up of virtual network devices and services.
+
+===
+Just like CSPs provide virtual computers, many SDNs also provide virtual switches, routers, firewalls, and more.
+
+ This means that physical switches and routers use software to perform packet routing. In the case of cloud networking, the SDN tools are hosted on servers located at the CSP’s data center.
+
+===
+Benefits of cloud computing and software-defined networks:
+
+Three of the main reasons that cloud computing is so attractive to businesses are reliability, decreased cost, and increased scalability. 
+
+1 - Reliability
+Reliability in cloud computing is based on how available cloud services and resources are, how secure connections are, and how often the services are effectively running. Cloud computing allows employees and customers to access the resources they need consistently and with minimal interruption. 
+
+2 - Cost
+Traditionally, companies have had to provide their own network infrastructure, at least for internet connections. This meant there could be potentially significant upfront costs for companies. However, because CSPs have such large data centers, they are able to offer virtual devices and services at a fraction of the cost required for companies to install, patch, upgrade, and manage the components and software themselves.
+
+3- Scalability
+Another challenge that companies face with traditional computing is scalability. When organizations experience an increase in their business needs, they might be forced to buy more equipment and software to keep up. But what if business decreases shortly after? They might no longer have the business to justify the cost incurred by the upgraded components. CSPs reduce this risk by making it easy to consume services in an elastic utility model as needed. This means that companies only pay for what they need when they need it. 

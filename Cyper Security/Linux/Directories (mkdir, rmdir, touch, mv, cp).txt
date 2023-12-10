@@ -1,0 +1,107 @@
+Directories(mkdir, rmdir, touch, mv, cp)
+
+===
+Creating and Modifying Directories and Files in Linux
+
+
+===
+Creating Directories
+
+mkdir: Creates a new directory.
+
+Use absolute or relative file paths.
+
+===
+Example:
+
+mkdir /home/analyst/logs/network 
+
+or mkdir network  (if in /home/analyst/logs).
+
+Confirm with ls.
+
+
+===
+Deleting Directories
+
+rmdir: Removes an empty directory.
+
+Example: rmdir /home/analyst/logs/network.
+
+Cannot delete directories with files or subdirectories inside.
+
+
+===
+Creating Files
+
+touch: Creates a new file without content.
+
+Example: touch permissions.txt (if in /home/analyst/reports).
+
+Verify with ls.
+
+===
+Deleting Files
+
+rm: Removes a file.
+
+Be cautious, as deleted files are challenging to recover.
+
+Example: rm permissions.txt.
+
+Verify with ls.
+
+===
+Moving and Copying Files/Directories
+
+mv: Moves a file or directory to a new location.
+
+cp: Copies a file or directory to a new location.
+
+Arguments: 
+source (what to move/copy) and destination (where to move/copy).
+
+===
+Example:
+
+mv permissions.txt /home/analyst/logs: Moves permissions.txt.
+
+cp permissions.txt /home/analyst/logs: Copies permissions.txt.
+
+===
+Renaming Files
+
+mv can also rename files.
+
+Example: 
+
+mv permissions.txt perm.txt 
+
+renames permissions.txt to perm.txt.
+
+===
+Nano Text Editor
+
+nano: A command-line text editor available in many Linux distributions.
+
+Create or edit files using nano [file name].
+
+Save with Ctrl + O, exit with Ctrl + X.
+
+
+===
+Standard Output Redirection
+
+Redirect output from one command to a file using 
+> (overwrite) and >> (append).
+
+Example: echo "last updated date" >> permissions.txt.
+
+Appends text to permissions.txt.
+
+echo "time" > permissions.txt: Overwrites permissions.txt.
+
+Creates a new file if it doesn't exist.
+
+Standard output redirection provides a way to write content to files, either by appending or overwriting, using > and >>, making it useful for creating and updating files in Linux.
+

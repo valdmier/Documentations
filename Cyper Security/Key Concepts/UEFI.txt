@@ -1,0 +1,12 @@
+The Unified Extensible Firmware Interface (UEFI):
+
+is a microchip that contains loading instructions for the computer and replaces BIOS on more modern systems.
+
+meaaning:
+
+specification for a software program that connects a computer's firmware to its operating system (OS).
+
+UEFI is expected to eventually replace basic input/output system (BIOS) but is compatible with it.
+
+The BIOS and UEFI chips both perform the same function for booting the computer. BIOS was the standard chip until 2007, when UEFI chips increased in use. Now, most new computers include a UEFI chip. UEFI provides enhanced security features.
+

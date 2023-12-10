@@ -1,0 +1,35 @@
+
+<%= 
+
+Outputs the value into the template (HTML escaped)
+
+اللي تحكه بين ذا تاق رح يعتبر جافاسكربت 
+
+
+--
+example:
+
+ <h1>The Home Page <%= 1 + 4 %>
+    </h1>
+
+--
+output:
+The Home Page 5 
+
+==
+another exmaple:
+
+
+<h1>The Home Page <%="heelo world".toUpperCase(); %>
+    </h1>
+
+===
+another exmaple:
+
+app.get('/random', function (req, res) {
+    let userNum = Math.floor(Math.random() * 10) + 1;
+    res.render('random', { num: userNum });
+})
+
+<h1>Your random num is: <%= num %>
+    </h1>

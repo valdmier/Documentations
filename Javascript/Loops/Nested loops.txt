@@ -1,0 +1,54 @@
+Nested Loops:
+
+The most common type of nested loops will be one loop inside another. The first loop is usually called the outer loop while the second loop is called the inner loop. The outer loop always executes first, and the inner loop executes inside the outer loop each time the outer loop executes once. Take a look at the example below and visualize how the nested loop works.
+
+---
+example that will make every thing clear:
+
+var Array = ["A", "B", "C"];
+
+for (let i = 0; i < Array.length; i++) {
+    console.log(Array[i])
+
+    for (let j = 0; j < 3; j++) {
+        console.log(j);
+    }
+}
+
+--
+output:
+A   //from outer loop
+ 0   // from innerloop
+ 1
+ 2
+B   //from outer loop
+ 0   // from innerloop
+ 1
+ 2
+C  //from outer loop
+ 0   // from innerloop
+ 1
+ 2
+
+===
+
+nested arrays with nested loops example:
+
+
+
+const setingPlace = [
+
+    ['Kristen', 'Erik', 'Namita'],
+    ['Ali', 'Nice', 'Smantha'],
+    ['Leo', 'Nazar', 'Sona'],
+
+]
+
+for (let i = 0; i < setingPlace.length; i++) {
+    console.log(setingPlace[i]);
+
+    for (let j = 0; j < setingPlace[i].length; j++) {
+
+        console.log(setingPlace[i][j])
+    }
+}

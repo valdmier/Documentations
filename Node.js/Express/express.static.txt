@@ -1,0 +1,26 @@
+Serving static files in Express
+
+To serve static files such as images, CSS files, and JavaScript files, use the express.static built-in middleware function in Express.
+
+For example, use the following code to serve images, CSS files, and JavaScript files in a directory named public:
+
+app.use(express.static('public'))
+
+Now, you can load the files that are in the public directory:
+
+===
+first make folder that contains css n js files
+//make it next to the node modules n veiws files 
+
+then call it:
+app.use(express.static('public'));
+
+
+then you can use the files inside of them freely
+
+
+just add the link tag:
+
+ <link rel="stylesheet" type="text/css" href="/style.css">
+
+//note: u dont have to add the file name

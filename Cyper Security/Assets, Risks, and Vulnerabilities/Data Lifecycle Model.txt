@@ -1,0 +1,41 @@
+Data Lifecycle Model
+
+===
+The data lifecycle consists of five stages: 
+
+1- Collect
+2- Store
+3- Use
+4- Archive
+5- Destroy
+
+Security teams use this model to set policies and implement technologies for information protection.
+
+==
+Protecting data at each stage ensures accessibility and recoverability in case of issues.
+
+===
+Data Governance:
+
+Data governance involves processes for managing data effectively.
+
+It includes policies for keeping data private, accurate, available, and secure throughout its lifecycle.
+
+===
+Roles in data governance:
+
+- Data owner (decides who access/destrction)
+- Data custodian (handles data)
+- Data steward (implements policies)
+
+IT systems play a crucial role in data management, with data custodians responsible for security and privacy rules.
+
+===
+Types of Legally Protected Informations:
+
+- Personally Identifiable Information (PII): Used to identify individuals.
+
+- Protected Health Information (PHI): Relates to an individual's health.
+
+- Sensitive Personally Identifiable Information (SPII): A subset of PII with stricter handling guidelines.
+

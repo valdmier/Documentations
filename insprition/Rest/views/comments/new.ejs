@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('../Partials/head') %>
+
+    <body>
+        <%- include('../Partials/navbar') %>
+
+
+            <div class="container">
+                <h1 class="display-4">You can Comment Now</h1>
+                <form action="/comments" method="POST">
+                    <label for="username">add your username:</label>
+                    <input class="form-control m-3" id="username" type="text"
+                        placeholder="Share a comment with the world" name="username">
+
+                    <label for="comment">add your comment:</label>
+                    <textarea class="form-control m-2" name="comment" id="comment"></textarea>
+                    <button class="btn btn-info text-white">Share</button>
+                </form>
+                <a class=" m-3 btn btn-warning text-white" href="/comments/">Back to All comments</a>
+            </div>
+
+    </body>
+
+</html>

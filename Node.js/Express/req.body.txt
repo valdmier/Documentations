@@ -1,0 +1,60 @@
+req.body:
+
+you know when you submit a form with get method?
+
+the data or the key-value pairs of data appears on the link
+
+right?they  are a part of req.query
+
+but!!what about posts reqest they are a part of what?
+
+well they are a part of the req.body 
+
+===
+lets make two forms to compare beteen req.body, req.query
+
+
+--
+home.ejs file:
+
+<div class="container">
+                <form action="/tacos">
+                    <h1 class="display-4">GET</h1>
+                    <input class="form-control m-2" type="text" name="meat">
+                    <input class="form-control m-2" type="number" name="qty">
+                    <button class="btn btn-warning" type="submit">Submit</button>
+                </form>
+                <form action="/tacos" method="post">
+                    <h1 class="display-4">POST</h1>
+                    <input class="form-control m-2" type="text" name="meat">
+                    <input class="form-control m-2" type="number" name="qty">
+                    <button class="btn btn-warning" type="submit">Submit</button>
+                </form>
+            </div>
+
+--
+index.js file:
+
+var express = require('express')
+var app = express()
+app.use(express.static('public'));
+
+app.use(express.json()) // for parsing application/json
+app.use(express.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded
+
+app.get('/', function (req, res) {
+    res.render('home');
+})
+app.get('/tacos', function (req, res) {
+    const { meat, qty } = req.query;
+    res.send(`Ok, here is your order ${ meat } quantity: ${ qty }`);
+
+    console.log(req.query);
+});
+
+app.post('/tacos', function (req, res) {
+    const { meat, qty } = req.body;
+    res.send(`Ok, here is your order ${ meat } quantity: ${ qty }`);
+
+    console.log(req.body);
+});

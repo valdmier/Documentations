@@ -1,0 +1,112 @@
+
+you need to foucs 
+
+note: u really need this for most of the the 
+Math.methods
+
+Spread operator:
+
+ allows iterable elements(like arrays) to expand in places
+ where 0+ arguments are expected. like Math.min&Math.max 
+---
+example of there sytax:
+  var d = Math.max(-5, -10); //5
+  var e = Math.max(1.5, 2.5);  //2.5  
+ var e = Math.max([-5, -10]); //Nan
+
+
+as you can see there syntax does not accept an array 
+so you have to spread the elemrnt for the method 
+to make it work
+
+---
+ It is mostly used in
+ the variable array where there is more than 1 values
+ are expected. It allows us the privilege to obtain
+ a list of parameters from an array. Syntax of Spread
+ operator is same as Rest parameter but it works
+ completely opposite of it. 
+
+===
+sytax:
+
+var variablename1 = [1,5,5]; 
+method(...variablename1);
+
+===
+example:
+
+var nums = [1,2,3,4,5,67,7,88,90,100];
+
+console.log(Math.max(nums)); //returns: NaN
+
+---
+how to fix this?:
+
+var nums = [1,2,3,4,5,67,7,88,90,100],
+ sapretedNums = Math.max(...nums);
+
+console.log(sapretedNums); //returns: 100
+
+===
+
+:before&after
+
+console.log(nums);
+ //returns: [1,2,3,4,5,67,7,88,90,100]
+
+console.log(...nums);
+ //returns: 1 2 3 4 5 67 7 88 90 100
+
+===
+example:
+
+spread strings:
+
+
+console.log(..."hello"); 
+
+//result: h e l l o
+
+
+===
+
+note: all the examples were bout bulit in functions
+n the same goes for the functions that arent bulit in 
+n u create(:
+
+===
+spread with objects:
+
+thats what i thought back then haha:
+
+//well i saw that nothing usefull comes out of using
+ spread with onjects at the moment >>if u think its
+usefull go on n add 
+
+
+no its usefull, example:
+
+Suppose you have the below code:
+
+    let data = {
+      name: "Anonymous",
+      age: 21
+    }
+
+So, if we have the below code:
+
+    res.render("subreddit", {...data});
+
+So, it is basically like:
+
+    res.render("subreddit", {
+      name: "Anonymous",
+      age: 21
+    });
+
+
+and when you render it to other file or place u can go on
+
+and use the object u want without of having to say "data.name"
+u can say "name"

@@ -1,0 +1,71 @@
+alert:
+
+u always had that warning in brackets when u use alert right?so how do u fix that?by define it as variable?
+
+that fixes it but the best way is to say:
+
+window.alert("bla bla");
+n
+window.prombt("bla bla");
+n
+window.console.log("bla bla");
+n
+window.confirm("do u want to bla bla");
+
+but an alert will disterb yr users if used it as notifiction
+
+cuz the alert will unable them to press anything unless they pressed ok ...an what if they had to many
+they';; have to press ok a million time
+
+===
+
+confirm:
+
+
+its way to warn the user n ask him if he's sure n if he want continue
+
+
+example:
+
+var ask = window.confirm("r u sure u want to visit google ?");
+
+
+if(ask === true){
+    
+    window.location.href = "https://www.google.com"; 
+} else {
+    
+    window.alert("canceld")
+    
+}
+
+
+===
+
+prombt
+
+prombt is way to give the user a text bar to write in an u can make an if statment like if he said winter then give him cold n stuff luke that
+
+syntax:
+
+pronbt("write here the qustion u want to ask the user about", "here we mostly give the user an example of what should he write like if u asked him bout his name give him a name here as an example" 
+
+
+example:
+
+var ask = window.prompt("are u more like poor or rich"),
+
+    asked = ask.toLowerCase().trim();
+
+if (asked === "rich") {
+    
+    window.alert("wow then u or ur dad worked hard then");
+} else if (asked === "poor") {
+    
+    window.alert("then u have to work hard n spend less n invisiment");
+    
+}
+
+
+
+

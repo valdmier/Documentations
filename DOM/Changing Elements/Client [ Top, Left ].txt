@@ -1,0 +1,36 @@
+The clientTop:
+
+ property returns the width of the top border of an element, in pixels.
+
+This property does not include the element's top padding or top margin.
+
+ You can also use the style.borderTopWidth property to return the width of an element's top border.
+
+the clientLeft:
+
+ return the width of the left border of an element, use the clientLeft property.
+
+
+example:
+<p id = "ps">bla bla.</p>
+
+#ps {
+  height: 250px;
+  width: 400px;
+  padding: 5px;
+  margin: 20px;
+  border: 20px dashed red;
+    position: ;
+  background-color: lightblue;
+}
+
+var myP =  document.getElementById("ps");
+
+console.log("the top border = " + myP.clientTop +
+ " px " + "the left border = " + myP.clientLeft + " px");
+
+
+
+result:
+
+the top border = 20 px the left border = 20 px

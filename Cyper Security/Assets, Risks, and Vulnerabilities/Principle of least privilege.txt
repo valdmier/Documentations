@@ -1,0 +1,54 @@
+Principle of least privilege (PoLP)
+
+===
+- PoLP grants users the minimum level of access necessary to complete a task or function.
+
+- It supports the Confidentiality, Integrity, and Availability (CIA) triad of information security.
+
+===
+Limiting Access Reduces Risk:
+
+- It reduces the risk of data theft, misuse, or abuse.
+
+- Limits access to sensitive information.
+Reduces chances of accidental data modification, tampering, or loss.
+
+- Supports system monitoring and administration.
+
+- Enhances security by connecting specific resources to users and placing restrictions on their actions.
+
+===
+Determining Access and Authorization:
+
+Two key questions: 
+1- "Who is the user?"
+2- "How much access do they need to a specific resource?"
+
+Common types of user accounts: 
+
+1- Guest: accounts are provided to external users who need to access an internal network, like customers, clients, contractors, or business partners.
+
+2- User: accounts are assigned to staff based on their job duties.
+
+3- Service: accounts are granted to applications or software that needs to interact with other software on the network.
+
+4- Privileged: accounts have elevated permissions or administrative access.
+
+It's best practice to establish baseline access levels for each account type.
+
+Regular and consistent monitoring of user accounts is essential for maintaining least privilege.
+
+===
+Auditing Account Privileges:
+
+Three common approaches to auditing: Usage audits, Privilege audits, Account change audits.
+
+Usage audits review resource access and user actions to ensure compliance with security policies.
+
+Privilege audits address privilege creep, where users accumulate more access privileges than needed.
+
+Account change audits monitor directory services for suspicious activities like unauthorized password changes.
+
+Most directory services can be configured to alert administrators about suspicious activities.
+
+===

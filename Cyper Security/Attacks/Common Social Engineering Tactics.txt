@@ -1,0 +1,53 @@
+Common Social Engineering Tactics:
+
+===
+Baiting:
+
+Tempts individuals into compromising security.
+Example: Leaving infected USB drives in public areas for someone to find and plug into their device.
+
+===
+Phishing:
+
+Utilizes digital communications (e.g., emails) to deceive individuals into revealing sensitive data or installing malicious software.
+One of the most common forms of social engineering.
+
+===
+Quid Pro Quo:
+
+Offers false rewards (e.g., discounts, benefits) in exchange for access, information, or money.
+Attackers impersonate trustworthy entities (e.g., banks, service providers) to obtain sensitive data.
+
+===
+Tailgating (Piggybacking):
+
+Unauthorized individuals follow authorized personnel into restricted areas.
+Takes advantage of physical security lapses.
+
+===
+Watering Hole:
+
+Attackers compromise websites frequently visited by specific user groups.
+These websites are infected with malicious software, targeting unsuspecting visitors.
+
+
+===
+Signs of a Social Engineering Attack:
+
+===
+- Stay Alert: Be cautious of suspicious communications and unknown contacts, especially in emails. Check for spelling errors and verify sender information.
+
+===
+- Exercise Caution: Be careful about sharing information, particularly on social media platforms, where attackers may gather information for their schemes.
+
+===
+- Control Curiosity: Avoid clicking on attachments or links in emails or advertisements that seem too good to be true.
+
+===
+Mitigating Social Engineering Threats:
+
+Security Training: Comprehensive security training for employees and customers is essential.
+
+Technology: Implement security technologies like firewalls, multi-factor authentication (MFA), email filtering, and blocklists to augment defenses.
+
+Spread Awareness: Extend security awareness beyond employees to customers and stakeholders.

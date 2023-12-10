@@ -1,0 +1,3 @@
+tyoe "ls" in the bash cmd 
+
+and it will show all the folders u have in your pc.

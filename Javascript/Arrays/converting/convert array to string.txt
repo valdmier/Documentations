@@ -1,0 +1,87 @@
+
+coveting array to string :
+
+
+---- 
+
+
+join()
+ 
+
+i think join id the best wat to convert array to 
+string why?
+
+
+cuz its simple n you can choose what should he put 
+between each item and the other
+
+
+example:
+
+note: here i make him put 11 between each item and the
+ other ..you can put spaces if u want or any thing
+
+
+var myArray = ["idk", "bonn bon", "zyad", "idk"];
+console.log(myArray.join(" 11 "));
+
+n the result will be: idk 11 bonn bon 11 zyad 11 idk
+
+n thats pretty much it 
+
+
+
+
+===
+toString() 
+
+aa its like join but you cant put something betwwen
+ each item n the other even if u tried to put 
+something in the bracekts...
+
+example:
+
+var myArray = ["idk", "bonn bon", "zyad", "idk"];
+console.log(myArray.toString());
+
+
+the result will be:
+
+idk,bonn bon,zyad,idk
+
+
+note:he puts couma by default just.
+
+
+
+
+===
+toLocaleString()
+
+
+it the same like toString() but that one covert it to
+local srtring not global like toString()
+
+example :
+var myArray = ["idk", "bonn bon", "zyad", "idk"];
+console.log(myArray.toLocaleString());
+
+
+
+the result will be:
+
+idk,bonn bon,zyad,idk
+
+
+note:he puts couma by default just.
+
+
+
+didnt realy much understand how it works
+
+but if u do search buddy n add it here 
+
+
+
+
+===

@@ -1,0 +1,46 @@
+The Purpose of Security Plans:
+
+- Security plans aim to be prepared for risks when they occur.
+
+- A focus on people ensures more effective security plans that involve everyone when addressing issues.
+
+- Risks are categorized and analyzed based on factors including:
+- damage
+- disclosure
+- loss of information 
+- device malfunctions
+- attacks 
+- human errors
+
+
+===
+Elements of Security Plans:
+
+===
+Policies:
+
+- Policies are foundational rules that reduce risk and protect information.
+
+- They guide individuals and organizations by defining what is protected and why.
+
+- Policies address strategic aspects, such as scope, objectives, and limitations.
+
+Example: Acceptable Use Policy (AUP) for newly hired employees.
+
+===
+Standards:
+
+- Standards provide tactical guidance for implementing policies.
+
+- They serve as reference points, ensuring consistent protection measures.
+
+Example: Password management standard based on NIST Special Publication 800-63B, specifying password length.
+
+===
+Procedures:
+
+- Procedures offer step-by-step instructions for specific security tasks.
+
+- Multiple procedure documents are used within organizations for tasks like password selection and reset.
+
+- Procedures promote accountability, consistency, and efficiency across the organization.

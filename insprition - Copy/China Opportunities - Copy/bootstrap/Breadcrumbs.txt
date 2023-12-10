@@ -1,0 +1,32 @@
+
+Breadcrumps:
+
+Indicate the current page’s location within a navigational hierarchy that automatically adds separators via CSS.
+
+The Bread crumps is mostly used with js>bom>navigtor
+
+to tell the user in witch page he is in.
+
+
+---
+so lets get started:
+
+to make one bread crump:
+
+<div class="container mt-5">
+    <ul class="breadcrumb">
+<li class="breadcrumb-item active">Home</li>
+    </ul>
+  </div>
+
+
+===
+to make three bread crumps :
+
+<div class="container mt-5">
+    <ul class="breadcrumb">
+      <li class="breadcrumb-item" ><a href="#">Home</a></li>
+      <li class="breadcrumb-item " ><a href="#">opportunities</a></li>
+      <li class="breadcrumb-item active">Jobs</li>
+    </ul>
+  </div>

@@ -1,0 +1,67 @@
+how to make classes in javascribt:
+
+<h1 id="heading">All about dogs</h1>
+<style>
+1 .catcolors {
+            color: orange;
+            background-color: black;
+        } </style>
+<java>
+ var headingEl = document.querySelector("#heading");
+         
+  2 headingEl.className = "catcolors"; 
+//n like that the "all about dogs" will be orange
+and has a yellow background
+</java>
+
+
+how to add an image from javascribt:
+
+//1 so we use createElement to create the tag we want
+and store it in variable so we can deal with it
+
+var catEl = document.createElement("img");
+
+//2 we dive into the img throw the var to give it 
+ source
+
+catEl.src = "https://www.kasandbox.org/programming
+-images/animals/cat.png";
+
+//3 we use appendchild n i will explain it under 
+this step.so we want add that img in the in end
+of some div :
+
+div.appendChild(catEl);//catEl is the var we stored
+the img in
+
+...
+so whats append child:
+ابيند معناها يدرج حلو؟ف انت اللي تحطه قبل الابيند تشايلد زي الدرج واللي بعد بين 
+ الاقواس هو المحتوى او اللي تبي تحطه وانت دائما تحطه ف الاخير مع الابيند تشايلد 
+ف لو حطيته ب ديف بيكون ب اخر الديف..ولو حطيته ف بودي مثلا:
+
+document.body.appendChild(catEL);
+
+هنا بتنحط فا اخر تاق البودي اخخرر شي دائماا يعني
+
+
+how to add text to some paraghraf:
+1
+var myText = document.creatTextNood("hello world");
+2
+p.appendChild(myText)
+
+or add a text node strong tag
+//<strong>
+var strongEl = document.createElement("strong");
+//our text
+textEl = document.createTextNood("hacked");
+
+//n like that it will be like <stong>hacked</strong>
+
+lets conect them:
+
+strongEl.appendChild(textEl);
+
+

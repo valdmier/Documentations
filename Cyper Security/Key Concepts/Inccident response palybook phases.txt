@@ -1,0 +1,21 @@
+Inccident response palybook phases: 
+
+An incident response playbook is a guide with six phases used to help mitigate and manage security incidents from beginning to end. 
+
+1- Preparation:
+Before incidents occur, mitigate potential impacts on the organization by documenting, establishing staffing plans, and educating users.
+
+2- Detection and analysis:
+Detect and analyze events by implementing defined processes and appropriate technology.
+
+3- Containment: (Prevent further damage)
+Prevent further damage and reduce immediate impact of incidents.
+
+4- Eradication and recovery: (Completely remove artifacts)
+Completely remove artifacts of the incident so that an organization can return to normal operations.
+
+5- Post incident actvities: (Document & inform & learn)
+Document the incident, inform organizational leadership, and apply lessons learned.
+
+6- Coordination: (Report)
+Report incidents and share information throughout the response process, based on established standards.

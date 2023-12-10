@@ -1,0 +1,83 @@
+Using grep and Piping in Linux
+
+===
+grep Command
+grep searches a specified file for lines containing a specified string.
+Useful for quickly locating specific information within files.
+
+Syntax: grep [string] [file]
+
+===
+Example:
+
+Searching for lines containing "OS" in the file "updates.txt":
+
+Command: grep OS updates.txt
+
+Result: Displays lines containing "OS" in the file.
+
+===
+Piping in Linux
+
+Piping sends the standard output of one command as the standard input of another.
+
+Represented by the vertical bar character |.
+
+Used for various purposes, including filtering data.
+
+===
+Piping in Linux
+Piping sends the standard output of one command as the standard input of another.
+
+Represented by the vertical bar character |.
+
+Used for various purposes, including filtering data.
+
+===
+Piping Example:
+
+ls /home/analyst/reports | grep users
+
+Lists files and directories in "reports."
+
+Filters and displays items with "users" in their names.
+
+ls output is used as input for grep.
+
+===
+find Command
+
+find searches for directories and files based on specified criteria.
+
+Wide range of criteria available, such as file name, size, and modification time.
+
+Usage: 
+find [start directory] [criteria options].
+
+===
+Example:
+find /home/analyst/projects -name "*log*"
+
+Searches for files in "projects" with "log" in their names.
+
+-name option is case-sensitive.
+
+find /home/analyst/projects -iname "*log*"
+
+Same search but case-insensitive with -iname.
+
+===
+-mtime Option
+
+Used to find files or directories modified within a specified time frame.
+
+Example: find /home/analyst/projects -mtime -3
+Searches for items modified in the past three days.
+
+-mtime +1: Modified more than one day ago.
+-mtime -1: Modified less than one day ago.
+
+===
+Note
+An asterisk (*) is used as a wildcard to represent zero or more unknown characters.
+-mmin option can be used for minute-based searches instead of -mtime.

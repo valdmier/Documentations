@@ -1,0 +1,58 @@
+if:
+
+The @if statment is written @if\
+
+
+else:
+
+@else
+An @if rule can optionally be followed by an @else statment written as @else
+
+
+example :
+
+يعني اذا غيرت المتغير حق اللغه ل عربي يغير لك اماكن الازرار وممكن تطبق هذا ع صفحتك كلها زي اليوتيوب مثلا اللي لو غيرت اللغه ا البلد يغير 
+
+
+
+
+<button id = "button1"> 1 </button> <button id = "button3"> 3 </button> 
+
+
+$languge: english;
+
+$folatleft: left;
+
+$folatright: right;
+
+@if $languge == arabic {
+    
+    $folatleft: right;
+
+$folatright: left;
+} @else {
+    
+    $folatleft: left;
+
+$folatright: right;
+}
+
+#button1 {
+
+color: steelblue;
+    margin: 20px;
+    border: 1px solid black;
+    float: $folatleft;
+    margin:30px;
+}
+
+
+#button3 {
+
+color: steelblue;
+    margin: 20px;
+    border: 1px solid black;
+    float: $folatright;
+    margin:30px;
+}
+

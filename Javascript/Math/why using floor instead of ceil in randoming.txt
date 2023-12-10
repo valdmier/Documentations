@@ -1,0 +1,26 @@
+I've seen a lot of code where random numbers are generated like
+
+// random integers in the interval [1, 10]
+
+Math.floor(Math.random()*10 + 1)
+
+Anyway, I feel like I'm missing something. Why don't people use the more succint way
+
+Math.ceil(Math.random()*10);
+
+?
+
+answer:
+
+ number in the range [0, 1) that is, from 0 (inclusive) up to but not including 1 (exclusive), which you can then scale to your desired range.
+
+
+random integers in the interval [1, 10]:
+
+Math.floor(Math.random()*10 + 1)
+
+
+random integers in the interval [0, 9.99]:
+
+Math.ceil(Math.random()*10);
+

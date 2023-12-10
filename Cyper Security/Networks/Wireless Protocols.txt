@@ -1,0 +1,56 @@
+Wireless Protocols:
+
+WiFi stands for: Wireless Fidelity
+
+IEEE 802.11 (WiFi):
+A set of standards that define communication for wireless LANs
+
+Wi-Fi protocols have adapted over the years to become more secure and reliable to provide the same level of security as a wired connection. 
+
+ you might also see Wi-Fi referred to as IEEE 802.11.
+
+===
+Wired equivalent privacy (WEP):
+
+ is a wireless security protocol designed to provide users with the same level of privacy on wireless network connections as they have on wired network connections. WEP was developed in 1999 and is the oldest of the wireless security standards. WEP is largely out of use today, but security analysts should still understand WEP in case they encounter it. Nevertheless, a malicious actor could potentially break the WEP encryption, so it’s now considered a high-risk security protocol.
+
+
+===
+WiFi Protected Access (WPA):
+
+A wireless security protocol for devicees to connect to the internet.
+
+The flaws with WEP were in the protocol itself and how the encryption was used. WPA addressed this weakness by using a protocol called Temporal Key Integrity Protocol (TKIP). WPA encryption algorithm uses larger secret keys than WEPs, making it more difficult to guess the key by trial and error.
+
+WEP had problems because of how it was designed and how it used encryption. WPA fixed this by using a better system called TKIP. WPA also had larger secret codes, which made it harder for someone to guess the code by trying lots of possibilities.
+
+WPA also added a way to check if a message had been changed by someone. If a bad person tries to change or resend a message, WPA can tell something's wrong and reject the message.
+
+But even with these improvements, WPA had a weakness. Bad people could use something called a "KRACK attack" to decode messages. They could sneak into the WPA system and put their own secret code instead of the one WPA used. If they made the code all zeros, it's like having no encryption at all. So, because of this big problem, WPA got replaced with a better version called WPA2.
+
+===
+WPA has evolved into newer versions, like WPA2 and WPA3, which include further security improvements 
+
+
+--
+WPA2 & WPA3: Better Wi-Fi Security
+
+WPA2:
+
+WPA2, introduced in 2004, is an improved Wi-Fi security version.
+It uses Advanced Encryption Standard (AES) for strong encryption.
+It's considered the standard for Wi-Fi security.
+But it's still vulnerable to KRACK attacks.
+In personal mode, it's good for homes but not for businesses.
+In enterprise mode, it's suitable for businesses with strong control.
+WPA3:
+
+WPA3 is the newer, more secure Wi-Fi protocol.
+It fixes the KRACK attack vulnerability in WPA2.
+It uses Simultaneous Authentication of Equals (SAE) for better security.
+WPA3 offers stronger password protection with 128-bit or even 192-bit encryption.
+So, WPA3 is like an upgrade that makes Wi-Fi even more secure, especially against certain attacks that WPA2 couldn't fully protect against.
+
+So, WPA3 is like an upgrade that makes Wi-Fi even more secure, especially against certain attacks that WPA2 couldn't fully protect against.
+
+

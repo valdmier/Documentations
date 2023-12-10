@@ -1,0 +1,15 @@
+Incident Response Tool Types
+
+===
+
+1- Detection and management tools:
+
+ monitor system activity to identify events that require investigation.
+
+2- Documentation tools:
+
+ Collect and compile evidence.
+
+3- Investagative tools:
+
+ Analayze events, like packet sniffers.

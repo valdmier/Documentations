@@ -1,0 +1,63 @@
+Cryptography and Cloud Security:
+
+===
+Cloud Security Hardening:
+
+Techniques and tools to secure cloud network infrastructure and resources include IAM, hypervisors, baselining, cryptography, and cryptographic erasure.
+
+===
+Identity Access Management (IAM):
+
+Manages digital identities and authorizes user access to cloud resources.
+
+===
+Hypervisors:
+
+Abstract host hardware from the operating software environment.
+
+A hypervisor is a software that creates and runs virtual machines on a computer. A virtual machine is like a mini-computer that has its own system and programs. A hypervisor helps you manage these virtual machines by sharing the computer’s resources among them.
+
+A hypervisor is useful for cloud computing because it lets you use the cloud resources more efficiently and flexibly. Cloud computing is when you use the internet to access services and resources that are on remote servers.
+
+CSPs manage hypervisors, but vulnerabilities or misconfigurations can lead to VM escapes.
+
+===
+Baselining:
+
+Baselining for cloud networks and operations cover how the cloud environment is configured and set up. A baseline is a fixed reference point. This reference point can be used to compare changes made to a cloud environment. 
+
+Proper configuration and setup enhance security and performance.
+
+===
+Cryptography in the Cloud:
+
+Encrypts and securely manages data in a cloud environment.
+
+Encryption scrambles information into unreadable ciphertext using encryption keys.
+
+Modern encryption relies on key secrecy rather than algorithm secrecy.
+
+===
+Cryptographic Erasure:
+
+Destroys encryption keys for data erasure.
+
+Crypto-shredding destroys all key copies, making data undecipherable.
+
+===
+Key Management:
+
+Modern encryption relies on secure key management.
+
+Measures include Trusted Platform Module (TPM) and Cloud Hardware Security Module (CloudHSM).
+
+===
+Shared Responsibility Model:
+
+Customers can request audits and security reports from CSPs.
+
+Most CSPs allow customers to provide their encryption keys.
+
+Customer responsibility for key security.
+
+FEDRAMP for verified CSPs, reducing customer maintenance responsibilities.

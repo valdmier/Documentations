@@ -1,0 +1,61 @@
+so here u just give him a list of numbers and tell
+ 
+him hey bring the biggest number or the lowest number 
+
+min
+
+to bring the lowest number
+
+example:
+
+var Math;
+var console;
+
+var x = Math.min(77, 66.8, -38, 30, 495, 49); 
+
+console.log(x);
+
+
+the result : -38
+
+
+
+
+max:
+
+to bring the biggest number
+
+example:
+
+var Math;
+var console;
+
+var x = Math.max(77, 66.8, -38, 30, 495, 49); 
+
+
+console.log(x);
+
+the result: 495
+
+
+
+---
+
+var me = Math.min(44, -3, 30, 79, 405, 8593, 840, 58948, 958);
+    
+window.console.log(me);
+
+
+
+the result: -3
+
+---
+
+var me = Math.max(44, -3, 30, 79, 405, 8593, 840, 58948, 958);
+    
+window.console.log(me);
+
+
+the result: 58948
+
+

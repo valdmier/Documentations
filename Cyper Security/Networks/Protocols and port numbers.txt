@@ -1,0 +1,35 @@
+Protocols and port numbers:
+
+are like addresses and labels for data packets in computer networks. They help devices know what to do with the information they receive. Think of them as postcodes on letters. Firewalls act like gatekeepers and can block or allow data based on these codes. For example, a company might only let data with a specific code (like TCP port 995 for POP3) from their own addresses get through.
+
+As a security analyst, it's important to remember these codes because they can be used to test your knowledge in interviews. Plus, you'll keep learning about new codes on the job to keep networks secure.
+
+
+===
+protocols along with their associated ports:
+
+DHCP (Dynamic Host Configuration Protocol)
+
+DHCP Server Port: UDP port 67
+DHCP Client Port: UDP port 68
+ARP (Address Resolution Protocol)
+
+Port: None
+Telnet
+
+Port: TCP port 23
+SSH (Secure Shell)
+
+Port: TCP port 22
+POP3 (Post Office Protocol version 3)
+
+Unencrypted Port: TCP/UDP port 110
+Encrypted Port (SSL/TLS): TCP/UDP port 995
+IMAP (Internet Message Access Protocol)
+
+Unencrypted Port: TCP port 143
+Encrypted Port (SSL/TLS): TCP port 993
+SMTP (Simple Mail Transfer Protocol)
+
+Encrypted Port (TLS): TCP/UDP port 587
+These ports are essential for network communication and help ensure the proper functioning and security of various network protocols.

@@ -1,0 +1,87 @@
+
+so collapse is not a real item. its more like trick ao when you make an action on some item another item pops up
+
+you can make anything collapse! 
+---
+to make text pop up:
+
+
+an example will everything clear:
+
+to make collapsed with button use data-target:
+
+  <button class="btn btn-dark dropdown-toggle" data-target="#textToggle" data-toggle="collapse">Click me to see text</button>
+
+  <div class="mt-4 collapse bg-dark text-light" id="textToggle">
+    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores totam quod eos dolore, quas harum fuga! </p>
+  </div>
+
+===
+to make collapsed with a link tag use href:
+
+  <a class="btn btn-dark" href="#textToggle"
+  data-toggle="collapse">Click me to see text</a>
+
+  <div class="mt-4 collapse bg-dark text-light" id="textToggle">
+    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores totam quod eos dolore, quas harum fuga! </p>
+  </div>
+
+===
+
+to put a card the collapse as an example(you can male anything collapse:
+
+
+  <a class="btn btn-dark" href="#textToggle"
+  data-toggle="collapse">Click me to see Card</a>
+
+  <div class="mt-4 collapse bg-dark" id="textToggle">
+  <div class="card">
+    <div class="card-header">Hi</div>
+    <div class="card-body">
+      <div class="card-tittle">MIAW MIAW NIGGA</div>
+      <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, sunt. Perferendis, deserunt culpa in labore temporibus reprehenderit totam ratione velit!\</p>
+    </div>
+  </div>
+  </div>
+
+===
+
+Multiple targets cards:
+
+<div class="container mt-3">
+
+  <a  href="#textToggle" class="btn btn-dark"
+  data-toggle="collapse">Click me to see card 1</a>
+
+  <a  href="#textToggle2" class="btn btn-dark"
+  data-toggle="collapse">Click me to see card 2</a>
+
+  <a  href=".ss" class="btn btn-dark"
+  data-toggle="collapse">Click me to see card 1&2</a>
+
+<div class="row"> 
+  <div class="col-5">
+    <div class="mt-4 collapse ss" id="textToggle">
+      <div class="card " style="width: 18rem;">
+        <div class="card-header">Hi</div>
+        <div class="card-body">
+          <div class="card-tittle">MIAW MIAW NIGGA</div>
+          <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, sunt. Perferendis, deserunt culpa in labore temporibus reprehenderit totam ratione velit!\</p>
+        </div>
+      </div>
+      </div>
+  </div>
+ 
+  <div class="col-4">
+    <div class="mt-4 collapse ss" id="textToggle2">
+      <div class="card" style="width: 18rem;">
+        <div class="card-header">Hi</div>
+        <div class="card-body">
+          <div class="card-tittle">MIAW MIAW NIGGA2</div>
+          <p> 2Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, sunt. Perferendis, deserunt culpa in labore temporibus reprehenderit totam ratione velit!\</p>
+        </div>
+      </div>
+      </div>
+  </div>
+   
+</div>

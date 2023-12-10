@@ -1,0 +1,58 @@
+
+
+ Dropdowns:
+
+its easier than what you think..much easier!
+
+lets start with an example:
+
+<div class="dropdown ">
+  <button class="btn btn-dark dropdown-toggle" id="dropDownButton" data-toggle="dropdown">
+     Opportunities</button>
+
+     <div class="dropdown-menu" aria-labelledby="dropDownButton">
+       <a href="#" class="dropdown-item">Jobs</a>
+       <a href="#" class="dropdown-item">Scolarships</a>
+       <a href="#" class="dropdown-item">Business</a>
+     </div>
+</div>
+
+
+nigga just check it out and you'll understand how that works
+
+
+===
+to change th direction of the menu add 
+.dropdown-menu-right (or left) to the menu div:
+
+<div class="dropdown ">
+  <button class="btn btn-dark dropdown-toggle" id="dropDownButton" data-toggle="dropdown">
+     Opportunities</button>
+
+     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropDownButton">
+       <a href="#" class="dropdown-item">Jobs</a>
+       <a href="#" class="dropdown-item">Scolarships</a>
+       <a href="#" class="dropdown-item">Business</a>
+     </div>
+</div>
+
+===
+
+
+to make it in a much fancier way and make the arrow the thing to click and the drowpdown will show up:
+
+
+<div class="btn-group ">
+  <button type="button" class="btn btn-dark">Opportunities</button>
+  <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" id="dropdownMenuReference" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-reference="parent">
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuReference">
+    <a class="dropdown-item" href="#">Jobs</a>
+    <a class="dropdown-item" href="#">Scolarships</a>
+    <a class="dropdown-item" href="#">Business</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#">Something else</a>
+  </div>
+</div>
+</div>

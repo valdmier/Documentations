@@ -1,0 +1,95 @@
+Symmetric and Asymmetric Encryption
+
+===
+Encryption: Process of converting data from readable to encoded format.
+
+Public Key Infrastructure (PKI): Encryption framework for securing online information exchange.
+
+Cipher: Algorithm that encrypts information.
+
+===
+Types of Encryption:
+
+===
+Symmetric Encryption:
+
+Uses a single secret key for both encryption and decryption.
+
+Requires sender and receiver to know the secret key.
+
+===
+Asymmetric Encryption:
+
+Uses a public-private key pair for encryption and decryption.
+
+Public key encrypts data, private key decrypts it.
+
+Private key is given only to authorized users.
+
+
+===
+Importance of Key Length:
+
+- Longer keys are more secure but slower to compute.
+
+- Shorter keys are faster but less secure.
+
+- Balancing speed and security is crucial.
+
+===
+Symmetric Algorithms:
+
+===
+Triple DES (3DES):
+
+Originated from Data Encryption Standard (DES).
+
+Uses 192-bit keys (three times longer than DES).
+
+Fading in use due to data encryption limitations.
+
+===
+Advanced Encryption Standard (AES):
+
+Highly secure symmetric algorithm.
+
+Generates 128, 192, or 256-bit keys.
+
+AES 128-bit key would take billions of years to brute force.
+
+===
+Asymmetric Algorithms:
+
+===
+Rivest Shamir Adleman (RSA):
+
+Uses public-private key pair.
+
+Key sizes: 1,024, 2,048, or 4,096 bits.
+
+Mainly for highly sensitive data.
+
+===
+Digital Signature Algorithm (DSA):
+
+Generates 2,048-bit keys.
+
+Used alongside RSA in public key infrastructure.
+
+===
+Generating Keys:
+
+Algorithms implemented using tools like OpenSSL.
+
+OpenSSL used for generating public and private keys.
+
+Regular updates and patching are crucial.
+
+===
+Obscurity is Not Security:
+
+Security relies on proven unbreakability.
+
+Kerchoff's Principle: Details of an algorithm (except private key) should be knowable without sacrificing security.
+
+Custom encryption algorithms can be vulnerable when made public.

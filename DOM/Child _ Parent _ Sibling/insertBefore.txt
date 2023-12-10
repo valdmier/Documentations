@@ -1,0 +1,35 @@
+insertBefore:
+
+its a way to choose where to put the child unlike the
+appendChild that puts it in the last.
+
+--
+sytax:
+
+insertBefore(elementYouWantToAdd, theElmentHeShouldInsert ItBefore)
+
+===
+example:
+
+div id="main">
+
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+</div>
+
+
+
+var myMainDiv = document.getElementById("main"),
+
+    myNewElement = document.createElement("P");
+
+myNewElement.innerHTML = "0";
+
+myMainDiv.insertBefore(myNewElement, 
+myMainDiv.firstElementChild);
+
+//n like that he will insert it before the first child
+
+//for more check the first & child document
+

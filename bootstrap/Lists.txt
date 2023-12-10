@@ -1,0 +1,90 @@
+
+
+to make a stylish list with bootstrap use .list-group , .list-groub-item :
+
+
+<div class="container mt-5">
+    <ul class="list-group">
+      <li class="list-group-item lead">FIRST</li>
+      <li class="list-group-item lead ">SECOND</li>
+      <li class="list-group-item lead active">THIRD</li>
+    </ul>    
+  </div>
+
+===
+
+and to make some shadow when you hover on the lists's items 
+
+example:
+ <div class="container mt-5">
+    <ul class="list-group">
+      <a href="#" class="list-group-item list-group-item-action active">FIRST</a>
+      <a href="#" class="list-group-item list-group-item-action">SECOND</a>
+      <a href="#" class="list-group-item list-group-item-action">THIRD</a>
+
+    </ul>    
+  </div>
+
+notes
+:Use <a>s or <button>s to create actionable list group items with hover, disabled, and active states by adding .list-group-item-action. We separate these pseudo-classes to ensure list groups made of non-interactive elements (like <li>s or <div>s) don’t provide a click or tap affordance.
+
+
+===
+Flush list group:
+يخلي خط تحت كل عنصر بدل مربع كامل 
+
+Add .list-group-flush to remove some borders and rounded corners to render list group items edge-to-edge in a parent container (e.g., cards).
+
+example:
+
+  <div class="container mt-5">
+    <ul class="list-group list-group-flush">
+      <a href="#" class="list-group-item list-group-item-action active">FIRST</a>
+      <a href="#" class="list-group-item list-group-item-action">SECOND</a>
+      <a href="#" class="list-group-item list-group-item-action">THIRD</a>
+      <a href="#" class="list-group-item list-group-item-action">FOURITH</a>
+    </ul>    
+  </div>
+
+
+===
+
+to give the items a color:
+
+ <div class="container mt-5">
+    <ul class="list-group">
+      <a href="#" class="list-group-item list-group-item-action">FIRST</a>
+      <a href="#" class="list-group-item list-group-item-action list-group-item-primary">SECOND</a>
+      <a href="#" class="list-group-item list-group-item-action  list-group-item-danger">THIRD</a>
+      <a href="#" class="list-group-item list-group-item-action  list-group-item-warning">FOURITH</a>
+    </ul>    
+  </div>
+
+
+===
+
+
+
+
+to make a card with a list:
+
+  <div class="container mt-5">
+  
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Cras justo odio</li>
+        <li class="list-group-item">Dapibus ac facilisis in</li>
+        <li class="list-group-item">Vestibulum at eros</li>
+      </ul>
+      <div class="card-body">
+        <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a>
+      </div>
+    </div>
+        </div>
+
+

@@ -1,0 +1,25 @@
+common man dont tell me i need to tell you what a shadow is 
+
+span {
+ 
+        width: 200px;
+        height: 200px;
+        display: inline-block;
+        margin:3px;
+
+    }
+
+span class="border d-block d-sm-none "> </span>
+        <span class="shadow-sm d-none d-sm-block d-md-none "></span>
+        <span class=" shadow d-none d-md-block d-lg-none"></span>
+        <span class="shadow-lg d-none d-lg-block">lg</span>
+        
+--
+
+or try resizing the screen with this
+
+span class="border d-block d-sm-none "> </span>
+        <span class="shadow-sm d-none d-sm-block d-md-none "></span>
+        <span class=" shadow d-none d-md-block d-lg-none"></span>
+        <span class="shadow-lg d-none d-lg-block">lg</span>
+        

@@ -1,0 +1,148 @@
+1- boleans(used mostly with if statement true,false)
+
+examples:
+
+let myVariable = true;
+
+--
+<h1 id = "booleansExample" ></h1>
+<script>
+var price = 300, 
+    discount = true; 
+
+
+    if (discount === true) {
+
+var price = 2;
+}
+ 
+document.getElementById("booleansExample").innerHTML 
+= price;
+</script>
+
+---
+<h1 id = "booleanExample2"></h1>
+
+<script>
+
+var price2 = 240, 
+    discount = 2 > 9; //witch is false
+
+
+    if (discount === true) {
+
+var price2 = 250;
+}
+ document.getElementById("booleanExample2").innerHTML 
+= price2;
+
+</script>
+
+
+
+
+-----
+
+2 - array
+
+example:
+<h1 id = "ss"></h1>
+
+var socialWebSites = ["YouTube", "tweeter", 
+"Fceebook"];
+ 
+document.getElementById("ss").innerHTML 
+= socialWebSites[1];
+
+
+---
+
+3- object
+
+example
+<h1 id = "object"></h1>
+
+var myInfo = {firstName: "Mohammed", lastName:"Motee"}
+
+document.getElementById("object").innerHTML = myInfo.firstName;
+
+---
+4- string 
+
+example:
+
+    <h1 id ="name"></h1>
+
+var myname = "LUCIFER"
+
+document.getElementById("name").innerHTML= myname;
+
+---
+5- numbers or integer
+
+
+<h1 id ="age"></h1>
+
+var myAge = 16;
+
+document.getElementById("age").innerHTML= myAge;
+
+---
+6-undefined
+
+the defulf value of any string
+
+example:
+
+var myage;
+
+it wiil be showed as  undefined
+
+---
+7-null
+
+
+---
+8-NaN //not a number
+
+that happens when you divide minus a number from a
+string or the opposite
+
+example:
+
+<h1 id = "age" ></h1>
+
+
+var ik = "pla pla " - 17;
+ 
+document.getElementById("age").innerHTML = ik;
+
+...
+
+
+<h1 id = "age" ></h1>
+
+
+var myAge = "sixteen";
+
+var ik = "pla pla " - "<span style='color:red'>" -  myAge + "</span>";
+ 
+document.getElementById("age").innerHTML = ik;
+
+
+---
+9- symbol
+
+---
+
+how to know data type :
+
+ typeof (yourVariableName)
+
+write that^ in the console command
+
+these data types : arrays, null are considered 
+objects in the browsers
+
+
+

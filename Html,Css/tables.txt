@@ -1,0 +1,79 @@
+tables:
+
+the first code is
+
+<table> 
+
+we need a headerarea for the table 
+to hold each column
+
+<thead>
+
+we need rows now so we put
+the more you add tr the more
+<tr>
+
+after you make your row you have to
+fill it up right?so you put 
+æåĞí ÈÊßæä Òí ÇáÚäÇæíä ßĞÇ  ßĞÇ ...İ Çæá Ôí ÇáÕİ ÈÚÏ ßĞÇ ÇáÚäÇæíä ááÃä
+<th> 
+and from here you start puting
+the real data so you close thead
+and put tbody
+<tbody>
+again you put tr not to open 
+another row ander it 
+<tr>
+æåäÇ ÊÍØ ÇáÏÇÊÇ ãäÌÏ ÊÍÊ ßá ÚãæÏ ..áãÇ ÊÈÛì ÊäÊŞá æÊßÊÈ ÇáÏÇÊÇ ÊÍÊ ÚãæÏ ËÇäí ÊßÊÈ ÊÓ
+ßÑ ÇáßæÏ æÊİÊÍ ÌÏíÏ
+<td>
+ãËÇá:
+  <table>
+
+            <thead>
+
+                <tr>
+
+                    <th>Pet name</th>
+
+                 ÚäÇæíä Çæ ÇÚãÏå   <th>Species</th>
+
+                    <th>Color</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+
+                    <td>Black & white</td>
+
+                ãÇÊÍÊ ÇáÇÚãÏå ÇáÓØÑ ÇáÇæá    <td>rabbit</td>
+
+                    <td>black and white</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Daemon</td>
+
+                 ãÇÊÍÊ ÇáÇÚãÏå ÇáÓØÑ ÇáËÇäí   <td>cat</td>
+
+                    <td>black</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Angel</td>
+
+                ãÇÊÍÊ ÇáÇÚãÏå ÇáÓØÑ ÇáËÇáË    <td>cat</td>
+                    <td>orange</td>
+
+                </tr>
+            </tbody>
+
+        </table>

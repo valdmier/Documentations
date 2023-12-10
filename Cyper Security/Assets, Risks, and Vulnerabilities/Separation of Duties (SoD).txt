@@ -1,0 +1,36 @@
+Separation of Duties (SoD)
+
+===
+Separation of Duties (SoD) is a fundamental security principle that aims to prevent conflicts of interest and reduce the risk of errors or fraud by ensuring that no single individual or entity has excessive control or access to critical functions within an organization.
+
+===
+SoD divides tasks and responsibilities among different individuals or roles, promoting checks and balances. Here's a closer look:
+
+1. Financial Control:
+
+In financial departments, the person responsible for authorizing payments should not be the same person who reconciles bank statements. This prevents unauthorized or fraudulent transactions.
+
+===
+2. Access Management:
+
+In IT, administrators who grant user access permissions should not have access to sensitive data. This avoids unauthorized data manipulation.
+
+===
+3. Development and Testing:
+
+In software development, developers should not have the authority to push code directly to production. Testing and deployment should be separate roles to maintain code quality and security.
+
+===
+4. Compliance and Auditing:
+
+Compliance officers should have the autonomy to audit without interference from those being audited. This ensures transparency and adherence to regulations.
+
+===
+5. Human Resources:
+
+HR personnel should not be involved in both hiring and payroll processing to prevent conflicts of interest and salary fraud.
+
+===
+By implementing SoD, organizations enhance internal controls, reduce the risk of fraudulent activities, and maintain transparency and integrity in their operations.
+
+It aligns with the principle of minimizing privileges, ensuring that individuals only have access to the resources required for their specific roles, thus strengthening overall security.

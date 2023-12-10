@@ -1,0 +1,49 @@
+### Host-Based and Network-Based Intrusion Detection Systems (IDS)
+
+An **Intrusion Detection System (IDS)** is a critical application for monitoring system activity and identifying potential security breaches. IDS technology helps organizations maintain a secure environment by detecting signs of malicious activity. **<u>Depending on its placement, an IDS can be either host-based (HIDS) or network-based (NIDS).</u>**
+
+----
+
+## Host-Based Intrusion Detection System (HIDS)
+
+- **Definition:** A HIDS is an application that monitors the activity of a single host or endpoint, such as a computer or server, by installing an agent on that host.
+
+- **Monitoring Scope:** It focuses on internal activity within the host, including file systems, system resource usage, user activity, and more.
+
+- **Detection:** Monitors for unauthorized or abnormal behavior within the host. For instance, it can detect the installation of unauthorized applications.
+
+- **Alerts:** Generates alerts and logs any suspicious activities, sending out notifications when necessary.
+
+<img src="https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/r9hBQHsQSv-hult8KB1V8g_17a68a6257c143738588e048ca8d26f1_FhxPKoFNfXgXc6ReM_Srb2o974QJ0U-ULsPViUoB-bhM_iCgEJA4kCxBBaXg8V_I8OgPIpF5g77EffByf9aub_pTG33UzSLum4eyKCK7YZPXGvZjqG1jLW-bJ4yozWlzoOSJ7i99ZiyAfKfNBe0DyFMKE3UyQv--RRTEACIegsbPdyqlv4gHQAGRdIyMMQ?expiry=1697500800000&hmac=sPGac5IInAggVfaZtk8Qdrw3eGvIQfA3NVtyv6ShQ2U" title="" alt="A network diagram with a host-based intrusion detection system monitoring a single computer." data-align="center">
+
+----
+
+## Network-Based Intrusion Detection System (NIDS)
+
+- **Definition:** A NIDS is an application that collects and monitors network traffic and data by installing the NIDS software on specific network devices.
+
+- **Monitoring Scope:** Focuses on network traffic between devices on the network, inspecting packets and data for malicious activities.
+
+- **Detection:** Monitors network traffic for indications of malicious activity or security threats.
+
+- **Alerts:** Generates alerts and logs any malicious network traffic, notifying administrators of potential threats.
+
+<img src="https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/m2NQ9waXQzm_kmnrpieaAQ_081c3ddbccb64cf8aa0ad09806fdf8f1_CS_R-137_NIDS.png?expiry=1697500800000&hmac=kHjYMqUFTeDLBowWmf4AiaXWnnhGFAd5qNjaK7UA_Q4" title="" alt="" data-align="center">
+
+---
+
+## Combining HIDS and NIDS
+
+- **Benefits:** Utilizing both HIDS and NIDS in an environment creates a multi-layered approach to intrusion detection and response.
+
+- **Different Perspectives:** HIDS focuses on the internal host's activity, while NIDS monitors network traffic. Together, they offer a comprehensive view of the entire network and connected hosts.
+
+- **Comprehensive Security:** By using this combination, organizations can better identify and respond to security threats, enhancing their overall security posture.
+
+**Key Takeaway:** HIDS and NIDS serve as vital components of an organization's security strategy, offering distinct but complementary perspectives on the network's activity. A combination of both systems provides a more comprehensive approach to intrusion detection and response.
+
+
+
+
+
+

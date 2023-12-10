@@ -1,0 +1,39 @@
+virtual machine (VM):
+
+A VM is a virtual representation of a physical computer. Part of virtualization, creating virtual versions of physical machines. Operates like a physical machine through software simulation. Utilizes software-defined virtual components (CPU, storage, etc.). Multiple VMs can run on a single physical computer.
+
+===
+Benefits of Virtual Machines:
+
+1. Security
+
+- VMs offer isolated environments or sandboxes on the host machine.
+- VMs are guests, isolated from the host and each other.
+- Enhanced security - isolates malware-infected VMs.
+- Provides a secure environment for malware analysis.
+
+
+===
+2. Efficiency
+
+- Efficient for security tasks - run multiple VMs simultaneously.
+
+- Streamlines security tasks, testing, and application exploration.
+
+
+===
+Analogy: Efficiency of VMs
+
+- Compare VMs to city buses - transport many people efficiently.
+- Without VMs, everyone would need individual cars.
+- VMs allow multiple tasks without the need for separate physical machines.
+
+
+===
+Managing Virtual Machines:
+
+Hypervisors help manage VMs and connect virtual/physical hardware.
+
+One hypervisor that is useful for you to be familiar with is the Kernel-based Virtual Machine (KVM). KVM is an open-source hypervisor that is supported by most major Linux distributions. It is built into the Linux kernel, which means it can be used to create virtual machines on any machine running a Linux operating system without the need for additional software.
+
+Built into the Linux kernel - creates VMs without additional software.

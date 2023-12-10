@@ -1,0 +1,60 @@
+
+how to see path parameters:
+
+app.get('/r/:search', (req, res) => {
+    res.send('THIS IS A SUPRIDDIT');
+    console.log(req.params);
+});
+
+app.listen(8080, () => {
+    console.log('RUNNING ON PORT 8080!');
+});
+
+--                                
+then go to http://localhost:8080/r/boo
+                        //u could put wha^tever u want 
+
+n that will appear in the terminal
+
+{ search: 'boo' }
+--
+n go to http://localhost:8080/r/meow
+
+n that will appear in the terminal
+
+{ subreddit: 'bpp' }
+{ subreddit: 'meow' }
+
+===
+to make the content change debending on the parameters u
+give in the url
+
+
+app.get('/r/:subreddit/:postId', (req, res) => {
+    const { subreddit, postId } = req.params;
+    res.send(`<h1>U R broowsing: ${ subreddit } and its post id is: ${ postId }</h1>`);
+    console.log(req.params);
+});
+
+app.get('/r/:subreddit', (req, res) => {
+    const { subreddit } = req.params;
+    //if you dont^ remember that go to the js folder then Objects/Destructuring
+    res.send(`<h1>U R BRROWSING ${ subreddit } </h1>`);
+});
+
+app.listen(8080, () => {
+    console.log('RUNNING ON PORT 8080!');
+});            
+
+
+===
+example with ejs:
+
+app.get('/r/:subreddit', (req, res) => {
+    const { subreddit } = req.params;
+    res.render('search', { subreddit });
+
+    <h1>The Home Page <%= subreddit %>'s comment
+    </h1>
+
+});

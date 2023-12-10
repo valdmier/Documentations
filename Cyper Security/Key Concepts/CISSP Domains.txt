@@ -1,0 +1,33 @@
+1- Security and Risk management: 
+
+Defines security goals, objectives and risk mititgation, compliance, business countinuity and the law (Procedures regulations and laws).
+
+2- Asset Security:
+
+Secures digital and physical assets It's also related to the storage, maintenance, retention and destruction of data. (Storage and Assets)
+
+3- Security Archeticture and Security:
+
+Optimizes data security by ensuring effective tools, systems, and processes are in palce. (Tools and systems and processes)
+
+4- communication and networsk security:
+
+Manage and secure physical networks and wirless communication. (coomunications)
+
+5- Identity and access management:
+
+Keeps data secure, by ensuring users follow established policies to control and manage physical assets, like ofice spaces and logical assets, such as networks and applications. (identities and sccess, example: debit cards)
+
+6- Security Asseessment and Testing:
+
+Conducting security control testing, collecting and analyzing data, and conducting security audits to monitor for risks, threats and vulnerbilities.
+(Audits, Tests)
+
+7- Security opeartions:
+
+Conducting investiagtions and implementing preventitve measures. 
+
+8- Software deelopement Security:
+
+Uses secure coding paractices, which are a set of recommened guidlines that are used to crreate secure applications and services. (Coding, Secure coding practices)
+

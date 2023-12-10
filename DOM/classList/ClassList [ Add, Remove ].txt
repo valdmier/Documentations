@@ -1,0 +1,117 @@
+ 
+
+classList
+
+its way of adding, removing classes from a certin element.
+
+===
+- classList.add:
+a method to add classes to the element
+
+
+--
+simple example: 
+   <span id="cool">R</span>
+
+var me = document.querySelector("#cool");
+
+ var ss = me.classList.add("superCool");
+
+--
+result at the source code:
+
+<span id="cool" class="superCool">R</span>
+
+
+
+
+--
+example:
+
+
+   <div id = "myDiv" class = " ss kbl ljy vmkig wow"></div>
+<button id = "Button">add class</button>
+
+
+myButton = document.getElementById("Button"),
+    
+    myDiv = document.getElementById("myDiv");
+
+myButton.onclick = function () {
+    
+    "use strict";
+    
+    myDiv.classList.add("addedClass");
+    
+    console.log(myDiv)
+    
+};
+    console.log(myDiv)
+
+
+result:
+
+<div data-brackets-id="7" id="myDiv" class="ss kbl ljy vmkig wow addedClass"></div>
+
+after clicking:
+
+<div data-brackets-id="7" id="myDiv" class="ss kbl ljy vmkig wow addedClass"></div>
+
+
+===
+
+removing classes:
+
+a method to remove classes
+
+
+---
+simple example:
+    <span class="cool">R</span>
+
+var me = document.querySelector("#cool");
+
+ var ss = me.classList.remove("cool");
+
+-- 
+result at the source code:
+<span class="">R</span>
+
+
+
+
+----
+
+classList.remove:
+
+<div id = "myDiv" class = " ss kbl ljy vmkig wow"></div>
+<button id = "Button">remove class</button>
+
+
+myButton = document.getElementById("Button"),
+    
+    myDiv = document.getElementById("myDiv");
+
+myButton.onclick = function () {
+    
+    "use strict";
+    
+    myDiv.classList.remove("ss");
+    
+    console.log(myDiv)
+    
+};
+    console.log(myDiv)
+
+
+result:
+
+
+<div data-brackets-id="7" id="myDiv" class="ss kbl ljy vmkig wow"></div>
+
+after clicking:
+
+<div data-brackets-id="7" id="myDiv" class="kbl ljy vmkig wow"></div>
+
+===
+

@@ -1,0 +1,22 @@
+
+The Object.values() method :
+
+ returns the values of a given object's from its properties.
+
+--
+Syntax:
+
+Object.values(obj)
+
+
+===
+example:
+
+var myCar = {
+    color: "gray",
+    model: "2022",
+    price: "50k USD",
+    type: "sydan"
+};
+
+console.log(Object.values(myCar))

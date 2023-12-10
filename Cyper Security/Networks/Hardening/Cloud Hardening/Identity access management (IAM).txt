@@ -1,0 +1,21 @@
+Identity Access Management (IAM)
+
+Definition:
+
+- IAM involves processes and technologies for managing digital identities.
+
+- It authorizes user access to cloud resources.
+
+===
+Common Problem:
+
+Loose configuration of cloud user roles is a common issue.
+
+It increases the risk of unauthorized access to critical cloud operations.
+
+===
+User Experience:
+
+- IAM improves user experience by enabling single sign-on (SSO).
+
+- Users can access multiple services with one set of credentials, reducing password management hassles.

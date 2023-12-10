@@ -1,0 +1,56 @@
+is wa y to round 
+
+like if you want to round (اقرب عشره)
+
+example:
+
+var me = 99.5696;
+
+
+var meExp = me.toFixed(1);
+
+
+console.log(meExp);
+
+
+result: 99.6
+
+
+
+(اقرب عدد صحيح)
+
+
+example:
+
+
+var me = 99.5696;
+
+
+var meExp = me.toFixed(0);
+
+
+console.log(meExp);
+
+
+
+result: 100
+
+
+
+(اقرب جزء من مئه)
+
+example:
+
+var me = 99.5696;
+
+
+var meExp = me.toFixed(0);
+
+
+console.log(meExp);
+
+
+result: 100 
+
+
+الزبده لو حطيت صفر يعني تبغى اقرب عدد صحيح 1 يعني اقرب جزء من عشره 2 واقرب جزء من مئه 3 وهكذا

@@ -1,0 +1,87 @@
+
+
+classList.contains:
+
+to check if a certin has a class or not
+
+===
+simple example:
+
+<span class="cool">R</span>
+
+var me = document.querySelector(".cool");
+console.log( me.classList.contains("cool"));
+--
+ressult: true
+
+===
+example:
+
+ <div id = "myDiv" class = " 1 3 09 94 0"></div>
+
+
+    myDiv = document.getElementById("myDiv");
+
+if (myDiv.classList.contains(0)) {
+
+
+    console.log("ya boii theres 0");
+
+}
+
+result : ya boii theres 0
+===
+classList.length:
+
+a method tha make u able to know how many classes the
+ element have:
+
+
+===
+simple example:
+
+<span class="cool">R</span>
+
+var me = document.querySelector(".cool");
+console.log( me.classList.length);
+--
+ressult: 1
+
+===
+<div id = "myDiv" class = " 1 3 09 94 0"></div>
+
+
+ myDiv = document.getElementById("myDiv");
+
+    
+console.log(myDiv.classList.length);
+
+
+
+result: 5
+cuz its like index starts from 0
+
+
+===
+
+to bring the class we want by index number:
+
+---
+example:
+
+    <div id = "myDiv" class = " ss kbl ljy vmkig wow"></div>
+
+    myDiv = document.getElementById("myDiv");
+
+    console.log(myDiv.classList.item(2));
+
+
+result: ljy ..cuz the index number start from 0
+
+
+
+
+
+
+
+
